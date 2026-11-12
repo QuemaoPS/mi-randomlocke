@@ -1,10 +1,10 @@
 {
   "id": "quemao",
-  "name": "quemao",
+  "name": " KAHBA",
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 0m jugadas · 0₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 0h 32m jugadas · 3,000₽ · vidas en el juego: 20",
   "team": [],
   "box": [],
   "graveyard": [],
@@ -16,9 +16,29 @@
     "routes": {},
     "items": {},
     "encounters": {},
-    "switches": [],
-    "foundItems": [],
-    "bag": []
+    "switches": [
+      48,
+      110,
+      176,
+      179,
+      180,
+      181,
+      182,
+      183,
+      323,
+      334
+    ],
+    "foundItems": [
+      "Reglamento"
+    ],
+    "bag": [
+      {
+        "id": "RULEBOOK",
+        "name": "Reglamento",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      }
+    ]
   },
   "deathLog": [],
   "revividos": 0
