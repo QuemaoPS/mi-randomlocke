@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 2h 6m jugadas · 8,730₽ · vidas en el juego: 18",
+  "notes": "Importado del save · 2h 23m jugadas · 10,120₽ · vidas en el juego: 18",
   "team": [
     {
       "nickname": "Aley",
@@ -33,11 +33,11 @@
         4
       ],
       "ev": [
-        4,
-        4,
-        9,
-        3,
         6,
+        5,
+        11,
+        4,
+        7,
         7
       ],
       "abilPool": [
@@ -104,11 +104,11 @@
         26
       ],
       "ev": [
-        4,
-        4,
-        7,
-        3,
+        6,
         5,
+        9,
+        4,
+        6,
         7
       ],
       "abilPool": [
@@ -222,11 +222,11 @@
         1
       ],
       "ev": [
-        2,
         4,
-        7,
-        3,
         5,
+        9,
+        4,
+        6,
         7
       ],
       "abilPool": [
@@ -329,11 +329,11 @@
         22
       ],
       "ev": [
-        2,
+        4,
+        5,
+        8,
         4,
         6,
-        3,
-        5,
         7
       ],
       "abilPool": [
@@ -478,11 +478,11 @@
         22
       ],
       "ev": [
-        2,
         4,
         5,
-        3,
-        5,
+        7,
+        4,
+        6,
         7
       ],
       "abilPool": [
@@ -568,125 +568,121 @@
       "spriteKey": "HIPPOPOTAS"
     },
     {
-      "nickname": "8belial",
-      "species": "Drilbur",
+      "nickname": "Choppa",
+      "species": "Stufful",
       "level": 23,
       "types": [
-        "Tierra"
+        "Normal",
+        "Lucha"
       ],
-      "ability": "Néctar dulce",
-      "nature": "Alegre",
+      "ability": "Abalorio Debacle",
+      "nature": "Plácida",
       "item": "",
       "shiny": false,
       "moves": [
-        "Bucle Arena",
-        "Hierba Lazo",
-        "Triple Patada",
-        "Bofetón Lodo"
+        "Canto",
+        "Defensa Férrea",
+        "Cura Floral",
+        "Acua Jet"
       ],
       "iv": [
-        5,
-        13,
-        27,
-        28,
-        15,
-        18
+        21,
+        26,
+        22,
+        29,
+        16,
+        4
       ],
       "ev": [
-        1,
-        2,
-        1,
-        1,
         0,
-        2
+        0,
+        0,
+        0,
+        1,
+        0
       ],
       "abilPool": [
-        "Néctar dulce",
-        "Velo Aroma"
+        "Abalorio Debacle"
       ],
       "abilHidden": [
-        "Piel Tétrica"
+        "Huida"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Anticipo"
+          "m": "Golpe Cabeza"
         },
         {
           "lvl": 1,
-          "m": "Bucle Arena"
-        },
-        {
-          "lvl": 1,
-          "m": "Hierba Lazo"
+          "m": "Protección"
         },
         {
           "lvl": 4,
-          "m": "Ataque Rápido"
+          "m": "Canto"
         },
         {
           "lvl": 8,
-          "m": "Agitacola"
+          "m": "Defensa Férrea"
+        },
+        {
+          "lvl": 10,
+          "m": "Escupir"
         },
         {
           "lvl": 12,
-          "m": "Día de Pago"
+          "m": "Arañazo"
+        },
+        {
+          "lvl": 14,
+          "m": "Purificación"
         },
         {
           "lvl": 16,
-          "m": "Bofetón Lodo"
-        },
-        {
-          "lvl": 19,
-          "m": "Hoja Mágica"
+          "m": "Acua Jet"
         },
         {
           "lvl": 20,
-          "m": "Triple Patada"
+          "m": "Cura Floral"
         },
         {
           "lvl": 24,
-          "m": "Ataque Arena"
-        },
-        {
-          "lvl": 26,
-          "m": "Sonámbulo"
+          "m": "Deseo Cura"
         },
         {
           "lvl": 28,
-          "m": "Pisotón"
+          "m": "Gran Ojo"
         },
         {
           "lvl": 32,
-          "m": "Enrosque"
+          "m": "Machada"
         },
         {
           "lvl": 36,
-          "m": "Envidia ardiente"
+          "m": "Doble Patada"
         },
         {
           "lvl": 40,
-          "m": "Destructor"
+          "m": "Fragor Escamas"
         },
         {
           "lvl": 44,
-          "m": "Trampa Venenosa"
+          "m": "Electrorrayo"
         },
         {
           "lvl": 48,
-          "m": "Huesomerang"
+          "m": "Chulería"
         }
       ],
       "tmMoves": [
-        "Clavo Cañón"
+        "Tormenta Arena"
       ],
       "firstMoves": [
-        "Bucle Arena",
-        "Hierba Lazo",
-        "Ataque Rápido",
-        "Agitacola"
+        "Canto",
+        "Defensa Férrea",
+        "Escupir",
+        "Arañazo"
       ],
-      "spriteKey": "DRILBUR"
+      "spriteKey": "STUFFUL"
     }
   ],
   "box": [
@@ -818,6 +814,360 @@
         "Desarme"
       ],
       "spriteKey": "SKIPLOOM"
+    },
+    {
+      "nickname": "Subnormal",
+      "species": "Dewpider",
+      "level": 14,
+      "types": [
+        "Agua",
+        "Bicho"
+      ],
+      "ability": "Alas Vendaval",
+      "nature": "Cauta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Mundo Gélido",
+        "Sustituto",
+        "Calamidad",
+        "Acua Aro"
+      ],
+      "iv": [
+        20,
+        9,
+        18,
+        31,
+        22,
+        22
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Alas Vendaval"
+      ],
+      "abilHidden": [
+        "Herbogénesis"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Aguijón Letal"
+        },
+        {
+          "lvl": 1,
+          "m": "Canon"
+        },
+        {
+          "lvl": 1,
+          "m": "Empapar"
+        },
+        {
+          "lvl": 1,
+          "m": "Giro Fuego"
+        },
+        {
+          "lvl": 4,
+          "m": "Mundo Gélido"
+        },
+        {
+          "lvl": 8,
+          "m": "Sustituto"
+        },
+        {
+          "lvl": 8,
+          "m": "Calamidad"
+        },
+        {
+          "lvl": 12,
+          "m": "Acua Aro"
+        },
+        {
+          "lvl": 16,
+          "m": "Clavo Cañón"
+        },
+        {
+          "lvl": 20,
+          "m": "Bomba Ácida"
+        },
+        {
+          "lvl": 24,
+          "m": "Gravedad"
+        },
+        {
+          "lvl": 28,
+          "m": "Bastión Final"
+        },
+        {
+          "lvl": 32,
+          "m": "Sorpresa"
+        },
+        {
+          "lvl": 35,
+          "m": "Ala Mortífera"
+        },
+        {
+          "lvl": 36,
+          "m": "Disparo Demora"
+        },
+        {
+          "lvl": 40,
+          "m": "Día Soleado"
+        },
+        {
+          "lvl": 44,
+          "m": "Tragar"
+        },
+        {
+          "lvl": 45,
+          "m": "Martillo Colosal"
+        },
+        {
+          "lvl": 48,
+          "m": "Silbato"
+        }
+      ],
+      "tmMoves": [
+        "Clavo Cañón"
+      ],
+      "firstMoves": [
+        "Mundo Gélido",
+        "Sustituto",
+        "Calamidad",
+        "Acua Aro"
+      ],
+      "spriteKey": "DEWPIDER"
+    },
+    {
+      "nickname": "8belial",
+      "species": "Drilbur",
+      "level": 23,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Néctar dulce",
+      "nature": "Alegre",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Bucle Arena",
+        "Hierba Lazo",
+        "Triple Patada",
+        "Bofetón Lodo"
+      ],
+      "iv": [
+        5,
+        13,
+        27,
+        28,
+        15,
+        18
+      ],
+      "ev": [
+        3,
+        3,
+        3,
+        2,
+        0,
+        2
+      ],
+      "abilPool": [
+        "Néctar dulce",
+        "Velo Aroma"
+      ],
+      "abilHidden": [
+        "Piel Tétrica"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Anticipo"
+        },
+        {
+          "lvl": 1,
+          "m": "Bucle Arena"
+        },
+        {
+          "lvl": 1,
+          "m": "Hierba Lazo"
+        },
+        {
+          "lvl": 4,
+          "m": "Ataque Rápido"
+        },
+        {
+          "lvl": 8,
+          "m": "Agitacola"
+        },
+        {
+          "lvl": 12,
+          "m": "Día de Pago"
+        },
+        {
+          "lvl": 16,
+          "m": "Bofetón Lodo"
+        },
+        {
+          "lvl": 19,
+          "m": "Hoja Mágica"
+        },
+        {
+          "lvl": 20,
+          "m": "Triple Patada"
+        },
+        {
+          "lvl": 24,
+          "m": "Ataque Arena"
+        },
+        {
+          "lvl": 26,
+          "m": "Sonámbulo"
+        },
+        {
+          "lvl": 28,
+          "m": "Pisotón"
+        },
+        {
+          "lvl": 32,
+          "m": "Enrosque"
+        },
+        {
+          "lvl": 36,
+          "m": "Envidia ardiente"
+        },
+        {
+          "lvl": 40,
+          "m": "Destructor"
+        },
+        {
+          "lvl": 44,
+          "m": "Trampa Venenosa"
+        },
+        {
+          "lvl": 48,
+          "m": "Huesomerang"
+        }
+      ],
+      "tmMoves": [
+        "Clavo Cañón"
+      ],
+      "firstMoves": [
+        "Bucle Arena",
+        "Hierba Lazo",
+        "Ataque Rápido",
+        "Agitacola"
+      ],
+      "spriteKey": "DRILBUR"
+    },
+    {
+      "nickname": "Honey&perks",
+      "species": "Dolliv",
+      "level": 23,
+      "types": [
+        "Planta",
+        "Normal"
+      ],
+      "ability": "Ventosas",
+      "nature": "Agitada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Arenas Ardientes",
+        "Ácido",
+        "Polución",
+        "Fitoimpulso"
+      ],
+      "iv": [
+        7,
+        22,
+        6,
+        9,
+        4,
+        31
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Ventosas"
+      ],
+      "abilHidden": [
+        "Allanamiento"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Ataque Óseo"
+        },
+        {
+          "lvl": 1,
+          "m": "Ácido"
+        },
+        {
+          "lvl": 5,
+          "m": "Polución"
+        },
+        {
+          "lvl": 7,
+          "m": "Mandato"
+        },
+        {
+          "lvl": 10,
+          "m": "Látigo Cepa"
+        },
+        {
+          "lvl": 13,
+          "m": "Deslumbrar"
+        },
+        {
+          "lvl": 16,
+          "m": "Salpicadura"
+        },
+        {
+          "lvl": 20,
+          "m": "Arenas Ardientes"
+        },
+        {
+          "lvl": 23,
+          "m": "Fitoimpulso"
+        },
+        {
+          "lvl": 29,
+          "m": "Desarrollo"
+        },
+        {
+          "lvl": 34,
+          "m": "Rayo Solar"
+        },
+        {
+          "lvl": 37,
+          "m": "Saña"
+        },
+        {
+          "lvl": 42,
+          "m": "Cola Veneno"
+        }
+      ],
+      "tmMoves": [
+        "Clavo Cañón"
+      ],
+      "firstMoves": [
+        "Ataque Óseo",
+        "Ácido",
+        "Polución"
+      ],
+      "spriteKey": "DOLLIV"
     }
   ],
   "graveyard": [
@@ -1120,13 +1470,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Drilbur",
-      "nickname": "8belial",
+      "species": "Stufful",
+      "nickname": "Choppa",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 10,
-      "mon": "Drilbur"
+      "level": 13,
+      "mon": "Stufful"
     },
     {
       "route": "",
@@ -1160,6 +1510,39 @@
       "category": "estatico_regalo",
       "level": 1,
       "mon": "Skiploom"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Dewpider",
+      "nickname": "Subnormal",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 14,
+      "mon": "Dewpider"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Drilbur",
+      "nickname": "8belial",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 10,
+      "mon": "Drilbur"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Dolliv",
+      "nickname": "Honey&perks",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Dolliv"
     }
   ],
   "progress": {
@@ -1199,6 +1582,7 @@
     "foundItems": [
       "Baya Algama",
       "Baya Dillo",
+      "Baya Zidra",
       "Cola Plúmbea",
       "Fósil Garra",
       "Franja Recia",
@@ -1211,12 +1595,15 @@
       "MT116",
       "MT25",
       "MT39",
+      "MT40",
+      "MT44",
       "MT48",
       "MT89",
       "MT94",
       "Piedra Alba",
       "Piedra Solar",
       "Poké Montura",
+      "Polvo Brillo",
       "Reglamento",
       "Superrepelente",
       "Vial"
@@ -1265,6 +1652,12 @@
         "pocket": "Objetos"
       },
       {
+        "id": "BRIGHTPOWDER",
+        "name": "Polvo Brillo",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "SHALOURSABLE",
         "name": "Galleta Yantra",
         "qty": 2,
@@ -1273,7 +1666,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 865,
+        "qty": 837,
         "pocket": "Medicinas"
       },
       {
@@ -1309,13 +1702,7 @@
       {
         "id": "POKEBALL",
         "name": "Poké Ball",
-        "qty": 10,
-        "pocket": "Poké Balls"
-      },
-      {
-        "id": "PREMIERBALL",
-        "name": "Honor Ball",
-        "qty": 1,
+        "qty": 9,
         "pocket": "Poké Balls"
       },
       {
@@ -1327,6 +1714,18 @@
       {
         "id": "TM39",
         "name": "MT39",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM40",
+        "name": "MT40",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM44",
+        "name": "MT44",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -1353,6 +1752,12 @@
         "name": "MT116",
         "qty": 1,
         "pocket": "MTs y MOs"
+      },
+      {
+        "id": "SITRUSBERRY",
+        "name": "Baya Zidra",
+        "qty": 1,
+        "pocket": "Bayas"
       },
       {
         "id": "KELPSYBERRY",
