@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 54m jugadas · 2,960₽ · vidas en el juego: 20",
+  "notes": "Importado del save · 0h 56m jugadas · 2,960₽ · vidas en el juego: 20",
   "team": [
     {
       "nickname": "Joker",
       "species": "Chimchar",
-      "level": 5,
+      "level": 6,
       "types": [
         "Fuego"
       ],
@@ -19,7 +19,8 @@
       "shiny": false,
       "moves": [
         "Carga Tóxica",
-        "Camuflaje"
+        "Camuflaje",
+        "Arrumaco"
       ],
       "iv": [
         9,
@@ -32,7 +33,7 @@
       "ev": [
         0,
         0,
-        1,
+        3,
         0,
         1,
         0
@@ -106,6 +107,51 @@
         "Camuflaje"
       ],
       "spriteKey": "CHIMCHAR"
+    },
+    {
+      "nickname": "Pelotazo",
+      "species": "Cascoon",
+      "level": 3,
+      "types": [
+        "Bicho"
+      ],
+      "ability": "Irascible",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Ida y Vuelta"
+      ],
+      "iv": [
+        29,
+        7,
+        2,
+        23,
+        14,
+        3
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Irascible"
+      ],
+      "abilHidden": [],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Ida y Vuelta"
+        }
+      ],
+      "firstMoves": [
+        "Ida y Vuelta"
+      ],
+      "spriteKey": "CASCOON"
     }
   ],
   "box": [],
@@ -121,6 +167,17 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Chimchar"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Cascoon",
+      "nickname": "Pelotazo",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 3,
+      "mon": "Cascoon"
     }
   ],
   "progress": {
@@ -207,7 +264,7 @@
       {
         "id": "POKEBALL",
         "name": "Poké Ball",
-        "qty": 5,
+        "qty": 2,
         "pocket": "Poké Balls"
       },
       {
