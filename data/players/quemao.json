@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 2h 40m jugadas · 10,630₽ · vidas en el juego: 19",
+  "notes": "Importado del save · 2h 51m jugadas · 13,120₽ · vidas en el juego: 19",
   "team": [
     {
       "nickname": "VINICIUS",
@@ -34,11 +34,11 @@
       ],
       "ev": [
         4,
-        2,
-        7,
-        6,
         4,
-        4
+        9,
+        8,
+        6,
+        5
       ],
       "abilPool": [
         "Ímpetu Arena"
@@ -133,7 +133,7 @@
       "types": [
         "Fuego"
       ],
-      "ability": "",
+      "ability": "Poder Solar",
       "nature": "Cauta",
       "item": "",
       "shiny": false,
@@ -153,11 +153,11 @@
       ],
       "ev": [
         5,
-        2,
+        4,
+        10,
         8,
         6,
-        4,
-        5
+        6
       ],
       "abilPool": [
         "Poder Solar"
@@ -265,11 +265,11 @@
       ],
       "ev": [
         3,
-        0,
-        1,
         2,
         3,
-        1
+        4,
+        5,
+        2
       ],
       "abilPool": [
         "Mar Llamas",
@@ -383,7 +383,7 @@
       "types": [
         "Tierra"
       ],
-      "ability": "",
+      "ability": "Pararrayos",
       "nature": "Agitada",
       "item": "",
       "shiny": false,
@@ -403,11 +403,11 @@
       ],
       "ev": [
         4,
-        2,
-        6,
-        5,
         4,
-        4
+        8,
+        7,
+        6,
+        5
       ],
       "abilPool": [
         "Pararrayos"
@@ -544,11 +544,11 @@
       ],
       "ev": [
         0,
-        0,
-        0,
-        0,
-        0,
-        0
+        2,
+        2,
+        2,
+        2,
+        1
       ],
       "abilPool": [
         "Piel Milagro",
@@ -663,11 +663,11 @@
       ],
       "ev": [
         4,
-        2,
-        7,
-        6,
         4,
-        5
+        9,
+        8,
+        6,
+        6
       ],
       "abilPool": [
         "Tenacidad",
@@ -881,6 +881,113 @@
         "Cascabel Cura"
       ],
       "spriteKey": "DEERLING_2"
+    },
+    {
+      "nickname": "MARICON",
+      "species": "Pumpkaboo",
+      "level": 14,
+      "types": [
+        "Fantasma",
+        "Planta"
+      ],
+      "ability": "Torrente",
+      "nature": "Alegre",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Refugio",
+        "Vasta Guardia",
+        "Viraje",
+        "Ciclón de Hojas"
+      ],
+      "iv": [
+        0,
+        7,
+        21,
+        25,
+        26,
+        26
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Francotirador",
+        "Torrente"
+      ],
+      "abilHidden": [
+        "Efecto Espora"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Bruma Explosiva"
+        },
+        {
+          "lvl": 4,
+          "m": "Refugio"
+        },
+        {
+          "lvl": 6,
+          "m": "Vasta Guardia"
+        },
+        {
+          "lvl": 8,
+          "m": "Viraje"
+        },
+        {
+          "lvl": 12,
+          "m": "Ciclón de Hojas"
+        },
+        {
+          "lvl": 16,
+          "m": "Cerrojo Feérico"
+        },
+        {
+          "lvl": 20,
+          "m": "Agua Fría"
+        },
+        {
+          "lvl": 24,
+          "m": "Absorbefuerza"
+        },
+        {
+          "lvl": 28,
+          "m": "Rencor"
+        },
+        {
+          "lvl": 32,
+          "m": "Rodillo de Púas"
+        },
+        {
+          "lvl": 36,
+          "m": "Mazazo"
+        },
+        {
+          "lvl": 36,
+          "m": "Robasombra"
+        },
+        {
+          "lvl": 40,
+          "m": "Pulso de Campo"
+        },
+        {
+          "lvl": 44,
+          "m": "Truco Floral"
+        }
+      ],
+      "firstMoves": [
+        "Refugio",
+        "Vasta Guardia",
+        "Viraje",
+        "Ciclón de Hojas"
+      ],
+      "spriteKey": "PUMPKABOO_1"
     }
   ],
   "graveyard": [
@@ -1086,6 +1193,17 @@
     {
       "route": "",
       "where": "",
+      "species": "Pumpkaboo",
+      "nickname": "MARICON",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 14,
+      "mon": "Pumpkaboo"
+    },
+    {
+      "route": "",
+      "where": "",
       "species": "Petilil",
       "nickname": "MARIHUANA",
       "shiny": false,
@@ -1129,6 +1247,7 @@
       334
     ],
     "foundItems": [
+      "Botas Gruesas",
       "Brazal Firme",
       "Cubresuelos",
       "Elixir Máximo",
@@ -1141,9 +1260,11 @@
       "Mochi Intelecto",
       "MT112",
       "MT39",
+      "MT40",
       "MT67",
       "MT89",
       "MT94",
+      "Nivel Ball",
       "Ornitofósil",
       "Poké Montura",
       "Reglamento",
@@ -1195,6 +1316,18 @@
         "pocket": "Objetos"
       },
       {
+        "id": "HEAVYDUTYBOOTS",
+        "name": "Botas Gruesas",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "MIRACLESEED",
+        "name": "Semilla Milagro",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "REVIVE",
         "name": "Revivir",
         "qty": 1,
@@ -1233,12 +1366,24 @@
       {
         "id": "POKEBALL",
         "name": "Poké Ball",
-        "qty": 4,
+        "qty": 3,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "LEVELBALL",
+        "name": "Nivel Ball",
+        "qty": 1,
         "pocket": "Poké Balls"
       },
       {
         "id": "TM39",
         "name": "MT39",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM40",
+        "name": "MT40",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
