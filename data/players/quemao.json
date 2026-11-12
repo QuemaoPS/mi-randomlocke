@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 1h 8m jugadas · 3,500₽ · vidas en el juego: 20",
+  "notes": "Importado del save · 1h 19m jugadas · 4,300₽ · vidas en el juego: 20",
   "team": [
     {
-      "nickname": "MEGA",
+      "nickname": "MIMI",
       "species": "Litten",
-      "level": 7,
+      "level": 9,
       "types": [
         "Fuego"
       ],
@@ -32,9 +32,9 @@
         22
       ],
       "ev": [
+        2,
         1,
-        0,
-        1,
+        2,
         1,
         0,
         1
@@ -121,7 +121,7 @@
     {
       "nickname": "COJONES v2",
       "species": "Exeggcute",
-      "level": 4,
+      "level": 7,
       "types": [
         "Planta",
         "Psíquico"
@@ -145,9 +145,9 @@
         31
       ],
       "ev": [
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
         1,
         0,
         1
@@ -248,7 +248,7 @@
     {
       "nickname": "VINICIUS",
       "species": "Chimchar",
-      "level": 4,
+      "level": 8,
       "types": [
         "Fuego"
       ],
@@ -258,7 +258,8 @@
       "shiny": false,
       "moves": [
         "Semilladora",
-        "Fría Acogida"
+        "Fría Acogida",
+        "Nitrocarga"
       ],
       "iv": [
         3,
@@ -269,9 +270,9 @@
         18
       ],
       "ev": [
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
         1,
         0,
         0
@@ -349,7 +350,7 @@
     {
       "nickname": "MARIHUANA",
       "species": "Petilil",
-      "level": 5,
+      "level": 7,
       "types": [
         "Planta"
       ],
@@ -360,7 +361,8 @@
       "moves": [
         "Ladrón",
         "Fotosíntesis",
-        "Espora"
+        "Espora",
+        "Bomba Imán"
       ],
       "iv": [
         9,
@@ -371,9 +373,9 @@
         27
       ],
       "ev": [
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
         0,
         0,
         0
@@ -461,6 +463,131 @@
         "Espora"
       ],
       "spriteKey": "PETILIL_1"
+    },
+    {
+      "nickname": "YYY891",
+      "species": "Sandshrew",
+      "level": 7,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Perro Guardián",
+      "nature": "Agitada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Viento Feérico",
+        "Estrujón",
+        "Ofrenda",
+        "Danza Aleteo"
+      ],
+      "iv": [
+        5,
+        7,
+        7,
+        24,
+        19,
+        29
+      ],
+      "ev": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Perro Guardián"
+      ],
+      "abilHidden": [
+        "Armadura Batalla"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Viento Feérico"
+        },
+        {
+          "lvl": 1,
+          "m": "Estrujón"
+        },
+        {
+          "lvl": 3,
+          "m": "Ofrenda"
+        },
+        {
+          "lvl": 6,
+          "m": "Danza Aleteo"
+        },
+        {
+          "lvl": 9,
+          "m": "Magnitud"
+        },
+        {
+          "lvl": 12,
+          "m": "Giro Mortífero"
+        },
+        {
+          "lvl": 15,
+          "m": "Ataque Arena"
+        },
+        {
+          "lvl": 17,
+          "m": "Recogearena"
+        },
+        {
+          "lvl": 18,
+          "m": "Bruma Explosiva"
+        },
+        {
+          "lvl": 21,
+          "m": "Cambiadefensa"
+        },
+        {
+          "lvl": 23,
+          "m": "Rayo Confuso"
+        },
+        {
+          "lvl": 24,
+          "m": "Fijar Blanco"
+        },
+        {
+          "lvl": 27,
+          "m": "Respiro"
+        },
+        {
+          "lvl": 30,
+          "m": "Hueso Palo"
+        },
+        {
+          "lvl": 33,
+          "m": "Tajo Acuático"
+        },
+        {
+          "lvl": 36,
+          "m": "Ariete"
+        },
+        {
+          "lvl": 39,
+          "m": "Arenas Ardientes"
+        },
+        {
+          "lvl": 42,
+          "m": "A Defender"
+        },
+        {
+          "lvl": 45,
+          "m": "Terratemblor"
+        }
+      ],
+      "firstMoves": [
+        "Viento Feérico",
+        "Estrujón",
+        "Ofrenda",
+        "Danza Aleteo"
+      ],
+      "spriteKey": "SANDSHREW"
     }
   ],
   "box": [],
@@ -470,7 +597,7 @@
       "route": "",
       "where": "",
       "species": "Litten",
-      "nickname": "MEGA",
+      "nickname": "MIMI",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
@@ -509,6 +636,17 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Petilil"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Sandshrew",
+      "nickname": "YYY891",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 6,
+      "mon": "Sandshrew"
     }
   ],
   "progress": {
@@ -527,6 +665,7 @@
       67,
       68,
       69,
+      70,
       110,
       176,
       179,
@@ -535,9 +674,11 @@
       182,
       183,
       323,
+      333,
       334
     ],
     "foundItems": [
+      "Brazal Firme",
       "Menta Firme",
       "Miniseta",
       "Poké Montura",
@@ -549,6 +690,12 @@
       {
         "id": "TINYMUSHROOM",
         "name": "Miniseta",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "MACHOBRACE",
+        "name": "Brazal Firme",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -585,7 +732,7 @@
       {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 4,
+        "qty": 3,
         "pocket": "Poké Balls"
       },
       {
