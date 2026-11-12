@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 12m jugadas · 2,960₽ · vidas en el juego: 20",
+  "notes": "Importado del save · 0h 14m jugadas · 2,960₽ · vidas en el juego: 20",
   "team": [
     {
       "nickname": "Joker",
@@ -36,7 +36,7 @@
         0,
         0,
         2,
-        0,
+        1,
         0
       ],
       "abilPool": [
@@ -128,7 +128,7 @@
     {
       "nickname": "Globazo",
       "species": "Duosion",
-      "level": 5,
+      "level": 7,
       "types": [
         "Psíquico"
       ],
@@ -155,7 +155,7 @@
         0,
         0,
         0,
-        0,
+        1,
         0
       ],
       "abilPool": [
@@ -269,7 +269,7 @@
     {
       "nickname": "Nabo",
       "species": "Caterpie",
-      "level": 5,
+      "level": 7,
       "types": [
         "Bicho"
       ],
@@ -295,7 +295,7 @@
         0,
         0,
         0,
-        0,
+        1,
         0
       ],
       "abilPool": [
@@ -318,12 +318,128 @@
           "m": "Gas Corrosivo"
         }
       ],
+      "tmMoves": [
+        "Beso Dulce"
+      ],
       "firstMoves": [
         "Auxilio",
         "Telatrampa",
         "Giro Vil"
       ],
       "spriteKey": "CATERPIE"
+    },
+    {
+      "nickname": "QueFeo",
+      "species": "Tinkatink",
+      "level": 6,
+      "types": [
+        "Hada",
+        "Acero"
+      ],
+      "ability": "Hélice Caudal",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Rueda Fuego",
+        "Prensa Metálica",
+        "Estrujón"
+      ],
+      "iv": [
+        13,
+        26,
+        14,
+        22,
+        1,
+        28
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Camorrista",
+        "Hélice Caudal"
+      ],
+      "abilHidden": [
+        "Medicina Extraña"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Rueda Fuego"
+        },
+        {
+          "lvl": 1,
+          "m": "Prensa Metálica"
+        },
+        {
+          "lvl": 5,
+          "m": "Estrujón"
+        },
+        {
+          "lvl": 8,
+          "m": "Voz Cautivadora"
+        },
+        {
+          "lvl": 11,
+          "m": "Zona Mágica"
+        },
+        {
+          "lvl": 14,
+          "m": "Trampa Venenosa"
+        },
+        {
+          "lvl": 17,
+          "m": "Truco Defensa"
+        },
+        {
+          "lvl": 21,
+          "m": "Autotomía"
+        },
+        {
+          "lvl": 24,
+          "m": "Retracción"
+        },
+        {
+          "lvl": 27,
+          "m": "Hidropulso"
+        },
+        {
+          "lvl": 31,
+          "m": "Ala Mortífera"
+        },
+        {
+          "lvl": 35,
+          "m": "Asta Drenaje"
+        },
+        {
+          "lvl": 39,
+          "m": "Aire Afilado"
+        },
+        {
+          "lvl": 43,
+          "m": "Cañón Dinamax"
+        },
+        {
+          "lvl": 47,
+          "m": "Filo Potente"
+        },
+        {
+          "lvl": 52,
+          "m": "Golpe Rastrero"
+        }
+      ],
+      "firstMoves": [
+        "Rueda Fuego",
+        "Prensa Metálica",
+        "Estrujón"
+      ],
+      "spriteKey": "TINKATINK"
     }
   ],
   "box": [],
@@ -361,6 +477,17 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Caterpie"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Tinkatink",
+      "nickname": "QueFeo",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 6,
+      "mon": "Tinkatink"
     }
   ],
   "progress": {
@@ -397,6 +524,7 @@
       "Poción",
       "Poké Montura",
       "Reglamento",
+      "Supercaña",
       "Vial"
     ],
     "bag": [
@@ -410,6 +538,18 @@
         "id": "POTION",
         "name": "Poción",
         "qty": 3,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "RARECANDY",
+        "name": "Caramelo Raro",
+        "qty": 995,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "RARECANDY",
+        "name": "Caramelo Raro",
+        "qty": 101,
         "pocket": "Medicinas"
       },
       {
@@ -427,7 +567,7 @@
       {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 6,
+        "qty": 5,
         "pocket": "Poké Balls"
       },
       {
@@ -451,6 +591,12 @@
       {
         "id": "POKERIDER",
         "name": "Poké Montura",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "SUPERROD",
+        "name": "Supercaña",
         "qty": 1,
         "pocket": "Objetos clave"
       }
