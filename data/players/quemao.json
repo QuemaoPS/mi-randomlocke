@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 1h 49m jugadas · 6,150₽ · vidas en el juego: 19",
+  "notes": "Importado del save · 2h 5m jugadas · 6,850₽ · vidas en el juego: 19",
   "team": [
     {
       "nickname": "VINICIUS",
@@ -36,8 +36,8 @@
         2,
         6,
         4,
-        1,
-        3
+        2,
+        4
       ],
       "abilPool": [
         "Alma Acerada"
@@ -110,9 +110,121 @@
       "spriteKey": "CHIMCHAR"
     },
     {
+      "nickname": "MIMI",
+      "species": "Litten",
+      "level": 12,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "Cola Surf",
+      "nature": "Cauta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Relajo",
+        "Rueda Fuego",
+        "Hidropulso",
+        "Nitrocarga"
+      ],
+      "iv": [
+        31,
+        2,
+        17,
+        21,
+        11,
+        22
+      ],
+      "ev": [
+        2,
+        2,
+        7,
+        4,
+        2,
+        5
+      ],
+      "abilPool": [
+        "Cola Surf"
+      ],
+      "abilHidden": [
+        "Maduración"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Relajo"
+        },
+        {
+          "lvl": 1,
+          "m": "Celebración"
+        },
+        {
+          "lvl": 6,
+          "m": "Nitrocarga"
+        },
+        {
+          "lvl": 7,
+          "m": "Yo Primero"
+        },
+        {
+          "lvl": 9,
+          "m": "Retracción"
+        },
+        {
+          "lvl": 11,
+          "m": "Rueda Fuego"
+        },
+        {
+          "lvl": 12,
+          "m": "Kinético"
+        },
+        {
+          "lvl": 15,
+          "m": "Bramido Dragón"
+        },
+        {
+          "lvl": 18,
+          "m": "Cortina Plasma"
+        },
+        {
+          "lvl": 21,
+          "m": "Resarcimiento"
+        },
+        {
+          "lvl": 24,
+          "m": "Fuego Fatuo"
+        },
+        {
+          "lvl": 27,
+          "m": "Giro Fuego"
+        },
+        {
+          "lvl": 30,
+          "m": "Tajo Acuático"
+        },
+        {
+          "lvl": 33,
+          "m": "Sol Matinal"
+        },
+        {
+          "lvl": 36,
+          "m": "Patada Ígnea"
+        },
+        {
+          "lvl": 46,
+          "m": "Romperrocas"
+        }
+      ],
+      "firstMoves": [
+        "Relajo",
+        "Celebración",
+        "Hidropulso"
+      ],
+      "spriteKey": "LITTEN"
+    },
+    {
       "nickname": "COJONES v2",
       "species": "Exeggcute",
-      "level": 9,
+      "level": 10,
       "types": [
         "Planta",
         "Psíquico"
@@ -122,7 +234,7 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Chapoteo Lodo",
+        "Barrera Espinosa",
         "Pulso Cura",
         "Rizo Algodón",
         "Torbellino"
@@ -140,8 +252,8 @@
         2,
         6,
         4,
-        1,
-        4
+        2,
+        5
       ],
       "abilPool": [
         "Tenacidad",
@@ -237,118 +349,6 @@
       "spriteKey": "EXEGGCUTE"
     },
     {
-      "nickname": "MIMI",
-      "species": "Litten",
-      "level": 12,
-      "types": [
-        "Fuego"
-      ],
-      "ability": "Cola Surf",
-      "nature": "Cauta",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Relajo",
-        "Rueda Fuego",
-        "Hidropulso",
-        "Nitrocarga"
-      ],
-      "iv": [
-        31,
-        2,
-        17,
-        21,
-        11,
-        22
-      ],
-      "ev": [
-        2,
-        2,
-        7,
-        4,
-        1,
-        4
-      ],
-      "abilPool": [
-        "Cola Surf"
-      ],
-      "abilHidden": [
-        "Maduración"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Relajo"
-        },
-        {
-          "lvl": 1,
-          "m": "Celebración"
-        },
-        {
-          "lvl": 6,
-          "m": "Nitrocarga"
-        },
-        {
-          "lvl": 7,
-          "m": "Yo Primero"
-        },
-        {
-          "lvl": 9,
-          "m": "Retracción"
-        },
-        {
-          "lvl": 11,
-          "m": "Rueda Fuego"
-        },
-        {
-          "lvl": 12,
-          "m": "Kinético"
-        },
-        {
-          "lvl": 15,
-          "m": "Bramido Dragón"
-        },
-        {
-          "lvl": 18,
-          "m": "Cortina Plasma"
-        },
-        {
-          "lvl": 21,
-          "m": "Resarcimiento"
-        },
-        {
-          "lvl": 24,
-          "m": "Fuego Fatuo"
-        },
-        {
-          "lvl": 27,
-          "m": "Giro Fuego"
-        },
-        {
-          "lvl": 30,
-          "m": "Tajo Acuático"
-        },
-        {
-          "lvl": 33,
-          "m": "Sol Matinal"
-        },
-        {
-          "lvl": 36,
-          "m": "Patada Ígnea"
-        },
-        {
-          "lvl": 46,
-          "m": "Romperrocas"
-        }
-      ],
-      "firstMoves": [
-        "Relajo",
-        "Celebración",
-        "Hidropulso"
-      ],
-      "spriteKey": "LITTEN"
-    },
-    {
       "nickname": "YYY891",
       "species": "Sandshrew",
       "level": 10,
@@ -378,8 +378,8 @@
         2,
         5,
         3,
-        1,
-        3
+        2,
+        4
       ],
       "abilPool": [
         "Perro Guardián"
@@ -504,8 +504,8 @@
         1,
         5,
         3,
-        1,
-        2
+        2,
+        3
       ],
       "abilPool": [
         "Monotema",
@@ -594,7 +594,7 @@
     {
       "nickname": "ALEY",
       "species": "Mankey",
-      "level": 7,
+      "level": 8,
       "types": [
         "Lucha"
       ],
@@ -621,8 +621,8 @@
         0,
         0,
         0,
-        0,
-        0
+        1,
+        1
       ],
       "abilPool": [
         "Mar Llamas",
@@ -868,17 +868,6 @@
     {
       "route": "",
       "where": "",
-      "species": "Exeggcute",
-      "nickname": "COJONES v2",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 3,
-      "mon": "Exeggcute"
-    },
-    {
-      "route": "",
-      "where": "",
       "species": "Litten",
       "nickname": "MIMI",
       "shiny": false,
@@ -886,6 +875,17 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Litten"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Exeggcute",
+      "nickname": "COJONES v2",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 3,
+      "mon": "Exeggcute"
     },
     {
       "route": "",
@@ -966,11 +966,13 @@
       "Elixir Máximo",
       "Fósil Cráneo",
       "Menta Firme",
+      "Miel",
       "Miniseta",
       "Mochi Intelecto",
       "MT112",
       "MT67",
       "MT89",
+      "MT94",
       "Ornitofósil",
       "Poké Montura",
       "Reglamento",
@@ -999,6 +1001,12 @@
       {
         "id": "SKULLFOSSIL",
         "name": "Fósil Cráneo",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "HONEY",
+        "name": "Miel",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -1059,6 +1067,12 @@
       {
         "id": "TM89",
         "name": "MT89",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM94",
+        "name": "MT94",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
