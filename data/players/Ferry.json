@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 1h 1m jugadas · 2,960₽ · vidas en el juego: 20",
+  "notes": "Importado del save · 1h 11m jugadas · 2,904₽ · vidas en el juego: 16",
   "team": [
     {
       "nickname": "Joker",
       "species": "Chimchar",
-      "level": 6,
+      "level": 7,
       "types": [
         "Fuego"
       ],
@@ -36,7 +36,7 @@
         3,
         0,
         2,
-        0
+        1
       ],
       "abilPool": [
         "Esclusa de Aire"
@@ -102,6 +102,9 @@
           "m": "Ataque Furia"
         }
       ],
+      "tmMoves": [
+        "Corte Furia"
+      ],
       "firstMoves": [
         "Carga Tóxica",
         "Camuflaje"
@@ -117,7 +120,7 @@
       ],
       "ability": "Irascible",
       "nature": "Fuerte",
-      "item": "",
+      "item": "Tabla Bicho",
       "shiny": false,
       "moves": [
         "Ida y Vuelta"
@@ -136,7 +139,7 @@
         0,
         0,
         1,
-        0
+        1
       ],
       "abilPool": [
         "Irascible"
@@ -182,7 +185,7 @@
         0,
         0,
         0,
-        0
+        1
       ],
       "abilPool": [
         "Velo Flor"
@@ -217,6 +220,118 @@
         "Giro Fuego"
       ],
       "spriteKey": "BURMY"
+    },
+    {
+      "nickname": "EmoGood",
+      "species": "Litten",
+      "level": 4,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "Guardia Metálica",
+      "nature": "Agitada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Golpe Roca",
+        "Torbellino"
+      ],
+      "iv": [
+        22,
+        8,
+        17,
+        7,
+        12,
+        12
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Guardia Metálica"
+      ],
+      "abilHidden": [
+        "Quitanieves"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Golpe Roca"
+        },
+        {
+          "lvl": 1,
+          "m": "Torbellino"
+        },
+        {
+          "lvl": 6,
+          "m": "Último Lugar"
+        },
+        {
+          "lvl": 7,
+          "m": "Clonatipo"
+        },
+        {
+          "lvl": 9,
+          "m": "Fachada"
+        },
+        {
+          "lvl": 11,
+          "m": "Reciclaje"
+        },
+        {
+          "lvl": 12,
+          "m": "Ascuas"
+        },
+        {
+          "lvl": 15,
+          "m": "Día Soleado"
+        },
+        {
+          "lvl": 18,
+          "m": "Patada Giro"
+        },
+        {
+          "lvl": 21,
+          "m": "Red Viscosa"
+        },
+        {
+          "lvl": 24,
+          "m": "Agua Fría"
+        },
+        {
+          "lvl": 27,
+          "m": "Clemencia"
+        },
+        {
+          "lvl": 30,
+          "m": "Descanso"
+        },
+        {
+          "lvl": 33,
+          "m": "Llamarada"
+        },
+        {
+          "lvl": 36,
+          "m": "Flarembestida"
+        },
+        {
+          "lvl": 46,
+          "m": "Patada Salto"
+        }
+      ],
+      "tmMoves": [
+        "Cura Floral"
+      ],
+      "firstMoves": [
+        "Golpe Roca",
+        "Torbellino"
+      ],
+      "spriteKey": "LITTEN"
     }
   ],
   "box": [],
@@ -254,6 +369,17 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Burmy"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Litten",
+      "nickname": "EmoGood",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 4,
+      "mon": "Litten"
     }
   ],
   "progress": {
@@ -272,6 +398,7 @@
       67,
       68,
       69,
+      70,
       110,
       176,
       179,
@@ -280,18 +407,26 @@
       182,
       183,
       323,
+      333,
       334
     ],
     "foundItems": [
+      "Baya Arabol",
       "Dado Trucado",
       "Def. Especial X",
       "Defensa X 3",
+      "Fósil Mandíbula",
       "Miniseta",
+      "MT06",
+      "MT108",
       "MT84",
       "Poké Montura",
       "Reglamento",
       "Roca del Rey",
+      "Supercaña",
+      "Tabla Bicho",
       "Tabla Tóxica",
+      "Tarjeta Roja",
       "Vial"
     ],
     "bag": [
@@ -310,6 +445,18 @@
       {
         "id": "TOXICPLATE",
         "name": "Tabla Tóxica",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "JAWFOSSIL",
+        "name": "Fósil Mandíbula",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "REDCARD",
+        "name": "Tarjeta Roja",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -340,14 +487,32 @@
       {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 10,
+        "qty": 9,
         "pocket": "Poké Balls"
+      },
+      {
+        "id": "TM06",
+        "name": "MT06",
+        "qty": 1,
+        "pocket": "MTs y MOs"
       },
       {
         "id": "TM84",
         "name": "MT84",
         "qty": 1,
         "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM108",
+        "name": "MT108",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "STARFBERRY",
+        "name": "Baya Arabol",
+        "qty": 1,
+        "pocket": "Bayas"
       },
       {
         "id": "XSPDEF",
@@ -376,6 +541,12 @@
       {
         "id": "POKERIDER",
         "name": "Poké Montura",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "SUPERROD",
+        "name": "Supercaña",
         "qty": 1,
         "pocket": "Objetos clave"
       }
