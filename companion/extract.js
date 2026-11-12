@@ -1,0 +1,407 @@
+'use strict';
+// Convierte un save .rxdata de Pokémon Añil (Essentials v21) al formato JSON de la web.
+const { parse, RSymbol } = require('./marshal.js');
+const MOVES_ES = require('./move-es.json');
+const TYPES = require('./pokemon-types.json');
+const ABILITIES_ES = require('./ability-es.json');
+const ITEMS_ES = require('./item-es.json');
+let FORMS = {}; try { FORMS = require('./forms.json'); } catch (e) {}
+// Mapa de familias evolutivas: nombre normalizado -> id de la especie raíz de la línea.
+// Sirve para marcar "Repetido" por FAMILIA (como el juego), no solo por especie exacta.
+let FAMILIES = {}; try { FAMILIES = require('./families.json'); } catch (e) {}
+let RAND_ABIL = {}; // habilidades randomizadas por especie/forma: { SPECIES[_form]: {base:[nombres], hidden:[nombres]} }
+let RAND_ABIL_MON = {}; // habilidades randomizadas por Pokémon individual (item Randomizador de Habilidad): { monId: {base:[nombres], hidden:[nombres]} }
+let RAND_MOVES = {}; // movimientos aprendibles randomizados: { SPECIES: { form: [ {lvl, m} ] } }
+let RAND_TM = {};    // MTs aprendibles randomizados: { SPECIES: [nombreES, ...] }
+
+const NATURES = { HARDY:'Fuerte',LONELY:'Huraña',BRAVE:'Audaz',ADAMANT:'Firme',NAUGHTY:'Pícara',BOLD:'Osada',DOCILE:'Dócil',RELAXED:'Plácida',IMPISH:'Agitada',LAX:'Floja',TIMID:'Miedosa',HASTY:'Activa',SERIOUS:'Seria',JOLLY:'Alegre',NAIVE:'Ingenua',MODEST:'Modesta',MILD:'Afable',QUIET:'Mansa',BASHFUL:'Tímida',RASH:'Alocada',CALM:'Serena',GENTLE:'Amable',SASSY:'Grosera',CAREFUL:'Cauta',QUIRKY:'Rara' };
+
+const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]/g, '');
+const hget = (h, key) => { if (!h || !h.__isHash) return undefined; for (const [k, v] of h.entries()) { const kn = (k instanceof RSymbol) ? k.name : (Buffer.isBuffer(k) ? k.toString('utf8') : String(k)); if (kn === key) return v; } };
+const iv = (o, n) => o && o.ivars ? o.ivars[n] : undefined;
+const sname = s => s instanceof RSymbol ? s.name : (Buffer.isBuffer(s) ? s.toString('utf8') : (s == null ? null : String(s)));
+
+function pretty(sym) {
+  if (!sym) return '';
+  return String(sym).toLowerCase().split(/[_\s]+/).map(w => w ? w[0].toUpperCase() + w.slice(1) : '').join(' ');
+}
+const moveName = sym => sym ? (MOVES_ES[norm(sym)] || pretty(sym)) : null;
+const speciesTypes = sym => TYPES[norm(sym)] || [];
+const abilityName = sym => sym ? (ABILITIES_ES[norm(sym)] || pretty(sym)) : '';
+// Nombres ES de objetos custom de Añil que no están en item-es.json (item_log los registra
+// por su símbolo interno). Sin esto saldrían como "Supereviolite", "Greninjite", etc.
+const CUSTOM_ITEMS = {
+  vial:'Vial', pokerider:'Poké Montura', trufa:'Trufa', rocksmashitem:'MO Golpe Roca',
+  cenizassagradas:'Cenizas Sagradas', musclefeather:'Pluma Músculo', ticketbarco:'Ticket Barco',
+  egghatcher:'Incubadora', bonobici:'Bono Bici', flashitem:'MO Destello', cutitem:'MO Corte',
+  leek:'Puerro', albumfotos:'Álbum de Fotos', supereviolite:'Supereviolita', dcapsula:'Cápsula D',
+  decapsula:'Cápsula DE', healthfeather:'Pluma Salud', llaverocket:'Llave Rocket',
+  visorsilph:'Visor Silph', randomabilitycapsule:'Randomizador de Habilidad', resguardo:'Resguardo',
+  blastoisinitex:'Blastoisita X', greninjite:'Greninjita', inteleonite:'Inteleonita',
+  supercapsule:'Supercápsula', anillo:'Anillo', lensoftruth:'Lente de la Verdad',
+};
+const itemName = sym => sym ? (ITEMS_ES[norm(sym)] || CUSTOM_ITEMS[norm(sym)] || pretty(sym)) : '';
+
+// Convierte un hash de stats del save ({HP,ATTACK,...}) al orden [PS,Atk,Def,SpA,SpD,Vel]
+const STAT_KEYS = ['HP', 'ATTACK', 'DEFENSE', 'SPECIAL_ATTACK', 'SPECIAL_DEFENSE', 'SPEED'];
+function statArr(h) {
+  if (!h || !h.__isHash) return null;
+  const g = k => { for (const [kk, vv] of h.entries()) if (sname(kk) === k) return vv; return 0; };
+  return STAT_KEYS.map(g);
+}
+
+function mon(p) {
+  const species = sname(iv(p, '@species'));
+  const nick = sname(iv(p, '@name'));
+  const form = iv(p, '@form');
+  const fd = form ? FORMS[species + '_' + form] : null; // forma regional (Alola/Galar/Hisui/Paldea)
+  const moves = (iv(p, '@moves') || []).map(m => moveName(m && m.ivars ? sname(m.ivars['@id']) : sname(m))).filter(Boolean);
+  // Naturaleza: si se usó una Menta, el efecto en stats está en @nature_for_stats (la original
+  // se conserva en @nature). El valor que importa para sube/baja es el de la Menta.
+  const natBaseSym = sname(iv(p, '@nature'));
+  const natMintSym = sname(iv(p, '@nature_for_stats'));
+  const natSym = natMintSym || natBaseSym;
+  const out = {
+    nickname: nick || pretty(species),
+    species: pretty(species) + (fd ? ` (${fd.region})` : ''),
+    level: iv(p, '@level') ?? null,
+    types: fd ? fd.types : speciesTypes(species),
+    ability: abilityName(sname(iv(p, '@ability'))), // puede recalcularse abajo si se usó el item randomizador
+    nature: NATURES[natSym] || pretty(natSym),
+    item: itemName(sname(iv(p, '@item'))),
+    shiny: !!iv(p, '@shiny'),
+    moves,
+  };
+  if (natMintSym) { out.natureMint = true; out.natureBase = NATURES[natBaseSym] || pretty(natBaseSym); }
+  // Contador de Capturas (Nuzlocke EX): capturas hechas de más en una zona ya usada.
+  if (iv(p, '@anil_extra_capture')) out.extra = true;
+  // Origen (Añil): cómo se obtuvo (misma lógica que el juego). Intercambios por
+  // obtain_method 2 (Don Prodigio se distingue por su OT); el resto por @anil_origin,
+  // y las capturas legítimas por @anil_first_route.
+  {
+    const om = iv(p, '@obtain_method');
+    let origin = null;
+    if (om === 2) {
+      const owner = iv(p, '@owner');
+      const otName = owner ? sname(iv(owner, '@name')) : null;
+      origin = (otName === 'Don Prodigio') ? 'don_prodigio' : 'intercambio';
+    } else {
+      const ao = sname(iv(p, '@anil_origin'));
+      if (ao) origin = ao;
+      else if (iv(p, '@anil_first_route')) origin = 'primer_ruta';
+    }
+    if (origin) out.origin = origin;
+  }
+  const ivArr = statArr(iv(p, '@iv')), evArr = statArr(iv(p, '@ev'));
+  if (ivArr) out.iv = ivArr;
+  if (evArr) out.ev = evArr;
+  // Habilidades randomizadas reales (las que muestra el juego): base (slot 1/2) + oculta
+  // Prioridad: si a ESTE Pokémon se le usó el item "Randomizador de habilidad", tiene su propio
+  // conjunto individual (random_abs_pokes[@id]); si no, usa el conjunto por especie/forma.
+  const monId = iv(p, '@id');
+  const raMon = (monId != null) ? RAND_ABIL_MON[String(monId)] : null;
+  if (raMon) {
+    out.abilPool = raMon.base; out.abilHidden = raMon.hidden; out.abilCapsule = true;
+    // Con el item randomizador el juego guarda @ability en null y la activa se deduce del slot (@ability_index)
+    if (!out.ability) {
+      const aIdx = iv(p, '@ability_index');
+      out.ability = (aIdx != null && raMon.byIndex[aIdx]) || raMon.byIndex[0] || raMon.base[0] || raMon.hidden[0] || '';
+    }
+  } else {
+    const raKey = (form && RAND_ABIL[species + '_' + form]) ? species + '_' + form : species;
+    const ra = RAND_ABIL[raKey];
+    if (ra) { out.abilPool = ra.base; out.abilHidden = ra.hidden; }
+  }
+  // Movimientos aprendibles randomizados (recuerda-movimientos)
+  const rmForms = RAND_MOVES[species];
+  if (rmForms) {
+    const lset = rmForms[String(form || 0)] || rmForms['0'];
+    if (lset && lset.length) out.learnset = lset;
+  }
+  // MTs aprendibles randomizados
+  const tmList = RAND_TM[species];
+  if (tmList && tmList.length) out.tmMoves = tmList;
+  // Movimientos INICIALES (first_moves): el recuerda-movimientos SIEMPRE los ofrece
+  // (los que el Pokémon tenía al obtenerlo), aunque no tengas la MT. Es un campo
+  // por-Pokémon guardado en el save (sin RNG ni cacheo) -> siempre exacto.
+  const fmArr = iv(p, '@first_moves');
+  if (Array.isArray(fmArr) && fmArr.length) {
+    const fmNames = [...new Set(fmArr.map(x => moveName(sname(x))).filter(Boolean))];
+    if (fmNames.length) out.firstMoves = fmNames;
+  }
+  if (fd && fd.spriteId) out.sprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${fd.spriteId}.png`;
+  // Sprite del JUEGO (repo anil-sprites): clave = ID interno + forma (BLASTOISE, BLASTOISE_2...).
+  // La web arma front/<key>.png o front-shiny/<key>.png; así shiny y fakemon/megas salen fieles.
+  out.spriteKey = species + (form ? '_' + form : '');
+  // Super-shiny: mismo cálculo que el juego (personalID ^ ownerID; si el XOR de sus dos
+  // mitades de 16 bits es 0). Implica shiny. La web recolorea las 3 especies con matiz propio.
+  {
+    const pid = iv(p, '@personalID');
+    const owner = iv(p, '@owner');
+    const oid = owner ? iv(owner, '@id') : null;
+    if (pid != null && oid != null) {
+      const a = (pid ^ oid) >>> 0;
+      if (((a & 0xFFFF) ^ ((a >>> 16) & 0xFFFF)) === 0) out.superShiny = true;
+    }
+  }
+  // Campos temporales para calcular "Repetido" (orden de obtención). Se borran antes de guardar.
+  out._t = iv(p, '@timeReceived') || 0;
+  out._pid = iv(p, '@personalID') || 0;
+  return out;
+}
+
+// zonas de captura (mismas reglas que gen-routes.js / config.routes)
+const SLUG = n => n.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
+// Zonas con encuentros (rutas/cuevas/bosques Y ciudades/pueblos: en Añil también tienen hierba/pesca)
+const ZONE_RE = /(ruta|bosque|monte|cueva|t[uú]nel|zona safari|safari|isla|caminos|catarata|central energ|roca|mansi[oó]n|torre|calle victoria|meseta|volc[aá]n|islas espuma|ciudad|pueblo)/i;
+const ENC_INT = /(casa|gimnasio|centro pok|tienda|laboratorio|liga|barco|guarida|museo|club|intro|ss anne|s\.s\.)/i;
+const CITY_RE = /(ciudad|pueblo)/i;
+
+function extract(buf, playerId, opts = {}) {
+  const mapNames = opts.mapNames || null; // { "3": "Ruta 3", ... } opcional
+  const mapName = id => (mapNames && id != null && mapNames[String(id)]) || '';
+  const routeSlug = id => { const n = mapName(id); if (!n) return null; return (ZONE_RE.test(n) && !ENC_INT.test(n)) ? SLUG(n) : null; };
+  const { root } = parse(buf);
+  const player = hget(root, 'player');
+  const gm = hget(root, 'global_metadata');
+  const storage = hget(root, 'storage_system');
+  const stats = hget(root, 'stats');
+
+  // Habilidades randomizadas: randomized_data.abilities[ESPECIE(_forma)] = {base:"A,B", hidden:"H"}
+  RAND_ABIL = {};
+  const rd = hget(root, 'randomized_data');
+  const rabil = rd && hget(rd, 'abilities');
+  if (rabil && rabil.__isHash) {
+    for (const [k, v] of rabil.entries()) {
+      if (!v || !v.__isHash) continue;
+      const toList = s => String(sname(hget(v, s)) || '').split(',').map(x => x.trim()).filter(Boolean).map(abilityName);
+      RAND_ABIL[sname(k)] = { base: toList('base'), hidden: toList('hidden') };
+    }
+  }
+
+  // Habilidades randomizadas por Pokémon individual (item Randomizador de habilidad):
+  // global_metadata.@random_abs_pokes[monId] = [ [ability_sym, index], ... ] (index 2 = oculta)
+  RAND_ABIL_MON = {};
+  const rap = iv(gm, '@random_abs_pokes');
+  if (rap && rap.__isHash) {
+    for (const [k, arr] of rap.entries()) {
+      if (!Array.isArray(arr)) continue;
+      const base = [], hidden = [], byIndex = {};
+      const seen = new Set();
+      for (const pair of arr) {
+        if (!Array.isArray(pair)) continue;
+        const nm = abilityName(sname(pair[0]));
+        if (!nm) continue;
+        const idx = typeof pair[1] === 'number' ? pair[1] : (parseInt(sname(pair[1]), 10) || 0);
+        if (byIndex[idx] == null) byIndex[idx] = nm;
+        const key = idx + '|' + nm;
+        if (seen.has(key)) continue; seen.add(key);
+        (idx >= 2 ? hidden : base).push(nm);
+      }
+      if (base.length || hidden.length) RAND_ABIL_MON[String(sname(k))] = { base, hidden, byIndex };
+    }
+  }
+
+  // Movimientos aprendibles randomizados: global_metadata.@random_moves[ESPECIE] = { forma => [ [nivel, movObj] ] }
+  RAND_MOVES = {};
+  const rmoves = iv(gm, '@random_moves');
+  if (rmoves && rmoves.__isHash) {
+    for (const [spk, forms] of rmoves.entries()) {
+      if (!forms || !forms.__isHash) continue;
+      const byForm = {};
+      for (const [fk, list] of forms.entries()) {
+        if (!Array.isArray(list)) continue;
+        const seenL = new Set();
+        byForm[sname(fk)] = list.map(pair => {
+          if (!Array.isArray(pair)) return null;
+          const rawL = pair[0];
+          const lvl = typeof rawL === 'number' ? rawL : (parseInt(sname(rawL), 10) || 0);
+          const mv = pair[1];
+          const id = (mv && mv.ivars) ? sname(iv(mv, '@id')) : sname(mv);
+          const nm = moveName(id);
+          if (!nm) return null;
+          const key = lvl + '|' + nm;
+          if (seenL.has(key)) return null; seenL.add(key);
+          return { lvl, m: nm };
+        }).filter(Boolean).sort((a, b) => (a.lvl < 0 ? 0 : a.lvl) - (b.lvl < 0 ? 0 : b.lvl));
+      }
+      RAND_MOVES[sname(spk)] = byForm;
+    }
+  }
+
+  // MTs aprendibles randomizados: global_metadata.@tm_compatibility_random[ESPECIE]
+  // FORMATO REAL (verificado en save): [ [Symbol("MOVE"), true/false], ... ] -> PARES,
+  // no strings "MOVE,true". Se toleran ambos formatos por retro-compatibilidad.
+  RAND_TM = {};
+  const tmc = iv(gm, '@tm_compatibility_random');
+  if (tmc && tmc.__isHash) {
+    for (const [spk, arr] of tmc.entries()) {
+      if (!Array.isArray(arr)) continue;
+      const seen = new Set();
+      const learnable = [];
+      for (const e of arr) {
+        let mv, flag;
+        if (Array.isArray(e)) {                 // formato pares [move, bool]
+          mv = sname(e[0]);
+          flag = (e[1] === true || e[1] === 'true');
+        } else {                                 // formato viejo string "MOVE,true"
+          const str = sname(e); if (!str) continue;
+          const c = str.lastIndexOf(','); if (c < 0) continue;
+          mv = str.slice(0, c);
+          flag = (str.slice(c + 1) === 'true');
+        }
+        if (flag && mv && !seen.has(mv)) {
+          seen.add(mv);
+          const nm = moveName(mv);
+          if (nm) learnable.push(nm);
+        }
+      }
+      if (learnable.length) RAND_TM[sname(spk)] = learnable.sort((a, b) => a.localeCompare(b, 'es'));
+    }
+  }
+
+  const party = iv(player, '@party') || [];
+  const boxes = iv(storage, '@boxes') || [];
+
+  const team = [], box = [], graveyard = [];
+  const captures = [];       // lista COMPLETA de todo lo obtenido
+  const routesVisited = {};
+  // categoría de obtención
+  const categoryOf = (p) => {
+    const method = iv(p, '@obtain_method'); // 0 met, 1 huevo, 2 intercambio, 4 evento
+    if (method === 1) return 'huevo';
+    if (method === 2) return 'intercambio';
+    if (method === 4) return 'don_prodigio';
+    const name = mapName(iv(p, '@obtain_map'));
+    if (name && ZONE_RE.test(name) && !ENC_INT.test(name)) return CITY_RE.test(name) ? 'ciudad' : 'salvaje';
+    return 'estatico_regalo'; // método 0 en interior/lab/museo/especial
+  };
+  const recordCapture = (p, dead) => {
+    const oid = iv(p, '@obtain_map');
+    const cat = categoryOf(p);
+    // salvaje y ciudad ocupan una "zona" (regla de 1 captura por zona)
+    const slug = (cat === 'salvaje' || cat === 'ciudad') ? routeSlug(oid) : '';
+    if (slug) routesVisited[slug] = true;
+    captures.push({
+      route: slug || '',
+      where: mapName(oid) || '',
+      species: pretty(sname(iv(p, '@species'))),
+      nickname: sname(iv(p, '@name')) || '',
+      shiny: !!iv(p, '@shiny'),
+      status: dead ? 'dead' : 'captured',
+      category: cat,
+      level: iv(p, '@obtain_level') ?? iv(p, '@level') ?? null,
+      mon: pretty(sname(iv(p, '@species'))), // compat con web/matriz antiguos
+    });
+  };
+  const pushMon = (p, where) => {
+    if (!p) return;
+    const dead = iv(p, '@perma_faint') === true;
+    recordCapture(p, dead);
+    if (dead) {
+      const m = mon(p); m.cause = ''; m.route = mapName(iv(p, '@obtain_map')); m.date = '';
+      graveyard.push(m);
+    } else if (where === 'party') team.push(mon(p));
+    else box.push(mon(p));
+  };
+  party.forEach(p => pushMon(p, 'party'));
+  boxes.forEach(b => (iv(b, '@pokemon') || []).forEach(p => pushMon(p, 'box')));
+
+  // IDs únicos (personalID) de los Pokémon actualmente en muerte permanente. El sync los
+  // acumula en un "deathLog" histórico para que una vida gastada NO se recupere aunque
+  // luego revivas al Pokémon con Cenizas Sagradas (Modo Asistido borra el flag del save).
+  const deadIds = graveyard.map(m => m._pid).filter(v => v != null && v !== 0 && v !== '0').map(v => String(v));
+
+  // "Repetido": misma FAMILIA evolutiva presente 2+ veces entre equipo + PC + cementerio (los
+  // muertos cuentan), igual que el juego. El MÁS ANTIGUO de cada familia (por [timeReceived,
+  // personalID]) es el ORIGINAL y NO se marca; solo las copias posteriores llevan dup:true.
+  // (Ej.: si tienes un Darmanitan original y luego te salen Darumaka por fósil, esos son dup.)
+  {
+    const norm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]/g, '');
+    const baseSp = (m) => String((m && m.species) || '').split(' (')[0].trim();
+    const famKey = (m) => { const k = norm(baseSp(m)); return String(FAMILIES[k] != null ? FAMILIES[k] : k); };
+    const groups = {};
+    [...team, ...box, ...graveyard].forEach(m => { const k = famKey(m); if (k) (groups[k] = groups[k] || []).push(m); });
+    Object.values(groups).forEach(list => {
+      if (list.length < 2) return;
+      list.sort((a, b) => (a._t - b._t) || (a._pid - b._pid)); // más antiguo primero = original
+      list.slice(1).forEach(m => { m.dup = true; });           // el resto = repetidos
+    });
+    [...team, ...box, ...graveyard].forEach(m => { delete m._t; delete m._pid; });
+  }
+
+  // rutas visitadas desde visitedMaps (índice = id de mapa, valor true)
+  const vm = iv(gm, '@visitedMaps');
+  if (Array.isArray(vm)) vm.forEach((v, id) => { if (v) { const s = routeSlug(id); if (s) routesVisited[s] = true; } });
+
+  // encuentros consumidos (modo Nuzlocke de Añil): @challenge_encs = { mapId => true }
+  // encuentro consumido + sin captura = ruta quemada (huyó/cayó el primero) -> detección automática
+  const encounters = {};
+  const ce = iv(gm, '@challenge_encs');
+  if (ce && ce.__isHash) {
+    for (const [k, v] of ce.entries()) {
+      if (!v) continue;
+      const id = typeof k === 'number' ? k : parseInt(sname(k), 10);
+      const s = routeSlug(id);
+      if (s) encounters[s] = true;
+    }
+  }
+
+  const badges = iv(player, '@badges') || [];
+  const gyms = {};
+  badges.forEach((b, i) => { if (b) gyms['gym' + (i + 1)] = true; });
+
+  // Switches globales del juego que están en ON (índices). La web mapea cada boss/npc a su
+  // switch (config.json) y así resuelve qué combates clave están hechos — dato real del save.
+  const swData = iv(hget(root, 'switches'), '@data');
+  const switchesOn = [];
+  if (Array.isArray(swData)) swData.forEach((v, i) => { if (v) switchesOn.push(i); });
+
+  // Objetos obtenidos: registro propio del juego (item_log.@found_items). Es la fuente de
+  // verdad de qué objetos ha recogido el jugador; robusto aunque el save se edite con pokehex.
+  const foundRaw = iv(hget(root, 'item_log'), '@found_items');
+  let foundItems = [];
+  if (Array.isArray(foundRaw)) {
+    foundItems = [...new Set(foundRaw.map(x => itemName(sname(x))).filter(Boolean))]
+      .sort((a, b) => a.localeCompare(b, 'es'));
+  }
+
+  // Mochila ACTUAL: cantidad real que el jugador tiene ahora de cada objeto, por bolsillo.
+  // Cada entrada es [SÍMBOLO_INTERNO, cantidad]. id = símbolo (para el icono del juego,
+  // assets/items/<ID>.png), name = nombre ES, qty = cantidad, pocket = nº de bolsillo.
+  const POCKET_NAMES = ['', 'Objetos', 'Medicinas', 'Poké Balls', 'MTs y MOs', 'Bayas', 'Piedras Mega', 'Objetos de combate', 'Objetos clave'];
+  const pockets = iv(hget(root, 'bag'), '@pockets');
+  const bag = [];
+  if (Array.isArray(pockets)) {
+    pockets.forEach((pk, pi) => {
+      if (!Array.isArray(pk)) return;
+      pk.forEach((entry) => {
+        if (!Array.isArray(entry)) return;
+        const id = sname(entry[0]);
+        const qty = typeof entry[1] === 'number' ? entry[1] : parseInt(entry[1], 10) || 0;
+        if (!id || qty <= 0) return;
+        bag.push({ id, name: itemName(id), qty, pocket: POCKET_NAMES[pi] || 'Otros' });
+      });
+    });
+  }
+
+  const money = iv(player, '@money') || 0;
+  const playSecs = Math.round(iv(stats, '@play_time') || 0);
+  const gameLives = iv(gm, '@challenge_lives');
+  const hh = Math.floor(playSecs / 3600), mm = Math.floor((playSecs % 3600) / 60);
+
+  return {
+    id: playerId,
+    name: sname(iv(player, '@name')) || playerId,
+    lives: 30,
+    livesUsed: graveyard.length,
+    deadIds,
+    champion: badges.filter(Boolean).length >= 8,
+    notes: `Importado del save · ${hh}h ${mm}m jugadas · ${money.toLocaleString('es')}₽ · vidas en el juego: ${gameLives ?? '?'}`,
+    team, box, graveyard,
+    captures,
+    progress: { gyms, bosses: {}, npcs: {}, routes: routesVisited, items: {}, encounters, switches: switchesOn, foundItems, bag },
+  };
+}
+
+module.exports = { extract };

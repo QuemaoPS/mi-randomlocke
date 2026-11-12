@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+<title>Jugador · Pokémon Añil Randomlocke</title>
+  <meta name="color-scheme" content="light dark" />
+  <link rel="stylesheet" href="styles.css?v=7" />
+</head>
+<body>
+  <main class="container" id="root">
+    <p class="muted">Cargando…</p>
+  </main>
+
+  <script src="app.js?v=14"></script>
+  <script>
+    (async function () {
+      const cfg = await loadConfig();
+      renderHeader("index.html");
+      const id = param("id");
+      const meta = cfg.players.find((p) => p.id === id);
+      const root = document.getElementById("root");
+
+      if (!meta) {
+        root.innerHTML = `<div class="breadcrumb"><a href="index.html">← Inicio</a></div>
+          <div class="empty-state">Jugador no encontrado. <a href="index.html">Volver</a></div>`;
+        renderFooter();
+        return;
+      }
+
+      const data = (await loadPlayer(id)) || emptyPlayerData(meta);
+      await loadFrames(); // nº de fotogramas para animar los sprites de las tarjetas
+      const dispName = meta.displayName || data.name || meta.name;
+      document.title = dispName + " · Randomlocke";
+      const s = playerStats(data, meta.revividos);
+      const pct = Math.round((s.livesLeft / s.lives) * 100);
+      const barCls = pct <= 20 ? "crit" : pct <= 50 ? "low" : "";
+      const avSrc = data.avatar || meta.avatar;
+      const avatar = avSrc
+        ? `<img class="player-avatar xl" src="${escapeHtml(avSrc)}" alt="">`
+        : `<div class="player-avatar xl">${initials(dispName)}</div>`;
+
+      // progreso
+      const gymTotal = (cfg.gyms || []).length;
+      const gymDone = (cfg.gyms || []).filter((g) => data.progress?.gyms?.[g.id]).length;
+
+      root.innerHTML = `
+        <div class="breadcrumb"><a href="index.html">← Inicio</a></div>
+        <div class="panel" style="border-top:4px solid var(--accent)">
+          <div class="row between" style="align-items:flex-start">
+            <div class="row" style="align-items:center;gap:1rem">
+              ${avatar}
+              <div>
+                <h1 style="margin:0">${escapeHtml(dispName)} ${data.champion ? championBadge(26) : ""}</h1>
+                <div class="muted">${s.eliminated ? "Eliminado (sin vidas)" : "En juego"} · ${gymDone}/${gymTotal} medallas ${s.revived ? `· <span title="Revividos con Ceniza Sagrada: la vida sigue gastada">${faintIcon(13)} ${s.revived} revivido${s.revived > 1 ? "s" : ""} con ceniza</span>` : ""} ${data._local ? '· <span class="pill warn">borrador local sin publicar</span>' : ""}</div>
+              </div>
+            </div>
+          </div>
+          ${data.notes ? `<div class="callout" style="margin-top:1rem">${escapeHtml(data.notes)}</div>` : ""}
+          <div class="stat-row" style="margin-bottom:.25rem">
+            <div class="stat-tile"><div class="num ok">${s.alive}</div><div class="lbl">Vivos</div></div>
+            <div class="stat-tile"><div class="num bad">${s.dead}</div><div class="lbl">Muertos</div></div>
+            <div class="stat-tile"><div class="num">${s.livesLeft}<span style="font-size:.9rem;color:var(--text-muted)">/${s.lives}</span></div><div class="lbl">Vidas restantes</div></div>
+            <div class="stat-tile"><div class="num">${(data.team||[]).length}</div><div class="lbl">En el equipo</div></div>
+          </div>
+          <div class="lives-bar"><span class="${barCls}" style="width:${pct}%"></span></div>
+          <div class="team-preview">${teamSpritesRow(data.team)}</div>
+        </div>
+
+        <div class="tabs" id="tabs">
+          <button data-tab="equipo" class="active">Equipo (${(data.team||[]).length})</button>
+          <button data-tab="caja">Caja (${(data.box||[]).length})</button>
+          <button data-tab="cementerio">Cementerio (${(data.graveyard||[]).length})</button>
+          <button data-tab="capturas">Capturas (${(data.captures||[]).length})</button>
+          <button data-tab="recuerda">Recuerda mov.</button>
+          <button data-tab="objetos">Objetos (${(data.progress?.bag||[]).length})</button>
+          <button data-tab="progreso">Progreso</button>
+        </div>
+
+        <div class="tab-panel active" id="tab-equipo"></div>
+        <div class="tab-panel" id="tab-caja"></div>
+        <div class="tab-panel" id="tab-cementerio"></div>
+        <div class="tab-panel" id="tab-capturas"></div>
+        <div class="tab-panel" id="tab-recuerda"></div>
+        <div class="tab-panel" id="tab-objetos"></div>
+        <div class="tab-panel" id="tab-progreso"></div>
+      `;
+
+      const teamHtml = (data.team||[]).length
+        ? `<div class="mon-team">${data.team.map((m)=>monCard(m,{player:id})).join("")}</div>`
+        : `<p class="empty-state">Sin Pokémon en el equipo.</p>`;
+      document.getElementById("tab-equipo").innerHTML = teamHtml;
+
+      document.getElementById("tab-caja").innerHTML = (data.box||[]).length
+        ? `<div class="mon-team">${data.box.map((m)=>monCard(m,{player:id})).join("")}</div>`
+        : `<p class="empty-state">La caja está vacía.</p>`;
+
+      document.getElementById("tab-cementerio").innerHTML = (data.graveyard||[]).length
+        ? `<div class="mon-team">${data.graveyard.map((m)=>monCard(m,{dead:true,player:id})).join("")}</div>`
+        : `<p class="empty-state">Cementerio vacío.</p>`;
+      initSpriteAnim(document); // anima los sprites de las tarjetas (equipo/caja/cementerio)
+
+      // Mochila REAL del jugador: icono del juego + nombre + cantidad, agrupada por bolsillo.
+      // Es el contenido actual del save (assets/items/<ID>.png = mismo icono que en el juego).
+      const bag = (data.progress?.bag || []);
+      if (!bag.length) {
+        document.getElementById("tab-objetos").innerHTML = `<p class="empty-state">Aún no hay objetos registrados. Se llenan al sincronizar con AnilSync (v1.3.6+).</p>`;
+      } else {
+        const order = ["Objetos","Medicinas","Poké Balls","MTs y MOs","Bayas","Piedras Mega","Objetos de combate","Objetos clave","Otros"];
+        const byPocket = {};
+        bag.forEach((it)=>{ const p=it.pocket||"Otros"; (byPocket[p]=byPocket[p]||[]).push(it); });
+        const pockets = order.filter((p)=>byPocket[p]);
+        const totalUnits = bag.reduce((s,it)=>s+(it.qty||0),0);
+        const itemCell = (it)=>{
+          const icon = `assets/items/${encodeURIComponent(it.id)}.png`;
+          return `<div class="bag-item" title="${escapeHtml(it.name)}">
+            <img class="bag-icon" src="${icon}" alt="" loading="lazy" onerror="this.onerror=null;this.src='assets/items/000.png'">
+            <span class="bag-name">${escapeHtml(it.name)}</span>
+            <span class="bag-qty">×${it.qty}</span>
+          </div>`;
+        };
+        document.getElementById("tab-objetos").innerHTML =
+          `<p class="lead"><strong>${bag.length}</strong> objetos distintos · <strong>${totalUnits.toLocaleString("es")}</strong> unidades en la mochila.</p>` +
+          pockets.map((p)=>`<h3>${escapeHtml(p)} <span class="muted" style="font-weight:400;font-size:.8rem">(${byPocket[p].length})</span></h3>
+            <div class="bag-grid">${byPocket[p].sort((a,b)=>a.name.localeCompare(b.name,"es")).map(itemCell).join("")}</div>`).join("");
+      }
+
+      // ----- Progreso -----
+      function checklist(items, doneMap) {
+        if (!items.length) return `<p class="muted" style="font-size:.85rem">— nada configurado —</p>`;
+        return `<div class="check-grid">${items.map((it)=>{
+          const done = !!doneMap?.[it.id];
+          return `<div class="check-item${done?" done":""}"><span class="dot"></span>${escapeHtml(it.name)}${done?'<span class="tag">✓ hecho</span>':""}</div>`;
+        }).join("")}</div>`;
+      }
+      // ----- Progreso (solo combates) -----
+      document.getElementById("tab-progreso").innerHTML = `
+        <h3>Gimnasios</h3>
+        ${trainerChecklist(cfg.gyms||[], data.progress?.gyms)}
+        <h3>Bosses / combates clave</h3>
+        ${trainerChecklist(cfg.bosses||[], resolveSwitchMap(cfg.bosses, data))}
+        <h3>NPCs</h3>
+        ${trainerChecklist(cfg.npcs||[], resolveSwitchMap(cfg.npcs, data))}`;
+
+      // ----- Capturas (pestaña propia) -----
+      // correcciones manuales del organizador (el save no distingue regalo/comprado de salvaje)
+      const capOverrides = (cfg.captureOverrides && cfg.captureOverrides[id]) || [];
+      const applyOverride = (c) => {
+        const ov = capOverrides.find((o) => normName(o.species) === normName(c.species || c.mon) && (!o.where || o.where === c.where));
+        if (ov) { c.category = ov.category; if (ov.category !== "salvaje" && ov.category !== "ciudad") c.route = ""; }
+        return c;
+      };
+      const caps = (data.captures || []).map((c) => applyOverride({ ...c })).filter((c) => c.category !== "ignore");
+      // Asegurar que los debilitados salgan en su zona aunque el exe sea viejo (cruzando con el cementerio)
+      const routeByName = {}; (cfg.routes || []).forEach((r) => { routeByName[normName(r.name)] = r.id; });
+      (data.graveyard || []).forEach((g) => {
+        const slug = g.route ? routeByName[normName(g.route)] : null;
+        if (!slug) return;
+        const dup = caps.some((c) => c.route === slug && normName(c.species || c.mon) === normName(g.species));
+        if (!dup) caps.push({ route: slug, where: g.route, species: g.species, nickname: g.nickname, shiny: g.shiny, status: "dead", category: "salvaje", mon: g.species });
+      });
+      const capLink = (c) => {
+        const sp = c.species || c.mon || "?";
+        const inner = `${escapeHtml(c.nickname || sp)}${c.shiny ? " " + shinyStar(10) : ""}${c.nickname ? ` <span style="opacity:.7">(${escapeHtml(sp)})</span>` : ""}`;
+        const href = pokemonHref(sp);
+        const cls = `pill ${c.status==='dead'?'bad':(c.status==='fled'?'warn':'ok')}`;
+        const body = `${c.status==='dead'?faintIcon(12)+' ':(c.status==='captured'?'✓ ':'')}${inner}`;
+        return href ? `<a class="${cls}" style="margin:.1rem .15rem" href="${href}">${body}</a>` : `<span class="${cls}" style="margin:.1rem .15rem">${body}</span>`;
+      };
+      const capsByRoute = {};
+      caps.filter((c)=>c.route).forEach((c)=>{ (capsByRoute[c.route]=capsByRoute[c.route]||[]).push(c); });
+      // estado manual de ruta "quemada" (el 1er Pokémon murió/huyó) — no está en el save
+      const routeOutcomes = (cfg.routeOutcomes && cfg.routeOutcomes[id]) || {};
+      const encountersUsed = data.progress?.encounters || {};
+      const routesRows = (cfg.routes||[]).map((r)=>{
+        const list = capsByRoute[r.id] || [];
+        const visited = data.progress?.routes?.[r.id];
+        const oc = routeOutcomes[r.id];
+        const autoBurn = !!encountersUsed[r.id]; // encuentro consumido sin captura (modo Nuzlocke)
+        let cell;
+        if (list.length) cell = list.map(capLink).join("");
+        else if (oc && oc.status === "dead") cell = `<span class="pill bad">${faintIcon(12)} Primero cayó${oc.species?": "+escapeHtml(oc.species):""}</span>`;
+        else if (oc && oc.status === "fled") cell = `<span class="pill warn">Primero huyó${oc.species?": "+escapeHtml(oc.species):""}</span>`;
+        else if (autoBurn) cell = `<span class="pill bad">${faintIcon(12)} Encuentro perdido</span>`;
+        else if (visited) cell = '<span class="pill">sin captura</span>';
+        else cell = '<span class="pill" style="opacity:.6">sin visitar</span>';
+        const burned = autoBurn || (oc && (oc.status === "dead" || oc.status === "fled"));
+        const many = list.length > 1;
+        return `<tr${many?' class="cap-multi"':(burned?' class="cap-burned"':'')}><td>${escapeHtml(r.name)}${many?` <span class="pill bad" title="Más de una captura en esta ruta">×${list.length}</span>`:''}</td><td>${cell}</td></tr>`;
+      }).join("");
+
+      const CAT_LABEL = { estatico_regalo:"Estáticos / Regalos", intercambio:"Intercambios", don_prodigio:"Don Prodigio", huevo:"Huevos", ciudad:"Ciudad", salvaje:"Salvaje", otros:"Otras" };
+      const otras = caps.filter((c)=>!c.route);
+      const otrasByCat = {};
+      otras.forEach((c)=>{ const k=c.category||"otros"; (otrasByCat[k]=otrasByCat[k]||[]).push(c); });
+      const otrasHtml = Object.keys(otrasByCat).length
+        ? Object.entries(otrasByCat).map(([cat,list])=>`<div style="margin:.5rem 0"><strong>${escapeHtml(CAT_LABEL[cat]||cat)}</strong> <span class="muted">(${list.length})</span><div style="margin-top:.25rem">${list.map((c)=>capLink(c)+(c.where?` <span class="muted" style="font-size:.7rem">@${escapeHtml(c.where)}</span>`:"")).join(" ")}</div></div>`).join("")
+        : "";
+
+      const capturedCount = caps.filter((c)=>c.status==="captured").length;
+      const multiCount = Object.values(capsByRoute).filter((l)=>l.length>1).length;
+      const ec = extraCaptures(data);
+      const allMons = [...(data.team||[]), ...(data.box||[]), ...(data.graveyard||[])];
+      // Contador de Capturas (regla Nuzlocke): capturas marcadas como "Extra" en el juego.
+      const extraFlagged = allMons.filter((m)=>m.extra);
+      const extraFlaggedList = extraFlagged.map((m)=>escapeHtml((m.nickname||m.species)+" ("+m.species+")")).join(", ");
+      const shinyList = allMons.filter((m)=>m.shiny);
+      const bySpecies = {};
+      allMons.forEach((m)=>{ const k = normName(m.species); if(k){ (bySpecies[k]=bySpecies[k]||[]).push(m); } });
+      const dupGroups = Object.values(bySpecies).filter((g)=>g.length>1);
+      const extraDetail = (ec.total ? `
+        <div class="callout">
+          <strong>Capturas extra ganadas: ${ec.total}</strong> — ${ec.shiny} shiny + ${ec.dups} por duplicado.
+          <div class="muted" style="font-size:.82rem;margin-top:.3rem">Un shiny o un Pokémon repetido dan derecho a una captura extra.</div>
+          ${shinyList.length ? `<div style="margin-top:.4rem">${shinyStar(11)} Shiny: ${shinyList.map((m)=>escapeHtml((m.nickname||m.species)+" ("+m.species+")")).join(", ")}</div>` : ""}
+          ${dupGroups.length ? `<div style="margin-top:.2rem">Duplicados: ${dupGroups.map((g)=>escapeHtml(g[0].species)+" ×"+g.length).join(", ")}</div>` : ""}
+        </div>` : `<p class="muted">Sin capturas extra todavía.</p>`);
+
+      // estado de cada zona: capturada / quemada / pendiente / sin visitar
+      let stCap = 0, stBurn = 0, stPend = 0, stUnseen = 0;
+      const pendRoutes = [], unseenRoutesList = [];
+      (cfg.routes || []).forEach((r) => {
+        const oc = routeOutcomes[r.id];
+        if ((capsByRoute[r.id] || []).length) stCap++;
+        else if (encountersUsed[r.id] || (oc && (oc.status === "dead" || oc.status === "fled"))) stBurn++;
+        else if (data.progress?.routes?.[r.id]) { stPend++; pendRoutes.push(r); }
+        else { stUnseen++; unseenRoutesList.push(r); }
+      });
+      const pendPill = (r) => `<span class="pill" style="margin:.1rem .15rem;padding:.05rem .5rem">${escapeHtml(r.name)}</span>`;
+      const pendingBlock = `
+        <h3>Te falta capturar <span class="muted">(${pendRoutes.length} disponibles${unseenRoutesList.length?` · ${unseenRoutesList.length} sin visitar`:""})</span></h3>
+        ${pendRoutes.length
+          ? `<p class="muted" style="font-size:.82rem">Zonas ya visitadas donde aún puedes conseguir tu captura:</p><div>${pendRoutes.map(pendPill).join("")}</div>`
+          : `<p class="muted">¡No te queda ninguna zona visitada pendiente! 🎉</p>`}
+        ${unseenRoutesList.length
+          ? `<details style="margin-top:.5rem"><summary style="cursor:pointer">Zonas que aún no has visitado (${unseenRoutesList.length})</summary><div style="margin-top:.35rem;opacity:.75">${unseenRoutesList.map(pendPill).join("")}</div></details>`
+          : ""}`;
+      document.getElementById("tab-capturas").innerHTML = `
+        <div class="stat-row">
+          <div class="stat-tile"><div class="num ok">${stCap}</div><div class="lbl">Zonas capturadas</div></div>
+          <div class="stat-tile"><div class="num" style="color:var(--accent)">${stPend}</div><div class="lbl">Puedes capturar</div></div>
+          <div class="stat-tile"><div class="num" style="color:var(--warn)">${stBurn}</div><div class="lbl">Quemadas</div></div>
+          <div class="stat-tile"><div class="num" style="color:var(--text-muted)">${stUnseen}</div><div class="lbl">Sin visitar</div></div>
+          ${extraFlagged.length ? `<div class="stat-tile"><div class="num" style="color:var(--type-normal,#8a8a99)">${extraFlagged.length}</div><div class="lbl">Capturas extra</div></div>` : ""}
+        </div>
+        ${extraFlagged.length ? `<div class="callout"><strong>Capturas extra (Contador de Capturas): ${extraFlagged.length}</strong><div class="muted" style="font-size:.82rem;margin-top:.3rem">Capturas hechas de más en una zona ya usada (o shiny), marcadas como "Extra" dentro del juego.</div><div style="margin-top:.4rem">${extraFlaggedList}</div></div>` : ""}
+        ${extraDetail}
+        ${pendingBlock}
+        <h3>Capturas por ruta</h3>
+        <div class="prog-legend">
+          <span><span class="pill ok" style="padding:.02rem .4rem">✓</span> capturado</span>
+          <span><span class="pill bad" style="padding:.02rem .4rem">☠</span> capturado y murió / quemada</span>
+          <span><span class="pill">sin captura</span> aún puedes capturar</span>
+          <span><span class="pill" style="opacity:.6">sin visitar</span> no has ido</span>
+        </div>
+        <p class="muted" style="font-size:.82rem">Se listan TODAS las capturas de cada zona. Una zona con ×N (2+) solo es válida si tiene capturas extra (shiny/duplicado). Las <strong>quemadas</strong> ("Encuentro perdido") se detectan solas con el modo Nuzlocke de Añil; sin ese modo, se marcan a mano en el Editor.</p>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Ruta / zona</th><th>Capturas</th></tr></thead>
+          <tbody>${routesRows || '<tr><td colspan="2" class="muted">Sin rutas configuradas.</td></tr>'}</tbody>
+        </table></div>
+        ${otrasHtml ? `<h3>Otras capturas</h3>${otrasHtml}` : ""}`;
+
+      // ---- Recuerda movimientos (learnset randomizado por Pokémon) ----
+      const lvlLabel = (l) => l < 0 ? "Evo" : (l <= 1 ? "Inicio" : "Nv " + l);
+      const chip = (nm, label) => {
+        const k = moveTypeKey(nm);
+        const typed = k && k !== "unknown";
+        return `<button type="button" class="lm-move${typed ? " typed" : ""}" data-move="${escapeHtml(nm)}"${typed ? ` style="background:var(--type-${k})"` : ""}><span class="lm-lvl">${label}</span>${escapeHtml(nm)}</button>`;
+      };
+      const learnChips = (ls) => ls.map((x) => chip(x.m, lvlLabel(x.lvl))).join("");
+      const tmChips = (tm) => tm.map((nm) => chip(nm, "MT")).join("");
+      const learnBlock = (m, dead) => {
+        const ini = initials(m.species || m.nickname);
+        const ani = speciesAniSprite(m.species), stat = speciesSprite(m.species);
+        const primary = m.sprite || ani || stat;
+        const fb = JSON.stringify([m.sprite ? ani : null, stat].filter((u) => u && u !== primary));
+        const img = primary
+          ? `<img src="${escapeHtml(primary)}" alt="" loading="lazy" data-fb='${fb}' data-ini="${escapeHtml(ini)}" data-fbclass="lm-ini" onerror="imgFallback(this)">`
+          : `<span class="lm-ini">${escapeHtml(ini)}</span>`;
+        const ls = Array.isArray(m.learnset) ? m.learnset : null;
+        const tm = Array.isArray(m.tmMoves) ? m.tmMoves : null;
+        const fm = Array.isArray(m.firstMoves) ? m.firstMoves : null;
+        let body = "";
+        if (fm && fm.length) body += `<div class="lm-sub">Iniciales (siempre disponibles)</div><div class="lm-moves">${fm.map((nm) => chip(nm, "Inicial")).join("")}</div>`;
+        if (ls && ls.length) body += `<div class="lm-sub">Por nivel</div><div class="lm-moves">${learnChips(ls)}</div>`;
+        if (tm && tm.length) body += `<div class="lm-sub">Por MT (aleatorio)</div><div class="lm-moves">${tmChips(tm)}</div>`;
+        else if (ls && ls.length) body += `<div class="lm-sub">Por MT (aleatorio)</div><p class="lm-note">MTs sin revelar. En Añil, la compatibilidad con MTs de cada especie se decide al azar la primera vez que la consultas: mete un ${escapeHtml((m.species || "").replace(/\s*\(.*\)/, ""))} al equipo y abre el menú de una MT para que el juego las fije; luego vuelve a guardar con AnilSync.</p>`;
+        if (!body) body = `<p class="muted" style="padding:.4rem .2rem;font-size:.82rem">Sin datos de movimientos. El jugador debe actualizar AnilSync y volver a guardar.</p>`;
+        const total = (fm ? fm.length : 0) + (ls ? ls.length : 0) + (tm ? tm.length : 0);
+        const key = (m.nickname || "") + "|" + (m.species || "");
+        return `<details class="lm-mon"${dead ? "" : " open"} data-key="${escapeHtml(key)}">
+          <summary><span class="lm-spr">${img}</span>
+            <span class="lm-id"><span class="lm-nick">${escapeHtml(m.nickname || m.species || "?")}</span>
+            <span class="lm-sp">${escapeHtml(m.species || "")}${m.level != null ? " · Nv. " + escapeHtml(m.level) : ""}</span></span>
+            ${total ? `<span class="lm-count">${total} mov.</span>` : ""}</summary>
+          ${body}</details>`;
+      };
+      const teamBox = [...(data.team || []), ...(data.box || [])];
+      document.getElementById("tab-recuerda").innerHTML =
+        `<p class="lead">Movimientos que cada Pokémon puede aprender: <strong>por nivel</strong> (Recuerda-movimientos) y <strong>por MT</strong> (máquinas técnicas que encuentras por el mapa). Ambos están randomizados. Ojo: la compatibilidad con MTs se fija al azar por especie la primera vez que la revisas en el juego, así que las especies que nunca pasaron por el equipo aún no la tienen decidida.</p>` +
+        (teamBox.length ? teamBox.map((m) => learnBlock(m)).join("") : `<p class="empty-state">Sin Pokémon.</p>`);
+
+      // clic en un movimiento del learnset -> info completa del movimiento
+      document.getElementById("tab-recuerda").addEventListener("click", (e) => {
+        const b = e.target.closest(".lm-move"); if (!b) return;
+        openMoveInfo(b.dataset.move);
+      });
+
+      // tabs
+      const activateTab = (name) => {
+        const btn = document.querySelector(`#tabs button[data-tab="${name}"]`); if (!btn) return;
+        document.querySelectorAll("#tabs button").forEach((x)=>x.classList.remove("active"));
+        document.querySelectorAll(".tab-panel").forEach((x)=>x.classList.remove("active"));
+        btn.classList.add("active");
+        document.getElementById("tab-"+name).classList.add("active");
+      };
+      document.getElementById("tabs").addEventListener("click", (e) => {
+        const b = e.target.closest("button"); if (!b) return;
+        activateTab(b.dataset.tab);
+      });
+
+      // enlace directo a un Pokémon del Recuerda-movimientos (?mon=nick|especie)
+      const monParam = param("mon");
+      if (monParam) {
+        activateTab("recuerda");
+        const target = document.querySelector(`#tab-recuerda .lm-mon[data-key="${(window.CSS && CSS.escape) ? CSS.escape(monParam) : monParam.replace(/"/g,'\\"')}"]`);
+        if (target) {
+          document.querySelectorAll("#tab-recuerda .lm-mon").forEach((d)=>d.removeAttribute("open"));
+          target.setAttribute("open", "");
+          setTimeout(() => target.scrollIntoView({ behavior: "smooth", block: "center" }), 60);
+          target.classList.add("lm-hl");
+        }
+      }
+
+      renderFooter();
+    })();
+  </script>
+</body>
+</html>

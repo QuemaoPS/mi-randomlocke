@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+<title>Pokédex · Pokémon Añil Randomlocke</title>
+  <meta name="color-scheme" content="light dark" />
+  <link rel="stylesheet" href="styles.css?v=7" />
+  <style>
+    .pk-hero { display:flex; gap:1.5rem; align-items:center; flex-wrap:wrap; }
+    .pk-art { width:200px; height:200px; flex-shrink:0; display:flex; align-items:center; justify-content:center; background:var(--subtle-bg); border-radius:50%; }
+    .pk-art img { width:180px; height:180px; object-fit:contain; image-rendering:pixelated; }
+    .pk-num { color:var(--text-muted); font-weight:800; font-size:1rem; }
+    .pk-name { font-size:2.2rem; font-weight:800; margin:.1rem 0 .4rem; }
+    .pk-stats { display:grid; grid-template-columns:auto 3rem 1fr auto; gap:.3rem .6rem; align-items:center; max-width:540px; }
+    .pk-stats .lbl { color:var(--text-muted); font-size:.85rem; }
+    .pk-stats .val { text-align:right; font-weight:700; font-variant-numeric:tabular-nums; }
+    .stat-delta { font-size:.68rem; font-weight:800; white-space:nowrap; text-align:right; }
+    .stat-delta.up, .up { color:#2ec77a; }
+    .stat-delta.down, .down { color:#ff5d5d; }
+    .rebal-note { font-size:.7rem; font-weight:600; color:var(--text-muted); }
+    .pk-bar { position:relative; height:12px; border-radius:999px; background:var(--subtle-bg); overflow:hidden; }
+    .pk-bar > span { position:absolute; top:0; left:0; height:100%; }
+    .bar-buff { background:#2ec77a; }
+    .bar-nerf { background:rgba(255,93,93,.6); }
+    .bar-mark { width:2px; background:rgba(255,255,255,.9); z-index:2; }
+    .pk-facts { display:flex; gap:1.5rem; flex-wrap:wrap; margin:.6rem 0; }
+    .pk-facts .f { }
+    .pk-facts .f .k { color:var(--text-muted); font-size:.65rem; text-transform:uppercase; letter-spacing:.04em; }
+    .pk-facts .f .v { font-weight:700; }
+    .evo-line { display:flex; gap:.5rem; align-items:flex-start; flex-wrap:wrap; }
+    .evo-mon .tm-sp { font-size:.68rem; color:var(--text-muted); margin-top:.15rem; line-height:1.2; }
+    .evo-mon { text-align:center; padding:.5rem; border:1px solid var(--border); border-radius:var(--radius); background:var(--panel); color:var(--text); min-width:96px; }
+    .evo-mon.cur { border-color:var(--accent); }
+    .evo-mon img { width:72px; height:72px; object-fit:contain; }
+    .evo-mon .nm { font-size:.8rem; font-weight:700; }
+    .evo-arrow { color:var(--text-muted); font-size:1.4rem; }
+    .pk-nav { display:flex; justify-content:space-between; margin-top:1.5rem; gap:.5rem; }
+    .pk-search { position:relative; margin:.4rem 0 1rem; max-width:520px; }
+    .pk-search input { width:100%; }
+    .pk-suggest { position:absolute; z-index:30; left:0; right:0; top:calc(100% + 4px); background:var(--panel); border:1px solid var(--border); border-radius:10px; box-shadow:0 6px 20px var(--shadow); overflow:hidden; max-height:340px; overflow-y:auto; }
+    .pk-suggest a { display:flex; align-items:center; gap:.6rem; padding:.4rem .6rem; color:var(--text); text-decoration:none; }
+    .pk-suggest a:hover, .pk-suggest a.act { background:var(--subtle-bg); }
+    .pk-suggest img { width:40px; height:40px; object-fit:contain; image-rendering:pixelated; flex:none; }
+    .pk-suggest .s-nm { font-weight:700; font-size:.9rem; }
+    .pk-suggest .s-num { color:var(--text-muted); font-size:.72rem; }
+    .pk-suggest .s-tag { margin-left:auto; font-size:.55rem; text-transform:uppercase; font-weight:800; color:#fff; border-radius:999px; padding:.05rem .45rem; }
+    .pk-suggest .s-tag.mega { background:linear-gradient(90deg,#6f35fc,#f95587); }
+    .pk-suggest .s-tag.regional { background:var(--accent); }
+    .pk-suggest .s-tag.forma { background:var(--type-psychic); }
+    .form-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr)); gap:.8rem; }
+    .form-card { display:flex; gap:.7rem; align-items:center; border:1px solid var(--border); border-radius:10px; padding:.6rem; background:var(--subtle-bg); color:inherit; text-decoration:none; }
+    .form-card:hover { border-color:var(--accent); text-decoration:none; box-shadow:0 2px 8px var(--shadow); }
+    .form-card.cur { border-color:var(--accent); box-shadow:0 0 0 1px var(--accent); }
+    .form-art { width:88px; height:88px; flex:none; border-radius:10px; display:flex; align-items:center; justify-content:center; }
+    .form-art img { width:82px; height:82px; object-fit:contain; image-rendering:pixelated; }
+    .form-body { min-width:0; flex:1; }
+    .form-name { font-weight:800; font-size:.98rem; display:flex; align-items:center; gap:.4rem; flex-wrap:wrap; }
+    .form-kind { font-size:.6rem; text-transform:uppercase; font-weight:800; letter-spacing:.03em; color:#fff; border-radius:999px; padding:.08rem .5rem; }
+    .form-kind.mega { background:linear-gradient(90deg,#6f35fc,#f95587); }
+    .form-kind.reg { background:var(--accent); }
+    .form-kind.alt { background:var(--type-psychic); }
+    .form-ab { font-size:.76rem; margin:.15rem 0; }
+    .form-stats { display:flex; flex-wrap:wrap; gap:.15rem .6rem; font-size:.72rem; color:var(--text-muted); }
+    .form-stats b { color:var(--text); font-variant-numeric:tabular-nums; }
+    .form-stats .tot b { color:var(--accent); }
+  </style>
+</head>
+<body>
+  <main class="container" id="root"><p class="muted">Cargando…</p></main>
+  <script src="app.js?v=14"></script>
+  <script>
+    const STAT_LBL = ["PS", "Ataque", "Defensa", "At. Esp.", "Def. Esp.", "Velocidad"];
+    (async function () {
+      await loadConfig();
+      renderHeader("pokedex.html");
+      const dex = await loadPokedexFull();
+      await loadTypesChart();
+      const FORMSDEX = (await loadJSON("data/forms-dex.json")) || {};
+      const REVO = (await loadJSON("data/regional-evos.json")) || {};
+      const STATCH = (await loadJSON("data/stat-changes.json")) || {};
+      const root = document.getElementById("root");
+      let id = parseInt(param("id"), 10);
+      if (!id && param("sp")) id = speciesDexId(param("sp"));
+      const base = dex[id];
+      if (!base) { root.innerHTML = `<div class="breadcrumb"><a href="pokedex.html">← Pokédex</a></div><div class="empty-state">Pokémon no encontrado.</div>`; renderFooter(); return; }
+      // Forma seleccionada (?form=índice) — muestra los datos de esa forma
+      const formIdx = param("form");
+      const allForms = FORMSDEX[id] || [];
+      const fm = (formIdx != null && allForms[+formIdx]) ? allForms[+formIdx] : null;
+      // Nombre a mostrar: para formas regionales, "<Especie> de <Región>" (p. ej. "Sneasel de Hisui")
+      // en vez del genérico "Forma Hisui". Para mega/otras formas, usa el nombre de la forma
+      // (anteponiendo la especie si no la incluye).
+      const displayName = fm
+        ? (fm.k === "regional"
+            ? `${base.n} de ${fm.region || "?"}`
+            : (fm.n && base.n && fm.n.indexOf(base.n) >= 0 ? fm.n : `${base.n} · ${fm.n}`))
+        : base.n;
+      // "view" = datos a mostrar (la forma sobreescribe a la base; hereda categoría/altura/peso/desc/evolución)
+      const p = fm
+        ? { n: displayName, t: fm.t, st: fm.st, ab: fm.ab, abh: fm.abh, cat: base.cat, h: base.h, w: base.w, fl: base.fl, em: base.em, pe: base.pe }
+        : base;
+      const formSpriteId = fm ? (fm.spr || id) : id;
+      document.title = p.n + " · Pokédex Añil";
+      const t0 = typeKey(p.t[0]);
+      const total = (p.st || []).reduce((a, b) => a + (b || 0), 0);
+      // Megas/formas custom de Añil usan el sprite del JUEGO (gspr); el resto, PokeAPI.
+      const staticSprite = (fm && fm.gspr) ? `${ANIL_SPRITES}/front/${fm.gspr}.png`
+        : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${formSpriteId}.png`;
+      const aniSprite = fm ? staticSprite : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${id}.gif`;
+      const baseStaticSprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
+      const barColor = (v) => v >= 100 ? "var(--ok)" : v >= 60 ? "var(--accent)" : v >= 35 ? "var(--warn)" : "var(--bad)";
+      // Cambios de stats vs oficial (solo forma base; data/stat-changes.json = Añil − oficial)
+      const stChg = fm ? null : (STATCH[id] || null);
+      const statsHtml = STAT_LBL.map((l, i) => {
+        const v = p.st[i] || 0;
+        const dv = stChg ? (stChg[i] || 0) : 0;
+        const delta = dv ? `<b class="stat-delta ${dv > 0 ? "up" : "down"}" title="Añil ${dv > 0 ? "subió" : "bajó"} este stat (oficial: ${v - dv})">${dv > 0 ? "▲+" + dv : "▼" + dv}</b>` : `<span></span>`;
+        // Barra: relleno normal hasta el valor de Añil; encima, el tramo BUFFADO en verde
+        // (de oficial a Añil) o, si fue NERF, el tramo perdido en rojo (de Añil a oficial).
+        const w = (x) => Math.max(0, Math.min(100, x / 2));
+        const off = v - dv;
+        let overlay = "";
+        if (dv > 0) {
+          // Buff: el tramo de oficial→Añil en verde, con una línea blanca en el valor oficial
+          overlay = `<span class="bar-buff" style="left:${w(off)}%;width:${w(v) - w(off)}%"></span><span class="bar-mark" style="left:${w(off)}%"></span>`;
+        } else if (dv < 0) {
+          // Nerf: el tramo perdido (Añil→oficial) en rojo, sobre la parte vacía de la barra
+          overlay = `<span class="bar-nerf" style="left:${w(v)}%;width:${w(off) - w(v)}%"></span>`;
+        }
+        // Base con color por nivel de stat (barColor); verde/rojo marcan el buff/nerf.
+        return `<span class="lbl">${l}</span><span class="val">${v}</span><span class="pk-bar"><span class="bar-fill" style="width:${w(v)}%;background:${barColor(v)}"></span>${overlay}</span>${delta}`;
+      }).join("");
+      const spr = (eid) => `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${eid}.png`;
+      const evoMon = (eid, name, how, cur) => {
+        const inner = `${eid ? `<img src="${spr(eid)}" alt="" loading="lazy">` : `<div style="width:72px;height:72px;display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-weight:800">?</div>`}<div class="nm">${escapeHtml(name)}</div>${how ? `<div class="tm-sp" style="max-width:120px;white-space:normal">${escapeHtml(how)}</div>` : ""}`;
+        return eid ? `<a class="evo-mon${cur ? " cur" : ""}" href="pokemon.html?id=${eid}">${inner}</a>` : `<span class="evo-mon">${inner}</span>`;
+      };
+      // Evoluciones directas de un id, agrupando varios métodos hacia un mismo destino
+      const evosOf = (pid) => {
+        const q = dex[pid]; if (!q || !q.em) return [];
+        const map = new Map();
+        for (const e of q.em) {
+          const key = e.toId || ("n:" + e.to);
+          if (!map.has(key)) map.set(key, { toId: e.toId, to: e.to, hows: [] });
+          const g = map.get(key); if (!g.hows.includes(e.how)) g.hows.push(e.how);
+        }
+        return [...map.values()].map((x) => ({ toId: x.toId, to: x.to, how: x.hows.join(" / ") }));
+      };
+      // --- Evolución de FORMAS REGIONALES (cross-entry) desde data/regional-evos.json ---
+      // Camina hacia arriba por 'from' hasta la raíz regional y luego hacia abajo por 'to'.
+      const regChain = (startKey) => {
+        let key = startKey, guard = 0;
+        while (REVO[key] && REVO[key].from && guard++ < 12) {
+          const fr = REVO[key].from; key = fr.form != null ? fr.id + ":" + fr.form : "" + fr.id;
+        }
+        const stages = []; let frontier = [{ key, how: "" }]; const seen = new Set(); let depth = 0;
+        while (frontier.length && depth++ < 8) {
+          stages.push(frontier); const next = [];
+          for (const node of frontier) {
+            if (seen.has(node.key)) continue; seen.add(node.key);
+            const e = REVO[node.key];
+            if (e && e.to) for (const t of e.to) next.push({ key: t.form != null ? t.id + ":" + t.form : "" + t.id, how: t.how || "" });
+          }
+          frontier = next;
+        }
+        return stages;
+      };
+      const regNode = (node, curKey) => {
+        const parts = node.key.split(":"); const eid = +parts[0]; const fi = parts.length > 1 ? +parts[1] : null;
+        const fmd = fi != null ? (FORMSDEX[eid] || [])[fi] : null;
+        const nm = fmd ? `${dex[eid] ? dex[eid].n : eid} de ${fmd.region || ""}`.trim() : (dex[eid] ? dex[eid].n : node.key);
+        const img = fmd ? (fmd.gspr ? `${ANIL_SPRITES}/front/${fmd.gspr}.png` : spr(fmd.spr || eid)) : spr(eid);
+        const href = fi != null ? `pokemon.html?id=${eid}&form=${fi}` : `pokemon.html?id=${eid}`;
+        const inner = `<img src="${img}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${spr(eid)}'"><div class="nm">${escapeHtml(nm)}</div>${node.how ? `<div class="tm-sp" style="max-width:120px;white-space:normal">${escapeHtml(node.how)}</div>` : ""}`;
+        return `<a class="evo-mon${node.key === curKey ? " cur" : ""}" href="${href}">${inner}</a>`;
+      };
+      const curKey = fm
+        ? (REVO[id + ":" + formIdx] ? id + ":" + formIdx : null)
+        : (REVO["" + id] ? "" + id : null);
+
+      let evoHtml;
+      if (curKey) {
+        const stages = regChain(curKey);
+        const col = (stage) => `<span style="display:flex;flex-direction:column;gap:.4rem">${stage.map((n) => regNode(n, curKey)).join("")}</span>`;
+        evoHtml = `<h2>Evolución</h2><div class="evo-line">${stages.map(col).join(`<span class="evo-arrow">→</span>`)}</div>`;
+      } else if (p.pe || (p.em && p.em.length)) {
+        // subir hasta la base
+        let root = id, guard = 0;
+        while (dex[root] && dex[root].pe && guard++ < 12) root = dex[root].pe.id;
+        // bajar por etapas (cada etapa es una columna; ramas incluidas)
+        const stages = []; let frontier = [{ id: root, name: dex[root] ? dex[root].n : p.n, how: "" }];
+        const seen = new Set(); let depth = 0;
+        while (frontier.length && depth++ < 8) {
+          stages.push(frontier);
+          const next = [];
+          for (const node of frontier) {
+            if (node.id == null || seen.has(node.id)) continue;
+            seen.add(node.id);
+            for (const e of evosOf(node.id)) next.push({ id: e.toId, name: e.to, how: e.how });
+          }
+          frontier = next;
+        }
+        const col = (stage) => `<span style="display:flex;flex-direction:column;gap:.4rem">${stage.map((n) => evoMon(n.id, n.name, n.how, n.id === id)).join("")}</span>`;
+        evoHtml = `<h2>Evolución</h2><div class="evo-line">${stages.map(col).join(`<span class="evo-arrow">→</span>`)}</div>`;
+      } else {
+        evoHtml = `<h2>Evolución</h2><p class="muted">No evoluciona.</p>`;
+      }
+      const prev = dex[id - 1] ? `<a class="btn" href="pokemon.html?id=${id - 1}">← #${id - 1} ${escapeHtml(dex[id - 1].n)}</a>` : "<span></span>";
+      const next = dex[id + 1] ? `<a class="btn" href="pokemon.html?id=${id + 1}">#${id + 1} ${escapeHtml(dex[id + 1].n)} →</a>` : "<span></span>";
+
+      const mu = typeMatchups(p.t);
+      const muChip = (o) => `<span class="type-badge sm" style="background:var(--type-${o.key})">${escapeHtml(TYPES_CSS_ES[o.key])}<b class="tm-x">${multLabel(o.m)}</b></span>`;
+      const muRow = (lbl, list) => `<div class="tm-row"><span class="tm-lbl">${lbl}</span><div class="tm-chips">${list.length ? list.map(muChip).join("") : '<span class="muted">Ninguna</span>'}</div></div>`;
+      const muHtml = `<h2>Debilidades y resistencias</h2>
+        <div class="panel"><div class="tmatch">
+          ${muRow("Débil a", mu.weak)}
+          ${muRow("Resiste", mu.resist)}
+          ${mu.immune.length ? muRow("Inmune a", mu.immune) : ""}
+        </div></div>`;
+
+      const forms = FORMSDEX[id] || [];
+      const formCard = (fm, idx) => {
+        const k0 = typeKey((fm.t || [])[0] || "");
+        const total = (fm.st || []).reduce((a, b) => a + (b || 0), 0);
+        const kindBadge = fm.k === "mega"
+          ? `<span class="form-kind mega">Mega</span>`
+          : fm.k === "regional"
+            ? `<span class="form-kind reg">${escapeHtml(fm.region || "Regional")}</span>`
+            : `<span class="form-kind alt">Forma</span>`;
+        const abh = (Array.isArray(fm.abh) ? fm.abh : fm.abh ? [fm.abh] : []);
+        const fmTotal = (fm.st || []).reduce((a, b) => a + (b || 0), 0);
+        const cur = formIdx != null && +formIdx === idx;
+        return `<a class="form-card${cur ? " cur" : ""}" href="pokemon.html?id=${id}&form=${idx}">
+          <div class="form-art" style="background:color-mix(in srgb, var(--type-${k0}) 16%, var(--subtle-bg))">
+            <img src="${fm.gspr ? `${ANIL_SPRITES}/front/${fm.gspr}.png` : spr(fm.spr || id)}" alt="${escapeHtml(fm.n)}" loading="lazy" onerror="this.onerror=null;this.src='${spr(id)}'">
+          </div>
+          <div class="form-body">
+            <div class="form-name">${escapeHtml(fm.n)} ${kindBadge}</div>
+            <div class="mon-types" style="margin:.3rem 0">${(fm.t || []).map((t) => typeBadge(t, true)).join(" ")}</div>
+            <div class="form-ab muted">${(fm.ab || []).map(escapeHtml).join(", ")}${abh.map((h) => ` · ${escapeHtml(h)} (oculta)`).join("")}</div>
+            <div class="form-stats">${STAT_LBL.map((l, i) => `<span>${l} <b>${fm.st[i] || 0}</b></span>`).join("")}<span class="tot">Total <b>${fmTotal}</b></span></div>
+          </div>
+        </a>`;
+      };
+      const formsHtml = forms.length
+        ? `<h2>Formas <span class="muted" style="font-size:.9rem;font-weight:600">(${forms.length})</span></h2><div class="panel"><div class="form-grid">${forms.map((f, i) => formCard(f, i)).join("")}${fm ? `<a class="form-card" href="pokemon.html?id=${id}"><div class="form-art"><img src="${baseStaticSprite}" alt="" loading="lazy"></div><div class="form-body"><div class="form-name">${escapeHtml(base.n)} <span class="form-kind" style="background:var(--text-muted)">Base</span></div><div class="mon-types" style="margin:.3rem 0">${(base.t || []).map((t) => typeBadge(t, true)).join(" ")}</div></div></a>` : ""}</div></div>`
+        : "";
+
+      root.innerHTML = `
+        <div class="breadcrumb"><a href="pokedex.html">← Pokédex</a>${fm ? ` · <a href="pokemon.html?id=${id}">${escapeHtml(base.n)}</a> · <span class="muted">${escapeHtml(p.n)}</span>` : ""}</div>
+        <div class="pk-search">
+          <input id="pkSearch" class="search-box" type="search" placeholder="Buscar otro Pokémon o forma (nombre, nº, mega, alola…)" autocomplete="off" />
+          <div class="pk-suggest" id="pkSuggest" hidden></div>
+        </div>
+        <div class="panel" style="border-top:5px solid var(--type-${t0})">
+          <div class="pk-hero">
+            <div class="pk-art" style="background:color-mix(in srgb, var(--type-${t0}) 18%, var(--subtle-bg))">
+              <img src="${aniSprite}" alt="${escapeHtml(p.n)}" onerror="this.onerror=null;this.src='${fm ? baseStaticSprite : staticSprite}'">
+            </div>
+            <div class="grow" style="min-width:280px">
+              <div class="pk-num">Nº ${String(id).padStart(4, "0")}${fm ? ` · <span class="form-kind ${fm.k === "mega" ? "mega" : fm.k === "regional" ? "reg" : "alt"}" style="vertical-align:middle">${fm.k === "mega" ? "Mega" : fm.k === "regional" ? escapeHtml(fm.region || "Regional") : "Forma"}</span>` : ""}</div>
+              <div class="pk-name">${escapeHtml(p.n)}</div>
+              <div class="muted">${escapeHtml(p.cat || "")}</div>
+              <div class="mon-types" style="margin:.5rem 0">${(p.t || []).map((t) => typeBadge(t)).join(" ")}</div>
+              <div class="pk-facts">
+                <div class="f"><div class="k">Altura</div><div class="v">${p.h != null ? p.h + " m" : "—"}</div></div>
+                <div class="f"><div class="k">Peso</div><div class="v">${p.w != null ? p.w + " kg" : "—"}</div></div>
+                <div class="f"><div class="k">Habilidades</div><div class="v">${(p.ab || []).map(escapeHtml).join(", ")}${(Array.isArray(p.abh) ? p.abh : p.abh ? [p.abh] : []).map((h) => ` · <span class="muted">${escapeHtml(h)} (oculta)</span>`).join("")}</div></div>
+              </div>
+            </div>
+          </div>
+          ${p.fl ? `<p style="margin:.5rem 0 0">${escapeHtml(p.fl)}</p>` : ""}
+        </div>
+
+        <h2>Estadísticas base${stChg ? ` <span class="rebal-note">Rebalanceado en Añil · <span class="up">▲ buff</span> / <span class="down">▼ nerf</span> vs. oficial</span>` : ""}</h2>
+        <div class="panel">
+          <div class="pk-stats">${statsHtml}
+            <span class="lbl" style="font-weight:800;color:var(--text)">Total</span><span class="val">${total}</span><span></span><span></span>
+          </div>
+        </div>
+        ${muHtml}
+        ${formsHtml}
+        ${evoHtml ? `<div class="panel" style="margin-top:1rem">${evoHtml}</div>` : ""}
+        <div class="pk-nav">${prev}${next}</div>
+      `;
+      renderFooter();
+
+      // Buscador integrado: saltar a otro Pokémon o forma sin volver a la Pokédex
+      const searchIndex = [];
+      Object.keys(dex).map(Number).sort((a, b) => a - b).forEach((did) => {
+        searchIndex.push({ id: did, n: dex[did].n, spr: did, href: `pokemon.html?id=${did}` });
+        (FORMSDEX[did] || []).forEach((f, fi) => searchIndex.push({
+          id: did, n: f.n, baseN: dex[did].n, spr: f.spr || did, kind: f.k,
+          href: `pokemon.html?id=${did}&form=${fi}`,
+        }));
+      });
+      const input = document.getElementById("pkSearch");
+      const box = document.getElementById("pkSuggest");
+      let sel = -1, results = [];
+      const kindLabel = { mega: "Mega", regional: "Regional", forma: "Forma" };
+      const runSearch = () => {
+        const qv = input.value.trim().toLowerCase();
+        if (!qv) { box.hidden = true; box.innerHTML = ""; results = []; sel = -1; return; }
+        results = searchIndex.filter((e) =>
+          e.n.toLowerCase().includes(qv) || (e.baseN || "").toLowerCase().includes(qv) || String(e.id).includes(qv)
+        ).slice(0, 12);
+        sel = -1;
+        if (!results.length) { box.innerHTML = `<div style="padding:.5rem .6rem" class="muted">Nada encontrado.</div>`; box.hidden = false; return; }
+        box.innerHTML = results.map((e, i) =>
+          `<a href="${e.href}" data-i="${i}">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${e.spr}.png" alt="" loading="lazy" onerror="this.onerror=null;this.src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${e.id}.png'">
+            <span><span class="s-nm">${escapeHtml(e.baseN && e.kind !== "mega" ? e.baseN + " · " + e.n : e.n)}</span> <span class="s-num">Nº ${String(e.id).padStart(4, "0")}</span></span>
+            ${e.kind ? `<span class="s-tag ${e.kind}">${kindLabel[e.kind] || "Forma"}</span>` : ""}
+          </a>`).join("");
+        box.hidden = false;
+      };
+      const setActive = (i) => {
+        const links = [...box.querySelectorAll("a")];
+        links.forEach((a) => a.classList.remove("act"));
+        if (i >= 0 && links[i]) { links[i].classList.add("act"); links[i].scrollIntoView({ block: "nearest" }); }
+      };
+      input.addEventListener("input", runSearch);
+      input.addEventListener("keydown", (e) => {
+        if (box.hidden || !results.length) return;
+        if (e.key === "ArrowDown") { e.preventDefault(); sel = (sel + 1) % results.length; setActive(sel); }
+        else if (e.key === "ArrowUp") { e.preventDefault(); sel = (sel - 1 + results.length) % results.length; setActive(sel); }
+        else if (e.key === "Enter") { e.preventDefault(); location.href = results[sel >= 0 ? sel : 0].href; }
+        else if (e.key === "Escape") { box.hidden = true; }
+      });
+      document.addEventListener("click", (e) => { if (!e.target.closest(".pk-search")) box.hidden = true; });
+    })();
+  </script>
+</body>
+</html>
