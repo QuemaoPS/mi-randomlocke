@@ -2,133 +2,128 @@
   "id": "Ferry",
   "name": "Ferry",
   "lives": 30,
-  "livesUsed": 0,
+  "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 0h 17m jugadas · 2,960₽ · vidas en el juego: 20",
+  "notes": "Importado del save · 0h 42m jugadas · 5,460₽ · vidas en el juego: 19",
   "team": [
     {
-      "nickname": "Joker",
-      "species": "Cyndaquil",
-      "level": 8,
+      "nickname": "QueFeo",
+      "species": "Tinkatink",
+      "level": 14,
       "types": [
-        "Fuego"
+        "Hada",
+        "Acero"
       ],
-      "ability": "Cólera",
-      "nature": "Rara",
+      "ability": "Hélice Caudal",
+      "nature": "Afable",
       "item": "",
       "shiny": false,
       "moves": [
-        "Barrera Espinosa",
-        "Nitrocarga",
-        "Fría Acogida",
-        "Ayuda"
+        "Rueda Fuego",
+        "Prensa Metálica",
+        "Estrujón",
+        "Zona Mágica"
       ],
       "iv": [
-        18,
+        13,
+        26,
+        14,
         22,
-        2,
-        6,
-        2,
-        20
+        1,
+        28
       ],
       "ev": [
         2,
-        1,
-        0,
+        4,
+        51,
+        3,
         2,
-        1,
-        0
+        3
       ],
       "abilPool": [
-        "Cólera"
+        "Camorrista",
+        "Hélice Caudal"
       ],
       "abilHidden": [
-        "Escama Especial"
+        "Medicina Extraña"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Barrera Espinosa"
+          "m": "Rueda Fuego"
         },
         {
           "lvl": 1,
-          "m": "Nitrocarga"
+          "m": "Prensa Metálica"
         },
         {
           "lvl": 5,
-          "m": "Fría Acogida"
+          "m": "Estrujón"
         },
         {
-          "lvl": 6,
-          "m": "Ayuda"
+          "lvl": 8,
+          "m": "Voz Cautivadora"
         },
         {
-          "lvl": 13,
-          "m": "Batido"
+          "lvl": 11,
+          "m": "Zona Mágica"
         },
         {
-          "lvl": 19,
-          "m": "Gravedad"
+          "lvl": 14,
+          "m": "Trampa Venenosa"
         },
         {
-          "lvl": 22,
-          "m": "Agua Fría"
+          "lvl": 17,
+          "m": "Truco Defensa"
         },
         {
-          "lvl": 28,
-          "m": "Atiborramiento"
+          "lvl": 21,
+          "m": "Autotomía"
+        },
+        {
+          "lvl": 24,
+          "m": "Retracción"
+        },
+        {
+          "lvl": 27,
+          "m": "Hidropulso"
         },
         {
           "lvl": 31,
-          "m": "Carga"
+          "m": "Ala Mortífera"
         },
         {
-          "lvl": 37,
-          "m": "Triple Golpe"
+          "lvl": 35,
+          "m": "Asta Drenaje"
         },
         {
-          "lvl": 40,
-          "m": "Lariat Oscuro"
+          "lvl": 39,
+          "m": "Aire Afilado"
         },
         {
-          "lvl": 46,
-          "m": "Amago"
+          "lvl": 43,
+          "m": "Cañón Dinamax"
         },
         {
-          "lvl": 49,
-          "m": "Chispa"
+          "lvl": 47,
+          "m": "Filo Potente"
         },
         {
-          "lvl": 55,
-          "m": "Moluscañón"
-        },
-        {
-          "lvl": 58,
-          "m": "Dulce Aroma"
-        },
-        {
-          "lvl": 58,
-          "m": "Paso Dimensional"
-        },
-        {
-          "lvl": 64,
-          "m": "Llama Embrujada"
+          "lvl": 52,
+          "m": "Golpe Rastrero"
         }
       ],
-      "tmMoves": [
-        "Beso Dulce"
-      ],
       "firstMoves": [
-        "Barrera Espinosa",
-        "Nitrocarga",
-        "Fría Acogida"
+        "Rueda Fuego",
+        "Prensa Metálica",
+        "Estrujón"
       ],
-      "spriteKey": "CYNDAQUIL"
+      "spriteKey": "TINKATINK"
     },
     {
       "nickname": "Globazo",
       "species": "Duosion",
-      "level": 8,
+      "level": 14,
       "types": [
         "Psíquico"
       ],
@@ -139,8 +134,8 @@
       "moves": [
         "Mordisco",
         "Aire Afilado",
-        "Paz Mental",
-        "Tóxico"
+        "Corte",
+        "Cola Veneno"
       ],
       "iv": [
         16,
@@ -151,12 +146,12 @@
         22
       ],
       "ev": [
-        2,
+        4,
+        4,
         1,
-        0,
-        0,
-        1,
-        0
+        3,
+        3,
+        3
       ],
       "abilPool": [
         "Presión",
@@ -268,19 +263,20 @@
     },
     {
       "nickname": "Nabo",
-      "species": "Caterpie",
-      "level": 8,
+      "species": "Metapod",
+      "level": 14,
       "types": [
         "Bicho"
       ],
-      "ability": "Tinovictoria",
+      "ability": "Tierra del Ocaso",
       "nature": "Audaz",
       "item": "",
       "shiny": false,
       "moves": [
         "Auxilio",
         "Telatrampa",
-        "Giro Vil"
+        "Giro Vil",
+        "Gas Corrosivo"
       ],
       "iv": [
         25,
@@ -291,31 +287,29 @@
         20
       ],
       "ev": [
-        0,
+        2,
+        4,
         1,
-        0,
-        0,
-        1,
-        0
+        3,
+        3,
+        3
       ],
       "abilPool": [
-        "Tinovictoria"
+        "Tierra del Ocaso"
       ],
-      "abilHidden": [
-        "Presión"
-      ],
+      "abilHidden": [],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Auxilio"
-        },
-        {
-          "lvl": 1,
-          "m": "Telatrampa"
+          "m": "Danza Caos"
         },
         {
           "lvl": 9,
-          "m": "Gas Corrosivo"
+          "m": "Telatrampa"
+        },
+        {
+          "lvl": 15,
+          "m": "Estoicismo"
         }
       ],
       "tmMoves": [
@@ -326,126 +320,12 @@
         "Telatrampa",
         "Giro Vil"
       ],
-      "spriteKey": "CATERPIE"
-    },
-    {
-      "nickname": "QueFeo",
-      "species": "Tinkatink",
-      "level": 8,
-      "types": [
-        "Hada",
-        "Acero"
-      ],
-      "ability": "Hélice Caudal",
-      "nature": "Afable",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Rueda Fuego",
-        "Prensa Metálica",
-        "Estrujón",
-        "Voz Cautivadora"
-      ],
-      "iv": [
-        13,
-        26,
-        14,
-        22,
-        1,
-        28
-      ],
-      "ev": [
-        0,
-        1,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Camorrista",
-        "Hélice Caudal"
-      ],
-      "abilHidden": [
-        "Medicina Extraña"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Rueda Fuego"
-        },
-        {
-          "lvl": 1,
-          "m": "Prensa Metálica"
-        },
-        {
-          "lvl": 5,
-          "m": "Estrujón"
-        },
-        {
-          "lvl": 8,
-          "m": "Voz Cautivadora"
-        },
-        {
-          "lvl": 11,
-          "m": "Zona Mágica"
-        },
-        {
-          "lvl": 14,
-          "m": "Trampa Venenosa"
-        },
-        {
-          "lvl": 17,
-          "m": "Truco Defensa"
-        },
-        {
-          "lvl": 21,
-          "m": "Autotomía"
-        },
-        {
-          "lvl": 24,
-          "m": "Retracción"
-        },
-        {
-          "lvl": 27,
-          "m": "Hidropulso"
-        },
-        {
-          "lvl": 31,
-          "m": "Ala Mortífera"
-        },
-        {
-          "lvl": 35,
-          "m": "Asta Drenaje"
-        },
-        {
-          "lvl": 39,
-          "m": "Aire Afilado"
-        },
-        {
-          "lvl": 43,
-          "m": "Cañón Dinamax"
-        },
-        {
-          "lvl": 47,
-          "m": "Filo Potente"
-        },
-        {
-          "lvl": 52,
-          "m": "Golpe Rastrero"
-        }
-      ],
-      "firstMoves": [
-        "Rueda Fuego",
-        "Prensa Metálica",
-        "Estrujón"
-      ],
-      "spriteKey": "TINKATINK"
+      "spriteKey": "METAPOD"
     },
     {
       "nickname": "Playmobil",
       "species": "Trapinch",
-      "level": 5,
+      "level": 14,
       "types": [
         "Tierra"
       ],
@@ -456,7 +336,8 @@
       "moves": [
         "Cerrojo Feérico",
         "Ataque Óseo",
-        "Refuerzo"
+        "Punzada Rama",
+        "Recogearena"
       ],
       "iv": [
         27,
@@ -467,12 +348,12 @@
         10
       ],
       "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        2,
+        3,
+        1,
+        3,
+        2,
+        3
       ],
       "abilPool": [
         "Coránima",
@@ -559,27 +440,336 @@
           "m": "Fertilizante"
         }
       ],
+      "tmMoves": [
+        "Beso Dulce"
+      ],
       "firstMoves": [
         "Cerrojo Feérico",
         "Ataque Óseo",
         "Refuerzo"
       ],
       "spriteKey": "TRAPINCH"
+    },
+    {
+      "nickname": "Badasssss",
+      "species": "Toxel",
+      "level": 14,
+      "types": [
+        "Eléctrico",
+        "Veneno"
+      ],
+      "ability": "Agallas",
+      "nature": "Grosera",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Eco Voz",
+        "Reciclaje",
+        "Truco Fuerza",
+        "Tambor"
+      ],
+      "iv": [
+        8,
+        29,
+        27,
+        16,
+        17,
+        1
+      ],
+      "ev": [
+        2,
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "abilPool": [
+        "Viscosidad",
+        "Agallas"
+      ],
+      "abilHidden": [
+        "Defensa Hoja"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Niebla Clara"
+        },
+        {
+          "lvl": 1,
+          "m": "Estoicismo"
+        },
+        {
+          "lvl": 1,
+          "m": "Giro Fuego"
+        },
+        {
+          "lvl": 1,
+          "m": "Eco Voz"
+        },
+        {
+          "lvl": 1,
+          "m": "Reciclaje"
+        },
+        {
+          "lvl": 1,
+          "m": "Truco Fuerza"
+        },
+        {
+          "lvl": 1,
+          "m": "Tambor"
+        }
+      ],
+      "firstMoves": [
+        "Eco Voz",
+        "Reciclaje",
+        "Truco Fuerza",
+        "Tambor"
+      ],
+      "spriteKey": "TOXEL"
+    },
+    {
+      "nickname": "ElPutoSniper",
+      "species": "Sobble",
+      "level": 14,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Hospitalidad",
+      "nature": "Miedosa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Gota Vital",
+        "Ataque Óseo",
+        "Recuperación",
+        "Hidropulso"
+      ],
+      "iv": [
+        12,
+        20,
+        2,
+        20,
+        19,
+        8
+      ],
+      "ev": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Hospitalidad"
+      ],
+      "abilHidden": [
+        "Tinovictoria"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Gota Vital"
+        },
+        {
+          "lvl": 1,
+          "m": "Ojitos Tiernos"
+        },
+        {
+          "lvl": 6,
+          "m": "Recuperación"
+        },
+        {
+          "lvl": 8,
+          "m": "Ataque Óseo"
+        },
+        {
+          "lvl": 12,
+          "m": "Hidropulso"
+        },
+        {
+          "lvl": 17,
+          "m": "Ciclón de Hojas"
+        },
+        {
+          "lvl": 17,
+          "m": "Campo de Niebla"
+        },
+        {
+          "lvl": 20,
+          "m": "Danza Triunfal"
+        },
+        {
+          "lvl": 24,
+          "m": "Polvo Mágico"
+        },
+        {
+          "lvl": 28,
+          "m": "Armadura Ácida"
+        },
+        {
+          "lvl": 28,
+          "m": "Refugio"
+        },
+        {
+          "lvl": 32,
+          "m": "Tóxico"
+        },
+        {
+          "lvl": 36,
+          "m": "Llama Embrujada"
+        }
+      ],
+      "tmMoves": [
+        "Beso Dulce"
+      ],
+      "firstMoves": [
+        "Gota Vital",
+        "Ojitos Tiernos",
+        "Recuperación",
+        "Tenaza"
+      ],
+      "spriteKey": "SOBBLE"
     }
   ],
   "box": [],
-  "graveyard": [],
+  "graveyard": [
+    {
+      "nickname": "Joker",
+      "species": "Cyndaquil",
+      "level": 9,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "Cólera",
+      "nature": "Rara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Barrera Espinosa",
+        "Nitrocarga",
+        "Fría Acogida",
+        "Ayuda"
+      ],
+      "iv": [
+        28,
+        22,
+        2,
+        6,
+        2,
+        20
+      ],
+      "ev": [
+        3,
+        2,
+        0,
+        3,
+        1,
+        2
+      ],
+      "abilPool": [
+        "Cólera"
+      ],
+      "abilHidden": [
+        "Escama Especial"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Barrera Espinosa"
+        },
+        {
+          "lvl": 1,
+          "m": "Nitrocarga"
+        },
+        {
+          "lvl": 5,
+          "m": "Fría Acogida"
+        },
+        {
+          "lvl": 6,
+          "m": "Ayuda"
+        },
+        {
+          "lvl": 13,
+          "m": "Batido"
+        },
+        {
+          "lvl": 19,
+          "m": "Gravedad"
+        },
+        {
+          "lvl": 22,
+          "m": "Agua Fría"
+        },
+        {
+          "lvl": 28,
+          "m": "Atiborramiento"
+        },
+        {
+          "lvl": 31,
+          "m": "Carga"
+        },
+        {
+          "lvl": 37,
+          "m": "Triple Golpe"
+        },
+        {
+          "lvl": 40,
+          "m": "Lariat Oscuro"
+        },
+        {
+          "lvl": 46,
+          "m": "Amago"
+        },
+        {
+          "lvl": 49,
+          "m": "Chispa"
+        },
+        {
+          "lvl": 55,
+          "m": "Moluscañón"
+        },
+        {
+          "lvl": 58,
+          "m": "Dulce Aroma"
+        },
+        {
+          "lvl": 58,
+          "m": "Paso Dimensional"
+        },
+        {
+          "lvl": 64,
+          "m": "Llama Embrujada"
+        }
+      ],
+      "tmMoves": [
+        "Beso Dulce"
+      ],
+      "firstMoves": [
+        "Barrera Espinosa",
+        "Nitrocarga",
+        "Fría Acogida"
+      ],
+      "spriteKey": "CYNDAQUIL",
+      "cause": "",
+      "route": "",
+      "date": ""
+    }
+  ],
   "captures": [
     {
       "route": "",
       "where": "",
-      "species": "Cyndaquil",
-      "nickname": "Joker",
+      "species": "Tinkatink",
+      "nickname": "QueFeo",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 5,
-      "mon": "Cyndaquil"
+      "level": 6,
+      "mon": "Tinkatink"
     },
     {
       "route": "",
@@ -595,24 +785,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Caterpie",
+      "species": "Metapod",
       "nickname": "Nabo",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
       "level": 5,
-      "mon": "Caterpie"
-    },
-    {
-      "route": "",
-      "where": "",
-      "species": "Tinkatink",
-      "nickname": "QueFeo",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 6,
-      "mon": "Tinkatink"
+      "mon": "Metapod"
     },
     {
       "route": "",
@@ -624,6 +803,39 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Trapinch"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Toxel",
+      "nickname": "Badasssss",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 7,
+      "mon": "Toxel"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Sobble",
+      "nickname": "ElPutoSniper",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 7,
+      "mon": "Sobble"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Cyndaquil",
+      "nickname": "Joker",
+      "shiny": false,
+      "status": "dead",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Cyndaquil"
     }
   ],
   "progress": {
@@ -642,6 +854,7 @@
       67,
       68,
       69,
+      71,
       110,
       176,
       179,
@@ -654,20 +867,37 @@
       334
     ],
     "foundItems": [
+      "Máscara Horno",
       "Menta Alegre",
+      "Mochi Aguante",
       "MT38",
       "Ocaso Ball",
       "Piedra Eterna",
       "Poción",
       "Poké Montura",
       "Reglamento",
+      "Scapsula",
       "Supercaña",
-      "Vial"
+      "Tabla Mental",
+      "Vial",
+      "Zinc"
     ],
     "bag": [
       {
         "id": "EVERSTONE",
         "name": "Piedra Eterna",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "HEARTHFLAMEMASK",
+        "name": "Máscara Horno",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "MINDPLATE",
+        "name": "Tabla Mental",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -680,13 +910,13 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 990,
+        "qty": 975,
         "pocket": "Medicinas"
       },
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 101,
+        "qty": 592,
         "pocket": "Medicinas"
       },
       {
@@ -696,21 +926,21 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "ZINC",
+        "name": "Zinc",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "DUSKBALL",
         "name": "Ocaso Ball",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Poké Balls"
       },
       {
         "id": "POKEBALL",
         "name": "Poké Ball",
         "qty": 5,
-        "pocket": "Poké Balls"
-      },
-      {
-        "id": "GREATBALL",
-        "name": "Super Ball",
-        "qty": 4,
         "pocket": "Poké Balls"
       },
       {
@@ -745,6 +975,8 @@
       }
     ]
   },
-  "deathLog": [],
+  "deathLog": [
+    "3201169624"
+  ],
   "revividos": 0
 }
