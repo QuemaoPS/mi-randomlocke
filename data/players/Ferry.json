@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 1h 3m jugadas · 7,220₽ · vidas en el juego: 19",
+  "notes": "Importado del save · 1h 11m jugadas · 7,770₽ · vidas en el juego: 19",
   "team": [
     {
       "nickname": "QueFeo",
@@ -34,7 +34,7 @@
       ],
       "ev": [
         4,
-        7,
+        9,
         54,
         5,
         2,
@@ -147,7 +147,7 @@
       ],
       "ev": [
         6,
-        7,
+        9,
         4,
         5,
         3,
@@ -262,139 +262,6 @@
       "spriteKey": "DUOSION"
     },
     {
-      "nickname": "Nabo",
-      "species": "Butterfree",
-      "level": 20,
-      "types": [
-        "Bicho",
-        "Volador"
-      ],
-      "ability": "Coleóptero",
-      "nature": "Audaz",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Auxilio",
-        "Estoicismo",
-        "Giro Vil",
-        "Relámpago Súbito"
-      ],
-      "iv": [
-        25,
-        23,
-        7,
-        2,
-        1,
-        20
-      ],
-      "ev": [
-        4,
-        7,
-        4,
-        5,
-        3,
-        8
-      ],
-      "abilPool": [
-        "Coleóptero"
-      ],
-      "abilHidden": [
-        "Levitación"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Picadura"
-        },
-        {
-          "lvl": 1,
-          "m": "Corte Furia"
-        },
-        {
-          "lvl": 1,
-          "m": "Cede Paso"
-        },
-        {
-          "lvl": 1,
-          "m": "Hachazo Pétreo"
-        },
-        {
-          "lvl": 1,
-          "m": "Ojitos Tiernos"
-        },
-        {
-          "lvl": 4,
-          "m": "Auxilio"
-        },
-        {
-          "lvl": 8,
-          "m": "Desquite"
-        },
-        {
-          "lvl": 12,
-          "m": "Hoja Afilada"
-        },
-        {
-          "lvl": 12,
-          "m": "Absorber"
-        },
-        {
-          "lvl": 12,
-          "m": "Pin Misil"
-        },
-        {
-          "lvl": 16,
-          "m": "Sísmico"
-        },
-        {
-          "lvl": 20,
-          "m": "Relámpago Súbito"
-        },
-        {
-          "lvl": 21,
-          "m": "Acupresión"
-        },
-        {
-          "lvl": 24,
-          "m": "Sorpresa"
-        },
-        {
-          "lvl": 26,
-          "m": "Danza Aleteo"
-        },
-        {
-          "lvl": 28,
-          "m": "Fachada"
-        },
-        {
-          "lvl": 32,
-          "m": "Viento Afín"
-        },
-        {
-          "lvl": 36,
-          "m": "Chupavidas"
-        },
-        {
-          "lvl": 40,
-          "m": "Disparo Certero"
-        },
-        {
-          "lvl": 40,
-          "m": "Moluscañón"
-        },
-        {
-          "lvl": 44,
-          "m": "Vendaval Gélido"
-        }
-      ],
-      "firstMoves": [
-        "Auxilio",
-        "Telatrampa",
-        "Giro Vil"
-      ],
-      "spriteKey": "BUTTERFREE"
-    },
-    {
       "nickname": "Badasssss",
       "species": "Toxel",
       "level": 20,
@@ -422,7 +289,7 @@
       ],
       "ev": [
         4,
-        5,
+        7,
         4,
         4,
         2,
@@ -500,7 +367,7 @@
       ],
       "ev": [
         2,
-        5,
+        7,
         3,
         2,
         0,
@@ -601,7 +468,7 @@
       ],
       "ev": [
         1,
-        1,
+        3,
         0,
         0,
         0,
@@ -687,6 +554,113 @@
         "Cambio de Banda"
       ],
       "spriteKey": "STEENEE"
+    },
+    {
+      "nickname": "CobraKaiTU",
+      "species": "Kubfu",
+      "level": 14,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "Mano Rápida",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Mandato",
+        "Destello",
+        "Pesadilla",
+        "Doble Patada"
+      ],
+      "iv": [
+        17,
+        29,
+        21,
+        18,
+        20,
+        1
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Mano Rápida"
+      ],
+      "abilHidden": [],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Restricción"
+        },
+        {
+          "lvl": 1,
+          "m": "Mandato"
+        },
+        {
+          "lvl": 4,
+          "m": "Destello"
+        },
+        {
+          "lvl": 8,
+          "m": "Pesadilla"
+        },
+        {
+          "lvl": 12,
+          "m": "Doble Patada"
+        },
+        {
+          "lvl": 16,
+          "m": "Empujón"
+        },
+        {
+          "lvl": 20,
+          "m": "Ráfaga Escamas"
+        },
+        {
+          "lvl": 24,
+          "m": "Foco"
+        },
+        {
+          "lvl": 28,
+          "m": "Llave Vital"
+        },
+        {
+          "lvl": 32,
+          "m": "Cabezazo Zen"
+        },
+        {
+          "lvl": 36,
+          "m": "Viento Aciago"
+        },
+        {
+          "lvl": 40,
+          "m": "Triple Patada"
+        },
+        {
+          "lvl": 44,
+          "m": "Plancha Voladora"
+        },
+        {
+          "lvl": 48,
+          "m": "Autodestrucción"
+        },
+        {
+          "lvl": 52,
+          "m": "Puño Certero"
+        }
+      ],
+      "firstMoves": [
+        "Mandato",
+        "Destello",
+        "Pesadilla",
+        "Doble Patada"
+      ],
+      "spriteKey": "KUBFU"
     }
   ],
   "box": [
@@ -817,6 +791,230 @@
         "Refuerzo"
       ],
       "spriteKey": "TRAPINCH"
+    },
+    {
+      "nickname": "Pedrusco",
+      "species": "Rolycoly",
+      "level": 5,
+      "types": [
+        "Roca"
+      ],
+      "ability": "Psicogénesis",
+      "nature": "Audaz",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Deslome",
+        "Buena Baza",
+        "Barrera Espinosa"
+      ],
+      "iv": [
+        5,
+        25,
+        26,
+        21,
+        22,
+        11
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Psicogénesis",
+        "Mal Sueño"
+      ],
+      "abilHidden": [
+        "Roca Solida"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Deslome"
+        },
+        {
+          "lvl": 1,
+          "m": "Buena Baza"
+        },
+        {
+          "lvl": 5,
+          "m": "Barrera Espinosa"
+        },
+        {
+          "lvl": 10,
+          "m": "Homenaje Póstumo"
+        },
+        {
+          "lvl": 15,
+          "m": "Rodar"
+        },
+        {
+          "lvl": 20,
+          "m": "Avivar"
+        },
+        {
+          "lvl": 25,
+          "m": "Mimético"
+        },
+        {
+          "lvl": 30,
+          "m": "Espejo"
+        },
+        {
+          "lvl": 35,
+          "m": "Vasta Guardia"
+        },
+        {
+          "lvl": 40,
+          "m": "Deseo"
+        }
+      ],
+      "tmMoves": [
+        "Beso Dulce"
+      ],
+      "firstMoves": [
+        "Deslome",
+        "Buena Baza",
+        "Barrera Espinosa"
+      ],
+      "spriteKey": "ROLYCOLY"
+    },
+    {
+      "nickname": "Nabo",
+      "species": "Butterfree",
+      "level": 20,
+      "types": [
+        "Bicho",
+        "Volador"
+      ],
+      "ability": "Coleóptero",
+      "nature": "Audaz",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Auxilio",
+        "Estoicismo",
+        "Giro Vil",
+        "Relámpago Súbito"
+      ],
+      "iv": [
+        25,
+        23,
+        7,
+        2,
+        1,
+        20
+      ],
+      "ev": [
+        4,
+        9,
+        4,
+        5,
+        3,
+        8
+      ],
+      "abilPool": [
+        "Coleóptero"
+      ],
+      "abilHidden": [
+        "Levitación"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Picadura"
+        },
+        {
+          "lvl": 1,
+          "m": "Corte Furia"
+        },
+        {
+          "lvl": 1,
+          "m": "Cede Paso"
+        },
+        {
+          "lvl": 1,
+          "m": "Hachazo Pétreo"
+        },
+        {
+          "lvl": 1,
+          "m": "Ojitos Tiernos"
+        },
+        {
+          "lvl": 4,
+          "m": "Auxilio"
+        },
+        {
+          "lvl": 8,
+          "m": "Desquite"
+        },
+        {
+          "lvl": 12,
+          "m": "Hoja Afilada"
+        },
+        {
+          "lvl": 12,
+          "m": "Absorber"
+        },
+        {
+          "lvl": 12,
+          "m": "Pin Misil"
+        },
+        {
+          "lvl": 16,
+          "m": "Sísmico"
+        },
+        {
+          "lvl": 20,
+          "m": "Relámpago Súbito"
+        },
+        {
+          "lvl": 21,
+          "m": "Acupresión"
+        },
+        {
+          "lvl": 24,
+          "m": "Sorpresa"
+        },
+        {
+          "lvl": 26,
+          "m": "Danza Aleteo"
+        },
+        {
+          "lvl": 28,
+          "m": "Fachada"
+        },
+        {
+          "lvl": 32,
+          "m": "Viento Afín"
+        },
+        {
+          "lvl": 36,
+          "m": "Chupavidas"
+        },
+        {
+          "lvl": 40,
+          "m": "Disparo Certero"
+        },
+        {
+          "lvl": 40,
+          "m": "Moluscañón"
+        },
+        {
+          "lvl": 44,
+          "m": "Vendaval Gélido"
+        }
+      ],
+      "firstMoves": [
+        "Auxilio",
+        "Telatrampa",
+        "Giro Vil"
+      ],
+      "spriteKey": "BUTTERFREE"
     }
   ],
   "graveyard": [
@@ -969,17 +1167,6 @@
     {
       "route": "",
       "where": "",
-      "species": "Butterfree",
-      "nickname": "Nabo",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 5,
-      "mon": "Butterfree"
-    },
-    {
-      "route": "",
-      "where": "",
       "species": "Toxel",
       "nickname": "Badasssss",
       "shiny": false,
@@ -1013,6 +1200,17 @@
     {
       "route": "",
       "where": "",
+      "species": "Kubfu",
+      "nickname": "CobraKaiTU",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 14,
+      "mon": "Kubfu"
+    },
+    {
+      "route": "",
+      "where": "",
       "species": "Cyndaquil",
       "nickname": "Joker",
       "shiny": false,
@@ -1031,6 +1229,28 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Trapinch"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Rolycoly",
+      "nickname": "Pedrusco",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Rolycoly"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Butterfree",
+      "nickname": "Nabo",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Butterfree"
     }
   ],
   "progress": {
@@ -1067,11 +1287,13 @@
     "foundItems": [
       "Antiparalizador",
       "At. Esp. X 3",
+      "Ataque X 2",
       "Máscara Horno",
       "Maxiseta",
       "Menta Alegre",
       "MO Golpe Roca",
       "Mochi Aguante",
+      "Mochi Intelecto",
       "MT104",
       "MT38",
       "MT39",
@@ -1080,6 +1302,7 @@
       "Poción",
       "Poké Montura",
       "Precisión X 6",
+      "Raíz Grande",
       "Reglamento",
       "Scapsula",
       "Supercaña",
@@ -1104,6 +1327,12 @@
       {
         "id": "MINDPLATE",
         "name": "Tabla Mental",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "BIGROOT",
+        "name": "Raíz Grande",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -1144,6 +1373,12 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "GENIUSMOCHI",
+        "name": "Mochi Intelecto",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "DUSKBALL",
         "name": "Ocaso Ball",
         "qty": 2,
@@ -1153,12 +1388,6 @@
         "id": "POKEBALL",
         "name": "Poké Ball",
         "qty": 5,
-        "pocket": "Poké Balls"
-      },
-      {
-        "id": "GREATBALL",
-        "name": "Super Ball",
-        "qty": 3,
         "pocket": "Poké Balls"
       },
       {
@@ -1200,6 +1429,12 @@
       {
         "id": "XSPEED2",
         "name": "Velocidad X 2",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XATTACK2",
+        "name": "Ataque X 2",
         "qty": 1,
         "pocket": "Objetos de combate"
       },
