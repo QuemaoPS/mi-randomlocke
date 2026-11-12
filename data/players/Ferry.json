@@ -4,245 +4,31 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 1h 11m jugadas · 2,904₽ · vidas en el juego: 16",
+  "notes": "Importado del save · 0h 4m jugadas · 2,960₽ · vidas en el juego: 20",
   "team": [
     {
       "nickname": "Joker",
-      "species": "Chimchar",
-      "level": 7,
-      "types": [
-        "Fuego"
-      ],
-      "ability": "Esclusa de Aire",
-      "nature": "Huraña",
-      "item": "Roca del Rey",
-      "shiny": false,
-      "moves": [
-        "Carga Tóxica",
-        "Camuflaje",
-        "Arrumaco"
-      ],
-      "iv": [
-        9,
-        7,
-        18,
-        3,
-        19,
-        0
-      ],
-      "ev": [
-        0,
-        0,
-        3,
-        0,
-        2,
-        1
-      ],
-      "abilPool": [
-        "Esclusa de Aire"
-      ],
-      "abilHidden": [
-        "Teracaparazón"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Carga Tóxica"
-        },
-        {
-          "lvl": 1,
-          "m": "Camuflaje"
-        },
-        {
-          "lvl": 6,
-          "m": "Arrumaco"
-        },
-        {
-          "lvl": 9,
-          "m": "Rueda Fuego"
-        },
-        {
-          "lvl": 12,
-          "m": "Homenaje Póstumo"
-        },
-        {
-          "lvl": 15,
-          "m": "Picadura"
-        },
-        {
-          "lvl": 17,
-          "m": "Ataque Arena"
-        },
-        {
-          "lvl": 23,
-          "m": "Día Soleado"
-        },
-        {
-          "lvl": 25,
-          "m": "Bloqueo"
-        },
-        {
-          "lvl": 31,
-          "m": "Cabeza Sorpresa"
-        },
-        {
-          "lvl": 33,
-          "m": "Pirochoque"
-        },
-        {
-          "lvl": 39,
-          "m": "Onda Ígnea"
-        },
-        {
-          "lvl": 41,
-          "m": "Golpe Calor"
-        },
-        {
-          "lvl": 47,
-          "m": "Ataque Furia"
-        }
-      ],
-      "tmMoves": [
-        "Corte Furia"
-      ],
-      "firstMoves": [
-        "Carga Tóxica",
-        "Camuflaje"
-      ],
-      "spriteKey": "CHIMCHAR"
-    },
-    {
-      "nickname": "Pelotazo",
-      "species": "Cascoon",
-      "level": 6,
-      "types": [
-        "Bicho"
-      ],
-      "ability": "Irascible",
-      "nature": "Fuerte",
-      "item": "Tabla Bicho",
-      "shiny": false,
-      "moves": [
-        "Ida y Vuelta"
-      ],
-      "iv": [
-        29,
-        7,
-        2,
-        23,
-        14,
-        3
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        1,
-        1
-      ],
-      "abilPool": [
-        "Irascible"
-      ],
-      "abilHidden": [],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Ida y Vuelta"
-        }
-      ],
-      "firstMoves": [
-        "Ida y Vuelta"
-      ],
-      "spriteKey": "CASCOON"
-    },
-    {
-      "nickname": "PijaFria",
-      "species": "Burmy",
+      "species": "Cyndaquil",
       "level": 5,
       "types": [
-        "Bicho"
-      ],
-      "ability": "Velo Flor",
-      "nature": "Serena",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Tormento",
-        "Giro Fuego"
-      ],
-      "iv": [
-        8,
-        21,
-        11,
-        17,
-        23,
-        18
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1
-      ],
-      "abilPool": [
-        "Velo Flor"
-      ],
-      "abilHidden": [
-        "Espanto"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Tormento"
-        },
-        {
-          "lvl": 10,
-          "m": "Polvo Mágico"
-        },
-        {
-          "lvl": 15,
-          "m": "Rayo Confuso"
-        },
-        {
-          "lvl": 20,
-          "m": "Telaraña"
-        },
-        {
-          "lvl": 20,
-          "m": "Polvo Ira"
-        }
-      ],
-      "firstMoves": [
-        "Tormento",
-        "Giro Fuego"
-      ],
-      "spriteKey": "BURMY"
-    },
-    {
-      "nickname": "EmoGood",
-      "species": "Litten",
-      "level": 4,
-      "types": [
         "Fuego"
       ],
-      "ability": "Guardia Metálica",
-      "nature": "Agitada",
+      "ability": "Cólera",
+      "nature": "Rara",
       "item": "",
       "shiny": false,
       "moves": [
-        "Golpe Roca",
-        "Torbellino"
+        "Barrera Espinosa",
+        "Nitrocarga",
+        "Fría Acogida"
       ],
       "iv": [
+        18,
         22,
-        8,
-        17,
-        7,
-        12,
-        12
+        2,
+        6,
+        2,
+        20
       ],
       "ev": [
         0,
@@ -253,85 +39,87 @@
         0
       ],
       "abilPool": [
-        "Guardia Metálica"
+        "Cólera"
       ],
       "abilHidden": [
-        "Quitanieves"
+        "Escama Especial"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Golpe Roca"
+          "m": "Barrera Espinosa"
         },
         {
           "lvl": 1,
-          "m": "Torbellino"
+          "m": "Nitrocarga"
+        },
+        {
+          "lvl": 5,
+          "m": "Fría Acogida"
         },
         {
           "lvl": 6,
-          "m": "Último Lugar"
+          "m": "Ayuda"
         },
         {
-          "lvl": 7,
-          "m": "Clonatipo"
+          "lvl": 13,
+          "m": "Batido"
         },
         {
-          "lvl": 9,
-          "m": "Fachada"
+          "lvl": 19,
+          "m": "Gravedad"
         },
         {
-          "lvl": 11,
-          "m": "Reciclaje"
-        },
-        {
-          "lvl": 12,
-          "m": "Ascuas"
-        },
-        {
-          "lvl": 15,
-          "m": "Día Soleado"
-        },
-        {
-          "lvl": 18,
-          "m": "Patada Giro"
-        },
-        {
-          "lvl": 21,
-          "m": "Red Viscosa"
-        },
-        {
-          "lvl": 24,
+          "lvl": 22,
           "m": "Agua Fría"
         },
         {
-          "lvl": 27,
-          "m": "Clemencia"
+          "lvl": 28,
+          "m": "Atiborramiento"
         },
         {
-          "lvl": 30,
-          "m": "Descanso"
+          "lvl": 31,
+          "m": "Carga"
         },
         {
-          "lvl": 33,
-          "m": "Llamarada"
+          "lvl": 37,
+          "m": "Triple Golpe"
         },
         {
-          "lvl": 36,
-          "m": "Flarembestida"
+          "lvl": 40,
+          "m": "Lariat Oscuro"
         },
         {
           "lvl": 46,
-          "m": "Patada Salto"
+          "m": "Amago"
+        },
+        {
+          "lvl": 49,
+          "m": "Chispa"
+        },
+        {
+          "lvl": 55,
+          "m": "Moluscañón"
+        },
+        {
+          "lvl": 58,
+          "m": "Dulce Aroma"
+        },
+        {
+          "lvl": 58,
+          "m": "Paso Dimensional"
+        },
+        {
+          "lvl": 64,
+          "m": "Llama Embrujada"
         }
       ],
-      "tmMoves": [
-        "Cura Floral"
-      ],
       "firstMoves": [
-        "Golpe Roca",
-        "Torbellino"
+        "Barrera Espinosa",
+        "Nitrocarga",
+        "Fría Acogida"
       ],
-      "spriteKey": "LITTEN"
+      "spriteKey": "CYNDAQUIL"
     }
   ],
   "box": [],
@@ -340,46 +128,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Chimchar",
+      "species": "Cyndaquil",
       "nickname": "Joker",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
       "level": 5,
-      "mon": "Chimchar"
-    },
-    {
-      "route": "",
-      "where": "",
-      "species": "Cascoon",
-      "nickname": "Pelotazo",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 3,
-      "mon": "Cascoon"
-    },
-    {
-      "route": "",
-      "where": "",
-      "species": "Burmy",
-      "nickname": "PijaFria",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 5,
-      "mon": "Burmy"
-    },
-    {
-      "route": "",
-      "where": "",
-      "species": "Litten",
-      "nickname": "EmoGood",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 4,
-      "mon": "Litten"
+      "mon": "Cyndaquil"
     }
   ],
   "progress": {
@@ -391,14 +146,11 @@
     "encounters": {},
     "switches": [
       48,
+      60,
       61,
-      62,
       63,
       66,
       67,
-      68,
-      69,
-      70,
       110,
       176,
       179,
@@ -406,147 +158,24 @@
       181,
       182,
       183,
+      238,
       323,
-      333,
       334
     ],
     "foundItems": [
-      "Baya Arabol",
-      "Dado Trucado",
-      "Def. Especial X",
-      "Defensa X 3",
-      "Fósil Mandíbula",
-      "Miniseta",
-      "MT06",
-      "MT108",
-      "MT84",
-      "Poké Montura",
-      "Reglamento",
-      "Roca del Rey",
-      "Supercaña",
-      "Tabla Bicho",
-      "Tabla Tóxica",
-      "Tarjeta Roja",
-      "Vial"
+      "Poción",
+      "Reglamento"
     ],
     "bag": [
       {
-        "id": "LOADEDDICE",
-        "name": "Dado Trucado",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
-      {
-        "id": "TINYMUSHROOM",
-        "name": "Miniseta",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
-      {
-        "id": "TOXICPLATE",
-        "name": "Tabla Tóxica",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
-      {
-        "id": "JAWFOSSIL",
-        "name": "Fósil Mandíbula",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
-      {
-        "id": "REDCARD",
-        "name": "Tarjeta Roja",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
-      {
-        "id": "RARECANDY",
-        "name": "Caramelo Raro",
-        "qty": 996,
-        "pocket": "Medicinas"
-      },
-      {
-        "id": "RARECANDY",
-        "name": "Caramelo Raro",
-        "qty": 999,
-        "pocket": "Medicinas"
-      },
-      {
-        "id": "RARECANDY",
-        "name": "Caramelo Raro",
-        "qty": 202,
-        "pocket": "Medicinas"
-      },
-      {
         "id": "POTION",
         "name": "Poción",
-        "qty": 2,
+        "qty": 1,
         "pocket": "Medicinas"
-      },
-      {
-        "id": "GREATBALL",
-        "name": "Super Ball",
-        "qty": 9,
-        "pocket": "Poké Balls"
-      },
-      {
-        "id": "TM06",
-        "name": "MT06",
-        "qty": 1,
-        "pocket": "MTs y MOs"
-      },
-      {
-        "id": "TM84",
-        "name": "MT84",
-        "qty": 1,
-        "pocket": "MTs y MOs"
-      },
-      {
-        "id": "TM108",
-        "name": "MT108",
-        "qty": 1,
-        "pocket": "MTs y MOs"
-      },
-      {
-        "id": "STARFBERRY",
-        "name": "Baya Arabol",
-        "qty": 1,
-        "pocket": "Bayas"
-      },
-      {
-        "id": "XSPDEF",
-        "name": "Def. Especial X",
-        "qty": 1,
-        "pocket": "Objetos de combate"
-      },
-      {
-        "id": "XDEFENSE3",
-        "name": "Defensa X 3",
-        "qty": 1,
-        "pocket": "Objetos de combate"
       },
       {
         "id": "RULEBOOK",
         "name": "Reglamento",
-        "qty": 1,
-        "pocket": "Objetos clave"
-      },
-      {
-        "id": "VIAL",
-        "name": "Vial",
-        "qty": 1,
-        "pocket": "Objetos clave"
-      },
-      {
-        "id": "POKERIDER",
-        "name": "Poké Montura",
-        "qty": 1,
-        "pocket": "Objetos clave"
-      },
-      {
-        "id": "SUPERROD",
-        "name": "Supercaña",
         "qty": 1,
         "pocket": "Objetos clave"
       }
