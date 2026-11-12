@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 1h 19m jugadas · 4,300₽ · vidas en el juego: 20",
+  "notes": "Importado del save · 1h 29m jugadas · 5,000₽ · vidas en el juego: 20",
   "team": [
     {
       "nickname": "MIMI",
       "species": "Litten",
-      "level": 9,
+      "level": 10,
       "types": [
         "Fuego"
       ],
@@ -33,11 +33,11 @@
       ],
       "ev": [
         2,
-        1,
         2,
-        1,
+        3,
+        3,
         0,
-        1
+        2
       ],
       "abilPool": [
         "Cola Surf"
@@ -121,7 +121,7 @@
     {
       "nickname": "COJONES v2",
       "species": "Exeggcute",
-      "level": 7,
+      "level": 8,
       "types": [
         "Planta",
         "Psíquico"
@@ -146,11 +146,11 @@
       ],
       "ev": [
         1,
-        1,
-        1,
-        1,
+        2,
+        2,
+        3,
         0,
-        1
+        2
       ],
       "abilPool": [
         "Tenacidad",
@@ -248,7 +248,7 @@
     {
       "nickname": "VINICIUS",
       "species": "Chimchar",
-      "level": 8,
+      "level": 10,
       "types": [
         "Fuego"
       ],
@@ -259,7 +259,8 @@
       "moves": [
         "Semilladora",
         "Fría Acogida",
-        "Nitrocarga"
+        "Nitrocarga",
+        "Avivar"
       ],
       "iv": [
         3,
@@ -271,11 +272,11 @@
       ],
       "ev": [
         1,
-        1,
-        1,
-        1,
+        2,
+        2,
+        3,
         0,
-        0
+        1
       ],
       "abilPool": [
         "Alma Acerada"
@@ -350,7 +351,7 @@
     {
       "nickname": "MARIHUANA",
       "species": "Petilil",
-      "level": 7,
+      "level": 8,
       "types": [
         "Planta"
       ],
@@ -374,11 +375,11 @@
       ],
       "ev": [
         1,
-        1,
-        1,
+        2,
+        2,
+        2,
         0,
-        0,
-        0
+        1
       ],
       "abilPool": [
         "Mal Sueño",
@@ -467,7 +468,7 @@
     {
       "nickname": "YYY891",
       "species": "Sandshrew",
-      "level": 7,
+      "level": 8,
       "types": [
         "Tierra"
       ],
@@ -491,11 +492,11 @@
       ],
       "ev": [
         1,
+        2,
         1,
+        2,
         0,
-        0,
-        0,
-        0
+        1
       ],
       "abilPool": [
         "Perro Guardián"
@@ -588,9 +589,266 @@
         "Danza Aleteo"
       ],
       "spriteKey": "SANDSHREW"
+    },
+    {
+      "nickname": "VAMPI",
+      "species": "Deerling",
+      "level": 7,
+      "types": [
+        "Normal",
+        "Planta"
+      ],
+      "ability": "Espada Debacle",
+      "nature": "Mansa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Hoja Afilada",
+        "Relámpago Súbito",
+        "Cascabel Cura",
+        "Represalia"
+      ],
+      "iv": [
+        15,
+        1,
+        4,
+        17,
+        18,
+        31
+      ],
+      "ev": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Espada Debacle",
+        "Maduración"
+      ],
+      "abilHidden": [
+        "Cuerpo Horneado"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Hoja Afilada"
+        },
+        {
+          "lvl": 1,
+          "m": "Relámpago Súbito"
+        },
+        {
+          "lvl": 4,
+          "m": "Cascabel Cura"
+        },
+        {
+          "lvl": 7,
+          "m": "Represalia"
+        },
+        {
+          "lvl": 10,
+          "m": "Homenaje Póstumo"
+        },
+        {
+          "lvl": 13,
+          "m": "Viento Hielo"
+        },
+        {
+          "lvl": 16,
+          "m": "Marcha Espectral"
+        },
+        {
+          "lvl": 16,
+          "m": "Puño Mareo"
+        },
+        {
+          "lvl": 20,
+          "m": "Rizo Algodón"
+        },
+        {
+          "lvl": 24,
+          "m": "Cambio de Cancha"
+        },
+        {
+          "lvl": 24,
+          "m": "Respiro"
+        },
+        {
+          "lvl": 28,
+          "m": "Encanto"
+        },
+        {
+          "lvl": 28,
+          "m": "Cambiafuerza"
+        },
+        {
+          "lvl": 32,
+          "m": "Megapatada"
+        },
+        {
+          "lvl": 41,
+          "m": "Corte"
+        },
+        {
+          "lvl": 42,
+          "m": "Flarembestida"
+        },
+        {
+          "lvl": 46,
+          "m": "Sustituto"
+        }
+      ],
+      "firstMoves": [
+        "Hoja Afilada",
+        "Relámpago Súbito",
+        "Cascabel Cura"
+      ],
+      "spriteKey": "DEERLING_3"
     }
   ],
-  "box": [],
+  "box": [
+    {
+      "nickname": "ALEY",
+      "species": "Mankey",
+      "level": 7,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "Bromista",
+      "nature": "Modesta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Llave Vital",
+        "Golpe Kárate",
+        "Ataque Arena",
+        "Puño Incremento"
+      ],
+      "iv": [
+        21,
+        7,
+        6,
+        12,
+        23,
+        20
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Mar Llamas",
+        "Bromista"
+      ],
+      "abilHidden": [
+        "Fuga"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Luminicola"
+        },
+        {
+          "lvl": 1,
+          "m": "Llave Vital"
+        },
+        {
+          "lvl": 1,
+          "m": "Golpe Kárate"
+        },
+        {
+          "lvl": 1,
+          "m": "Ataque Arena"
+        },
+        {
+          "lvl": 5,
+          "m": "Puño Incremento"
+        },
+        {
+          "lvl": 8,
+          "m": "Polvo Ira"
+        },
+        {
+          "lvl": 8,
+          "m": "Picotazo Veneno"
+        },
+        {
+          "lvl": 12,
+          "m": "Danza Aleteo"
+        },
+        {
+          "lvl": 13,
+          "m": "Barrera Espinosa"
+        },
+        {
+          "lvl": 15,
+          "m": "Atadura"
+        },
+        {
+          "lvl": 17,
+          "m": "Corpulencia"
+        },
+        {
+          "lvl": 22,
+          "m": "Motivación"
+        },
+        {
+          "lvl": 26,
+          "m": "Desquite"
+        },
+        {
+          "lvl": 29,
+          "m": "Triple Patada"
+        },
+        {
+          "lvl": 29,
+          "m": "Contraataque"
+        },
+        {
+          "lvl": 33,
+          "m": "Danza Triunfal"
+        },
+        {
+          "lvl": 36,
+          "m": "Puño Dinámico"
+        },
+        {
+          "lvl": 40,
+          "m": "Martillo Dragón"
+        },
+        {
+          "lvl": 44,
+          "m": "Campo de Hierba"
+        },
+        {
+          "lvl": 45,
+          "m": "Reserva"
+        },
+        {
+          "lvl": 48,
+          "m": "Detección"
+        },
+        {
+          "lvl": 53,
+          "m": "Clonatipo"
+        }
+      ],
+      "firstMoves": [
+        "Llave Vital",
+        "Golpe Kárate",
+        "Ataque Arena",
+        "Puño Incremento"
+      ],
+      "spriteKey": "MANKEY"
+    }
+  ],
   "graveyard": [],
   "captures": [
     {
@@ -647,6 +905,28 @@
       "category": "estatico_regalo",
       "level": 6,
       "mon": "Sandshrew"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Deerling",
+      "nickname": "VAMPI",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Deerling"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Mankey",
+      "nickname": "ALEY",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 7,
+      "mon": "Mankey"
     }
   ],
   "progress": {
@@ -666,6 +946,7 @@
       68,
       69,
       70,
+      71,
       110,
       176,
       179,
@@ -679,8 +960,12 @@
     ],
     "foundItems": [
       "Brazal Firme",
+      "Elixir Máximo",
       "Menta Firme",
       "Miniseta",
+      "Mochi Intelecto",
+      "MT112",
+      "Ornitofósil",
       "Poké Montura",
       "Reglamento",
       "Revivir",
@@ -696,6 +981,12 @@
       {
         "id": "MACHOBRACE",
         "name": "Brazal Firme",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "FOSSILIZEDBIRD",
+        "name": "Ornitofósil",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -724,16 +1015,34 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "MAXELIXIR",
+        "name": "Elixir Máximo",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "GENIUSMOCHI",
+        "name": "Mochi Intelecto",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "POKEBALL",
         "name": "Poké Ball",
-        "qty": 5,
+        "qty": 4,
         "pocket": "Poké Balls"
       },
       {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 3,
+        "qty": 2,
         "pocket": "Poké Balls"
+      },
+      {
+        "id": "TM112",
+        "name": "MT112",
+        "qty": 1,
+        "pocket": "MTs y MOs"
       },
       {
         "id": "RULEBOOK",
