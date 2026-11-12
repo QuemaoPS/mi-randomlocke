@@ -4,21 +4,22 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 2h 5m jugadas · 6,850₽ · vidas en el juego: 19",
+  "notes": "Importado del save · 2h 40m jugadas · 10,630₽ · vidas en el juego: 19",
   "team": [
     {
       "nickname": "VINICIUS",
-      "species": "Chimchar",
-      "level": 12,
+      "species": "Monferno",
+      "level": 23,
       "types": [
-        "Fuego"
+        "Fuego",
+        "Lucha"
       ],
-      "ability": "Alma Acerada",
+      "ability": "Ímpetu Arena",
       "nature": "Alocada",
       "item": "",
       "shiny": false,
       "moves": [
-        "Semilladora",
+        "Absorbefuerza",
         "Fuego Fatuo",
         "Nitrocarga",
         "Avivar"
@@ -32,96 +33,112 @@
         18
       ],
       "ev": [
-        1,
-        2,
-        6,
         4,
         2,
+        7,
+        6,
+        4,
         4
       ],
       "abilPool": [
-        "Alma Acerada"
+        "Ímpetu Arena"
       ],
       "abilHidden": [
-        "Impulso"
+        "Relincho Negro"
       ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Semilladora"
+          "lvl": -1,
+          "m": "Cerrojo Feérico"
         },
         {
           "lvl": 1,
-          "m": "Fría Acogida"
+          "m": "Defensa Férrea"
         },
         {
-          "lvl": 6,
-          "m": "Nitrocarga"
+          "lvl": 1,
+          "m": "Sombra Vil"
+        },
+        {
+          "lvl": 1,
+          "m": "Profecía"
+        },
+        {
+          "lvl": 1,
+          "m": "Zona Extraña"
+        },
+        {
+          "lvl": 1,
+          "m": "Rastreo"
+        },
+        {
+          "lvl": 1,
+          "m": "Sustituto"
         },
         {
           "lvl": 9,
-          "m": "Avivar"
+          "m": "Triple Patada"
         },
         {
           "lvl": 12,
-          "m": "Fuego Fatuo"
+          "m": "Golpe Roca"
         },
         {
-          "lvl": 15,
-          "m": "Envidia ardiente"
+          "lvl": 16,
+          "m": "Absorbefuerza"
         },
         {
-          "lvl": 17,
-          "m": "Shuriken de Agua"
+          "lvl": 19,
+          "m": "Colmillo Rayo"
         },
         {
-          "lvl": 23,
-          "m": "Danza Dragón"
+          "lvl": 26,
+          "m": "Telatrampa"
         },
         {
-          "lvl": 25,
-          "m": "Golpe Calor"
+          "lvl": 29,
+          "m": "Picotazo"
         },
         {
-          "lvl": 31,
-          "m": "Supersónico"
-        },
-        {
-          "lvl": 33,
-          "m": "Voltiocambio"
+          "lvl": 36,
+          "m": "Luz Lunar"
         },
         {
           "lvl": 39,
-          "m": "Magnitud"
+          "m": "Torbellino"
         },
         {
-          "lvl": 41,
-          "m": "Balón Ígneo"
+          "lvl": 46,
+          "m": "Puño Incremento"
         },
         {
-          "lvl": 47,
-          "m": "Rueda Fuego"
+          "lvl": 49,
+          "m": "Rizo Algodón"
+        },
+        {
+          "lvl": 56,
+          "m": "Plancha Corporal"
         }
       ],
       "firstMoves": [
         "Semilladora",
         "Fría Acogida"
       ],
-      "spriteKey": "CHIMCHAR"
+      "spriteKey": "MONFERNO"
     },
     {
       "nickname": "MIMI",
-      "species": "Litten",
-      "level": 12,
+      "species": "Torracat",
+      "level": 23,
       "types": [
         "Fuego"
       ],
-      "ability": "Cola Surf",
+      "ability": "",
       "nature": "Cauta",
       "item": "",
       "shiny": false,
       "moves": [
-        "Relajo",
+        "Resarcimiento",
         "Rueda Fuego",
         "Hidropulso",
         "Nitrocarga"
@@ -135,83 +152,83 @@
         22
       ],
       "ev": [
+        5,
         2,
-        2,
-        7,
+        8,
+        6,
         4,
-        2,
         5
       ],
       "abilPool": [
-        "Cola Surf"
+        "Poder Solar"
       ],
       "abilHidden": [
-        "Maduración"
+        "Aclimatación"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Relajo"
+          "m": "Poder Pasado"
         },
         {
           "lvl": 1,
-          "m": "Celebración"
+          "m": "Clemencia"
         },
         {
-          "lvl": 6,
+          "lvl": 1,
           "m": "Nitrocarga"
         },
         {
-          "lvl": 7,
-          "m": "Yo Primero"
+          "lvl": 1,
+          "m": "Calcinación"
         },
         {
           "lvl": 9,
-          "m": "Retracción"
+          "m": "Campo Eléctrico"
         },
         {
           "lvl": 11,
-          "m": "Rueda Fuego"
+          "m": "Buena Baza"
         },
         {
           "lvl": 12,
-          "m": "Kinético"
+          "m": "Ascuas"
         },
         {
           "lvl": 15,
-          "m": "Bramido Dragón"
+          "m": "Colmillo Ígneo"
         },
         {
-          "lvl": 18,
-          "m": "Cortina Plasma"
+          "lvl": 20,
+          "m": "Rizo Algodón"
         },
         {
-          "lvl": 21,
-          "m": "Resarcimiento"
-        },
-        {
-          "lvl": 24,
-          "m": "Fuego Fatuo"
-        },
-        {
-          "lvl": 27,
-          "m": "Giro Fuego"
+          "lvl": 25,
+          "m": "Bomba Ácida"
         },
         {
           "lvl": 30,
-          "m": "Tajo Acuático"
+          "m": "Imitación"
         },
         {
-          "lvl": 33,
-          "m": "Sol Matinal"
+          "lvl": 35,
+          "m": "Ascenso Draco"
         },
         {
-          "lvl": 36,
-          "m": "Patada Ígnea"
+          "lvl": 40,
+          "m": "Hidrovapor"
         },
         {
-          "lvl": 46,
-          "m": "Romperrocas"
+          "lvl": 45,
+          "m": "Refugio"
+        },
+        {
+          "lvl": 50,
+          "m": "Plancha Corporal"
+        },
+        {
+          "lvl": 55,
+          "m": "Velo Aurora"
         }
       ],
       "firstMoves": [
@@ -219,382 +236,12 @@
         "Celebración",
         "Hidropulso"
       ],
-      "spriteKey": "LITTEN"
-    },
-    {
-      "nickname": "COJONES v2",
-      "species": "Exeggcute",
-      "level": 10,
-      "types": [
-        "Planta",
-        "Psíquico"
-      ],
-      "ability": "Tenacidad",
-      "nature": "Serena",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Barrera Espinosa",
-        "Pulso Cura",
-        "Rizo Algodón",
-        "Torbellino"
-      ],
-      "iv": [
-        14,
-        21,
-        20,
-        2,
-        18,
-        31
-      ],
-      "ev": [
-        1,
-        2,
-        6,
-        4,
-        2,
-        5
-      ],
-      "abilPool": [
-        "Tenacidad",
-        "Cobardía"
-      ],
-      "abilHidden": [
-        "Espada Debacle"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Chapoteo Lodo"
-        },
-        {
-          "lvl": 1,
-          "m": "Pulso Cura"
-        },
-        {
-          "lvl": 1,
-          "m": "Rizo Algodón"
-        },
-        {
-          "lvl": 5,
-          "m": "Bloqueo"
-        },
-        {
-          "lvl": 10,
-          "m": "Barrera Espinosa"
-        },
-        {
-          "lvl": 15,
-          "m": "Psicorrayo"
-        },
-        {
-          "lvl": 19,
-          "m": "Abatidoras"
-        },
-        {
-          "lvl": 20,
-          "m": "Salazón"
-        },
-        {
-          "lvl": 21,
-          "m": "Hierba Lazo"
-        },
-        {
-          "lvl": 23,
-          "m": "Pantalla de Humo"
-        },
-        {
-          "lvl": 25,
-          "m": "Sísmico"
-        },
-        {
-          "lvl": 30,
-          "m": "Pisotón"
-        },
-        {
-          "lvl": 30,
-          "m": "Manto Espejo"
-        },
-        {
-          "lvl": 35,
-          "m": "Voto Planta"
-        },
-        {
-          "lvl": 40,
-          "m": "Lluevehojas"
-        },
-        {
-          "lvl": 45,
-          "m": "Hoja Mágica"
-        },
-        {
-          "lvl": 50,
-          "m": "Estrujón"
-        },
-        {
-          "lvl": 53,
-          "m": "Escaramuza"
-        },
-        {
-          "lvl": 55,
-          "m": "Cañón Batidor"
-        }
-      ],
-      "firstMoves": [
-        "Chapoteo Lodo",
-        "Pulso Cura",
-        "Rizo Algodón",
-        "Torbellino"
-      ],
-      "spriteKey": "EXEGGCUTE"
-    },
-    {
-      "nickname": "YYY891",
-      "species": "Sandshrew",
-      "level": 10,
-      "types": [
-        "Tierra"
-      ],
-      "ability": "Perro Guardián",
-      "nature": "Agitada",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Viento Feérico",
-        "Estrujón",
-        "Magnitud",
-        "Danza Aleteo"
-      ],
-      "iv": [
-        5,
-        7,
-        7,
-        24,
-        19,
-        29
-      ],
-      "ev": [
-        1,
-        2,
-        5,
-        3,
-        2,
-        4
-      ],
-      "abilPool": [
-        "Perro Guardián"
-      ],
-      "abilHidden": [
-        "Armadura Batalla"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Viento Feérico"
-        },
-        {
-          "lvl": 1,
-          "m": "Estrujón"
-        },
-        {
-          "lvl": 3,
-          "m": "Ofrenda"
-        },
-        {
-          "lvl": 6,
-          "m": "Danza Aleteo"
-        },
-        {
-          "lvl": 9,
-          "m": "Magnitud"
-        },
-        {
-          "lvl": 12,
-          "m": "Giro Mortífero"
-        },
-        {
-          "lvl": 15,
-          "m": "Ataque Arena"
-        },
-        {
-          "lvl": 17,
-          "m": "Recogearena"
-        },
-        {
-          "lvl": 18,
-          "m": "Bruma Explosiva"
-        },
-        {
-          "lvl": 21,
-          "m": "Cambiadefensa"
-        },
-        {
-          "lvl": 23,
-          "m": "Rayo Confuso"
-        },
-        {
-          "lvl": 24,
-          "m": "Fijar Blanco"
-        },
-        {
-          "lvl": 27,
-          "m": "Respiro"
-        },
-        {
-          "lvl": 30,
-          "m": "Hueso Palo"
-        },
-        {
-          "lvl": 33,
-          "m": "Tajo Acuático"
-        },
-        {
-          "lvl": 36,
-          "m": "Ariete"
-        },
-        {
-          "lvl": 39,
-          "m": "Arenas Ardientes"
-        },
-        {
-          "lvl": 42,
-          "m": "A Defender"
-        },
-        {
-          "lvl": 45,
-          "m": "Terratemblor"
-        }
-      ],
-      "firstMoves": [
-        "Viento Feérico",
-        "Estrujón",
-        "Ofrenda",
-        "Danza Aleteo"
-      ],
-      "spriteKey": "SANDSHREW"
-    },
-    {
-      "nickname": "VAMPI",
-      "species": "Deerling",
-      "level": 10,
-      "types": [
-        "Normal",
-        "Planta"
-      ],
-      "ability": "Monotema",
-      "nature": "Mansa",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Hoja Afilada",
-        "Relámpago Súbito",
-        "Cascabel Cura",
-        "Homenaje Póstumo"
-      ],
-      "iv": [
-        15,
-        1,
-        4,
-        17,
-        18,
-        31
-      ],
-      "ev": [
-        0,
-        1,
-        5,
-        3,
-        2,
-        3
-      ],
-      "abilPool": [
-        "Monotema",
-        "Combustible"
-      ],
-      "abilHidden": [
-        "Rompeaura"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Hoja Afilada"
-        },
-        {
-          "lvl": 1,
-          "m": "Relámpago Súbito"
-        },
-        {
-          "lvl": 4,
-          "m": "Cascabel Cura"
-        },
-        {
-          "lvl": 7,
-          "m": "Represalia"
-        },
-        {
-          "lvl": 10,
-          "m": "Homenaje Póstumo"
-        },
-        {
-          "lvl": 13,
-          "m": "Viento Hielo"
-        },
-        {
-          "lvl": 16,
-          "m": "Marcha Espectral"
-        },
-        {
-          "lvl": 16,
-          "m": "Puño Mareo"
-        },
-        {
-          "lvl": 20,
-          "m": "Rizo Algodón"
-        },
-        {
-          "lvl": 24,
-          "m": "Cambio de Cancha"
-        },
-        {
-          "lvl": 24,
-          "m": "Respiro"
-        },
-        {
-          "lvl": 28,
-          "m": "Encanto"
-        },
-        {
-          "lvl": 28,
-          "m": "Cambiafuerza"
-        },
-        {
-          "lvl": 32,
-          "m": "Megapatada"
-        },
-        {
-          "lvl": 41,
-          "m": "Corte"
-        },
-        {
-          "lvl": 42,
-          "m": "Flarembestida"
-        },
-        {
-          "lvl": 46,
-          "m": "Sustituto"
-        }
-      ],
-      "firstMoves": [
-        "Hoja Afilada",
-        "Relámpago Súbito",
-        "Cascabel Cura"
-      ],
-      "spriteKey": "DEERLING_2"
+      "spriteKey": "TORRACAT"
     },
     {
       "nickname": "ALEY",
       "species": "Mankey",
-      "level": 8,
+      "level": 23,
       "types": [
         "Lucha"
       ],
@@ -605,7 +252,7 @@
       "moves": [
         "Llave Vital",
         "Golpe Kárate",
-        "Ataque Arena",
+        "Barrera Espinosa",
         "Puño Incremento"
       ],
       "iv": [
@@ -617,11 +264,11 @@
         20
       ],
       "ev": [
-        0,
-        0,
-        0,
+        3,
         0,
         1,
+        2,
+        3,
         1
       ],
       "abilPool": [
@@ -728,9 +375,514 @@
         "Puño Incremento"
       ],
       "spriteKey": "MANKEY"
+    },
+    {
+      "nickname": "YYY891",
+      "species": "Sandslash",
+      "level": 23,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "",
+      "nature": "Agitada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Recogearena",
+        "Estrujón",
+        "Bruma Explosiva",
+        "Danza Aleteo"
+      ],
+      "iv": [
+        5,
+        7,
+        7,
+        24,
+        19,
+        29
+      ],
+      "ev": [
+        4,
+        2,
+        6,
+        5,
+        4,
+        4
+      ],
+      "abilPool": [
+        "Pararrayos"
+      ],
+      "abilHidden": [
+        "Piel Milagro"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Hueso Palo"
+        },
+        {
+          "lvl": 1,
+          "m": "Terratemblor"
+        },
+        {
+          "lvl": 1,
+          "m": "Ascuas"
+        },
+        {
+          "lvl": 1,
+          "m": "Otra Vez"
+        },
+        {
+          "lvl": 1,
+          "m": "Isoguardia"
+        },
+        {
+          "lvl": 1,
+          "m": "Acoso"
+        },
+        {
+          "lvl": 9,
+          "m": "Autotomía"
+        },
+        {
+          "lvl": 12,
+          "m": "Gas Venenoso"
+        },
+        {
+          "lvl": 15,
+          "m": "Chirrido"
+        },
+        {
+          "lvl": 17,
+          "m": "Púas"
+        },
+        {
+          "lvl": 18,
+          "m": "Condena Silvana"
+        },
+        {
+          "lvl": 21,
+          "m": "Doble Equipo"
+        },
+        {
+          "lvl": 26,
+          "m": "Mandato"
+        },
+        {
+          "lvl": 30,
+          "m": "Disparo Espejo"
+        },
+        {
+          "lvl": 31,
+          "m": "Esquema"
+        },
+        {
+          "lvl": 34,
+          "m": "Tierra Viva"
+        },
+        {
+          "lvl": 36,
+          "m": "Relajo"
+        },
+        {
+          "lvl": 41,
+          "m": "Joya de Luz"
+        },
+        {
+          "lvl": 46,
+          "m": "Patada Giro"
+        },
+        {
+          "lvl": 48,
+          "m": "Patada Relámpago"
+        },
+        {
+          "lvl": 51,
+          "m": "Psíquico"
+        },
+        {
+          "lvl": 56,
+          "m": "Magnitud"
+        },
+        {
+          "lvl": 61,
+          "m": "Ataque Óseo"
+        }
+      ],
+      "firstMoves": [
+        "Viento Feérico",
+        "Estrujón",
+        "Ofrenda",
+        "Danza Aleteo"
+      ],
+      "spriteKey": "SANDSLASH"
+    },
+    {
+      "nickname": "JOPUTA",
+      "species": "Drowzee",
+      "level": 23,
+      "types": [
+        "Psíquico"
+      ],
+      "ability": "Inicio Lento",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Voltiocambio",
+        "Calamidad",
+        "Golpe Calor",
+        "Poder Reserva"
+      ],
+      "iv": [
+        11,
+        12,
+        5,
+        11,
+        21,
+        16
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Piel Milagro",
+        "Inicio Lento"
+      ],
+      "abilHidden": [
+        "Rezagado"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Voltiocambio"
+        },
+        {
+          "lvl": 1,
+          "m": "Cerrojo Feérico"
+        },
+        {
+          "lvl": 5,
+          "m": "Golpe Calor"
+        },
+        {
+          "lvl": 9,
+          "m": "A Defender"
+        },
+        {
+          "lvl": 13,
+          "m": "Rizo Algodón"
+        },
+        {
+          "lvl": 17,
+          "m": "Calamidad"
+        },
+        {
+          "lvl": 21,
+          "m": "Poder Reserva"
+        },
+        {
+          "lvl": 21,
+          "m": "Bucle Arena"
+        },
+        {
+          "lvl": 25,
+          "m": "Truco Fuerza"
+        },
+        {
+          "lvl": 29,
+          "m": "Polvo Mágico"
+        },
+        {
+          "lvl": 29,
+          "m": "Plegaria Lunar"
+        },
+        {
+          "lvl": 33,
+          "m": "Triple Flecha"
+        },
+        {
+          "lvl": 37,
+          "m": "Asalto Espadón"
+        },
+        {
+          "lvl": 37,
+          "m": "Pistola Agua"
+        },
+        {
+          "lvl": 41,
+          "m": "Látigo Cepa"
+        },
+        {
+          "lvl": 45,
+          "m": "Ciclón Primavera"
+        },
+        {
+          "lvl": 49,
+          "m": "Megapuño"
+        }
+      ],
+      "firstMoves": [
+        "Voltiocambio",
+        "Cerrojo Feérico",
+        "Golpe Calor",
+        "A Defender"
+      ],
+      "spriteKey": "DROWZEE"
+    },
+    {
+      "nickname": "COJONES v2",
+      "species": "Exeggcute",
+      "level": 23,
+      "types": [
+        "Planta",
+        "Psíquico"
+      ],
+      "ability": "Tenacidad",
+      "nature": "Serena",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Barrera Espinosa",
+        "Psicorrayo",
+        "Abatidoras",
+        "Hierba Lazo"
+      ],
+      "iv": [
+        14,
+        21,
+        20,
+        2,
+        18,
+        31
+      ],
+      "ev": [
+        4,
+        2,
+        7,
+        6,
+        4,
+        5
+      ],
+      "abilPool": [
+        "Tenacidad",
+        "Cobardía"
+      ],
+      "abilHidden": [
+        "Espada Debacle"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Chapoteo Lodo"
+        },
+        {
+          "lvl": 1,
+          "m": "Pulso Cura"
+        },
+        {
+          "lvl": 1,
+          "m": "Rizo Algodón"
+        },
+        {
+          "lvl": 5,
+          "m": "Bloqueo"
+        },
+        {
+          "lvl": 10,
+          "m": "Barrera Espinosa"
+        },
+        {
+          "lvl": 15,
+          "m": "Psicorrayo"
+        },
+        {
+          "lvl": 19,
+          "m": "Abatidoras"
+        },
+        {
+          "lvl": 20,
+          "m": "Salazón"
+        },
+        {
+          "lvl": 21,
+          "m": "Hierba Lazo"
+        },
+        {
+          "lvl": 23,
+          "m": "Pantalla de Humo"
+        },
+        {
+          "lvl": 25,
+          "m": "Sísmico"
+        },
+        {
+          "lvl": 30,
+          "m": "Pisotón"
+        },
+        {
+          "lvl": 30,
+          "m": "Manto Espejo"
+        },
+        {
+          "lvl": 35,
+          "m": "Voto Planta"
+        },
+        {
+          "lvl": 40,
+          "m": "Lluevehojas"
+        },
+        {
+          "lvl": 45,
+          "m": "Hoja Mágica"
+        },
+        {
+          "lvl": 50,
+          "m": "Estrujón"
+        },
+        {
+          "lvl": 53,
+          "m": "Escaramuza"
+        },
+        {
+          "lvl": 55,
+          "m": "Cañón Batidor"
+        }
+      ],
+      "firstMoves": [
+        "Chapoteo Lodo",
+        "Pulso Cura",
+        "Rizo Algodón",
+        "Torbellino"
+      ],
+      "spriteKey": "EXEGGCUTE"
     }
   ],
-  "box": [],
+  "box": [
+    {
+      "nickname": "VAMPI",
+      "species": "Deerling",
+      "level": 14,
+      "types": [
+        "Normal",
+        "Planta"
+      ],
+      "ability": "Monotema",
+      "nature": "Mansa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Hoja Afilada",
+        "Relámpago Súbito",
+        "Cascabel Cura",
+        "Homenaje Póstumo"
+      ],
+      "iv": [
+        15,
+        1,
+        4,
+        17,
+        18,
+        31
+      ],
+      "ev": [
+        3,
+        1,
+        6,
+        5,
+        4,
+        3
+      ],
+      "abilPool": [
+        "Monotema",
+        "Combustible"
+      ],
+      "abilHidden": [
+        "Rompeaura"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Hoja Afilada"
+        },
+        {
+          "lvl": 1,
+          "m": "Relámpago Súbito"
+        },
+        {
+          "lvl": 4,
+          "m": "Cascabel Cura"
+        },
+        {
+          "lvl": 7,
+          "m": "Represalia"
+        },
+        {
+          "lvl": 10,
+          "m": "Homenaje Póstumo"
+        },
+        {
+          "lvl": 13,
+          "m": "Viento Hielo"
+        },
+        {
+          "lvl": 16,
+          "m": "Marcha Espectral"
+        },
+        {
+          "lvl": 16,
+          "m": "Puño Mareo"
+        },
+        {
+          "lvl": 20,
+          "m": "Rizo Algodón"
+        },
+        {
+          "lvl": 24,
+          "m": "Cambio de Cancha"
+        },
+        {
+          "lvl": 24,
+          "m": "Respiro"
+        },
+        {
+          "lvl": 28,
+          "m": "Encanto"
+        },
+        {
+          "lvl": 28,
+          "m": "Cambiafuerza"
+        },
+        {
+          "lvl": 32,
+          "m": "Megapatada"
+        },
+        {
+          "lvl": 41,
+          "m": "Corte"
+        },
+        {
+          "lvl": 42,
+          "m": "Flarembestida"
+        },
+        {
+          "lvl": 46,
+          "m": "Sustituto"
+        }
+      ],
+      "firstMoves": [
+        "Hoja Afilada",
+        "Relámpago Súbito",
+        "Cascabel Cura"
+      ],
+      "spriteKey": "DEERLING_2"
+    }
+  ],
   "graveyard": [
     {
       "nickname": "MARIHUANA",
@@ -857,57 +1009,24 @@
     {
       "route": "",
       "where": "",
-      "species": "Chimchar",
+      "species": "Monferno",
       "nickname": "VINICIUS",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
       "level": 2,
-      "mon": "Chimchar"
+      "mon": "Monferno"
     },
     {
       "route": "",
       "where": "",
-      "species": "Litten",
+      "species": "Torracat",
       "nickname": "MIMI",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
       "level": 5,
-      "mon": "Litten"
-    },
-    {
-      "route": "",
-      "where": "",
-      "species": "Exeggcute",
-      "nickname": "COJONES v2",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 3,
-      "mon": "Exeggcute"
-    },
-    {
-      "route": "",
-      "where": "",
-      "species": "Sandshrew",
-      "nickname": "YYY891",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 6,
-      "mon": "Sandshrew"
-    },
-    {
-      "route": "",
-      "where": "",
-      "species": "Deerling",
-      "nickname": "VAMPI",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 5,
-      "mon": "Deerling"
+      "mon": "Torracat"
     },
     {
       "route": "",
@@ -923,6 +1042,50 @@
     {
       "route": "",
       "where": "",
+      "species": "Sandslash",
+      "nickname": "YYY891",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 6,
+      "mon": "Sandslash"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Drowzee",
+      "nickname": "JOPUTA",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 12,
+      "mon": "Drowzee"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Exeggcute",
+      "nickname": "COJONES v2",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 3,
+      "mon": "Exeggcute"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Deerling",
+      "nickname": "VAMPI",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Deerling"
+    },
+    {
+      "route": "",
+      "where": "",
       "species": "Petilil",
       "nickname": "MARIHUANA",
       "shiny": false,
@@ -933,7 +1096,9 @@
     }
   ],
   "progress": {
-    "gyms": {},
+    "gyms": {
+      "gym1": true
+    },
     "bosses": {},
     "npcs": {},
     "routes": {},
@@ -951,25 +1116,31 @@
       70,
       71,
       110,
+      138,
       176,
       179,
       180,
       181,
       182,
       183,
+      184,
       323,
       333,
       334
     ],
     "foundItems": [
       "Brazal Firme",
+      "Cubresuelos",
       "Elixir Máximo",
       "Fósil Cráneo",
+      "Gafa Protectora",
       "Menta Firme",
       "Miel",
       "Miniseta",
+      "MO Golpe Roca",
       "Mochi Intelecto",
       "MT112",
+      "MT39",
       "MT67",
       "MT89",
       "MT94",
@@ -977,6 +1148,7 @@
       "Poké Montura",
       "Reglamento",
       "Revivir",
+      "Velocidad X 6",
       "Vial"
     ],
     "bag": [
@@ -1011,6 +1183,18 @@
         "pocket": "Objetos"
       },
       {
+        "id": "SAFETYGOGGLES",
+        "name": "Gafa Protectora",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "TERRAINEXTENDER",
+        "name": "Cubresuelos",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "REVIVE",
         "name": "Revivir",
         "qty": 1,
@@ -1025,7 +1209,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 300,
+        "qty": 222,
         "pocket": "Medicinas"
       },
       {
@@ -1053,10 +1237,10 @@
         "pocket": "Poké Balls"
       },
       {
-        "id": "GREATBALL",
-        "name": "Super Ball",
-        "qty": 2,
-        "pocket": "Poké Balls"
+        "id": "TM39",
+        "name": "MT39",
+        "qty": 1,
+        "pocket": "MTs y MOs"
       },
       {
         "id": "TM67",
@@ -1083,6 +1267,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "XSPEED6",
+        "name": "Velocidad X 6",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
         "id": "RULEBOOK",
         "name": "Reglamento",
         "qty": 1,
@@ -1097,6 +1287,12 @@
       {
         "id": "POKERIDER",
         "name": "Poké Montura",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "ROCKSMASHITEM",
+        "name": "MO Golpe Roca",
         "qty": 1,
         "pocket": "Objetos clave"
       }
