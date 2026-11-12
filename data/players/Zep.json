@@ -2,14 +2,14 @@
   "id": "Zep",
   "name": "Susi",
   "lives": 30,
-  "livesUsed": 1,
+  "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 1h 31m jugadas · 5,650₽ · vidas en el juego: 19",
+  "notes": "Importado del save · 2h 0m jugadas · 6,450₽ · vidas en el juego: 18",
   "team": [
     {
       "nickname": "Aley",
       "species": "Dreepy",
-      "level": 14,
+      "level": 23,
       "types": [
         "Dragón",
         "Fantasma"
@@ -34,11 +34,11 @@
       ],
       "ev": [
         3,
-        0,
+        2,
         8,
         2,
-        5,
-        3
+        6,
+        5
       ],
       "abilPool": [
         "Piel Helada",
@@ -80,7 +80,7 @@
     {
       "nickname": "Hector",
       "species": "Venonat",
-      "level": 14,
+      "level": 23,
       "types": [
         "Bicho",
         "Veneno"
@@ -90,7 +90,7 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Estoicismo",
+        "Corte Furia",
         "Yo Primero",
         "Venganza",
         "Ácido"
@@ -105,11 +105,11 @@
       ],
       "ev": [
         3,
-        0,
+        2,
         6,
         2,
-        4,
-        3
+        5,
+        5
       ],
       "abilPool": [
         "Vista Lince",
@@ -199,7 +199,7 @@
     {
       "nickname": "Alex",
       "species": "Loudred",
-      "level": 14,
+      "level": 23,
       "types": [
         "Normal"
       ],
@@ -223,11 +223,11 @@
       ],
       "ev": [
         1,
-        0,
+        2,
         6,
         2,
-        4,
-        3
+        5,
+        5
       ],
       "abilPool": [
         "Normalidad",
@@ -305,7 +305,7 @@
     {
       "nickname": "Stereo Madne",
       "species": "Nuzleaf",
-      "level": 14,
+      "level": 23,
       "types": [
         "Planta",
         "Siniestro"
@@ -317,7 +317,7 @@
       "moves": [
         "Drenadoras",
         "Hoja Mágica",
-        "Doble Patada",
+        "Cambio de Marcha",
         "Rodar"
       ],
       "iv": [
@@ -330,11 +330,11 @@
       ],
       "ev": [
         1,
-        0,
+        2,
         5,
         2,
-        4,
-        3
+        5,
+        5
       ],
       "abilPool": [
         "Expulsarena",
@@ -455,7 +455,7 @@
     {
       "nickname": "taboun",
       "species": "Hippopotas",
-      "level": 14,
+      "level": 23,
       "types": [
         "Tierra"
       ],
@@ -464,8 +464,8 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Día Soleado",
-        "Ataque Arena",
+        "Llave Vital",
+        "Bola Hielo",
         "Bucle Arena",
         "Bomba Fango"
       ],
@@ -479,11 +479,11 @@
       ],
       "ev": [
         1,
-        0,
-        4,
         2,
         4,
-        3
+        2,
+        5,
+        5
       ],
       "abilPool": [
         "Gélido"
@@ -557,6 +557,9 @@
           "m": "Cadena Virulenta"
         }
       ],
+      "tmMoves": [
+        "Escudo Real"
+      ],
       "firstMoves": [
         "Día Soleado",
         "Cambiadefensa",
@@ -565,29 +568,29 @@
       "spriteKey": "HIPPOPOTAS"
     },
     {
-      "nickname": "El pianista",
-      "species": "Kabuto",
-      "level": 7,
+      "nickname": "8belial",
+      "species": "Drilbur",
+      "level": 23,
       "types": [
-        "Roca",
-        "Agua"
+        "Tierra"
       ],
-      "ability": "Monotema",
-      "nature": "Tímida",
+      "ability": "Néctar dulce",
+      "nature": "Alegre",
       "item": "",
       "shiny": false,
       "moves": [
-        "Hachazo Pétreo",
-        "Burbuja",
-        "Cuerno Certero"
+        "Bucle Arena",
+        "Hierba Lazo",
+        "Triple Patada",
+        "Bofetón Lodo"
       ],
       "iv": [
-        7,
-        20,
-        16,
-        17,
-        7,
-        1
+        5,
+        13,
+        27,
+        28,
+        15,
+        18
       ],
       "ev": [
         0,
@@ -598,87 +601,225 @@
         0
       ],
       "abilPool": [
-        "Monotema",
-        "Hospitalidad"
+        "Néctar dulce",
+        "Velo Aroma"
       ],
       "abilHidden": [
-        "Entusiasmo"
+        "Piel Tétrica"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Hachazo Pétreo"
+          "m": "Anticipo"
         },
         {
           "lvl": 1,
-          "m": "Burbuja"
+          "m": "Bucle Arena"
         },
         {
-          "lvl": 5,
-          "m": "Cuerno Certero"
+          "lvl": 1,
+          "m": "Hierba Lazo"
         },
         {
-          "lvl": 10,
-          "m": "Viento Feérico"
+          "lvl": 4,
+          "m": "Ataque Rápido"
         },
         {
-          "lvl": 15,
-          "m": "Fortaleza"
+          "lvl": 8,
+          "m": "Agitacola"
+        },
+        {
+          "lvl": 12,
+          "m": "Día de Pago"
+        },
+        {
+          "lvl": 16,
+          "m": "Bofetón Lodo"
+        },
+        {
+          "lvl": 19,
+          "m": "Hoja Mágica"
         },
         {
           "lvl": 20,
-          "m": "Canto Mortal"
+          "m": "Triple Patada"
         },
         {
-          "lvl": 25,
-          "m": "Pistola Agua"
+          "lvl": 24,
+          "m": "Ataque Arena"
         },
         {
           "lvl": 26,
-          "m": "Placaje"
+          "m": "Sonámbulo"
         },
         {
-          "lvl": 30,
-          "m": "Caída Libre"
+          "lvl": 28,
+          "m": "Pisotón"
         },
         {
-          "lvl": 35,
-          "m": "Aullido"
+          "lvl": 32,
+          "m": "Enrosque"
+        },
+        {
+          "lvl": 36,
+          "m": "Envidia ardiente"
+        },
+        {
+          "lvl": 40,
+          "m": "Destructor"
+        },
+        {
+          "lvl": 44,
+          "m": "Trampa Venenosa"
+        },
+        {
+          "lvl": 48,
+          "m": "Huesomerang"
+        }
+      ],
+      "tmMoves": [
+        "Clavo Cañón"
+      ],
+      "firstMoves": [
+        "Bucle Arena",
+        "Hierba Lazo",
+        "Ataque Rápido",
+        "Agitacola"
+      ],
+      "spriteKey": "DRILBUR"
+    }
+  ],
+  "box": [
+    {
+      "nickname": "JOHNNYFUU",
+      "species": "Skiploom",
+      "level": 23,
+      "types": [
+        "Planta",
+        "Volador"
+      ],
+      "ability": "Cuerpo Maldito",
+      "nature": "Seria",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Anticura",
+        "Truco Floral",
+        "Puño Mareo",
+        "Picoteo"
+      ],
+      "iv": [
+        29,
+        5,
+        0,
+        19,
+        0,
+        11
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Cuerpo Maldito",
+        "Piel Tosca"
+      ],
+      "abilHidden": [
+        "Oportunista"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Doble Bofetón"
+        },
+        {
+          "lvl": 1,
+          "m": "Avivar"
+        },
+        {
+          "lvl": 1,
+          "m": "Telaraña"
+        },
+        {
+          "lvl": 1,
+          "m": "Hora del Té"
+        },
+        {
+          "lvl": 8,
+          "m": "Canon"
+        },
+        {
+          "lvl": 10,
+          "m": "Somnífero"
+        },
+        {
+          "lvl": 12,
+          "m": "Mismo Destino"
+        },
+        {
+          "lvl": 12,
+          "m": "Hachazo Pétreo"
+        },
+        {
+          "lvl": 12,
+          "m": "Ofrenda"
+        },
+        {
+          "lvl": 15,
+          "m": "Cepo"
+        },
+        {
+          "lvl": 20,
+          "m": "Autosugestión"
+        },
+        {
+          "lvl": 24,
+          "m": "Sacrificio"
+        },
+        {
+          "lvl": 28,
+          "m": "Maldición"
+        },
+        {
+          "lvl": 31,
+          "m": "Látigo Cepa"
+        },
+        {
+          "lvl": 36,
+          "m": "Extracto Picante"
+        },
+        {
+          "lvl": 37,
+          "m": "Espada Lamento"
         },
         {
           "lvl": 41,
-          "m": "Picotazo Veneno"
+          "m": "Espeaura"
         },
         {
-          "lvl": 45,
-          "m": "Pedrada"
+          "lvl": 44,
+          "m": "Ferropuño Doble"
         },
         {
-          "lvl": 50,
-          "m": "Salmuera"
+          "lvl": 44,
+          "m": "Tajo Aéreo"
         },
         {
-          "lvl": 51,
-          "m": "Triple Golpe"
-        },
-        {
-          "lvl": 55,
-          "m": "Calamidad"
-        },
-        {
-          "lvl": 60,
-          "m": "Llama Embrujada"
+          "lvl": 48,
+          "m": "Silbato"
         }
       ],
       "firstMoves": [
-        "Hachazo Pétreo",
-        "Burbuja",
-        "Cuerno Certero"
+        "Anticura",
+        "Desarme"
       ],
-      "spriteKey": "KABUTO"
+      "spriteKey": "SKIPLOOM"
     }
   ],
-  "box": [],
   "graveyard": [
     {
       "nickname": "Icy veedo",
@@ -798,6 +939,126 @@
       "cause": "",
       "route": "",
       "date": ""
+    },
+    {
+      "nickname": "El pianista",
+      "species": "Kabuto",
+      "level": 14,
+      "types": [
+        "Roca",
+        "Agua"
+      ],
+      "ability": "Monotema",
+      "nature": "Tímida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Hachazo Pétreo",
+        "Burbuja",
+        "Cuerno Certero",
+        "Viento Feérico"
+      ],
+      "iv": [
+        7,
+        20,
+        16,
+        17,
+        7,
+        1
+      ],
+      "ev": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        2
+      ],
+      "abilPool": [
+        "Monotema",
+        "Hospitalidad"
+      ],
+      "abilHidden": [
+        "Entusiasmo"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Hachazo Pétreo"
+        },
+        {
+          "lvl": 1,
+          "m": "Burbuja"
+        },
+        {
+          "lvl": 5,
+          "m": "Cuerno Certero"
+        },
+        {
+          "lvl": 10,
+          "m": "Viento Feérico"
+        },
+        {
+          "lvl": 15,
+          "m": "Fortaleza"
+        },
+        {
+          "lvl": 20,
+          "m": "Canto Mortal"
+        },
+        {
+          "lvl": 25,
+          "m": "Pistola Agua"
+        },
+        {
+          "lvl": 26,
+          "m": "Placaje"
+        },
+        {
+          "lvl": 30,
+          "m": "Caída Libre"
+        },
+        {
+          "lvl": 35,
+          "m": "Aullido"
+        },
+        {
+          "lvl": 41,
+          "m": "Picotazo Veneno"
+        },
+        {
+          "lvl": 45,
+          "m": "Pedrada"
+        },
+        {
+          "lvl": 50,
+          "m": "Salmuera"
+        },
+        {
+          "lvl": 51,
+          "m": "Triple Golpe"
+        },
+        {
+          "lvl": 55,
+          "m": "Calamidad"
+        },
+        {
+          "lvl": 60,
+          "m": "Llama Embrujada"
+        }
+      ],
+      "tmMoves": [
+        "Clavo Cañón"
+      ],
+      "firstMoves": [
+        "Hachazo Pétreo",
+        "Burbuja",
+        "Cuerno Certero"
+      ],
+      "spriteKey": "KABUTO",
+      "cause": "",
+      "route": "",
+      "date": ""
     }
   ],
   "captures": [
@@ -859,13 +1120,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Kabuto",
-      "nickname": "El pianista",
+      "species": "Drilbur",
+      "nickname": "8belial",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 7,
-      "mon": "Kabuto"
+      "level": 10,
+      "mon": "Drilbur"
     },
     {
       "route": "",
@@ -877,10 +1138,34 @@
       "category": "estatico_regalo",
       "level": 3,
       "mon": "Sandshrew"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Kabuto",
+      "nickname": "El pianista",
+      "shiny": false,
+      "status": "dead",
+      "category": "estatico_regalo",
+      "level": 7,
+      "mon": "Kabuto"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Skiploom",
+      "nickname": "JOHNNYFUU",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 1,
+      "mon": "Skiploom"
     }
   ],
   "progress": {
-    "gyms": {},
+    "gyms": {
+      "gym1": true
+    },
     "bosses": {},
     "npcs": {},
     "routes": {},
@@ -898,23 +1183,35 @@
       71,
       110,
       112,
+      113,
+      114,
+      171,
       176,
       179,
       180,
       181,
       182,
       183,
+      184,
       323,
       334
     ],
     "foundItems": [
+      "Cola Plúmbea",
       "Fósil Garra",
       "Franja Recia",
       "Galleta Yantra",
+      "Guante de Boxeo",
       "Malla Ball",
       "Miniseta",
+      "MO Golpe Roca",
       "Mochi Mente",
+      "MT116",
       "MT25",
+      "MT39",
+      "MT48",
+      "MT89",
+      "MT94",
       "Piedra Alba",
       "Piedra Solar",
       "Poké Montura",
@@ -932,12 +1229,6 @@
       {
         "id": "TINYMUSHROOM",
         "name": "Miniseta",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
-      {
-        "id": "CLAWFOSSIL",
-        "name": "Fósil Garra",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -960,6 +1251,18 @@
         "pocket": "Objetos"
       },
       {
+        "id": "PUNCHINGGLOVE",
+        "name": "Guante de Boxeo",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "LAGGINGTAIL",
+        "name": "Cola Plúmbea",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "SHALOURSABLE",
         "name": "Galleta Yantra",
         "qty": 2,
@@ -968,7 +1271,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 952,
+        "qty": 865,
         "pocket": "Medicinas"
       },
       {
@@ -1002,8 +1305,50 @@
         "pocket": "Poké Balls"
       },
       {
+        "id": "POKEBALL",
+        "name": "Poké Ball",
+        "qty": 10,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "PREMIERBALL",
+        "name": "Honor Ball",
+        "qty": 1,
+        "pocket": "Poké Balls"
+      },
+      {
         "id": "TM25",
         "name": "MT25",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM39",
+        "name": "MT39",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM48",
+        "name": "MT48",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM89",
+        "name": "MT89",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM94",
+        "name": "MT94",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM116",
+        "name": "MT116",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -1024,11 +1369,18 @@
         "name": "Poké Montura",
         "qty": 1,
         "pocket": "Objetos clave"
+      },
+      {
+        "id": "ROCKSMASHITEM",
+        "name": "MO Golpe Roca",
+        "qty": 1,
+        "pocket": "Objetos clave"
       }
     ]
   },
   "deathLog": [
-    "25947758"
+    "25947758",
+    "3872233768"
   ],
   "revividos": 0
 }
