@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 40m jugadas · 2,960₽ · vidas en el juego: 20",
+  "notes": "Importado del save · 0h 54m jugadas · 2,960₽ · vidas en el juego: 20",
   "team": [
     {
       "nickname": "Joker",
@@ -137,6 +137,8 @@
       63,
       66,
       67,
+      68,
+      69,
       110,
       176,
       179,
@@ -153,9 +155,11 @@
       "Defensa X 3",
       "Miniseta",
       "MT84",
+      "Poké Montura",
       "Reglamento",
       "Roca del Rey",
-      "Tabla Tóxica"
+      "Tabla Tóxica",
+      "Vial"
     ],
     "bag": [
       {
@@ -175,6 +179,42 @@
         "name": "Tabla Tóxica",
         "qty": 1,
         "pocket": "Objetos"
+      },
+      {
+        "id": "RARECANDY",
+        "name": "Caramelo Raro",
+        "qty": 999,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "RARECANDY",
+        "name": "Caramelo Raro",
+        "qty": 999,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "RARECANDY",
+        "name": "Caramelo Raro",
+        "qty": 202,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "POTION",
+        "name": "Poción",
+        "qty": 2,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "POKEBALL",
+        "name": "Poké Ball",
+        "qty": 5,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "GREATBALL",
+        "name": "Super Ball",
+        "qty": 10,
+        "pocket": "Poké Balls"
       },
       {
         "id": "TM84",
@@ -197,6 +237,18 @@
       {
         "id": "RULEBOOK",
         "name": "Reglamento",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "VIAL",
+        "name": "Vial",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "POKERIDER",
+        "name": "Poké Montura",
         "qty": 1,
         "pocket": "Objetos clave"
       }
