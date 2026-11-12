@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 1h 6m jugadas · 3,500₽ · vidas en el juego: 20",
+  "notes": "Importado del save · 1h 9m jugadas · 3,500₽ · vidas en el juego: 20",
   "team": [
     {
       "nickname": "Aley",
@@ -35,7 +35,7 @@
       "ev": [
         2,
         0,
-        3,
+        4,
         0,
         1,
         0
@@ -78,7 +78,7 @@
       "spriteKey": "DREEPY"
     },
     {
-      "nickname": "Roomtrash6",
+      "nickname": "Icy veedo",
       "species": "Sandshrew",
       "level": 14,
       "types": [
@@ -105,7 +105,7 @@
       "ev": [
         2,
         0,
-        1,
+        2,
         0,
         1,
         0
@@ -222,7 +222,7 @@
       "ev": [
         2,
         0,
-        1,
+        2,
         0,
         0,
         0
@@ -313,7 +313,7 @@
       "spriteKey": "VENONAT"
     },
     {
-      "nickname": "Loudred",
+      "nickname": "Alex",
       "species": "Loudred",
       "level": 14,
       "types": [
@@ -340,7 +340,7 @@
       "ev": [
         0,
         0,
-        1,
+        2,
         0,
         0,
         0
@@ -419,9 +419,9 @@
       "spriteKey": "LOUDRED"
     },
     {
-      "nickname": "Seedot",
+      "nickname": "Stereo Madne",
       "species": "Seedot",
-      "level": 2,
+      "level": 5,
       "types": [
         "Planta"
       ],
@@ -432,7 +432,8 @@
       "moves": [
         "Drenadoras",
         "Octopresa",
-        "Doble Patada"
+        "Doble Patada",
+        "Rodar"
       ],
       "iv": [
         8,
@@ -445,7 +446,7 @@
       "ev": [
         0,
         0,
-        0,
+        1,
         0,
         0,
         0
@@ -525,6 +526,117 @@
         "Doble Patada"
       ],
       "spriteKey": "SEEDOT"
+    },
+    {
+      "nickname": "taboun",
+      "species": "Hippopotas",
+      "level": 6,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Gélido",
+      "nature": "Miedosa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Día Soleado",
+        "Cambiadefensa",
+        "Bucle Arena"
+      ],
+      "iv": [
+        25,
+        9,
+        20,
+        3,
+        15,
+        22
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Gélido"
+      ],
+      "abilHidden": [
+        "Respondón"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Día Soleado"
+        },
+        {
+          "lvl": 1,
+          "m": "Cambiadefensa"
+        },
+        {
+          "lvl": 4,
+          "m": "Bucle Arena"
+        },
+        {
+          "lvl": 8,
+          "m": "Bomba Fango"
+        },
+        {
+          "lvl": 12,
+          "m": "Ataque Arena"
+        },
+        {
+          "lvl": 16,
+          "m": "Llave Vital"
+        },
+        {
+          "lvl": 19,
+          "m": "Bola Voltio"
+        },
+        {
+          "lvl": 20,
+          "m": "Bola Hielo"
+        },
+        {
+          "lvl": 24,
+          "m": "Pantalla de Luz"
+        },
+        {
+          "lvl": 28,
+          "m": "Bofetón Lodo"
+        },
+        {
+          "lvl": 32,
+          "m": "Magnitud"
+        },
+        {
+          "lvl": 36,
+          "m": "Acoso"
+        },
+        {
+          "lvl": 40,
+          "m": "Ovocuración"
+        },
+        {
+          "lvl": 44,
+          "m": "Retribución"
+        },
+        {
+          "lvl": 48,
+          "m": "Agarrón"
+        },
+        {
+          "lvl": 52,
+          "m": "Cadena Virulenta"
+        }
+      ],
+      "firstMoves": [
+        "Día Soleado",
+        "Cambiadefensa",
+        "Bucle Arena"
+      ],
+      "spriteKey": "HIPPOPOTAS"
     }
   ],
   "box": [],
@@ -545,7 +657,7 @@
       "route": "",
       "where": "",
       "species": "Sandshrew",
-      "nickname": "Roomtrash6",
+      "nickname": "Icy veedo",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
@@ -567,7 +679,7 @@
       "route": "",
       "where": "",
       "species": "Loudred",
-      "nickname": "",
+      "nickname": "Alex",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
@@ -578,12 +690,23 @@
       "route": "",
       "where": "",
       "species": "Seedot",
-      "nickname": "",
+      "nickname": "Stereo Madne",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
       "level": 2,
       "mon": "Seedot"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Hippopotas",
+      "nickname": "taboun",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 6,
+      "mon": "Hippopotas"
     }
   ],
   "progress": {
@@ -643,7 +766,7 @@
       {
         "id": "SHALOURSABLE",
         "name": "Galleta Yantra",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Medicinas"
       },
       {
@@ -673,7 +796,7 @@
       {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 9,
+        "qty": 8,
         "pocket": "Poké Balls"
       },
       {
