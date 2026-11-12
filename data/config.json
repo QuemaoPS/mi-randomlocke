@@ -16,6 +16,11 @@
       "id": "quemao",
       "name": "quemao",
       "avatar": "assets/avatars/red.png"
+    },
+    {
+      "id": "Zep",
+      "name": "Zep",
+      "avatar": "assets/avatars/blue.png"
     }
   ],
   "_avatarsDisponibles": [
