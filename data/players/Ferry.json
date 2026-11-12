@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 56m jugadas · 2,960₽ · vidas en el juego: 20",
+  "notes": "Importado del save · 1h 1m jugadas · 2,960₽ · vidas en el juego: 20",
   "team": [
     {
       "nickname": "Joker",
@@ -35,7 +35,7 @@
         0,
         3,
         0,
-        1,
+        2,
         0
       ],
       "abilPool": [
@@ -111,7 +111,7 @@
     {
       "nickname": "Pelotazo",
       "species": "Cascoon",
-      "level": 3,
+      "level": 6,
       "types": [
         "Bicho"
       ],
@@ -135,7 +135,7 @@
         0,
         0,
         0,
-        0,
+        1,
         0
       ],
       "abilPool": [
@@ -152,6 +152,71 @@
         "Ida y Vuelta"
       ],
       "spriteKey": "CASCOON"
+    },
+    {
+      "nickname": "PijaFria",
+      "species": "Burmy",
+      "level": 5,
+      "types": [
+        "Bicho"
+      ],
+      "ability": "Velo Flor",
+      "nature": "Serena",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Tormento",
+        "Giro Fuego"
+      ],
+      "iv": [
+        8,
+        21,
+        11,
+        17,
+        23,
+        18
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Velo Flor"
+      ],
+      "abilHidden": [
+        "Espanto"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Tormento"
+        },
+        {
+          "lvl": 10,
+          "m": "Polvo Mágico"
+        },
+        {
+          "lvl": 15,
+          "m": "Rayo Confuso"
+        },
+        {
+          "lvl": 20,
+          "m": "Telaraña"
+        },
+        {
+          "lvl": 20,
+          "m": "Polvo Ira"
+        }
+      ],
+      "firstMoves": [
+        "Tormento",
+        "Giro Fuego"
+      ],
+      "spriteKey": "BURMY"
     }
   ],
   "box": [],
@@ -178,6 +243,17 @@
       "category": "estatico_regalo",
       "level": 3,
       "mon": "Cascoon"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Burmy",
+      "nickname": "PijaFria",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Burmy"
     }
   ],
   "progress": {
@@ -240,7 +316,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 999,
+        "qty": 996,
         "pocket": "Medicinas"
       },
       {
@@ -260,12 +336,6 @@
         "name": "Poción",
         "qty": 2,
         "pocket": "Medicinas"
-      },
-      {
-        "id": "POKEBALL",
-        "name": "Poké Ball",
-        "qty": 2,
-        "pocket": "Poké Balls"
       },
       {
         "id": "GREATBALL",
