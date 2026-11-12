@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 53m jugadas · 3,500₽ · vidas en el juego: 20",
+  "notes": "Importado del save · 1h 6m jugadas · 3,500₽ · vidas en el juego: 20",
   "team": [
     {
       "nickname": "Aley",
       "species": "Dreepy",
-      "level": 6,
+      "level": 14,
       "types": [
         "Dragón",
         "Fantasma"
@@ -33,9 +33,9 @@
         4
       ],
       "ev": [
-        0,
-        0,
         2,
+        0,
+        3,
         0,
         1,
         0
@@ -80,7 +80,7 @@
     {
       "nickname": "Roomtrash6",
       "species": "Sandshrew",
-      "level": 5,
+      "level": 14,
       "types": [
         "Tierra"
       ],
@@ -90,9 +90,9 @@
       "shiny": false,
       "moves": [
         "Llave Giro",
-        "Danza Amiga",
+        "Ojitos Tiernos",
         "Fijar Blanco",
-        "Paisaje Nevado"
+        "Granizo"
       ],
       "iv": [
         6,
@@ -103,9 +103,9 @@
         1
       ],
       "ev": [
+        2,
         0,
-        0,
-        0,
+        1,
         0,
         1,
         0
@@ -196,7 +196,7 @@
     {
       "nickname": "Hector",
       "species": "Venonat",
-      "level": 6,
+      "level": 14,
       "types": [
         "Bicho",
         "Veneno"
@@ -206,7 +206,7 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Granizo",
+        "Estoicismo",
         "Yo Primero",
         "Venganza",
         "Ácido"
@@ -220,9 +220,9 @@
         26
       ],
       "ev": [
+        2,
         0,
-        0,
-        0,
+        1,
         0,
         0,
         0
@@ -311,6 +311,220 @@
         "Ácido"
       ],
       "spriteKey": "VENONAT"
+    },
+    {
+      "nickname": "Loudred",
+      "species": "Loudred",
+      "level": 14,
+      "types": [
+        "Normal"
+      ],
+      "ability": "Cola Surf",
+      "nature": "Activa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Kinético",
+        "Finta",
+        "Paisaje Nevado",
+        "Cuchillada"
+      ],
+      "iv": [
+        19,
+        28,
+        4,
+        17,
+        20,
+        1
+      ],
+      "ev": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Normalidad",
+        "Cola Surf"
+      ],
+      "abilHidden": [
+        "Geofagia"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Dulce Aroma"
+        },
+        {
+          "lvl": 1,
+          "m": "Kinético"
+        },
+        {
+          "lvl": 1,
+          "m": "Finta"
+        },
+        {
+          "lvl": 1,
+          "m": "Paisaje Nevado"
+        },
+        {
+          "lvl": 1,
+          "m": "Cuchillada"
+        },
+        {
+          "lvl": 15,
+          "m": "Fertilizante"
+        },
+        {
+          "lvl": 15,
+          "m": "Remolino"
+        },
+        {
+          "lvl": 23,
+          "m": "Cede Paso"
+        },
+        {
+          "lvl": 29,
+          "m": "Sorpresa"
+        },
+        {
+          "lvl": 36,
+          "m": "Rayo Confuso"
+        },
+        {
+          "lvl": 43,
+          "m": "Ataque Rápido"
+        },
+        {
+          "lvl": 50,
+          "m": "Defensa Floral"
+        },
+        {
+          "lvl": 51,
+          "m": "Fachada"
+        },
+        {
+          "lvl": 57,
+          "m": "Retribución"
+        }
+      ],
+      "firstMoves": [
+        "Kinético",
+        "Finta",
+        "Paisaje Nevado",
+        "Cuchillada"
+      ],
+      "spriteKey": "LOUDRED"
+    },
+    {
+      "nickname": "Seedot",
+      "species": "Seedot",
+      "level": 2,
+      "types": [
+        "Planta"
+      ],
+      "ability": "Cuerpo Áureo",
+      "nature": "Rara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Drenadoras",
+        "Octopresa",
+        "Doble Patada"
+      ],
+      "iv": [
+        8,
+        11,
+        8,
+        3,
+        27,
+        22
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Cuerpo Áureo",
+        "Dicha"
+      ],
+      "abilHidden": [
+        "Francotirador"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Drenadoras"
+        },
+        {
+          "lvl": 1,
+          "m": "Octopresa"
+        },
+        {
+          "lvl": 3,
+          "m": "Rodar"
+        },
+        {
+          "lvl": 6,
+          "m": "Semilladora"
+        },
+        {
+          "lvl": 7,
+          "m": "Hoja Mágica"
+        },
+        {
+          "lvl": 9,
+          "m": "Bola Hielo"
+        },
+        {
+          "lvl": 12,
+          "m": "Ovocuración"
+        },
+        {
+          "lvl": 15,
+          "m": "Rompecoraza"
+        },
+        {
+          "lvl": 18,
+          "m": "Absorbefuerza"
+        },
+        {
+          "lvl": 21,
+          "m": "Danza Lluvia"
+        },
+        {
+          "lvl": 21,
+          "m": "Cede Paso"
+        },
+        {
+          "lvl": 24,
+          "m": "Cosquillas"
+        },
+        {
+          "lvl": 27,
+          "m": "Doble Bofetón"
+        },
+        {
+          "lvl": 30,
+          "m": "Follaje"
+        },
+        {
+          "lvl": 33,
+          "m": "Látigo Cepa"
+        }
+      ],
+      "firstMoves": [
+        "Drenadoras",
+        "Octopresa",
+        "Doble Patada"
+      ],
+      "spriteKey": "SEEDOT"
     }
   ],
   "box": [],
@@ -348,6 +562,28 @@
       "category": "estatico_regalo",
       "level": 6,
       "mon": "Venonat"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Loudred",
+      "nickname": "",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 6,
+      "mon": "Loudred"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Seedot",
+      "nickname": "",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 2,
+      "mon": "Seedot"
     }
   ],
   "progress": {
@@ -377,6 +613,7 @@
       334
     ],
     "foundItems": [
+      "Fósil Garra",
       "Galleta Yantra",
       "Miniseta",
       "Poké Montura",
@@ -398,6 +635,12 @@
         "pocket": "Objetos"
       },
       {
+        "id": "CLAWFOSSIL",
+        "name": "Fósil Garra",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "SHALOURSABLE",
         "name": "Galleta Yantra",
         "qty": 1,
@@ -406,7 +649,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 999,
+        "qty": 969,
         "pocket": "Medicinas"
       },
       {
@@ -428,15 +671,9 @@
         "pocket": "Medicinas"
       },
       {
-        "id": "POKEBALL",
-        "name": "Poké Ball",
-        "qty": 2,
-        "pocket": "Poké Balls"
-      },
-      {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 10,
+        "qty": 9,
         "pocket": "Poké Balls"
       },
       {
