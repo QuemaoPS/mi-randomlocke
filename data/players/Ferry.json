@@ -1,0 +1,207 @@
+{
+  "id": "Ferry",
+  "name": "Ferry",
+  "lives": 30,
+  "livesUsed": 0,
+  "champion": false,
+  "notes": "Importado del save · 0h 40m jugadas · 2,960₽ · vidas en el juego: 20",
+  "team": [
+    {
+      "nickname": "Joker",
+      "species": "Chimchar",
+      "level": 5,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "Esclusa de Aire",
+      "nature": "Huraña",
+      "item": "Roca del Rey",
+      "shiny": false,
+      "moves": [
+        "Carga Tóxica",
+        "Camuflaje"
+      ],
+      "iv": [
+        9,
+        7,
+        18,
+        3,
+        19,
+        0
+      ],
+      "ev": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "abilPool": [
+        "Esclusa de Aire"
+      ],
+      "abilHidden": [
+        "Teracaparazón"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Carga Tóxica"
+        },
+        {
+          "lvl": 1,
+          "m": "Camuflaje"
+        },
+        {
+          "lvl": 6,
+          "m": "Arrumaco"
+        },
+        {
+          "lvl": 9,
+          "m": "Rueda Fuego"
+        },
+        {
+          "lvl": 12,
+          "m": "Homenaje Póstumo"
+        },
+        {
+          "lvl": 15,
+          "m": "Picadura"
+        },
+        {
+          "lvl": 17,
+          "m": "Ataque Arena"
+        },
+        {
+          "lvl": 23,
+          "m": "Día Soleado"
+        },
+        {
+          "lvl": 25,
+          "m": "Bloqueo"
+        },
+        {
+          "lvl": 31,
+          "m": "Cabeza Sorpresa"
+        },
+        {
+          "lvl": 33,
+          "m": "Pirochoque"
+        },
+        {
+          "lvl": 39,
+          "m": "Onda Ígnea"
+        },
+        {
+          "lvl": 41,
+          "m": "Golpe Calor"
+        },
+        {
+          "lvl": 47,
+          "m": "Ataque Furia"
+        }
+      ],
+      "firstMoves": [
+        "Carga Tóxica",
+        "Camuflaje"
+      ],
+      "spriteKey": "CHIMCHAR"
+    }
+  ],
+  "box": [],
+  "graveyard": [],
+  "captures": [
+    {
+      "route": "",
+      "where": "",
+      "species": "Chimchar",
+      "nickname": "Joker",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Chimchar"
+    }
+  ],
+  "progress": {
+    "gyms": {},
+    "bosses": {},
+    "npcs": {},
+    "routes": {},
+    "items": {},
+    "encounters": {},
+    "switches": [
+      48,
+      61,
+      62,
+      63,
+      66,
+      67,
+      110,
+      176,
+      179,
+      180,
+      181,
+      182,
+      183,
+      323,
+      334
+    ],
+    "foundItems": [
+      "Dado Trucado",
+      "Def. Especial X",
+      "Defensa X 3",
+      "Miniseta",
+      "MT84",
+      "Reglamento",
+      "Roca del Rey",
+      "Tabla Tóxica"
+    ],
+    "bag": [
+      {
+        "id": "LOADEDDICE",
+        "name": "Dado Trucado",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "TINYMUSHROOM",
+        "name": "Miniseta",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "TOXICPLATE",
+        "name": "Tabla Tóxica",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "TM84",
+        "name": "MT84",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "XSPDEF",
+        "name": "Def. Especial X",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XDEFENSE3",
+        "name": "Defensa X 3",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "RULEBOOK",
+        "name": "Reglamento",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      }
+    ]
+  },
+  "deathLog": [],
+  "revividos": 0
+}
