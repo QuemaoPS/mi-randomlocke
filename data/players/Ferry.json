@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 0h 42m jugadas · 5,460₽ · vidas en el juego: 19",
+  "notes": "Importado del save · 0h 47m jugadas · 7,560₽ · vidas en el juego: 19",
   "team": [
     {
       "nickname": "QueFeo",
@@ -35,10 +35,10 @@
       "ev": [
         2,
         4,
-        51,
-        3,
+        52,
+        4,
         2,
-        3
+        4
       ],
       "abilPool": [
         "Camorrista",
@@ -148,10 +148,10 @@
       "ev": [
         4,
         4,
-        1,
+        2,
+        4,
         3,
-        3,
-        3
+        4
       ],
       "abilPool": [
         "Presión",
@@ -289,10 +289,10 @@
       "ev": [
         2,
         4,
-        1,
+        2,
+        4,
         3,
-        3,
-        3
+        4
       ],
       "abilPool": [
         "Tierra del Ocaso"
@@ -350,10 +350,10 @@
       "ev": [
         2,
         3,
-        1,
-        3,
         2,
-        3
+        4,
+        2,
+        4
       ],
       "abilPool": [
         "Coránima",
@@ -479,10 +479,10 @@
       "ev": [
         2,
         2,
-        1,
         2,
+        3,
         2,
-        2
+        3
       ],
       "abilPool": [
         "Viscosidad",
@@ -557,10 +557,10 @@
       "ev": [
         0,
         2,
+        1,
+        1,
         0,
-        0,
-        0,
-        0
+        1
       ],
       "abilPool": [
         "Hospitalidad"
@@ -839,7 +839,9 @@
     }
   ],
   "progress": {
-    "gyms": {},
+    "gyms": {
+      "gym1": true
+    },
     "bosses": {},
     "npcs": {},
     "routes": {},
@@ -862,19 +864,25 @@
       181,
       182,
       183,
+      184,
       238,
       323,
       334
     ],
     "foundItems": [
+      "Antiparalizador",
+      "At. Esp. X 3",
       "Máscara Horno",
       "Menta Alegre",
+      "MO Golpe Roca",
       "Mochi Aguante",
       "MT38",
+      "MT39",
       "Ocaso Ball",
       "Piedra Eterna",
       "Poción",
       "Poké Montura",
+      "Precisión X 6",
       "Reglamento",
       "Scapsula",
       "Supercaña",
@@ -932,6 +940,12 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "PARALYZEHEAL",
+        "name": "Antiparalizador",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "DUSKBALL",
         "name": "Ocaso Ball",
         "qty": 2,
@@ -948,6 +962,24 @@
         "name": "MT38",
         "qty": 1,
         "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM39",
+        "name": "MT39",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "XACCURACY6",
+        "name": "Precisión X 6",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XSPATK3",
+        "name": "At. Esp. X 3",
+        "qty": 1,
+        "pocket": "Objetos de combate"
       },
       {
         "id": "RULEBOOK",
@@ -970,6 +1002,12 @@
       {
         "id": "SUPERROD",
         "name": "Supercaña",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "ROCKSMASHITEM",
+        "name": "MO Golpe Roca",
         "qty": 1,
         "pocket": "Objetos clave"
       }
