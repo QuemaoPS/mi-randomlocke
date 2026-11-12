@@ -1,0 +1,25 @@
+{
+  "id": "quemao",
+  "name": "quemao",
+  "lives": 30,
+  "livesUsed": 0,
+  "champion": false,
+  "notes": "Importado del save · 0h 0m jugadas · 0₽ · vidas en el juego: ?",
+  "team": [],
+  "box": [],
+  "graveyard": [],
+  "captures": [],
+  "progress": {
+    "gyms": {},
+    "bosses": {},
+    "npcs": {},
+    "routes": {},
+    "items": {},
+    "encounters": {},
+    "switches": [],
+    "foundItems": [],
+    "bag": []
+  },
+  "deathLog": [],
+  "revividos": 0
+}
