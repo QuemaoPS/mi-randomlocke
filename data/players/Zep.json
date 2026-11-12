@@ -2,9 +2,9 @@
   "id": "Zep",
   "name": "Susi",
   "lives": 30,
-  "livesUsed": 0,
+  "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 1h 9m jugadas · 3,500₽ · vidas en el juego: 20",
+  "notes": "Importado del save · 1h 31m jugadas · 5,650₽ · vidas en el juego: 19",
   "team": [
     {
       "nickname": "Aley",
@@ -33,12 +33,12 @@
         4
       ],
       "ev": [
+        3,
+        0,
+        8,
         2,
-        0,
-        4,
-        0,
-        1,
-        0
+        5,
+        3
       ],
       "abilPool": [
         "Piel Helada",
@@ -78,122 +78,6 @@
       "spriteKey": "DREEPY"
     },
     {
-      "nickname": "Icy veedo",
-      "species": "Sandshrew",
-      "level": 14,
-      "types": [
-        "Tierra"
-      ],
-      "ability": "Recogebolas",
-      "nature": "Agitada",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Llave Giro",
-        "Ojitos Tiernos",
-        "Fijar Blanco",
-        "Granizo"
-      ],
-      "iv": [
-        6,
-        2,
-        21,
-        7,
-        13,
-        1
-      ],
-      "ev": [
-        2,
-        0,
-        2,
-        0,
-        1,
-        0
-      ],
-      "abilPool": [
-        "Recogebolas"
-      ],
-      "abilHidden": [
-        "Voz Fluida"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Llave Giro"
-        },
-        {
-          "lvl": 1,
-          "m": "Danza Amiga"
-        },
-        {
-          "lvl": 3,
-          "m": "Fijar Blanco"
-        },
-        {
-          "lvl": 5,
-          "m": "Paisaje Nevado"
-        },
-        {
-          "lvl": 7,
-          "m": "Ojitos Tiernos"
-        },
-        {
-          "lvl": 9,
-          "m": "Encanto"
-        },
-        {
-          "lvl": 11,
-          "m": "Granizo"
-        },
-        {
-          "lvl": 14,
-          "m": "Motivación"
-        },
-        {
-          "lvl": 17,
-          "m": "Picoteo"
-        },
-        {
-          "lvl": 20,
-          "m": "Vaho Gélido"
-        },
-        {
-          "lvl": 23,
-          "m": "Defensa Férrea"
-        },
-        {
-          "lvl": 26,
-          "m": "Acua Jet"
-        },
-        {
-          "lvl": 30,
-          "m": "Puño Bala"
-        },
-        {
-          "lvl": 34,
-          "m": "Escudo Tatami"
-        },
-        {
-          "lvl": 38,
-          "m": "Quemarrueda"
-        },
-        {
-          "lvl": 42,
-          "m": "Bombardeo"
-        },
-        {
-          "lvl": 46,
-          "m": "Lanzallamas"
-        }
-      ],
-      "firstMoves": [
-        "Llave Giro",
-        "Danza Amiga",
-        "Fijar Blanco"
-      ],
-      "spriteKey": "SANDSHREW_1"
-    },
-    {
       "nickname": "Hector",
       "species": "Venonat",
       "level": 14,
@@ -220,12 +104,12 @@
         26
       ],
       "ev": [
+        3,
+        0,
+        6,
         2,
-        0,
-        2,
-        0,
-        0,
-        0
+        4,
+        3
       ],
       "abilPool": [
         "Vista Lince",
@@ -338,12 +222,12 @@
         1
       ],
       "ev": [
+        1,
         0,
-        0,
+        6,
         2,
-        0,
-        0,
-        0
+        4,
+        3
       ],
       "abilPool": [
         "Normalidad",
@@ -420,18 +304,19 @@
     },
     {
       "nickname": "Stereo Madne",
-      "species": "Seedot",
-      "level": 5,
+      "species": "Nuzleaf",
+      "level": 14,
       "types": [
-        "Planta"
+        "Planta",
+        "Siniestro"
       ],
-      "ability": "Cuerpo Áureo",
+      "ability": "Expulsarena",
       "nature": "Rara",
       "item": "",
       "shiny": false,
       "moves": [
         "Drenadoras",
-        "Octopresa",
+        "Hoja Mágica",
         "Doble Patada",
         "Rodar"
       ],
@@ -444,80 +329,120 @@
         22
       ],
       "ev": [
-        0,
-        0,
         1,
         0,
-        0,
-        0
+        5,
+        2,
+        4,
+        3
       ],
       "abilPool": [
-        "Cuerpo Áureo",
-        "Dicha"
+        "Expulsarena",
+        "Cabeza Roca"
       ],
       "abilHidden": [
-        "Francotirador"
+        "Irascible"
       ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Drenadoras"
+          "lvl": -1,
+          "m": "Tormento"
         },
         {
           "lvl": 1,
-          "m": "Octopresa"
+          "m": "Último Lugar"
         },
         {
-          "lvl": 3,
-          "m": "Rodar"
+          "lvl": 1,
+          "m": "Llanto Falso"
         },
         {
-          "lvl": 6,
-          "m": "Semilladora"
+          "lvl": 1,
+          "m": "Cuerno Certero"
         },
         {
-          "lvl": 7,
-          "m": "Hoja Mágica"
+          "lvl": 1,
+          "m": "Danza Espada"
+        },
+        {
+          "lvl": 1,
+          "m": "Giro Vil"
+        },
+        {
+          "lvl": 1,
+          "m": "Superdiente"
+        },
+        {
+          "lvl": 1,
+          "m": "Estoicismo"
+        },
+        {
+          "lvl": 1,
+          "m": "Aire Afilado"
+        },
+        {
+          "lvl": 1,
+          "m": "Geocontrol"
+        },
+        {
+          "lvl": 1,
+          "m": "Decoración"
         },
         {
           "lvl": 9,
-          "m": "Bola Hielo"
+          "m": "Bola Voltio"
         },
         {
           "lvl": 12,
-          "m": "Ovocuración"
-        },
-        {
-          "lvl": 15,
-          "m": "Rompecoraza"
+          "m": "Fitoimpulso"
         },
         {
           "lvl": 18,
-          "m": "Absorbefuerza"
+          "m": "Cambio de Marcha"
         },
         {
           "lvl": 21,
-          "m": "Danza Lluvia"
-        },
-        {
-          "lvl": 21,
-          "m": "Cede Paso"
+          "m": "Beso Drenaje"
         },
         {
           "lvl": 24,
-          "m": "Cosquillas"
+          "m": "Vendetta"
         },
         {
-          "lvl": 27,
-          "m": "Doble Bofetón"
+          "lvl": 28,
+          "m": "Absorbefuerza"
         },
         {
           "lvl": 30,
-          "m": "Follaje"
+          "m": "Ladrón"
         },
         {
-          "lvl": 33,
-          "m": "Látigo Cepa"
+          "lvl": 30,
+          "m": "Foco Energía"
+        },
+        {
+          "lvl": 31,
+          "m": "Ovocuración"
+        },
+        {
+          "lvl": 36,
+          "m": "Deslome"
+        },
+        {
+          "lvl": 37,
+          "m": "Lluevehojas"
+        },
+        {
+          "lvl": 43,
+          "m": "Fuerza"
+        },
+        {
+          "lvl": 50,
+          "m": "Escudo Real"
+        },
+        {
+          "lvl": 57,
+          "m": "Golpe Bajo"
         }
       ],
       "firstMoves": [
@@ -525,12 +450,12 @@
         "Octopresa",
         "Doble Patada"
       ],
-      "spriteKey": "SEEDOT"
+      "spriteKey": "NUZLEAF"
     },
     {
       "nickname": "taboun",
       "species": "Hippopotas",
-      "level": 6,
+      "level": 14,
       "types": [
         "Tierra"
       ],
@@ -540,8 +465,9 @@
       "shiny": false,
       "moves": [
         "Día Soleado",
-        "Cambiadefensa",
-        "Bucle Arena"
+        "Ataque Arena",
+        "Bucle Arena",
+        "Bomba Fango"
       ],
       "iv": [
         25,
@@ -552,12 +478,12 @@
         22
       ],
       "ev": [
+        1,
         0,
-        0,
-        0,
-        0,
-        0,
-        0
+        4,
+        2,
+        4,
+        3
       ],
       "abilPool": [
         "Gélido"
@@ -637,10 +563,243 @@
         "Bucle Arena"
       ],
       "spriteKey": "HIPPOPOTAS"
+    },
+    {
+      "nickname": "El pianista",
+      "species": "Kabuto",
+      "level": 7,
+      "types": [
+        "Roca",
+        "Agua"
+      ],
+      "ability": "Monotema",
+      "nature": "Tímida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Hachazo Pétreo",
+        "Burbuja",
+        "Cuerno Certero"
+      ],
+      "iv": [
+        7,
+        20,
+        16,
+        17,
+        7,
+        1
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Monotema",
+        "Hospitalidad"
+      ],
+      "abilHidden": [
+        "Entusiasmo"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Hachazo Pétreo"
+        },
+        {
+          "lvl": 1,
+          "m": "Burbuja"
+        },
+        {
+          "lvl": 5,
+          "m": "Cuerno Certero"
+        },
+        {
+          "lvl": 10,
+          "m": "Viento Feérico"
+        },
+        {
+          "lvl": 15,
+          "m": "Fortaleza"
+        },
+        {
+          "lvl": 20,
+          "m": "Canto Mortal"
+        },
+        {
+          "lvl": 25,
+          "m": "Pistola Agua"
+        },
+        {
+          "lvl": 26,
+          "m": "Placaje"
+        },
+        {
+          "lvl": 30,
+          "m": "Caída Libre"
+        },
+        {
+          "lvl": 35,
+          "m": "Aullido"
+        },
+        {
+          "lvl": 41,
+          "m": "Picotazo Veneno"
+        },
+        {
+          "lvl": 45,
+          "m": "Pedrada"
+        },
+        {
+          "lvl": 50,
+          "m": "Salmuera"
+        },
+        {
+          "lvl": 51,
+          "m": "Triple Golpe"
+        },
+        {
+          "lvl": 55,
+          "m": "Calamidad"
+        },
+        {
+          "lvl": 60,
+          "m": "Llama Embrujada"
+        }
+      ],
+      "firstMoves": [
+        "Hachazo Pétreo",
+        "Burbuja",
+        "Cuerno Certero"
+      ],
+      "spriteKey": "KABUTO"
     }
   ],
   "box": [],
-  "graveyard": [],
+  "graveyard": [
+    {
+      "nickname": "Icy veedo",
+      "species": "Sandshrew",
+      "level": 14,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Recogebolas",
+      "nature": "Agitada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Llave Giro",
+        "Ojitos Tiernos",
+        "Fijar Blanco",
+        "Granizo"
+      ],
+      "iv": [
+        6,
+        2,
+        21,
+        7,
+        13,
+        1
+      ],
+      "ev": [
+        3,
+        0,
+        2,
+        1,
+        5,
+        3
+      ],
+      "abilPool": [
+        "Recogebolas"
+      ],
+      "abilHidden": [
+        "Voz Fluida"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Llave Giro"
+        },
+        {
+          "lvl": 1,
+          "m": "Danza Amiga"
+        },
+        {
+          "lvl": 3,
+          "m": "Fijar Blanco"
+        },
+        {
+          "lvl": 5,
+          "m": "Paisaje Nevado"
+        },
+        {
+          "lvl": 7,
+          "m": "Ojitos Tiernos"
+        },
+        {
+          "lvl": 9,
+          "m": "Encanto"
+        },
+        {
+          "lvl": 11,
+          "m": "Granizo"
+        },
+        {
+          "lvl": 14,
+          "m": "Motivación"
+        },
+        {
+          "lvl": 17,
+          "m": "Picoteo"
+        },
+        {
+          "lvl": 20,
+          "m": "Vaho Gélido"
+        },
+        {
+          "lvl": 23,
+          "m": "Defensa Férrea"
+        },
+        {
+          "lvl": 26,
+          "m": "Acua Jet"
+        },
+        {
+          "lvl": 30,
+          "m": "Puño Bala"
+        },
+        {
+          "lvl": 34,
+          "m": "Escudo Tatami"
+        },
+        {
+          "lvl": 38,
+          "m": "Quemarrueda"
+        },
+        {
+          "lvl": 42,
+          "m": "Bombardeo"
+        },
+        {
+          "lvl": 46,
+          "m": "Lanzallamas"
+        }
+      ],
+      "firstMoves": [
+        "Llave Giro",
+        "Danza Amiga",
+        "Fijar Blanco"
+      ],
+      "spriteKey": "SANDSHREW_1",
+      "cause": "",
+      "route": "",
+      "date": ""
+    }
+  ],
   "captures": [
     {
       "route": "",
@@ -652,17 +811,6 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Dreepy"
-    },
-    {
-      "route": "",
-      "where": "",
-      "species": "Sandshrew",
-      "nickname": "Icy veedo",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 3,
-      "mon": "Sandshrew"
     },
     {
       "route": "",
@@ -689,13 +837,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Seedot",
+      "species": "Nuzleaf",
       "nickname": "Stereo Madne",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
       "level": 2,
-      "mon": "Seedot"
+      "mon": "Nuzleaf"
     },
     {
       "route": "",
@@ -707,6 +855,28 @@
       "category": "estatico_regalo",
       "level": 6,
       "mon": "Hippopotas"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Kabuto",
+      "nickname": "El pianista",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 7,
+      "mon": "Kabuto"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Sandshrew",
+      "nickname": "Icy veedo",
+      "shiny": false,
+      "status": "dead",
+      "category": "estatico_regalo",
+      "level": 3,
+      "mon": "Sandshrew"
     }
   ],
   "progress": {
@@ -725,7 +895,9 @@
       67,
       68,
       69,
+      71,
       110,
+      112,
       176,
       179,
       180,
@@ -737,8 +909,14 @@
     ],
     "foundItems": [
       "Fósil Garra",
+      "Franja Recia",
       "Galleta Yantra",
+      "Malla Ball",
       "Miniseta",
+      "Mochi Mente",
+      "MT25",
+      "Piedra Alba",
+      "Piedra Solar",
       "Poké Montura",
       "Reglamento",
       "Superrepelente",
@@ -764,6 +942,24 @@
         "pocket": "Objetos"
       },
       {
+        "id": "POWERANKLET",
+        "name": "Franja Recia",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "DAWNSTONE",
+        "name": "Piedra Alba",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "SUNSTONE",
+        "name": "Piedra Solar",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "SHALOURSABLE",
         "name": "Galleta Yantra",
         "qty": 2,
@@ -772,7 +968,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 969,
+        "qty": 952,
         "pocket": "Medicinas"
       },
       {
@@ -794,10 +990,22 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "CLEVERMOCHI",
+        "name": "Mochi Mente",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 8,
+        "qty": 7,
         "pocket": "Poké Balls"
+      },
+      {
+        "id": "TM25",
+        "name": "MT25",
+        "qty": 1,
+        "pocket": "MTs y MOs"
       },
       {
         "id": "RULEBOOK",
@@ -819,6 +1027,8 @@
       }
     ]
   },
-  "deathLog": [],
+  "deathLog": [
+    "25947758"
+  ],
   "revividos": 0
 }
