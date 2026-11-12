@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 2h 0m jugadas · 6,450₽ · vidas en el juego: 18",
+  "notes": "Importado del save · 2h 6m jugadas · 8,730₽ · vidas en el juego: 18",
   "team": [
     {
       "nickname": "Aley",
@@ -33,12 +33,12 @@
         4
       ],
       "ev": [
+        4,
+        4,
+        9,
         3,
-        2,
-        8,
-        2,
         6,
-        5
+        7
       ],
       "abilPool": [
         "Piel Helada",
@@ -104,12 +104,12 @@
         26
       ],
       "ev": [
+        4,
+        4,
+        7,
         3,
-        2,
-        6,
-        2,
         5,
-        5
+        7
       ],
       "abilPool": [
         "Vista Lince",
@@ -222,12 +222,12 @@
         1
       ],
       "ev": [
-        1,
         2,
-        6,
-        2,
+        4,
+        7,
+        3,
         5,
-        5
+        7
       ],
       "abilPool": [
         "Normalidad",
@@ -329,12 +329,12 @@
         22
       ],
       "ev": [
-        1,
         2,
+        4,
+        6,
+        3,
         5,
-        2,
-        5,
-        5
+        7
       ],
       "abilPool": [
         "Expulsarena",
@@ -478,12 +478,12 @@
         22
       ],
       "ev": [
-        1,
         2,
         4,
-        2,
         5,
-        5
+        3,
+        5,
+        7
       ],
       "abilPool": [
         "Gélido"
@@ -593,12 +593,12 @@
         18
       ],
       "ev": [
+        1,
+        2,
+        1,
+        1,
         0,
-        0,
-        0,
-        0,
-        0,
-        0
+        2
       ],
       "abilPool": [
         "Néctar dulce",
@@ -1197,6 +1197,8 @@
       334
     ],
     "foundItems": [
+      "Baya Algama",
+      "Baya Dillo",
       "Cola Plúmbea",
       "Fósil Garra",
       "Franja Recia",
@@ -1351,6 +1353,18 @@
         "name": "MT116",
         "qty": 1,
         "pocket": "MTs y MOs"
+      },
+      {
+        "id": "KELPSYBERRY",
+        "name": "Baya Algama",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "COLBURBERRY",
+        "name": "Baya Dillo",
+        "qty": 1,
+        "pocket": "Bayas"
       },
       {
         "id": "RULEBOOK",
