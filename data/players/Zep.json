@@ -1,14 +1,355 @@
 {
   "id": "Zep",
-  "name": "Zep",
+  "name": "Susi",
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 0m jugadas · 0₽ · vidas en el juego: ?",
-  "team": [],
+  "notes": "Importado del save · 0h 48m jugadas · 3,500₽ · vidas en el juego: 20",
+  "team": [
+    {
+      "nickname": "Aley",
+      "species": "Dreepy",
+      "level": 6,
+      "types": [
+        "Dragón",
+        "Fantasma"
+      ],
+      "ability": "Piel Helada",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Sombra Vil",
+        "Halloween",
+        "Rizo Defensa",
+        "Pesadilla"
+      ],
+      "iv": [
+        2,
+        20,
+        15,
+        2,
+        16,
+        4
+      ],
+      "ev": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0
+      ],
+      "abilPool": [
+        "Piel Helada",
+        "Absorbe Fuego"
+      ],
+      "abilHidden": [
+        "Baba"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Polvo Ira"
+        },
+        {
+          "lvl": 1,
+          "m": "Sombra Vil"
+        },
+        {
+          "lvl": 1,
+          "m": "Halloween"
+        },
+        {
+          "lvl": 1,
+          "m": "Rizo Defensa"
+        },
+        {
+          "lvl": 1,
+          "m": "Pesadilla"
+        }
+      ],
+      "firstMoves": [
+        "Sombra Vil",
+        "Halloween",
+        "Rizo Defensa",
+        "Pesadilla"
+      ],
+      "spriteKey": "DREEPY"
+    },
+    {
+      "nickname": "Roomtrash6",
+      "species": "Sandshrew",
+      "level": 5,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Recogebolas",
+      "nature": "Agitada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Llave Giro",
+        "Danza Amiga",
+        "Fijar Blanco",
+        "Paisaje Nevado"
+      ],
+      "iv": [
+        6,
+        2,
+        21,
+        7,
+        13,
+        1
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "abilPool": [
+        "Recogebolas"
+      ],
+      "abilHidden": [
+        "Voz Fluida"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Llave Giro"
+        },
+        {
+          "lvl": 1,
+          "m": "Danza Amiga"
+        },
+        {
+          "lvl": 3,
+          "m": "Fijar Blanco"
+        },
+        {
+          "lvl": 5,
+          "m": "Paisaje Nevado"
+        },
+        {
+          "lvl": 7,
+          "m": "Ojitos Tiernos"
+        },
+        {
+          "lvl": 9,
+          "m": "Encanto"
+        },
+        {
+          "lvl": 11,
+          "m": "Granizo"
+        },
+        {
+          "lvl": 14,
+          "m": "Motivación"
+        },
+        {
+          "lvl": 17,
+          "m": "Picoteo"
+        },
+        {
+          "lvl": 20,
+          "m": "Vaho Gélido"
+        },
+        {
+          "lvl": 23,
+          "m": "Defensa Férrea"
+        },
+        {
+          "lvl": 26,
+          "m": "Acua Jet"
+        },
+        {
+          "lvl": 30,
+          "m": "Puño Bala"
+        },
+        {
+          "lvl": 34,
+          "m": "Escudo Tatami"
+        },
+        {
+          "lvl": 38,
+          "m": "Quemarrueda"
+        },
+        {
+          "lvl": 42,
+          "m": "Bombardeo"
+        },
+        {
+          "lvl": 46,
+          "m": "Lanzallamas"
+        }
+      ],
+      "firstMoves": [
+        "Llave Giro",
+        "Danza Amiga",
+        "Fijar Blanco"
+      ],
+      "spriteKey": "SANDSHREW_1"
+    },
+    {
+      "nickname": "Hector",
+      "species": "Venonat",
+      "level": 6,
+      "types": [
+        "Bicho",
+        "Veneno"
+      ],
+      "ability": "Puño Invisible",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Granizo",
+        "Yo Primero",
+        "Venganza",
+        "Ácido"
+      ],
+      "iv": [
+        23,
+        26,
+        24,
+        17,
+        16,
+        26
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Vista Lince",
+        "Puño Invisible"
+      ],
+      "abilHidden": [
+        "Hidrorrefuerzo"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Salazón"
+        },
+        {
+          "lvl": 1,
+          "m": "Granizo"
+        },
+        {
+          "lvl": 1,
+          "m": "Yo Primero"
+        },
+        {
+          "lvl": 1,
+          "m": "Venganza"
+        },
+        {
+          "lvl": 5,
+          "m": "Ácido"
+        },
+        {
+          "lvl": 11,
+          "m": "Estoicismo"
+        },
+        {
+          "lvl": 13,
+          "m": "Destello"
+        },
+        {
+          "lvl": 17,
+          "m": "Corte Furia"
+        },
+        {
+          "lvl": 23,
+          "m": "Telatrampa"
+        },
+        {
+          "lvl": 25,
+          "m": "Cortina Plasma"
+        },
+        {
+          "lvl": 25,
+          "m": "Rastreo"
+        },
+        {
+          "lvl": 29,
+          "m": "Autotomía"
+        },
+        {
+          "lvl": 35,
+          "m": "Aguijón Letal"
+        },
+        {
+          "lvl": 35,
+          "m": "Impresionar"
+        },
+        {
+          "lvl": 37,
+          "m": "Gas Venenoso"
+        },
+        {
+          "lvl": 41,
+          "m": "Agilidad"
+        },
+        {
+          "lvl": 47,
+          "m": "Polvo Ira"
+        }
+      ],
+      "firstMoves": [
+        "Granizo",
+        "Yo Primero",
+        "Venganza",
+        "Ácido"
+      ],
+      "spriteKey": "VENONAT"
+    }
+  ],
   "box": [],
   "graveyard": [],
-  "captures": [],
+  "captures": [
+    {
+      "route": "",
+      "where": "",
+      "species": "Dreepy",
+      "nickname": "Aley",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Dreepy"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Sandshrew",
+      "nickname": "Roomtrash6",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 3,
+      "mon": "Sandshrew"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Venonat",
+      "nickname": "Hector",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 6,
+      "mon": "Venonat"
+    }
+  ],
   "progress": {
     "gyms": {},
     "bosses": {},
@@ -16,9 +357,107 @@
     "routes": {},
     "items": {},
     "encounters": {},
-    "switches": [],
-    "foundItems": [],
-    "bag": []
+    "switches": [
+      48,
+      60,
+      61,
+      63,
+      66,
+      67,
+      68,
+      69,
+      110,
+      176,
+      179,
+      180,
+      181,
+      182,
+      183,
+      323,
+      334
+    ],
+    "foundItems": [
+      "Galleta Yantra",
+      "Miniseta",
+      "Poké Montura",
+      "Reglamento",
+      "Superrepelente",
+      "Vial"
+    ],
+    "bag": [
+      {
+        "id": "SUPERREPEL",
+        "name": "Superrepelente",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "TINYMUSHROOM",
+        "name": "Miniseta",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "SHALOURSABLE",
+        "name": "Galleta Yantra",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "RARECANDY",
+        "name": "Caramelo Raro",
+        "qty": 999,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "RARECANDY",
+        "name": "Caramelo Raro",
+        "qty": 999,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "RARECANDY",
+        "name": "Caramelo Raro",
+        "qty": 102,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "POTION",
+        "name": "Poción",
+        "qty": 2,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "POKEBALL",
+        "name": "Poké Ball",
+        "qty": 2,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "GREATBALL",
+        "name": "Super Ball",
+        "qty": 10,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "RULEBOOK",
+        "name": "Reglamento",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "VIAL",
+        "name": "Vial",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "POKERIDER",
+        "name": "Poké Montura",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      }
+    ]
   },
   "deathLog": [],
   "revividos": 0
