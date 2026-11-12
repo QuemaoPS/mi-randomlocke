@@ -21,6 +21,11 @@
       "id": "Zep",
       "name": "Zep",
       "avatar": "assets/avatars/blue.png"
+    },
+    {
+      "id": "Ferry",
+      "name": "Ferry",
+      "avatar": "assets/avatars/ethan.png"
     }
   ],
   "_avatarsDisponibles": [
