@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 14m jugadas · 2,960₽ · vidas en el juego: 20",
+  "notes": "Importado del save · 0h 17m jugadas · 2,960₽ · vidas en el juego: 20",
   "team": [
     {
       "nickname": "Joker",
       "species": "Cyndaquil",
-      "level": 7,
+      "level": 8,
       "types": [
         "Fuego"
       ],
@@ -33,7 +33,7 @@
       ],
       "ev": [
         2,
-        0,
+        1,
         0,
         2,
         1,
@@ -128,7 +128,7 @@
     {
       "nickname": "Globazo",
       "species": "Duosion",
-      "level": 7,
+      "level": 8,
       "types": [
         "Psíquico"
       ],
@@ -152,7 +152,7 @@
       ],
       "ev": [
         2,
-        0,
+        1,
         0,
         0,
         1,
@@ -269,7 +269,7 @@
     {
       "nickname": "Nabo",
       "species": "Caterpie",
-      "level": 7,
+      "level": 8,
       "types": [
         "Bicho"
       ],
@@ -292,7 +292,7 @@
       ],
       "ev": [
         0,
-        0,
+        1,
         0,
         0,
         1,
@@ -331,7 +331,7 @@
     {
       "nickname": "QueFeo",
       "species": "Tinkatink",
-      "level": 6,
+      "level": 8,
       "types": [
         "Hada",
         "Acero"
@@ -343,7 +343,8 @@
       "moves": [
         "Rueda Fuego",
         "Prensa Metálica",
-        "Estrujón"
+        "Estrujón",
+        "Voz Cautivadora"
       ],
       "iv": [
         13,
@@ -355,7 +356,7 @@
       ],
       "ev": [
         0,
-        0,
+        1,
         0,
         0,
         0,
@@ -440,6 +441,130 @@
         "Estrujón"
       ],
       "spriteKey": "TINKATINK"
+    },
+    {
+      "nickname": "Playmobil",
+      "species": "Trapinch",
+      "level": 5,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Piel Seca",
+      "nature": "Tímida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Cerrojo Feérico",
+        "Ataque Óseo",
+        "Refuerzo"
+      ],
+      "iv": [
+        27,
+        21,
+        4,
+        6,
+        14,
+        10
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Coránima",
+        "Piel Seca"
+      ],
+      "abilHidden": [
+        "Espanto"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Cerrojo Feérico"
+        },
+        {
+          "lvl": 1,
+          "m": "Ataque Óseo"
+        },
+        {
+          "lvl": 4,
+          "m": "Refuerzo"
+        },
+        {
+          "lvl": 7,
+          "m": "Recogearena"
+        },
+        {
+          "lvl": 8,
+          "m": "Manto Espejo"
+        },
+        {
+          "lvl": 12,
+          "m": "Punzada Rama"
+        },
+        {
+          "lvl": 16,
+          "m": "Estímulo"
+        },
+        {
+          "lvl": 17,
+          "m": "Arenas Ardientes"
+        },
+        {
+          "lvl": 20,
+          "m": "Chirrido"
+        },
+        {
+          "lvl": 24,
+          "m": "Bofetón Lodo"
+        },
+        {
+          "lvl": 25,
+          "m": "Bomba Fango"
+        },
+        {
+          "lvl": 28,
+          "m": "Disparo Lodo"
+        },
+        {
+          "lvl": 32,
+          "m": "Huesomerang"
+        },
+        {
+          "lvl": 36,
+          "m": "Ascenso Draco"
+        },
+        {
+          "lvl": 40,
+          "m": "Poder Pasado"
+        },
+        {
+          "lvl": 44,
+          "m": "Bruma Explosiva"
+        },
+        {
+          "lvl": 48,
+          "m": "Danza Amiga"
+        },
+        {
+          "lvl": 49,
+          "m": "Poder Reserva"
+        },
+        {
+          "lvl": 61,
+          "m": "Fertilizante"
+        }
+      ],
+      "firstMoves": [
+        "Cerrojo Feérico",
+        "Ataque Óseo",
+        "Refuerzo"
+      ],
+      "spriteKey": "TRAPINCH"
     }
   ],
   "box": [],
@@ -488,6 +613,17 @@
       "category": "estatico_regalo",
       "level": 6,
       "mon": "Tinkatink"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Trapinch",
+      "nickname": "Playmobil",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Trapinch"
     }
   ],
   "progress": {
@@ -518,6 +654,7 @@
       334
     ],
     "foundItems": [
+      "Menta Alegre",
       "MT38",
       "Ocaso Ball",
       "Piedra Eterna",
@@ -543,13 +680,19 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 995,
+        "qty": 990,
         "pocket": "Medicinas"
       },
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
         "qty": 101,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "JOLLYMINT",
+        "name": "Menta Alegre",
+        "qty": 1,
         "pocket": "Medicinas"
       },
       {
@@ -567,7 +710,7 @@
       {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 5,
+        "qty": 4,
         "pocket": "Poké Balls"
       },
       {
