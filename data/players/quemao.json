@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 56m jugadas · 3,500₽ · vidas en el juego: 20",
+  "notes": "Importado del save · 1h 8m jugadas · 3,500₽ · vidas en el juego: 20",
   "team": [
     {
       "nickname": "MEGA",
       "species": "Litten",
-      "level": 6,
+      "level": 7,
       "types": [
         "Fuego"
       ],
@@ -19,7 +19,7 @@
       "shiny": false,
       "moves": [
         "Relajo",
-        "Celebración",
+        "Yo Primero",
         "Hidropulso",
         "Nitrocarga"
       ],
@@ -34,10 +34,10 @@
       "ev": [
         1,
         0,
+        1,
+        1,
         0,
-        0,
-        0,
-        0
+        1
       ],
       "abilPool": [
         "Cola Surf"
@@ -117,6 +117,350 @@
         "Hidropulso"
       ],
       "spriteKey": "LITTEN"
+    },
+    {
+      "nickname": "COJONES v2",
+      "species": "Exeggcute",
+      "level": 4,
+      "types": [
+        "Planta",
+        "Psíquico"
+      ],
+      "ability": "Tenacidad",
+      "nature": "Serena",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Chapoteo Lodo",
+        "Pulso Cura",
+        "Rizo Algodón",
+        "Torbellino"
+      ],
+      "iv": [
+        14,
+        21,
+        20,
+        2,
+        18,
+        31
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "abilPool": [
+        "Tenacidad",
+        "Cobardía"
+      ],
+      "abilHidden": [
+        "Espada Debacle"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Chapoteo Lodo"
+        },
+        {
+          "lvl": 1,
+          "m": "Pulso Cura"
+        },
+        {
+          "lvl": 1,
+          "m": "Rizo Algodón"
+        },
+        {
+          "lvl": 5,
+          "m": "Bloqueo"
+        },
+        {
+          "lvl": 10,
+          "m": "Barrera Espinosa"
+        },
+        {
+          "lvl": 15,
+          "m": "Psicorrayo"
+        },
+        {
+          "lvl": 19,
+          "m": "Abatidoras"
+        },
+        {
+          "lvl": 20,
+          "m": "Salazón"
+        },
+        {
+          "lvl": 21,
+          "m": "Hierba Lazo"
+        },
+        {
+          "lvl": 23,
+          "m": "Pantalla de Humo"
+        },
+        {
+          "lvl": 25,
+          "m": "Sísmico"
+        },
+        {
+          "lvl": 30,
+          "m": "Pisotón"
+        },
+        {
+          "lvl": 30,
+          "m": "Manto Espejo"
+        },
+        {
+          "lvl": 35,
+          "m": "Voto Planta"
+        },
+        {
+          "lvl": 40,
+          "m": "Lluevehojas"
+        },
+        {
+          "lvl": 45,
+          "m": "Hoja Mágica"
+        },
+        {
+          "lvl": 50,
+          "m": "Estrujón"
+        },
+        {
+          "lvl": 53,
+          "m": "Escaramuza"
+        },
+        {
+          "lvl": 55,
+          "m": "Cañón Batidor"
+        }
+      ],
+      "firstMoves": [
+        "Chapoteo Lodo",
+        "Pulso Cura",
+        "Rizo Algodón",
+        "Torbellino"
+      ],
+      "spriteKey": "EXEGGCUTE"
+    },
+    {
+      "nickname": "VINICIUS",
+      "species": "Chimchar",
+      "level": 4,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "Alma Acerada",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Semilladora",
+        "Fría Acogida"
+      ],
+      "iv": [
+        3,
+        22,
+        31,
+        30,
+        11,
+        18
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Alma Acerada"
+      ],
+      "abilHidden": [
+        "Impulso"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Semilladora"
+        },
+        {
+          "lvl": 1,
+          "m": "Fría Acogida"
+        },
+        {
+          "lvl": 6,
+          "m": "Nitrocarga"
+        },
+        {
+          "lvl": 9,
+          "m": "Avivar"
+        },
+        {
+          "lvl": 12,
+          "m": "Fuego Fatuo"
+        },
+        {
+          "lvl": 15,
+          "m": "Envidia ardiente"
+        },
+        {
+          "lvl": 17,
+          "m": "Shuriken de Agua"
+        },
+        {
+          "lvl": 23,
+          "m": "Danza Dragón"
+        },
+        {
+          "lvl": 25,
+          "m": "Golpe Calor"
+        },
+        {
+          "lvl": 31,
+          "m": "Supersónico"
+        },
+        {
+          "lvl": 33,
+          "m": "Voltiocambio"
+        },
+        {
+          "lvl": 39,
+          "m": "Magnitud"
+        },
+        {
+          "lvl": 41,
+          "m": "Balón Ígneo"
+        },
+        {
+          "lvl": 47,
+          "m": "Rueda Fuego"
+        }
+      ],
+      "firstMoves": [
+        "Semilladora",
+        "Fría Acogida"
+      ],
+      "spriteKey": "CHIMCHAR"
+    },
+    {
+      "nickname": "MARIHUANA",
+      "species": "Petilil",
+      "level": 5,
+      "types": [
+        "Planta"
+      ],
+      "ability": "Mal Sueño",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Ladrón",
+        "Fotosíntesis",
+        "Espora"
+      ],
+      "iv": [
+        9,
+        20,
+        26,
+        2,
+        14,
+        27
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Mal Sueño",
+        "Cacheo"
+      ],
+      "abilHidden": [
+        "Electromotor"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Ladrón"
+        },
+        {
+          "lvl": 1,
+          "m": "Fotosíntesis"
+        },
+        {
+          "lvl": 3,
+          "m": "Espora"
+        },
+        {
+          "lvl": 6,
+          "m": "Bomba Imán"
+        },
+        {
+          "lvl": 9,
+          "m": "Cara Susto"
+        },
+        {
+          "lvl": 12,
+          "m": "Ovocuración"
+        },
+        {
+          "lvl": 12,
+          "m": "Presente"
+        },
+        {
+          "lvl": 15,
+          "m": "Rugido de Guerra"
+        },
+        {
+          "lvl": 18,
+          "m": "Alud"
+        },
+        {
+          "lvl": 21,
+          "m": "Envidia ardiente"
+        },
+        {
+          "lvl": 24,
+          "m": "Giro Vil"
+        },
+        {
+          "lvl": 27,
+          "m": "Truco Floral"
+        },
+        {
+          "lvl": 30,
+          "m": "Robo"
+        },
+        {
+          "lvl": 33,
+          "m": "Pulso Primigenio"
+        },
+        {
+          "lvl": 36,
+          "m": "Cura Selvática"
+        },
+        {
+          "lvl": 39,
+          "m": "Latigazo"
+        },
+        {
+          "lvl": 42,
+          "m": "Estrujón"
+        }
+      ],
+      "firstMoves": [
+        "Ladrón",
+        "Fotosíntesis",
+        "Espora"
+      ],
+      "spriteKey": "PETILIL_1"
     }
   ],
   "box": [],
@@ -132,6 +476,39 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Litten"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Exeggcute",
+      "nickname": "COJONES v2",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 3,
+      "mon": "Exeggcute"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Chimchar",
+      "nickname": "VINICIUS",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 2,
+      "mon": "Chimchar"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Petilil",
+      "nickname": "MARIHUANA",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Petilil"
     }
   ],
   "progress": {
@@ -148,6 +525,8 @@
       63,
       66,
       67,
+      68,
+      69,
       110,
       176,
       179,
@@ -159,12 +538,71 @@
       334
     ],
     "foundItems": [
-      "Reglamento"
+      "Menta Firme",
+      "Miniseta",
+      "Poké Montura",
+      "Reglamento",
+      "Revivir",
+      "Vial"
     ],
     "bag": [
       {
+        "id": "TINYMUSHROOM",
+        "name": "Miniseta",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "REVIVE",
+        "name": "Revivir",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "ADAMANTMINT",
+        "name": "Menta Firme",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "RARECANDY",
+        "name": "Caramelo Raro",
+        "qty": 300,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "POTION",
+        "name": "Poción",
+        "qty": 2,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "POKEBALL",
+        "name": "Poké Ball",
+        "qty": 5,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "GREATBALL",
+        "name": "Super Ball",
+        "qty": 4,
+        "pocket": "Poké Balls"
+      },
+      {
         "id": "RULEBOOK",
         "name": "Reglamento",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "VIAL",
+        "name": "Vial",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "POKERIDER",
+        "name": "Poké Montura",
         "qty": 1,
         "pocket": "Objetos clave"
       }
