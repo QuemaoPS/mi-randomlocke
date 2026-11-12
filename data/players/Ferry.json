@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 4m jugadas · 2,960₽ · vidas en el juego: 20",
+  "notes": "Importado del save · 0h 12m jugadas · 2,960₽ · vidas en el juego: 20",
   "team": [
     {
       "nickname": "Joker",
       "species": "Cyndaquil",
-      "level": 5,
+      "level": 7,
       "types": [
         "Fuego"
       ],
@@ -20,7 +20,8 @@
       "moves": [
         "Barrera Espinosa",
         "Nitrocarga",
-        "Fría Acogida"
+        "Fría Acogida",
+        "Ayuda"
       ],
       "iv": [
         18,
@@ -31,10 +32,10 @@
         20
       ],
       "ev": [
+        2,
         0,
         0,
-        0,
-        0,
+        2,
         0,
         0
       ],
@@ -114,12 +115,215 @@
           "m": "Llama Embrujada"
         }
       ],
+      "tmMoves": [
+        "Beso Dulce"
+      ],
       "firstMoves": [
         "Barrera Espinosa",
         "Nitrocarga",
         "Fría Acogida"
       ],
       "spriteKey": "CYNDAQUIL"
+    },
+    {
+      "nickname": "Globazo",
+      "species": "Duosion",
+      "level": 5,
+      "types": [
+        "Psíquico"
+      ],
+      "ability": "Ímpetu Tóxico",
+      "nature": "Rara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Mordisco",
+        "Aire Afilado",
+        "Paz Mental",
+        "Tóxico"
+      ],
+      "iv": [
+        16,
+        18,
+        2,
+        25,
+        25,
+        22
+      ],
+      "ev": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Presión",
+        "Ímpetu Tóxico"
+      ],
+      "abilHidden": [
+        "Velo Aroma"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Ovocuración"
+        },
+        {
+          "lvl": 1,
+          "m": "Afilar"
+        },
+        {
+          "lvl": 1,
+          "m": "Kinético"
+        },
+        {
+          "lvl": 1,
+          "m": "Fertilizante"
+        },
+        {
+          "lvl": 1,
+          "m": "Mordisco"
+        },
+        {
+          "lvl": 1,
+          "m": "Aire Afilado"
+        },
+        {
+          "lvl": 1,
+          "m": "Paz Mental"
+        },
+        {
+          "lvl": 3,
+          "m": "Tóxico"
+        },
+        {
+          "lvl": 12,
+          "m": "Corte"
+        },
+        {
+          "lvl": 14,
+          "m": "Cola Veneno"
+        },
+        {
+          "lvl": 16,
+          "m": "Abrecaminos"
+        },
+        {
+          "lvl": 20,
+          "m": "Carga Tóxica"
+        },
+        {
+          "lvl": 24,
+          "m": "Beso Drenaje"
+        },
+        {
+          "lvl": 24,
+          "m": "Llave Corsé"
+        },
+        {
+          "lvl": 28,
+          "m": "Danza Espada"
+        },
+        {
+          "lvl": 28,
+          "m": "Isoguardia"
+        },
+        {
+          "lvl": 35,
+          "m": "Cambiaalmas"
+        },
+        {
+          "lvl": 40,
+          "m": "Gravedad"
+        },
+        {
+          "lvl": 46,
+          "m": "Cometa Draco"
+        },
+        {
+          "lvl": 50,
+          "m": "Asta Drenaje"
+        },
+        {
+          "lvl": 52,
+          "m": "Gran Ojo"
+        },
+        {
+          "lvl": 58,
+          "m": "Campo de Niebla"
+        }
+      ],
+      "tmMoves": [
+        "Beso Dulce"
+      ],
+      "firstMoves": [
+        "Mordisco",
+        "Aire Afilado",
+        "Paz Mental",
+        "Tóxico"
+      ],
+      "spriteKey": "DUOSION"
+    },
+    {
+      "nickname": "Nabo",
+      "species": "Caterpie",
+      "level": 5,
+      "types": [
+        "Bicho"
+      ],
+      "ability": "Tinovictoria",
+      "nature": "Audaz",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Auxilio",
+        "Telatrampa",
+        "Giro Vil"
+      ],
+      "iv": [
+        25,
+        23,
+        7,
+        2,
+        1,
+        20
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Tinovictoria"
+      ],
+      "abilHidden": [
+        "Presión"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Auxilio"
+        },
+        {
+          "lvl": 1,
+          "m": "Telatrampa"
+        },
+        {
+          "lvl": 9,
+          "m": "Gas Corrosivo"
+        }
+      ],
+      "firstMoves": [
+        "Auxilio",
+        "Telatrampa",
+        "Giro Vil"
+      ],
+      "spriteKey": "CATERPIE"
     }
   ],
   "box": [],
@@ -135,6 +339,28 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Cyndaquil"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Duosion",
+      "nickname": "Globazo",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 4,
+      "mon": "Duosion"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Caterpie",
+      "nickname": "Nabo",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Caterpie"
     }
   ],
   "progress": {
@@ -151,6 +377,8 @@
       63,
       66,
       67,
+      68,
+      69,
       110,
       176,
       179,
@@ -163,19 +391,66 @@
       334
     ],
     "foundItems": [
+      "MT38",
+      "Ocaso Ball",
+      "Piedra Eterna",
       "Poción",
-      "Reglamento"
+      "Poké Montura",
+      "Reglamento",
+      "Vial"
     ],
     "bag": [
       {
+        "id": "EVERSTONE",
+        "name": "Piedra Eterna",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "POTION",
         "name": "Poción",
-        "qty": 1,
+        "qty": 3,
         "pocket": "Medicinas"
+      },
+      {
+        "id": "DUSKBALL",
+        "name": "Ocaso Ball",
+        "qty": 1,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "POKEBALL",
+        "name": "Poké Ball",
+        "qty": 5,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "GREATBALL",
+        "name": "Super Ball",
+        "qty": 6,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "TM38",
+        "name": "MT38",
+        "qty": 1,
+        "pocket": "MTs y MOs"
       },
       {
         "id": "RULEBOOK",
         "name": "Reglamento",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "VIAL",
+        "name": "Vial",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "POKERIDER",
+        "name": "Poké Montura",
         "qty": 1,
         "pocket": "Objetos clave"
       }
