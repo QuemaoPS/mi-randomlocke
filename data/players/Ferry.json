@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 2h 3m jugadas · 18,130₽ · vidas en el juego: 18",
+  "notes": "Importado del save · 2h 5m jugadas · 18,130₽ · vidas en el juego: 18",
   "team": [
     {
       "nickname": "Globazo",
@@ -582,6 +582,123 @@
         "Doble Bofetón"
       ],
       "spriteKey": "FLETCHINDER"
+    },
+    {
+      "nickname": "SeCreGuapa",
+      "species": "Steenee",
+      "level": 20,
+      "types": [
+        "Planta"
+      ],
+      "ability": "Surcavientos",
+      "nature": "Serena",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Follaje",
+        "Bomba Caramelo",
+        "Retracción",
+        "Espora"
+      ],
+      "iv": [
+        3,
+        11,
+        17,
+        31,
+        13,
+        13
+      ],
+      "ev": [
+        1,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Surcavientos",
+        "Tierra del Ocaso"
+      ],
+      "abilHidden": [
+        "Espíritu Vital"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Beso Amoroso"
+        },
+        {
+          "lvl": 1,
+          "m": "Guardia Baja"
+        },
+        {
+          "lvl": 1,
+          "m": "Canon"
+        },
+        {
+          "lvl": 1,
+          "m": "Follaje"
+        },
+        {
+          "lvl": 1,
+          "m": "Bomba Caramelo"
+        },
+        {
+          "lvl": 1,
+          "m": "Retracción"
+        },
+        {
+          "lvl": 5,
+          "m": "Cambio de Banda"
+        },
+        {
+          "lvl": 16,
+          "m": "Espora"
+        },
+        {
+          "lvl": 22,
+          "m": "Último Lugar"
+        },
+        {
+          "lvl": 28,
+          "m": "Arenas Ardientes"
+        },
+        {
+          "lvl": 33,
+          "m": "Metaláser"
+        },
+        {
+          "lvl": 34,
+          "m": "Lanzamugre"
+        },
+        {
+          "lvl": 37,
+          "m": "Colmillo Rayo"
+        },
+        {
+          "lvl": 40,
+          "m": "Vapodrenaje"
+        },
+        {
+          "lvl": 46,
+          "m": "Truco Floral"
+        },
+        {
+          "lvl": 46,
+          "m": "Teraexplosión"
+        }
+      ],
+      "tmMoves": [
+        "Beso Dulce"
+      ],
+      "firstMoves": [
+        "Follaje",
+        "Bomba Caramelo",
+        "Retracción",
+        "Cambio de Banda"
+      ],
+      "spriteKey": "STEENEE"
     }
   ],
   "box": [
@@ -712,123 +829,6 @@
         "Refuerzo"
       ],
       "spriteKey": "TRAPINCH"
-    },
-    {
-      "nickname": "SeCreGuapa",
-      "species": "Steenee",
-      "level": 20,
-      "types": [
-        "Planta"
-      ],
-      "ability": "Surcavientos",
-      "nature": "Serena",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Follaje",
-        "Bomba Caramelo",
-        "Retracción",
-        "Espora"
-      ],
-      "iv": [
-        3,
-        11,
-        17,
-        31,
-        13,
-        13
-      ],
-      "ev": [
-        1,
-        3,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Surcavientos",
-        "Tierra del Ocaso"
-      ],
-      "abilHidden": [
-        "Espíritu Vital"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Beso Amoroso"
-        },
-        {
-          "lvl": 1,
-          "m": "Guardia Baja"
-        },
-        {
-          "lvl": 1,
-          "m": "Canon"
-        },
-        {
-          "lvl": 1,
-          "m": "Follaje"
-        },
-        {
-          "lvl": 1,
-          "m": "Bomba Caramelo"
-        },
-        {
-          "lvl": 1,
-          "m": "Retracción"
-        },
-        {
-          "lvl": 5,
-          "m": "Cambio de Banda"
-        },
-        {
-          "lvl": 16,
-          "m": "Espora"
-        },
-        {
-          "lvl": 22,
-          "m": "Último Lugar"
-        },
-        {
-          "lvl": 28,
-          "m": "Arenas Ardientes"
-        },
-        {
-          "lvl": 33,
-          "m": "Metaláser"
-        },
-        {
-          "lvl": 34,
-          "m": "Lanzamugre"
-        },
-        {
-          "lvl": 37,
-          "m": "Colmillo Rayo"
-        },
-        {
-          "lvl": 40,
-          "m": "Vapodrenaje"
-        },
-        {
-          "lvl": 46,
-          "m": "Truco Floral"
-        },
-        {
-          "lvl": 46,
-          "m": "Teraexplosión"
-        }
-      ],
-      "tmMoves": [
-        "Beso Dulce"
-      ],
-      "firstMoves": [
-        "Follaje",
-        "Bomba Caramelo",
-        "Retracción",
-        "Cambio de Banda"
-      ],
-      "spriteKey": "STEENEE"
     },
     {
       "nickname": "Nabo",
@@ -1158,123 +1158,6 @@
   ],
   "graveyard": [
     {
-      "nickname": "QueFeo",
-      "species": "Tinkatink",
-      "level": 23,
-      "types": [
-        "Hada",
-        "Acero"
-      ],
-      "ability": "Hélice Caudal",
-      "nature": "Afable",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Rueda Fuego",
-        "Prensa Metálica",
-        "Truco Defensa",
-        "Zona Mágica"
-      ],
-      "iv": [
-        13,
-        26,
-        14,
-        22,
-        1,
-        28
-      ],
-      "ev": [
-        10,
-        17,
-        57,
-        7,
-        2,
-        15
-      ],
-      "abilPool": [
-        "Camorrista",
-        "Hélice Caudal"
-      ],
-      "abilHidden": [
-        "Medicina Extraña"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Rueda Fuego"
-        },
-        {
-          "lvl": 1,
-          "m": "Prensa Metálica"
-        },
-        {
-          "lvl": 5,
-          "m": "Estrujón"
-        },
-        {
-          "lvl": 8,
-          "m": "Voz Cautivadora"
-        },
-        {
-          "lvl": 11,
-          "m": "Zona Mágica"
-        },
-        {
-          "lvl": 14,
-          "m": "Trampa Venenosa"
-        },
-        {
-          "lvl": 17,
-          "m": "Truco Defensa"
-        },
-        {
-          "lvl": 21,
-          "m": "Autotomía"
-        },
-        {
-          "lvl": 24,
-          "m": "Retracción"
-        },
-        {
-          "lvl": 27,
-          "m": "Hidropulso"
-        },
-        {
-          "lvl": 31,
-          "m": "Ala Mortífera"
-        },
-        {
-          "lvl": 35,
-          "m": "Asta Drenaje"
-        },
-        {
-          "lvl": 39,
-          "m": "Aire Afilado"
-        },
-        {
-          "lvl": 43,
-          "m": "Cañón Dinamax"
-        },
-        {
-          "lvl": 47,
-          "m": "Filo Potente"
-        },
-        {
-          "lvl": 52,
-          "m": "Golpe Rastrero"
-        }
-      ],
-      "firstMoves": [
-        "Rueda Fuego",
-        "Prensa Metálica",
-        "Estrujón"
-      ],
-      "spriteKey": "TINKATINK",
-      "cause": "",
-      "route": "",
-      "date": ""
-    },
-    {
       "nickname": "Joker",
       "species": "Cyndaquil",
       "level": 9,
@@ -1395,20 +1278,126 @@
       "cause": "",
       "route": "",
       "date": ""
+    },
+    {
+      "nickname": "QueFeo",
+      "species": "Tinkatink",
+      "level": 23,
+      "types": [
+        "Hada",
+        "Acero"
+      ],
+      "ability": "Hélice Caudal",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Rueda Fuego",
+        "Prensa Metálica",
+        "Truco Defensa",
+        "Zona Mágica"
+      ],
+      "iv": [
+        13,
+        26,
+        14,
+        22,
+        1,
+        28
+      ],
+      "ev": [
+        10,
+        17,
+        57,
+        7,
+        2,
+        15
+      ],
+      "abilPool": [
+        "Camorrista",
+        "Hélice Caudal"
+      ],
+      "abilHidden": [
+        "Medicina Extraña"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Rueda Fuego"
+        },
+        {
+          "lvl": 1,
+          "m": "Prensa Metálica"
+        },
+        {
+          "lvl": 5,
+          "m": "Estrujón"
+        },
+        {
+          "lvl": 8,
+          "m": "Voz Cautivadora"
+        },
+        {
+          "lvl": 11,
+          "m": "Zona Mágica"
+        },
+        {
+          "lvl": 14,
+          "m": "Trampa Venenosa"
+        },
+        {
+          "lvl": 17,
+          "m": "Truco Defensa"
+        },
+        {
+          "lvl": 21,
+          "m": "Autotomía"
+        },
+        {
+          "lvl": 24,
+          "m": "Retracción"
+        },
+        {
+          "lvl": 27,
+          "m": "Hidropulso"
+        },
+        {
+          "lvl": 31,
+          "m": "Ala Mortífera"
+        },
+        {
+          "lvl": 35,
+          "m": "Asta Drenaje"
+        },
+        {
+          "lvl": 39,
+          "m": "Aire Afilado"
+        },
+        {
+          "lvl": 43,
+          "m": "Cañón Dinamax"
+        },
+        {
+          "lvl": 47,
+          "m": "Filo Potente"
+        },
+        {
+          "lvl": 52,
+          "m": "Golpe Rastrero"
+        }
+      ],
+      "firstMoves": [
+        "Rueda Fuego",
+        "Prensa Metálica",
+        "Estrujón"
+      ],
+      "spriteKey": "TINKATINK",
+      "cause": "",
+      "route": "",
+      "date": ""
     }
   ],
   "captures": [
-    {
-      "route": "",
-      "where": "",
-      "species": "Tinkatink",
-      "nickname": "QueFeo",
-      "shiny": false,
-      "status": "dead",
-      "category": "estatico_regalo",
-      "level": 6,
-      "mon": "Tinkatink"
-    },
     {
       "route": "",
       "where": "",
@@ -1467,6 +1456,17 @@
     {
       "route": "",
       "where": "",
+      "species": "Steenee",
+      "nickname": "SeCreGuapa",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 11,
+      "mon": "Steenee"
+    },
+    {
+      "route": "",
+      "where": "",
       "species": "Cyndaquil",
       "nickname": "Joker",
       "shiny": false,
@@ -1485,17 +1485,6 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Trapinch"
-    },
-    {
-      "route": "",
-      "where": "",
-      "species": "Steenee",
-      "nickname": "SeCreGuapa",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 11,
-      "mon": "Steenee"
     },
     {
       "route": "",
@@ -1529,6 +1518,17 @@
       "category": "estatico_regalo",
       "level": 17,
       "mon": "Tandemaus"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Tinkatink",
+      "nickname": "QueFeo",
+      "shiny": false,
+      "status": "dead",
+      "category": "estatico_regalo",
+      "level": 6,
+      "mon": "Tinkatink"
     }
   ],
   "progress": {
