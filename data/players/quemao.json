@@ -1,7 +1,7 @@
 {
   "id": "quemao",
-  "name": "quemao",
-  "lives": 20,
+  "name": " KAHBA",
+  "lives": 30,
   "livesUsed": 1,
   "champion": false,
   "notes": "Importado del save · 2h 51m jugadas · 13,120₽ · vidas en el juego: 19",
@@ -1211,51 +1211,6 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Petilil"
-    },
-    {
-      "route": "pueblo_paleta",
-      "mon": "",
-      "status": ""
-    },
-    {
-      "route": "ruta_1",
-      "mon": "",
-      "status": ""
-    },
-    {
-      "route": "ciudad_verde",
-      "mon": "",
-      "status": ""
-    },
-    {
-      "route": "ruta_22",
-      "mon": "",
-      "status": ""
-    },
-    {
-      "route": "ruta_2_sur",
-      "mon": "",
-      "status": ""
-    },
-    {
-      "route": "ruta_2_norte",
-      "mon": "",
-      "status": ""
-    },
-    {
-      "route": "bosque_verde",
-      "mon": "",
-      "status": ""
-    },
-    {
-      "route": "ciudad_plateada",
-      "mon": "",
-      "status": ""
-    },
-    {
-      "route": "ruta_3",
-      "mon": "",
-      "status": ""
     }
   ],
   "progress": {
@@ -1264,17 +1219,7 @@
     },
     "bosses": {},
     "npcs": {},
-    "routes": {
-      "pueblo_paleta": false,
-      "ruta_1": false,
-      "ciudad_verde": false,
-      "ruta_22": false,
-      "ruta_2_sur": false,
-      "ruta_2_norte": false,
-      "bosque_verde": false,
-      "ciudad_plateada": false,
-      "ruta_3": false
-    },
+    "routes": {},
     "items": {},
     "encounters": {},
     "switches": [
@@ -1501,6 +1446,5 @@
   "deathLog": [
     "1806508300"
   ],
-  "revividos": 0,
-  "avatar": "https://imgs.search.brave.com/HXrFQgWiHWXyAq5s1S43Uy4S8tj1j6W3vSV8h9fs1Z4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2JhLzcw/L2Y4L2JhNzBmOGQ3/MzMzZWRiNWUzZDY3/YmE0YzJkZjY4ZDNl/LmpwZw"
+  "revividos": 0
 }
