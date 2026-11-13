@@ -37,6 +37,7 @@ function themeIcon(theme) {
 const NAV = [
   { href: "index.html", label: "Inicio" },
   { href: "progresion.html", label: "Progresión" },
+  { href: "centro.html", label: "📡 Centro Locke" },
   { href: "pokedex.html", label: "Pokédex" },
   { href: "movimientos.html", label: "Movimientos" },
   { href: "habilidades.html", label: "Habilidades" },
@@ -88,6 +89,8 @@ async function loadJSON(path) {
     if (/config\.json|\/players\//.test(path)) {
       url += (path.includes("?") ? "&" : "?") + "t=" + Date.now();
     }
+    // Si abres el HTML con doble clic (file://), fetch local no funciona: leemos de GitHub directamente.
+    if (location.protocol === "file:") url = "https://raw.githubusercontent.com/QuemaoPS/mi-randomlocke/main/" + url;
     const res = await fetch(url, { cache: "no-store" });
     if (!res.ok) throw new Error(res.status);
     return await res.json();
