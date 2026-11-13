@@ -4,21 +4,21 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 2h 34m jugadas · 33,360₽ · vidas en el juego: 17",
+  "notes": "Importado del save · 2h 42m jugadas · 33,360₽ · vidas en el juego: 17",
   "team": [
     {
       "nickname": "SeCreGuapa",
-      "species": "Steenee",
-      "level": 23,
+      "species": "Tsareena",
+      "level": 30,
       "types": [
         "Planta"
       ],
-      "ability": "Surcavientos",
+      "ability": "",
       "nature": "Serena",
       "item": "",
       "shiny": false,
       "moves": [
-        "Follaje",
+        "Arenas Ardientes",
         "Bomba Caramelo",
         "Retracción",
         "Espora"
@@ -40,82 +40,99 @@
         4
       ],
       "abilPool": [
-        "Surcavientos",
-        "Tierra del Ocaso"
+        "Torrente",
+        "Coránima"
       ],
       "abilHidden": [
-        "Espíritu Vital"
+        "Hospitalidad"
       ],
       "learnset": [
+        {
+          "lvl": -1,
+          "m": "Absorber"
+        },
+        {
+          "lvl": 1,
+          "m": "Llave Giro"
+        },
+        {
+          "lvl": 1,
+          "m": "Bomba Imán"
+        },
+        {
+          "lvl": 1,
+          "m": "Patada Tropical"
+        },
+        {
+          "lvl": 1,
+          "m": "Cura Selvática"
+        },
+        {
+          "lvl": 1,
+          "m": "Magnitud"
+        },
+        {
+          "lvl": 1,
+          "m": "Cambiaalmas"
+        },
         {
           "lvl": 1,
           "m": "Beso Amoroso"
         },
         {
           "lvl": 1,
-          "m": "Guardia Baja"
+          "m": "Golpe Bajo"
         },
         {
           "lvl": 1,
-          "m": "Canon"
-        },
-        {
-          "lvl": 1,
-          "m": "Follaje"
-        },
-        {
-          "lvl": 1,
-          "m": "Bomba Caramelo"
-        },
-        {
-          "lvl": 1,
-          "m": "Retracción"
-        },
-        {
-          "lvl": 5,
-          "m": "Cambio de Banda"
+          "m": "Nitrocarga"
         },
         {
           "lvl": 16,
-          "m": "Espora"
+          "m": "Poder Pasado"
         },
         {
           "lvl": 22,
-          "m": "Último Lugar"
+          "m": "Afilar"
         },
         {
           "lvl": 28,
-          "m": "Arenas Ardientes"
-        },
-        {
-          "lvl": 33,
-          "m": "Metaláser"
+          "m": "Doble Patada"
         },
         {
           "lvl": 34,
-          "m": "Lanzamugre"
+          "m": "Halloween"
         },
         {
-          "lvl": 37,
-          "m": "Colmillo Rayo"
+          "lvl": 38,
+          "m": "Electropico"
         },
         {
           "lvl": 40,
-          "m": "Vapodrenaje"
+          "m": "Asta Drenaje"
+        },
+        {
+          "lvl": 43,
+          "m": "Esporagodón"
         },
         {
           "lvl": 46,
-          "m": "Truco Floral"
+          "m": "Atrapabicho"
         },
         {
           "lvl": 46,
-          "m": "Teraexplosión"
+          "m": "Ojos Llorosos"
+        },
+        {
+          "lvl": 58,
+          "m": "Plumerazo"
         }
       ],
       "tmMoves": [
-        "Arenas Ardientes",
+        "Bálsamo Osado",
         "Beso Dulce",
-        "Embargo"
+        "Cambiavelocidad",
+        "Silbato"
       ],
       "firstMoves": [
         "Follaje",
@@ -123,12 +140,12 @@
         "Retracción",
         "Cambio de Banda"
       ],
-      "spriteKey": "STEENEE"
+      "spriteKey": "TSAREENA"
     },
     {
       "nickname": "CobraKaiTU",
       "species": "Kubfu",
-      "level": 23,
+      "level": 30,
       "types": [
         "Lucha"
       ],
@@ -139,7 +156,7 @@
       "moves": [
         "Mandato",
         "Ráfaga Escamas",
-        "Empujón",
+        "Llave Vital",
         "Doble Patada"
       ],
       "iv": [
@@ -225,8 +242,11 @@
         }
       ],
       "tmMoves": [
+        "Beso Drenaje",
         "Embargo",
         "Giro Mortífero",
+        "Pirotecnia",
+        "Silbato",
         "Voz Cautivadora"
       ],
       "firstMoves": [
@@ -240,7 +260,7 @@
     {
       "nickname": "Pedrusco",
       "species": "Carkol",
-      "level": 23,
+      "level": 30,
       "types": [
         "Roca",
         "Fuego"
@@ -253,7 +273,7 @@
         "Rodar",
         "Buena Baza",
         "Giro Fuego",
-        "Homenaje Póstumo"
+        "Cepo"
       ],
       "iv": [
         5,
@@ -338,8 +358,11 @@
       ],
       "tmMoves": [
         "Arenas Ardientes",
+        "Beso Drenaje",
         "Beso Dulce",
         "Giro Mortífero",
+        "Pirotecnia",
+        "Silbato",
         "Voz Cautivadora"
       ],
       "firstMoves": [
@@ -352,7 +375,7 @@
     {
       "nickname": "Rojazo",
       "species": "Fletchinder",
-      "level": 23,
+      "level": 30,
       "types": [
         "Fuego",
         "Volador"
@@ -365,7 +388,7 @@
         "Hoja Afilada",
         "Recogearena",
         "Clemencia",
-        "Doble Bofetón"
+        "Capa Mágica"
       ],
       "iv": [
         31,
@@ -466,7 +489,9 @@
       "tmMoves": [
         "Afilar",
         "Arenas Ardientes",
+        "Beso Drenaje",
         "Cambiavelocidad",
+        "Pirotecnia",
         "Voz Cautivadora"
       ],
       "firstMoves": [
@@ -480,7 +505,7 @@
     {
       "nickname": "Globazo",
       "species": "Duosion",
-      "level": 23,
+      "level": 30,
       "types": [
         "Psíquico"
       ],
@@ -490,9 +515,9 @@
       "shiny": false,
       "moves": [
         "Mordisco",
-        "Aire Afilado",
-        "Corte",
-        "Carga Tóxica"
+        "Llave Corsé",
+        "Beso Drenaje",
+        "Danza Espada"
       ],
       "iv": [
         16,
@@ -611,7 +636,10 @@
         "Bálsamo Osado",
         "Beso Dulce",
         "Cambiavelocidad",
-        "Embargo"
+        "Corte Furia",
+        "Embargo",
+        "Pirotecnia",
+        "Silbato"
       ],
       "firstMoves": [
         "Mordisco",
@@ -620,6 +648,182 @@
         "Tóxico"
       ],
       "spriteKey": "DUOSION"
+    },
+    {
+      "nickname": "Badasssss",
+      "species": "Toxtricity",
+      "level": 30,
+      "types": [
+        "Eléctrico",
+        "Veneno"
+      ],
+      "ability": "Afortunado",
+      "nature": "Grosera",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Eco Voz",
+        "Arenas Ardientes",
+        "Truco Fuerza",
+        "Tambor"
+      ],
+      "iv": [
+        8,
+        29,
+        27,
+        16,
+        17,
+        1
+      ],
+      "ev": [
+        8,
+        9,
+        6,
+        5,
+        2,
+        9
+      ],
+      "abilPool": [
+        "Compiescolta",
+        "Afortunado"
+      ],
+      "abilHidden": [
+        "Pararrayos"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Bomba Caramelo"
+        },
+        {
+          "lvl": 1,
+          "m": "Polvo Veneno"
+        },
+        {
+          "lvl": 1,
+          "m": "Venganza"
+        },
+        {
+          "lvl": 1,
+          "m": "Polvo Mágico"
+        },
+        {
+          "lvl": 1,
+          "m": "Encanto"
+        },
+        {
+          "lvl": 1,
+          "m": "Electrotela"
+        },
+        {
+          "lvl": 1,
+          "m": "Veneno X"
+        },
+        {
+          "lvl": 1,
+          "m": "Colmillo Rayo"
+        },
+        {
+          "lvl": 1,
+          "m": "Arrumaco"
+        },
+        {
+          "lvl": 1,
+          "m": "Onda Trueno"
+        },
+        {
+          "lvl": 1,
+          "m": "Desarrollo"
+        },
+        {
+          "lvl": 1,
+          "m": "Espora"
+        },
+        {
+          "lvl": 1,
+          "m": "Mil Púas Tóxicas"
+        },
+        {
+          "lvl": 4,
+          "m": "Ladrón"
+        },
+        {
+          "lvl": 8,
+          "m": "Bola Hielo"
+        },
+        {
+          "lvl": 12,
+          "m": "Aura Magnética"
+        },
+        {
+          "lvl": 16,
+          "m": "Bomba Ácida"
+        },
+        {
+          "lvl": 20,
+          "m": "Canto Mortal"
+        },
+        {
+          "lvl": 24,
+          "m": "Profecía"
+        },
+        {
+          "lvl": 28,
+          "m": "Trapicheo"
+        },
+        {
+          "lvl": 32,
+          "m": "Zona Mágica"
+        },
+        {
+          "lvl": 34,
+          "m": "Fuerza"
+        },
+        {
+          "lvl": 36,
+          "m": "Neblina"
+        },
+        {
+          "lvl": 40,
+          "m": "Bomba Lodo"
+        },
+        {
+          "lvl": 42,
+          "m": "Ofrenda"
+        },
+        {
+          "lvl": 44,
+          "m": "Hoja Aguda"
+        },
+        {
+          "lvl": 44,
+          "m": "Amplificador"
+        },
+        {
+          "lvl": 48,
+          "m": "Carga"
+        },
+        {
+          "lvl": 52,
+          "m": "Acoso"
+        },
+        {
+          "lvl": 60,
+          "m": "Pataleta"
+        }
+      ],
+      "tmMoves": [
+        "Arenas Ardientes",
+        "Embargo",
+        "Silbato"
+      ],
+      "firstMoves": [
+        "Eco Voz",
+        "Reciclaje",
+        "Truco Fuerza",
+        "Tambor"
+      ],
+      "spriteKey": "TOXTRICITY"
     }
   ],
   "box": [
@@ -980,85 +1184,6 @@
       "spriteKey": "BUTTERFREE"
     },
     {
-      "nickname": "Badasssss",
-      "species": "Toxel",
-      "level": 23,
-      "types": [
-        "Eléctrico",
-        "Veneno"
-      ],
-      "ability": "Agallas",
-      "nature": "Grosera",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Eco Voz",
-        "Reciclaje",
-        "Truco Fuerza",
-        "Tambor"
-      ],
-      "iv": [
-        8,
-        29,
-        27,
-        16,
-        17,
-        1
-      ],
-      "ev": [
-        8,
-        9,
-        6,
-        5,
-        2,
-        9
-      ],
-      "abilPool": [
-        "Viscosidad",
-        "Agallas"
-      ],
-      "abilHidden": [
-        "Defensa Hoja"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Niebla Clara"
-        },
-        {
-          "lvl": 1,
-          "m": "Estoicismo"
-        },
-        {
-          "lvl": 1,
-          "m": "Giro Fuego"
-        },
-        {
-          "lvl": 1,
-          "m": "Eco Voz"
-        },
-        {
-          "lvl": 1,
-          "m": "Reciclaje"
-        },
-        {
-          "lvl": 1,
-          "m": "Truco Fuerza"
-        },
-        {
-          "lvl": 1,
-          "m": "Tambor"
-        }
-      ],
-      "firstMoves": [
-        "Eco Voz",
-        "Reciclaje",
-        "Truco Fuerza",
-        "Tambor"
-      ],
-      "spriteKey": "TOXEL"
-    },
-    {
       "nickname": "PutosEnanos",
       "species": "Tandemaus",
       "level": 17,
@@ -1173,114 +1298,6 @@
     }
   ],
   "graveyard": [
-    {
-      "nickname": "ElPutoSniper",
-      "species": "Drizzile",
-      "level": 23,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Allanamiento",
-      "nature": "Miedosa",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Gota Vital",
-        "Ciclón de Hojas",
-        "Recuperación",
-        "Hidropulso"
-      ],
-      "iv": [
-        12,
-        20,
-        2,
-        20,
-        19,
-        8
-      ],
-      "ev": [
-        11,
-        20,
-        11,
-        6,
-        4,
-        17
-      ],
-      "abilPool": [
-        "Allanamiento"
-      ],
-      "abilHidden": [
-        "Viscosecreción"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Tajo Metralla"
-        },
-        {
-          "lvl": 1,
-          "m": "Voz Cautivadora"
-        },
-        {
-          "lvl": 1,
-          "m": "Mimético"
-        },
-        {
-          "lvl": 1,
-          "m": "Puntapié"
-        },
-        {
-          "lvl": 12,
-          "m": "Moflete Estático"
-        },
-        {
-          "lvl": 19,
-          "m": "Bomba Ácida"
-        },
-        {
-          "lvl": 19,
-          "m": "Golpe Bajo"
-        },
-        {
-          "lvl": 24,
-          "m": "Onda Voltio"
-        },
-        {
-          "lvl": 30,
-          "m": "Puño Jet"
-        },
-        {
-          "lvl": 36,
-          "m": "Maquinación"
-        },
-        {
-          "lvl": 36,
-          "m": "Rencor Reprimido"
-        },
-        {
-          "lvl": 42,
-          "m": "Represión Metal"
-        },
-        {
-          "lvl": 48,
-          "m": "Cambiaalmas"
-        }
-      ],
-      "tmMoves": [
-        "Afilar",
-        "Embargo"
-      ],
-      "firstMoves": [
-        "Gota Vital",
-        "Ojitos Tiernos",
-        "Recuperación",
-        "Tenaza"
-      ],
-      "spriteKey": "DRIZZILE",
-      "cause": "",
-      "route": "",
-      "date": ""
-    },
     {
       "nickname": "Joker",
       "species": "Cyndaquil",
@@ -1519,19 +1536,127 @@
       "cause": "",
       "route": "",
       "date": ""
+    },
+    {
+      "nickname": "ElPutoSniper",
+      "species": "Drizzile",
+      "level": 23,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Allanamiento",
+      "nature": "Miedosa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Gota Vital",
+        "Ciclón de Hojas",
+        "Recuperación",
+        "Hidropulso"
+      ],
+      "iv": [
+        12,
+        20,
+        2,
+        20,
+        19,
+        8
+      ],
+      "ev": [
+        11,
+        20,
+        11,
+        6,
+        4,
+        17
+      ],
+      "abilPool": [
+        "Allanamiento"
+      ],
+      "abilHidden": [
+        "Viscosecreción"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Tajo Metralla"
+        },
+        {
+          "lvl": 1,
+          "m": "Voz Cautivadora"
+        },
+        {
+          "lvl": 1,
+          "m": "Mimético"
+        },
+        {
+          "lvl": 1,
+          "m": "Puntapié"
+        },
+        {
+          "lvl": 12,
+          "m": "Moflete Estático"
+        },
+        {
+          "lvl": 19,
+          "m": "Bomba Ácida"
+        },
+        {
+          "lvl": 19,
+          "m": "Golpe Bajo"
+        },
+        {
+          "lvl": 24,
+          "m": "Onda Voltio"
+        },
+        {
+          "lvl": 30,
+          "m": "Puño Jet"
+        },
+        {
+          "lvl": 36,
+          "m": "Maquinación"
+        },
+        {
+          "lvl": 36,
+          "m": "Rencor Reprimido"
+        },
+        {
+          "lvl": 42,
+          "m": "Represión Metal"
+        },
+        {
+          "lvl": 48,
+          "m": "Cambiaalmas"
+        }
+      ],
+      "tmMoves": [
+        "Afilar",
+        "Embargo"
+      ],
+      "firstMoves": [
+        "Gota Vital",
+        "Ojitos Tiernos",
+        "Recuperación",
+        "Tenaza"
+      ],
+      "spriteKey": "DRIZZILE",
+      "cause": "",
+      "route": "",
+      "date": ""
     }
   ],
   "captures": [
     {
       "route": "",
       "where": "",
-      "species": "Steenee",
+      "species": "Tsareena",
       "nickname": "SeCreGuapa",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
       "level": 11,
-      "mon": "Steenee"
+      "mon": "Tsareena"
     },
     {
       "route": "",
@@ -1543,17 +1668,6 @@
       "category": "estatico_regalo",
       "level": 14,
       "mon": "Kubfu"
-    },
-    {
-      "route": "",
-      "where": "",
-      "species": "Drizzile",
-      "nickname": "ElPutoSniper",
-      "shiny": false,
-      "status": "dead",
-      "category": "estatico_regalo",
-      "level": 7,
-      "mon": "Drizzile"
     },
     {
       "route": "",
@@ -1587,6 +1701,17 @@
       "category": "estatico_regalo",
       "level": 4,
       "mon": "Duosion"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Toxtricity",
+      "nickname": "Badasssss",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 7,
+      "mon": "Toxtricity"
     },
     {
       "route": "",
@@ -1635,17 +1760,6 @@
     {
       "route": "",
       "where": "",
-      "species": "Toxel",
-      "nickname": "Badasssss",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 7,
-      "mon": "Toxel"
-    },
-    {
-      "route": "",
-      "where": "",
       "species": "Tandemaus",
       "nickname": "PutosEnanos",
       "shiny": false,
@@ -1664,6 +1778,17 @@
       "category": "estatico_regalo",
       "level": 6,
       "mon": "Tinkatink"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Drizzile",
+      "nickname": "ElPutoSniper",
+      "shiny": false,
+      "status": "dead",
+      "category": "estatico_regalo",
+      "level": 7,
+      "mon": "Drizzile"
     }
   ],
   "progress": {
@@ -1835,7 +1960,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 883,
+        "qty": 841,
         "pocket": "Medicinas"
       },
       {
