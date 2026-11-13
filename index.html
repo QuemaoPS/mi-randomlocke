@@ -1,273 +1,147 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="0" />
-<title>Inicio · Pokémon Añil Randomlocke</title>
-  <meta name="description" content="Seguimiento del Super Randomlocke de Pokémon Añil: equipos, cajas, cementerio, progreso y torneos." />
-  <meta name="color-scheme" content="light dark" />
-  <link rel="stylesheet" href="styles.css?v=7" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Añil Randomlocke Tracker v2.0</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <main class="container">
-    <h1 id="title">Pokémon Añil — Super Randomlocke</h1>
-    <p class="lead" id="subtitle"></p>
+  <nav class="navbar">
+    <div class="brand">
+      <span class="pokeball-icon"></span>
+      <span>POKÉMON AÑIL <span style="color:var(--accent-red)">TRACKER 2.0</span></span>
+    </div>
+    <div class="nav-links">
+      <a href="index.html" class="active">Inicio</a>
+      <a href="jugador.html?p=quemao">Quemao</a>
+      <a href="jugador.html?p=zep">Zep</a>
+      <a href="jugador.html?p=ferry">Ferry</a>
+      <a href="progresion.html">Gimnasios & Logros</a>
+    </div>
+  </nav>
 
-    <div class="stat-row" id="globalStats"></div>
+  <div class="container">
+    <!-- Barra de Sincronización y Backup -->
+    <div class="card" style="margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+      <div>
+        <h2 style="font-size: 1.15rem;">Estado de la Partida</h2>
+        <p style="color: var(--text-secondary); font-size: 0.85rem;" id="last-sync-text">Última actualización local: cargando...</p>
+      </div>
+      <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
+        <button class="btn btn-primary" onclick="promptGitHubSync()">🔄 Sincronizar GitHub</button>
+        <button class="btn" onclick="store.exportJSON()">⬇️ Exportar JSON</button>
+        <label class="btn" style="cursor:pointer;">
+          ⬆️ Importar JSON
+          <input type="file" accept=".json" style="display:none" onchange="handleImport(event)">
+        </label>
+        <button class="btn btn-danger" onclick="if(store.restoreBackup()) renderDashboard()">⏪ Deshacer Cambio</button>
+      </div>
+    </div>
 
-    <h2>Participantes</h2>
-    <div class="grid wide" id="players"><p class="muted">Cargando…</p></div>
+    <!-- Tarjetas de Jugadores -->
+    <div class="grid-3" id="players-overview"></div>
 
-    <h2>Cementerio global reciente</h2>
-    <div id="graveyard" class="mon-team"></div>
-  </main>
+    <!-- Resumen de Estadísticas -->
+    <div class="card" style="margin-top: 1.5rem;">
+      <div class="card-header">
+        <h3>📊 Comparativa Global del Locke</h3>
+      </div>
+      <div class="grid-3" id="global-stats"></div>
+    </div>
+  </div>
 
-  <script src="app.js?v=14"></script>
+  <div id="toast"></div>
+
+  <script src="js/default-data.js"></script>
+  <script src="js/anil-sync.js"></script>
   <script>
-    (async function () {
-      const cfg = await loadConfig();
-      document.getElementById("title").textContent = cfg.title;
-      document.getElementById("subtitle").textContent = cfg.subtitle || "";
-      document.title = cfg.title + " · Inicio";
-      renderHeader("index.html");
-      renderFooter();
+    function renderDashboard() {
+      const container = document.getElementById("players-overview");
+      const statsContainer = document.getElementById("global-stats");
+      const lastSync = document.getElementById("last-sync-text");
+      lastSync.textContent = "Última actualización: " + new Date(store.data.lastUpdated).toLocaleString();
 
-      const players = await loadAllPlayers(cfg);
-      await loadFrames(); // para animar los sprites de las tarjetas de jugador
+      container.innerHTML = "";
+      let totalLives = 0, totalDeaths = 0, totalCatches = 0;
 
-      // ---- Stats globales ----
-      let totalAlive = 0, totalDead = 0, gymsCleared = 0, champs = 0;
-      players.forEach((p) => {
-        const s = playerStats(p.data, p.revividos);
-        totalAlive += s.alive; totalDead += s.dead;
-        gymsCleared += Object.values(p.data.progress?.gyms || {}).filter(Boolean).length;
-        if (p.data.champion) champs++;
-      });
-      document.getElementById("globalStats").innerHTML = `
-        <div class="stat-tile"><div class="num">${players.length}</div><div class="lbl">Jugadores</div></div>
-        <div class="stat-tile"><div class="num ok">${totalAlive}</div><div class="lbl">Pokémon vivos</div></div>
-        <div class="stat-tile"><div class="num bad">${totalDead}</div><div class="lbl">En el cementerio</div></div>
-        <div class="stat-tile"><div class="num">${gymsCleared}</div><div class="lbl">Medallas totales</div></div>`;
+      Object.values(store.data.players).forEach(player => {
+        totalLives += player.lives;
+        totalDeaths += player.graveyard.length;
+        totalCatches += (player.team.length + player.box.length + player.graveyard.length);
 
-      // ---- Tarjetas de jugador ----
-      const grid = document.getElementById("players");
-      if (!players.length) {
-        grid.innerHTML = `<p class="empty-state">Aún no hay jugadores. Cada participante aparece aquí automáticamente en cuanto ejecuta el programa <strong>AnilSync</strong> y guarda su partida.</p>`;
-      } else
-      grid.innerHTML = players.map((p) => {
-        const s = playerStats(p.data, p.revividos);
-        const pct = Math.round((s.livesLeft / s.lives) * 100);
-        const cls = pct <= 20 ? "crit" : pct <= 50 ? "low" : "";
-        const medals = Object.values(p.data.progress?.gyms || {}).filter(Boolean).length;
-        const extras = [...(p.data.team||[]), ...(p.data.box||[]), ...(p.data.graveyard||[])].filter((m)=>m.extra).length;
-        const avSrc = p.data.avatar || p.avatar;
-        const avatar = avSrc
-          ? `<img class="player-avatar" src="${escapeHtml(avSrc)}" alt="">`
-          : `<div class="player-avatar">${initials(p.name)}</div>`;
-        return `
-          <a class="player-card${s.eliminated ? " eliminated" : ""}" href="jugador.html?id=${encodeURIComponent(p.id)}">
-            <div class="player-card-head">
-              ${avatar}
-              <div class="grow">
-                <div class="player-name">${escapeHtml(p.displayName || p.data.name || p.name)} ${p.data.champion ? championBadge(18) : ""}${p.data._local ? ' <span class="pill warn" style="font-size:.55rem">borrador local</span>' : ""}</div>
-                <div class="player-sub">${medals}/8 medallas · ${s.eliminated ? "Sin vidas" : "En juego"}</div>
-                ${medalsRow(cfg, p.data.progress?.gyms)}
+        const badgesCount = store.data.gyms.filter(g => g.completedBy.includes(player.id)).length;
+
+        const teamHTML = player.team.length > 0
+          ? player.team.map(p => `
+              <div style="text-align:center; background:#0d1117; padding:6px; border-radius:8px; border:1px solid var(--border-color);">
+                <img src="${store.getSpriteUrl(p.species)}" onerror="this.src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png'" style="width:44px;height:44px;object-fit:contain;">
+                <div style="font-size:0.75rem; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${p.nickname || p.species}</div>
+                <div style="font-size:0.68rem; color:var(--text-secondary);">Nv.${p.level || '?'}</div>
+              </div>
+            `).join("")
+          : `<p style="color:var(--text-secondary); font-size:0.85rem; grid-column: 1 / -1;">Sin Pokémon en el equipo activo.</p>`;
+
+        const card = document.createElement("div");
+        card.className = "card";
+        card.innerHTML = `
+          <div class="card-header">
+            <div style="display:flex; align-items:center; gap:10px;">
+              <img src="${player.avatar}" onerror="this.style.display='none'" style="width:40px;height:40px;border-radius:50%;object-fit:cover;border:2px solid var(--accent-blue);">
+              <div>
+                <h3 style="font-size:1.2rem;">${player.name}</h3>
+                <span style="font-size:0.8rem; color:var(--text-secondary);">🏅 ${badgesCount} Medallas · 💀 ${player.graveyard.length} Bajas</span>
               </div>
             </div>
-            <div class="player-card-stats">
-              <div><span class="n" style="color:var(--ok)">${s.alive}</span><span class="l">Vivos</span></div>
-              <div><span class="n" style="color:var(--bad)">${s.dead}</span><span class="l">Muertos</span></div>
-              <div><span class="n">${s.livesLeft}</span><span class="l">Vidas</span></div>
-              ${extras ? `<div><span class="n" style="color:var(--type-normal,#8a8a99)">${extras}</span><span class="l">Extras</span></div>` : ""}
+            <div class="lives-pill">❤️ ${player.lives}</div>
+          </div>
+          <div style="margin-bottom: 1rem;">
+            <div style="font-size:0.8rem; color:var(--text-secondary); margin-bottom:0.5rem; font-weight:600;">EQUIPO ACTIVO (${player.team.length}/6)</div>
+            <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:8px;">
+              ${teamHTML}
             </div>
-            <div class="lives-bar"><span class="${cls}" style="width:${pct}%"></span></div>
-            ${teamSpritesRow(p.data.team, { labels: true })}
-          </a>`;
-      }).join("");
-      initSpriteAnim(document); // anima los sprites de las tarjetas de jugador
-
-      // ---- Cementerio global ----
-      const graves = [];
-      players.forEach((p) => (p.data.graveyard || []).forEach((m) => graves.push({ ...m, owner: p.name })));
-      const gEl = document.getElementById("graveyard");
-      if (!graves.length) {
-        gEl.innerHTML = `<p class="empty-state">Nadie ha caído todavía.</p>`;
-      } else {
-        gEl.innerHTML = graves.slice(-12).reverse()
-          .map((m) => monCard(m, { dead: true, owner: m.owner }))
-          .join("");
-      }
-
-      // ---- Imagen para Discord ----
-      document.getElementById("btnDiscord").addEventListener("click", async (e) => {
-        const btn = e.currentTarget;
-        btn.disabled = true; btn.style.opacity = ".5";
-        toast("Generando imagen…");
-        try {
-          const canvas = await buildStandingsCanvas(players, cfg);
-          const blob = await new Promise((res) => canvas.toBlob(res, "image/png"));
-          try {
-            await navigator.clipboard.write([new ClipboardItem({ "image/png": blob })]);
-            toast("Imagen copiada — pégala en Discord (Ctrl+V)");
-          } catch (err) {
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement("a");
-            a.href = url; a.download = "anil-randomlocke.png";
-            document.body.appendChild(a); a.click(); a.remove();
-            setTimeout(() => URL.revokeObjectURL(url), 1500);
-            toast("Descargada (tu navegador no deja copiar imágenes)");
-          }
-        } catch (err) {
-          console.error(err);
-          toast("No se pudo generar la imagen");
-        } finally {
-          btn.disabled = false; btn.style.opacity = "";
-        }
+          </div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-top:1rem; padding-top:0.75rem; border-top:1px solid var(--border-color);">
+            <span style="font-size:0.8rem; color:var(--text-secondary);">📦 En Caja: ${player.box.length}</span>
+            <a href="jugador.html?p=${player.id}" class="btn btn-primary">Gestionar Ficha →</a>
+          </div>
+        `;
+        container.appendChild(card);
       });
 
-      function loadImg(src) {
-        return new Promise((res) => {
-          if (!src) return res(null);
-          const im = new Image();
-          im.crossOrigin = "anonymous";
-          im.onload = () => res(im);
-          im.onerror = () => res(null);
-          im.src = src;
-        });
+      statsContainer.innerHTML = `
+        <div style="background:#0d1117; padding:1rem; border-radius:10px; border:1px solid var(--border-color); text-align:center;">
+          <div style="font-size:1.8rem; font-weight:800; color:var(--accent-red);">${totalLives}</div>
+          <div style="font-size:0.85rem; color:var(--text-secondary);">Vidas Totales Restantes</div>
+        </div>
+        <div style="background:#0d1117; padding:1rem; border-radius:10px; border:1px solid var(--border-color); text-align:center;">
+          <div style="font-size:1.8rem; font-weight:800; color:var(--accent-blue);">${totalCatches}</div>
+          <div style="font-size:0.85rem; color:var(--text-secondary);">Capturas Registradas</div>
+        </div>
+        <div style="background:#0d1117; padding:1rem; border-radius:10px; border:1px solid var(--border-color); text-align:center;">
+          <div style="font-size:1.8rem; font-weight:800; color:var(--text-primary);">${totalDeaths}</div>
+          <div style="font-size:0.85rem; color:var(--text-secondary);">Caídos en Combate</div>
+        </div>
+      `;
+    }
+
+    async function promptGitHubSync() {
+      const currentUrl = store.data.config.githubRawUrl || "";
+      const url = prompt("Introduce la URL Raw de tu JSON en GitHub:", currentUrl);
+      if (url !== null && url.trim() !== "") {
+        store.data.config.githubRawUrl = url.trim();
+        store.saveLocal();
+        const ok = await store.syncFromGitHub(url.trim());
+        if (ok) renderDashboard();
       }
-      function rrect(ctx, x, y, w, h, r) {
-        ctx.beginPath();
-        ctx.moveTo(x + r, y);
-        ctx.arcTo(x + w, y, x + w, y + h, r);
-        ctx.arcTo(x + w, y + h, x, y + h, r);
-        ctx.arcTo(x, y + h, x, y, r);
-        ctx.arcTo(x, y, x + w, y, r);
-        ctx.closePath();
-      }
-      function drawCover(ctx, img, x, y, d) {
-        ctx.save();
-        ctx.beginPath(); ctx.arc(x + d / 2, y + d / 2, d / 2, 0, Math.PI * 2); ctx.clip();
-        const s = Math.max(d / img.width, d / img.height);
-        const w = img.width * s, h = img.height * s;
-        ctx.drawImage(img, x + (d - w) / 2, y + (d - h) / 2, w, h);
-        ctx.restore();
-      }
-      function drawContain(ctx, img, x, y, d) {
-        const s = Math.min(d / img.width, d / img.height);
-        const w = img.width * s, h = img.height * s;
-        ctx.drawImage(img, x + (d - w) / 2, y + (d - h) / 2, w, h);
-      }
+    }
 
-      async function buildStandingsCanvas(players, cfg) {
-        const C = { bg: "#14171b", panel: "#1e2329", border: "#2f363e", text: "#e9edf2", muted: "#9aa4b2", accent: "#5b8cff", ok: "#4ecb7d", bad: "#ff6b5e", gold: "#e8b62c", slot: "#2a313a" };
-        // precargar imágenes
-        const preload = new Map();
-        const need = new Set();
-        players.forEach((p) => {
-          const av = p.data.avatar || p.avatar; if (av) need.add(av);
-          (p.data.team || []).slice(0, 6).forEach((m) => { const sp = m.sprite || speciesSprite(m.species); if (sp) need.add(sp); });
-        });
-        await Promise.all([...need].map(async (src) => preload.set(src, await loadImg(src))));
+    function handleImport(e) {
+      const file = e.target.files[0];
+      if (file) store.importJSON(file, renderDashboard);
+    }
 
-        const cols = players.length > 4 ? 2 : 1;
-        const rows = Math.ceil(players.length / cols);
-        const pad = 30, gapX = 24, gapY = 22, titleH = 96, footerH = 46;
-        const cardW = 600, cardH = 188;
-        const W = pad * 2 + cardW * cols + gapX * (cols - 1);
-        const H = titleH + rows * cardH + gapY * (rows - 1) + footerH;
-        const DPR = 2;
-        const canvas = document.createElement("canvas");
-        canvas.width = W * DPR; canvas.height = H * DPR;
-        const ctx = canvas.getContext("2d");
-        ctx.scale(DPR, DPR);
-        ctx.textBaseline = "alphabetic";
-        const FONT = "'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
-
-        // fondo
-        ctx.fillStyle = C.bg; ctx.fillRect(0, 0, W, H);
-        // título
-        ctx.fillStyle = C.text; ctx.font = `800 34px ${FONT}`;
-        ctx.fillText(cfg.title || "Pokémon Añil — Super Randomlocke", pad, 50);
-        ctx.fillStyle = C.muted; ctx.font = `600 16px ${FONT}`;
-        const totAlive = players.reduce((a, p) => a + playerStats(p.data, p.revividos).alive, 0);
-        const totDead = players.reduce((a, p) => a + playerStats(p.data, p.revividos).dead, 0);
-        const fecha = new Date().toLocaleDateString("es", { day: "numeric", month: "long", year: "numeric" });
-        ctx.fillText(`${players.length} participantes · ${totAlive} vivos · ${totDead} en el cementerio · ${fecha}`, pad, 76);
-
-        players.forEach((p, i) => {
-          const col = i % cols, row = Math.floor(i / cols);
-          const x = pad + col * (cardW + gapX);
-          const y = titleH + row * (cardH + gapY);
-          const s = playerStats(p.data, p.revividos);
-          const medals = Object.values(p.data.progress?.gyms || {}).filter(Boolean).length;
-          const accent = s.eliminated ? C.bad : C.accent;
-
-          // tarjeta
-          rrect(ctx, x, y, cardW, cardH, 16); ctx.fillStyle = C.panel; ctx.fill();
-          ctx.lineWidth = 1; ctx.strokeStyle = C.border; ctx.stroke();
-          // franja de color
-          ctx.save(); rrect(ctx, x, y, cardW, cardH, 16); ctx.clip();
-          ctx.fillStyle = accent; ctx.fillRect(x, y, 6, cardH); ctx.restore();
-
-          const ip = 20;
-          // avatar
-          const av = preload.get(p.data.avatar || p.avatar);
-          const ax = x + ip + 6, ay = y + ip, ad = 60;
-          if (av) drawCover(ctx, av, ax, ay, ad);
-          else { ctx.fillStyle = C.slot; ctx.beginPath(); ctx.arc(ax + ad / 2, ay + ad / 2, ad / 2, 0, 7); ctx.fill(); ctx.fillStyle = C.muted; ctx.font = `800 22px ${FONT}`; ctx.textAlign = "center"; ctx.fillText(initials(p.name), ax + ad / 2, ay + ad / 2 + 8); ctx.textAlign = "left"; }
-
-          const tx = ax + ad + 16;
-          // nombre
-          ctx.fillStyle = C.text; ctx.font = `800 24px ${FONT}`;
-          ctx.fillText(p.displayName || p.data.name || p.name, tx, y + ip + 20);
-          if (p.data.champion) { ctx.fillStyle = C.gold; ctx.font = `800 15px ${FONT}`; ctx.fillText("★ CAMPEÓN", tx, y + ip + 40); }
-          else { ctx.fillStyle = C.muted; ctx.font = `600 15px ${FONT}`; ctx.fillText(s.eliminated ? "Eliminado (sin vidas)" : "En juego", tx, y + ip + 40); }
-          // medallas (8 puntos)
-          for (let g = 0; g < 8; g++) {
-            ctx.beginPath(); ctx.arc(tx + 7 + g * 17, y + ip + 58, 6, 0, 7);
-            ctx.fillStyle = g < medals ? C.gold : C.slot; ctx.fill();
-          }
-
-          // bloque de vidas (derecha)
-          const rx = x + cardW - ip - 168, rw = 168;
-          ctx.fillStyle = C.muted; ctx.font = `700 12px ${FONT}`; ctx.fillText("VIDAS", rx, y + ip + 12);
-          ctx.fillStyle = s.livesLeft <= 6 ? C.bad : s.livesLeft <= 15 ? C.gold : C.ok;
-          ctx.font = `800 30px ${FONT}`;
-          ctx.fillText(String(s.livesLeft), rx, y + ip + 42);
-          const lw = ctx.measureText(String(s.livesLeft)).width;
-          ctx.fillStyle = C.muted; ctx.font = `700 16px ${FONT}`;
-          ctx.fillText("/" + s.lives, rx + lw + 5, y + ip + 42);
-          // barra de vidas
-          const pct = Math.max(0, Math.min(1, s.livesLeft / s.lives));
-          const by = y + ip + 52, bh = 8;
-          rrect(ctx, rx, by, rw, bh, 4); ctx.fillStyle = C.slot; ctx.fill();
-          if (pct > 0) { rrect(ctx, rx, by, rw * pct, bh, 4); ctx.fillStyle = s.livesLeft <= 6 ? C.bad : s.livesLeft <= 15 ? C.gold : C.ok; ctx.fill(); }
-          // vivos/cementerio/revividos — a lo ancho (izquierda) para que no se corte
-          ctx.fillStyle = C.muted; ctx.font = `600 14px ${FONT}`;
-          ctx.fillText(`Vivos ${s.alive} · Cementerio ${s.dead}${s.revived ? " · " + s.revived + " revivido" + (s.revived > 1 ? "s" : "") + " con ceniza" : ""}`, ax, y + ip + 84);
-
-          // equipo (6 sprites abajo)
-          const team = (p.data.team || []).slice(0, 6);
-          const sd = 52, sy = y + cardH - ip - sd + 4;
-          for (let k = 0; k < 6; k++) {
-            const sx = x + ip + 6 + k * (sd + 8);
-            ctx.beginPath(); ctx.arc(sx + sd / 2, sy + sd / 2, sd / 2, 0, 7); ctx.fillStyle = C.slot; ctx.fill();
-            const m = team[k];
-            const img = m && preload.get(m.sprite || speciesSprite(m.species));
-            if (img) { ctx.save(); ctx.beginPath(); ctx.arc(sx + sd / 2, sy + sd / 2, sd / 2, 0, 7); ctx.clip(); drawContain(ctx, img, sx + 2, sy + 2, sd - 4); ctx.restore(); }
-          }
-        });
-
-        // pie
-        ctx.fillStyle = C.muted; ctx.font = `600 14px ${FONT}`; ctx.textAlign = "center";
-        ctx.fillText("Generado desde el tracker del Super Randomlocke de Pokémon Añil", W / 2, H - 18);
-        ctx.textAlign = "left";
-        return canvas;
-      }
-    })();
+    renderDashboard();
   </script>
 </body>
 </html>
