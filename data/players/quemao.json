@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 3h 45m jugadas · 20,530₽ · vidas en el juego: 18",
+  "notes": "Importado del save · 4h 6m jugadas · 20,530₽ · vidas en el juego: 18",
   "team": [
     {
       "nickname": "VINICIUS",
@@ -34,7 +34,7 @@
       ],
       "ev": [
         5,
-        6,
+        7,
         15,
         13,
         12,
@@ -156,7 +156,7 @@
       ],
       "ev": [
         5,
-        6,
+        7,
         14,
         12,
         16,
@@ -297,7 +297,7 @@
       ],
       "ev": [
         1,
-        4,
+        5,
         8,
         7,
         12,
@@ -389,158 +389,20 @@
       "spriteKey": "DROWZEE"
     },
     {
-      "nickname": "ALEY",
-      "species": "Mankey",
-      "level": 23,
-      "types": [
-        "Lucha"
-      ],
-      "ability": "Bromista",
-      "nature": "Modesta",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Llave Vital",
-        "Golpe Kárate",
-        "Barrera Espinosa",
-        "Puño Incremento"
-      ],
-      "iv": [
-        21,
-        7,
-        6,
-        12,
-        23,
-        20
-      ],
-      "ev": [
-        4,
-        4,
-        9,
-        9,
-        15,
-        9
-      ],
-      "abilPool": [
-        "Mar Llamas",
-        "Bromista"
-      ],
-      "abilHidden": [
-        "Fuga"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Luminicola"
-        },
-        {
-          "lvl": 1,
-          "m": "Llave Vital"
-        },
-        {
-          "lvl": 1,
-          "m": "Golpe Kárate"
-        },
-        {
-          "lvl": 1,
-          "m": "Ataque Arena"
-        },
-        {
-          "lvl": 5,
-          "m": "Puño Incremento"
-        },
-        {
-          "lvl": 8,
-          "m": "Polvo Ira"
-        },
-        {
-          "lvl": 8,
-          "m": "Picotazo Veneno"
-        },
-        {
-          "lvl": 12,
-          "m": "Danza Aleteo"
-        },
-        {
-          "lvl": 13,
-          "m": "Barrera Espinosa"
-        },
-        {
-          "lvl": 15,
-          "m": "Atadura"
-        },
-        {
-          "lvl": 17,
-          "m": "Corpulencia"
-        },
-        {
-          "lvl": 22,
-          "m": "Motivación"
-        },
-        {
-          "lvl": 26,
-          "m": "Desquite"
-        },
-        {
-          "lvl": 29,
-          "m": "Triple Patada"
-        },
-        {
-          "lvl": 29,
-          "m": "Contraataque"
-        },
-        {
-          "lvl": 33,
-          "m": "Danza Triunfal"
-        },
-        {
-          "lvl": 36,
-          "m": "Puño Dinámico"
-        },
-        {
-          "lvl": 40,
-          "m": "Martillo Dragón"
-        },
-        {
-          "lvl": 44,
-          "m": "Campo de Hierba"
-        },
-        {
-          "lvl": 45,
-          "m": "Reserva"
-        },
-        {
-          "lvl": 48,
-          "m": "Detección"
-        },
-        {
-          "lvl": 53,
-          "m": "Clonatipo"
-        }
-      ],
-      "firstMoves": [
-        "Llave Vital",
-        "Golpe Kárate",
-        "Ataque Arena",
-        "Puño Incremento"
-      ],
-      "spriteKey": "MANKEY"
-    },
-    {
       "nickname": "DANIPRADOS",
-      "species": "Zigzagoon (Galar)",
-      "level": 18,
+      "species": "Linoone (Galar)",
+      "level": 23,
       "types": [
         "Siniestro",
         "Normal"
       ],
-      "ability": "Oportunista",
+      "ability": "",
       "nature": "Amable",
       "item": "",
       "shiny": false,
       "moves": [
         "Rueda Fuego",
-        "Cosquillas",
+        "Protección",
         "Prensa Metálica",
         "Viento Afín"
       ],
@@ -554,75 +416,91 @@
       ],
       "ev": [
         0,
-        0,
+        1,
         0,
         0,
         4,
         0
       ],
       "abilPool": [
-        "Absorbe Elec.",
-        "Oportunista"
+        "Medicina Extraña",
+        "Energía Pura"
       ],
       "abilHidden": [
-        "Reacción Química"
+        "Mandíbula dragón"
       ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Última Palabra"
+          "lvl": 0,
+          "m": "Masa Cósmica"
         },
         {
           "lvl": 1,
-          "m": "Represalia"
+          "m": "Cola Dragón"
         },
         {
-          "lvl": 3,
+          "lvl": 1,
           "m": "Cuchillada"
         },
         {
-          "lvl": 6,
-          "m": "Cede Paso"
+          "lvl": 1,
+          "m": "Doble Ataque"
         },
         {
-          "lvl": 9,
-          "m": "Rueda Fuego"
-        },
-        {
-          "lvl": 12,
-          "m": "Cosquillas"
-        },
-        {
-          "lvl": 15,
-          "m": "Prensa Metálica"
-        },
-        {
-          "lvl": 18,
+          "lvl": 1,
           "m": "Viento Afín"
         },
         {
-          "lvl": 21,
-          "m": "Protección"
+          "lvl": 1,
+          "m": "Ojos Llorosos"
         },
         {
-          "lvl": 24,
-          "m": "Paga Extra"
+          "lvl": 1,
+          "m": "Poder Pasado"
         },
         {
-          "lvl": 27,
-          "m": "Constricción"
+          "lvl": 1,
+          "m": "Cola Veneno"
         },
         {
-          "lvl": 30,
-          "m": "Brecha Negra"
+          "lvl": 9,
+          "m": "Esquema"
+        },
+        {
+          "lvl": 12,
+          "m": "Marcha Espectral"
+        },
+        {
+          "lvl": 15,
+          "m": "Conversión"
+        },
+        {
+          "lvl": 18,
+          "m": "Bálsamo Osado"
+        },
+        {
+          "lvl": 23,
+          "m": "Onda Simple"
+        },
+        {
+          "lvl": 28,
+          "m": "Afilagarras"
         },
         {
           "lvl": 33,
-          "m": "Garra Nociva"
+          "m": "Moluscañón"
         },
         {
-          "lvl": 36,
-          "m": "Presente"
+          "lvl": 38,
+          "m": "Cascabel Cura"
+        },
+        {
+          "lvl": 43,
+          "m": "Represalia"
+        },
+        {
+          "lvl": 48,
+          "m": "Carga Tóxica"
         }
       ],
       "firstMoves": [
@@ -631,8 +509,8 @@
         "Prensa Metálica",
         "Viento Afín"
       ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10174.png",
-      "spriteKey": "ZIGZAGOON_1"
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10175.png",
+      "spriteKey": "LINOONE_1"
     },
     {
       "nickname": "COJONES v2",
@@ -662,7 +540,7 @@
       ],
       "ev": [
         5,
-        6,
+        7,
         15,
         13,
         16,
@@ -760,6 +638,133 @@
         "Torbellino"
       ],
       "spriteKey": "EXEGGCUTE"
+    },
+    {
+      "nickname": "HECTOR",
+      "species": "Scraggy",
+      "level": 23,
+      "types": [
+        "Siniestro",
+        "Lucha"
+      ],
+      "ability": "Ojo Mental",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Canon",
+        "Triple Patada",
+        "Absorbefuerza",
+        "Resarcimiento"
+      ],
+      "iv": [
+        29,
+        9,
+        6,
+        0,
+        19,
+        1
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Ojo Mental",
+        "Aura Feérica"
+      ],
+      "abilHidden": [
+        "Acometida"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Ovocuración"
+        },
+        {
+          "lvl": 1,
+          "m": "Detección"
+        },
+        {
+          "lvl": 4,
+          "m": "Persecución"
+        },
+        {
+          "lvl": 8,
+          "m": "Abatidoras"
+        },
+        {
+          "lvl": 9,
+          "m": "Kinético"
+        },
+        {
+          "lvl": 12,
+          "m": "Absorbefuerza"
+        },
+        {
+          "lvl": 16,
+          "m": "Resarcimiento"
+        },
+        {
+          "lvl": 20,
+          "m": "Último Lugar"
+        },
+        {
+          "lvl": 20,
+          "m": "Triple Patada"
+        },
+        {
+          "lvl": 24,
+          "m": "Plegaria Vital"
+        },
+        {
+          "lvl": 27,
+          "m": "Giro Vil"
+        },
+        {
+          "lvl": 28,
+          "m": "Puño Bala"
+        },
+        {
+          "lvl": 32,
+          "m": "Limpieza General"
+        },
+        {
+          "lvl": 36,
+          "m": "Vendetta"
+        },
+        {
+          "lvl": 40,
+          "m": "Triturar"
+        },
+        {
+          "lvl": 44,
+          "m": "Psíquico"
+        },
+        {
+          "lvl": 45,
+          "m": "Tajo Metralla"
+        },
+        {
+          "lvl": 48,
+          "m": "Distorsión"
+        },
+        {
+          "lvl": 52,
+          "m": "Cuerpo Pesado"
+        }
+      ],
+      "firstMoves": [
+        "Canon",
+        "Kinético",
+        "Absorbefuerza",
+        "Resarcimiento"
+      ],
+      "spriteKey": "SCRAGGY"
     }
   ],
   "box": [
@@ -987,6 +992,144 @@
         "Ciclón de Hojas"
       ],
       "spriteKey": "PUMPKABOO_1"
+    },
+    {
+      "nickname": "ALEY",
+      "species": "Mankey",
+      "level": 23,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "Bromista",
+      "nature": "Modesta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Llave Vital",
+        "Golpe Kárate",
+        "Barrera Espinosa",
+        "Puño Incremento"
+      ],
+      "iv": [
+        21,
+        7,
+        6,
+        12,
+        23,
+        20
+      ],
+      "ev": [
+        4,
+        5,
+        9,
+        9,
+        15,
+        9
+      ],
+      "abilPool": [
+        "Mar Llamas",
+        "Bromista"
+      ],
+      "abilHidden": [
+        "Fuga"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Luminicola"
+        },
+        {
+          "lvl": 1,
+          "m": "Llave Vital"
+        },
+        {
+          "lvl": 1,
+          "m": "Golpe Kárate"
+        },
+        {
+          "lvl": 1,
+          "m": "Ataque Arena"
+        },
+        {
+          "lvl": 5,
+          "m": "Puño Incremento"
+        },
+        {
+          "lvl": 8,
+          "m": "Polvo Ira"
+        },
+        {
+          "lvl": 8,
+          "m": "Picotazo Veneno"
+        },
+        {
+          "lvl": 12,
+          "m": "Danza Aleteo"
+        },
+        {
+          "lvl": 13,
+          "m": "Barrera Espinosa"
+        },
+        {
+          "lvl": 15,
+          "m": "Atadura"
+        },
+        {
+          "lvl": 17,
+          "m": "Corpulencia"
+        },
+        {
+          "lvl": 22,
+          "m": "Motivación"
+        },
+        {
+          "lvl": 26,
+          "m": "Desquite"
+        },
+        {
+          "lvl": 29,
+          "m": "Triple Patada"
+        },
+        {
+          "lvl": 29,
+          "m": "Contraataque"
+        },
+        {
+          "lvl": 33,
+          "m": "Danza Triunfal"
+        },
+        {
+          "lvl": 36,
+          "m": "Puño Dinámico"
+        },
+        {
+          "lvl": 40,
+          "m": "Martillo Dragón"
+        },
+        {
+          "lvl": 44,
+          "m": "Campo de Hierba"
+        },
+        {
+          "lvl": 45,
+          "m": "Reserva"
+        },
+        {
+          "lvl": 48,
+          "m": "Detección"
+        },
+        {
+          "lvl": 53,
+          "m": "Clonatipo"
+        }
+      ],
+      "firstMoves": [
+        "Llave Vital",
+        "Golpe Kárate",
+        "Ataque Arena",
+        "Puño Incremento"
+      ],
+      "spriteKey": "MANKEY"
     }
   ],
   "graveyard": [
@@ -1266,24 +1409,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Mankey",
-      "nickname": "ALEY",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 7,
-      "mon": "Mankey"
-    },
-    {
-      "route": "",
-      "where": "",
-      "species": "Zigzagoon",
+      "species": "Linoone",
       "nickname": "DANIPRADOS",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
       "level": 18,
-      "mon": "Zigzagoon"
+      "mon": "Linoone"
     },
     {
       "route": "",
@@ -1295,6 +1427,17 @@
       "category": "estatico_regalo",
       "level": 3,
       "mon": "Exeggcute"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Scraggy",
+      "nickname": "HECTOR",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 17,
+      "mon": "Scraggy"
     },
     {
       "route": "",
@@ -1317,6 +1460,17 @@
       "category": "estatico_regalo",
       "level": 14,
       "mon": "Pumpkaboo"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Mankey",
+      "nickname": "ALEY",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 7,
+      "mon": "Mankey"
     },
     {
       "route": "",
@@ -1512,7 +1666,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 822,
+        "qty": 811,
         "pocket": "Medicinas"
       },
       {
@@ -1548,7 +1702,7 @@
       {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 10,
+        "qty": 9,
         "pocket": "Poké Balls"
       },
       {
