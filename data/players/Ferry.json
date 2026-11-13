@@ -2,124 +2,10 @@
   "id": "Ferry",
   "name": "Ferry",
   "lives": 30,
-  "livesUsed": 1,
+  "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 1h 53m jugadas · 16,230₽ · vidas en el juego: 19",
+  "notes": "Importado del save · 2h 3m jugadas · 18,130₽ · vidas en el juego: 18",
   "team": [
-    {
-      "nickname": "QueFeo",
-      "species": "Tinkatink",
-      "level": 23,
-      "types": [
-        "Hada",
-        "Acero"
-      ],
-      "ability": "Hélice Caudal",
-      "nature": "Afable",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Rueda Fuego",
-        "Prensa Metálica",
-        "Truco Defensa",
-        "Zona Mágica"
-      ],
-      "iv": [
-        13,
-        26,
-        14,
-        22,
-        1,
-        28
-      ],
-      "ev": [
-        10,
-        16,
-        57,
-        7,
-        2,
-        15
-      ],
-      "abilPool": [
-        "Camorrista",
-        "Hélice Caudal"
-      ],
-      "abilHidden": [
-        "Medicina Extraña"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Rueda Fuego"
-        },
-        {
-          "lvl": 1,
-          "m": "Prensa Metálica"
-        },
-        {
-          "lvl": 5,
-          "m": "Estrujón"
-        },
-        {
-          "lvl": 8,
-          "m": "Voz Cautivadora"
-        },
-        {
-          "lvl": 11,
-          "m": "Zona Mágica"
-        },
-        {
-          "lvl": 14,
-          "m": "Trampa Venenosa"
-        },
-        {
-          "lvl": 17,
-          "m": "Truco Defensa"
-        },
-        {
-          "lvl": 21,
-          "m": "Autotomía"
-        },
-        {
-          "lvl": 24,
-          "m": "Retracción"
-        },
-        {
-          "lvl": 27,
-          "m": "Hidropulso"
-        },
-        {
-          "lvl": 31,
-          "m": "Ala Mortífera"
-        },
-        {
-          "lvl": 35,
-          "m": "Asta Drenaje"
-        },
-        {
-          "lvl": 39,
-          "m": "Aire Afilado"
-        },
-        {
-          "lvl": 43,
-          "m": "Cañón Dinamax"
-        },
-        {
-          "lvl": 47,
-          "m": "Filo Potente"
-        },
-        {
-          "lvl": 52,
-          "m": "Golpe Rastrero"
-        }
-      ],
-      "firstMoves": [
-        "Rueda Fuego",
-        "Prensa Metálica",
-        "Estrujón"
-      ],
-      "spriteKey": "TINKATINK"
-    },
     {
       "nickname": "Globazo",
       "species": "Duosion",
@@ -147,11 +33,11 @@
       ],
       "ev": [
         12,
-        16,
+        17,
+        8,
         7,
-        7,
-        3,
-        15
+        5,
+        16
       ],
       "abilPool": [
         "Presión",
@@ -288,11 +174,11 @@
       ],
       "ev": [
         6,
-        7,
-        3,
+        8,
+        4,
         2,
-        0,
-        7
+        2,
+        8
       ],
       "abilPool": [
         "Mano Rápida"
@@ -395,11 +281,11 @@
       ],
       "ev": [
         8,
-        14,
-        6,
+        15,
+        7,
         4,
-        0,
-        12
+        2,
+        13
       ],
       "abilPool": [
         "Allanamiento"
@@ -497,11 +383,11 @@
       ],
       "ev": [
         6,
-        7,
-        3,
+        8,
+        4,
         2,
-        0,
-        7
+        2,
+        8
       ],
       "abilPool": [
         "Ímpetu Arena",
@@ -603,11 +489,11 @@
       ],
       "ev": [
         2,
-        5,
+        6,
+        2,
         1,
-        1,
-        0,
-        5
+        2,
+        6
       ],
       "abilPool": [
         "Cólera"
@@ -1272,6 +1158,123 @@
   ],
   "graveyard": [
     {
+      "nickname": "QueFeo",
+      "species": "Tinkatink",
+      "level": 23,
+      "types": [
+        "Hada",
+        "Acero"
+      ],
+      "ability": "Hélice Caudal",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Rueda Fuego",
+        "Prensa Metálica",
+        "Truco Defensa",
+        "Zona Mágica"
+      ],
+      "iv": [
+        13,
+        26,
+        14,
+        22,
+        1,
+        28
+      ],
+      "ev": [
+        10,
+        17,
+        57,
+        7,
+        2,
+        15
+      ],
+      "abilPool": [
+        "Camorrista",
+        "Hélice Caudal"
+      ],
+      "abilHidden": [
+        "Medicina Extraña"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Rueda Fuego"
+        },
+        {
+          "lvl": 1,
+          "m": "Prensa Metálica"
+        },
+        {
+          "lvl": 5,
+          "m": "Estrujón"
+        },
+        {
+          "lvl": 8,
+          "m": "Voz Cautivadora"
+        },
+        {
+          "lvl": 11,
+          "m": "Zona Mágica"
+        },
+        {
+          "lvl": 14,
+          "m": "Trampa Venenosa"
+        },
+        {
+          "lvl": 17,
+          "m": "Truco Defensa"
+        },
+        {
+          "lvl": 21,
+          "m": "Autotomía"
+        },
+        {
+          "lvl": 24,
+          "m": "Retracción"
+        },
+        {
+          "lvl": 27,
+          "m": "Hidropulso"
+        },
+        {
+          "lvl": 31,
+          "m": "Ala Mortífera"
+        },
+        {
+          "lvl": 35,
+          "m": "Asta Drenaje"
+        },
+        {
+          "lvl": 39,
+          "m": "Aire Afilado"
+        },
+        {
+          "lvl": 43,
+          "m": "Cañón Dinamax"
+        },
+        {
+          "lvl": 47,
+          "m": "Filo Potente"
+        },
+        {
+          "lvl": 52,
+          "m": "Golpe Rastrero"
+        }
+      ],
+      "firstMoves": [
+        "Rueda Fuego",
+        "Prensa Metálica",
+        "Estrujón"
+      ],
+      "spriteKey": "TINKATINK",
+      "cause": "",
+      "route": "",
+      "date": ""
+    },
+    {
       "nickname": "Joker",
       "species": "Cyndaquil",
       "level": 9,
@@ -1401,7 +1404,7 @@
       "species": "Tinkatink",
       "nickname": "QueFeo",
       "shiny": false,
-      "status": "captured",
+      "status": "dead",
       "category": "estatico_regalo",
       "level": 6,
       "mon": "Tinkatink"
@@ -1551,6 +1554,7 @@
       73,
       74,
       75,
+      76,
       110,
       121,
       138,
@@ -1571,6 +1575,7 @@
       "Ataque X 2",
       "Baya Pomaro",
       "Bola Férrea",
+      "Corazón Dulce",
       "Cuerda Huida",
       "Fósil Hélix",
       "Gema Normal",
@@ -1699,6 +1704,12 @@
       {
         "id": "GENIUSMOCHI",
         "name": "Mochi Intelecto",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "SWEETHEART",
+        "name": "Corazón Dulce",
         "qty": 1,
         "pocket": "Medicinas"
       },
@@ -1855,7 +1866,8 @@
     ]
   },
   "deathLog": [
-    "3201169624"
+    "3201169624",
+    "1047228891"
   ],
   "revividos": 0
 }
