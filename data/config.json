@@ -2,33 +2,16 @@
   "title": "Mi Randomlocke",
   "subtitle": "Seguimiento de partidas, equipos, cementerio y torneos",
   "season": "2026",
-  "totalLives": 20,
+  "totalLives": 30,
   "region": "Kanto",
-  "editorPassHash": "35cc53a659acc200352a89c5e765f9d1f3e1cdcd5c3c200d63250f4084fe0a02",
   "repo": {
-    "owner": "QuemaoPS",
+    "owner": "TU-USUARIO",
     "name": "mi-randomlocke",
     "branch": "main"
   },
   "_ayuda": "Plantilla lista para tu grupo. Opcional: cambia el title. NO anadas jugadores a mano: cada uno se registra solo al sincronizar con AnilSync. Guia: guia.html",
   "_comentario": "Los líderes van randomizados en equipo pero mantienen identidad, orden y ciudad de Kanto. Edita a tu gusto; los 'id' deben ser únicos y no cambiar una vez creados.",
-  "players": [
-    {
-      "id": "quemao",
-      "name": "quemao",
-      "avatar": "assets/avatars/red.png"
-    },
-    {
-      "id": "Zep",
-      "name": "Zep",
-      "avatar": "assets/avatars/blue.png"
-    },
-    {
-      "id": "Ferry",
-      "name": "Ferry",
-      "avatar": "assets/avatars/ethan.png"
-    }
-  ],
+  "players": [],
   "_avatarsDisponibles": [
     "assets/avatars/red.png",
     "assets/avatars/blue.png",
