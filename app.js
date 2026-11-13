@@ -37,6 +37,7 @@ function themeIcon(theme) {
 const NAV = [
   { href: "index.html", label: "Inicio" },
   { href: "progresion.html", label: "Progresión" },
+  { href: "centro.html", label: "📡 Centro Locke" },
   { href: "pokedex.html", label: "Pokédex" },
   { href: "movimientos.html", label: "Movimientos" },
   { href: "habilidades.html", label: "Habilidades" },
