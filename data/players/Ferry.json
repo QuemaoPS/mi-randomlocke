@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 2h 42m jugadas · 33,360₽ · vidas en el juego: 17",
+  "notes": "Importado del save · 2h 47m jugadas · 33,360₽ · vidas en el juego: 17",
   "team": [
     {
       "nickname": "SeCreGuapa",
@@ -13,7 +13,7 @@
       "types": [
         "Planta"
       ],
-      "ability": "",
+      "ability": "Torrente",
       "nature": "Serena",
       "item": "",
       "shiny": false,
@@ -34,7 +34,7 @@
       "ev": [
         4,
         10,
-        4,
+        5,
         2,
         2,
         4
@@ -170,7 +170,7 @@
       "ev": [
         9,
         15,
-        8,
+        9,
         4,
         4,
         12
@@ -286,7 +286,7 @@
       "ev": [
         9,
         15,
-        8,
+        9,
         4,
         4,
         12
@@ -401,7 +401,7 @@
       "ev": [
         5,
         13,
-        6,
+        7,
         3,
         4,
         10
@@ -530,7 +530,7 @@
       "ev": [
         15,
         24,
-        12,
+        13,
         9,
         7,
         20
@@ -678,7 +678,7 @@
       "ev": [
         8,
         9,
-        6,
+        7,
         5,
         2,
         9
@@ -1853,12 +1853,15 @@
       "Mochi Aguante",
       "Mochi Intelecto",
       "MT07",
+      "MT101",
       "MT102",
       "MT104",
+      "MT15",
       "MT18",
       "MT38",
       "MT39",
       "MT43",
+      "MT46",
       "MT47",
       "MT48",
       "MT51",
@@ -1866,6 +1869,7 @@
       "MT85",
       "Ocaso Ball",
       "Pesa Recia",
+      "Pico Afilado",
       "Piedra Eterna",
       "Piedra Hielo",
       "Poción",
@@ -1948,6 +1952,12 @@
       {
         "id": "ICESTONE",
         "name": "Piedra Hielo",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "SHARPBEAK",
+        "name": "Pico Afilado",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -2036,6 +2046,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM15",
+        "name": "MT15",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM18",
         "name": "MT18",
         "qty": 1,
@@ -2056,6 +2072,12 @@
       {
         "id": "TM43",
         "name": "MT43",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM46",
+        "name": "MT46",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -2086,6 +2108,12 @@
       {
         "id": "TM85",
         "name": "MT85",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM101",
+        "name": "MT101",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
