@@ -2,9 +2,9 @@
   "id": "quemao",
   "name": " KAHBA",
   "lives": 30,
-  "livesUsed": 1,
+  "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 2h 51m jugadas · 13,120₽ · vidas en el juego: 19",
+  "notes": "Importado del save · 3h 43m jugadas · 20,530₽ · vidas en el juego: 18",
   "team": [
     {
       "nickname": "VINICIUS",
@@ -33,12 +33,12 @@
         18
       ],
       "ev": [
-        4,
-        4,
-        9,
-        8,
+        5,
         6,
-        5
+        15,
+        13,
+        12,
+        12
       ],
       "abilPool": [
         "Ímpetu Arena"
@@ -120,261 +120,14 @@
           "m": "Plancha Corporal"
         }
       ],
+      "tmMoves": [
+        "Cuerno Certero"
+      ],
       "firstMoves": [
         "Semilladora",
         "Fría Acogida"
       ],
       "spriteKey": "MONFERNO"
-    },
-    {
-      "nickname": "MIMI",
-      "species": "Torracat",
-      "level": 23,
-      "types": [
-        "Fuego"
-      ],
-      "ability": "Poder Solar",
-      "nature": "Cauta",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Resarcimiento",
-        "Rueda Fuego",
-        "Hidropulso",
-        "Nitrocarga"
-      ],
-      "iv": [
-        31,
-        2,
-        17,
-        21,
-        11,
-        22
-      ],
-      "ev": [
-        5,
-        4,
-        10,
-        8,
-        6,
-        6
-      ],
-      "abilPool": [
-        "Poder Solar"
-      ],
-      "abilHidden": [
-        "Aclimatación"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Poder Pasado"
-        },
-        {
-          "lvl": 1,
-          "m": "Clemencia"
-        },
-        {
-          "lvl": 1,
-          "m": "Nitrocarga"
-        },
-        {
-          "lvl": 1,
-          "m": "Calcinación"
-        },
-        {
-          "lvl": 9,
-          "m": "Campo Eléctrico"
-        },
-        {
-          "lvl": 11,
-          "m": "Buena Baza"
-        },
-        {
-          "lvl": 12,
-          "m": "Ascuas"
-        },
-        {
-          "lvl": 15,
-          "m": "Colmillo Ígneo"
-        },
-        {
-          "lvl": 20,
-          "m": "Rizo Algodón"
-        },
-        {
-          "lvl": 25,
-          "m": "Bomba Ácida"
-        },
-        {
-          "lvl": 30,
-          "m": "Imitación"
-        },
-        {
-          "lvl": 35,
-          "m": "Ascenso Draco"
-        },
-        {
-          "lvl": 40,
-          "m": "Hidrovapor"
-        },
-        {
-          "lvl": 45,
-          "m": "Refugio"
-        },
-        {
-          "lvl": 50,
-          "m": "Plancha Corporal"
-        },
-        {
-          "lvl": 55,
-          "m": "Velo Aurora"
-        }
-      ],
-      "firstMoves": [
-        "Relajo",
-        "Celebración",
-        "Hidropulso"
-      ],
-      "spriteKey": "TORRACAT"
-    },
-    {
-      "nickname": "ALEY",
-      "species": "Mankey",
-      "level": 23,
-      "types": [
-        "Lucha"
-      ],
-      "ability": "Bromista",
-      "nature": "Modesta",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Llave Vital",
-        "Golpe Kárate",
-        "Barrera Espinosa",
-        "Puño Incremento"
-      ],
-      "iv": [
-        21,
-        7,
-        6,
-        12,
-        23,
-        20
-      ],
-      "ev": [
-        3,
-        2,
-        3,
-        4,
-        5,
-        2
-      ],
-      "abilPool": [
-        "Mar Llamas",
-        "Bromista"
-      ],
-      "abilHidden": [
-        "Fuga"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Luminicola"
-        },
-        {
-          "lvl": 1,
-          "m": "Llave Vital"
-        },
-        {
-          "lvl": 1,
-          "m": "Golpe Kárate"
-        },
-        {
-          "lvl": 1,
-          "m": "Ataque Arena"
-        },
-        {
-          "lvl": 5,
-          "m": "Puño Incremento"
-        },
-        {
-          "lvl": 8,
-          "m": "Polvo Ira"
-        },
-        {
-          "lvl": 8,
-          "m": "Picotazo Veneno"
-        },
-        {
-          "lvl": 12,
-          "m": "Danza Aleteo"
-        },
-        {
-          "lvl": 13,
-          "m": "Barrera Espinosa"
-        },
-        {
-          "lvl": 15,
-          "m": "Atadura"
-        },
-        {
-          "lvl": 17,
-          "m": "Corpulencia"
-        },
-        {
-          "lvl": 22,
-          "m": "Motivación"
-        },
-        {
-          "lvl": 26,
-          "m": "Desquite"
-        },
-        {
-          "lvl": 29,
-          "m": "Triple Patada"
-        },
-        {
-          "lvl": 29,
-          "m": "Contraataque"
-        },
-        {
-          "lvl": 33,
-          "m": "Danza Triunfal"
-        },
-        {
-          "lvl": 36,
-          "m": "Puño Dinámico"
-        },
-        {
-          "lvl": 40,
-          "m": "Martillo Dragón"
-        },
-        {
-          "lvl": 44,
-          "m": "Campo de Hierba"
-        },
-        {
-          "lvl": 45,
-          "m": "Reserva"
-        },
-        {
-          "lvl": 48,
-          "m": "Detección"
-        },
-        {
-          "lvl": 53,
-          "m": "Clonatipo"
-        }
-      ],
-      "firstMoves": [
-        "Llave Vital",
-        "Golpe Kárate",
-        "Ataque Arena",
-        "Puño Incremento"
-      ],
-      "spriteKey": "MANKEY"
     },
     {
       "nickname": "YYY891",
@@ -402,12 +155,12 @@
         29
       ],
       "ev": [
-        4,
-        4,
-        8,
-        7,
+        5,
         6,
-        5
+        14,
+        12,
+        16,
+        12
       ],
       "abilPool": [
         "Pararrayos"
@@ -543,12 +296,12 @@
         16
       ],
       "ev": [
-        0,
-        2,
-        2,
-        2,
-        2,
-        1
+        1,
+        4,
+        8,
+        7,
+        12,
+        8
       ],
       "abilPool": [
         "Piel Milagro",
@@ -636,6 +389,252 @@
       "spriteKey": "DROWZEE"
     },
     {
+      "nickname": "ALEY",
+      "species": "Mankey",
+      "level": 23,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "Bromista",
+      "nature": "Modesta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Llave Vital",
+        "Golpe Kárate",
+        "Barrera Espinosa",
+        "Puño Incremento"
+      ],
+      "iv": [
+        21,
+        7,
+        6,
+        12,
+        23,
+        20
+      ],
+      "ev": [
+        4,
+        4,
+        9,
+        9,
+        15,
+        9
+      ],
+      "abilPool": [
+        "Mar Llamas",
+        "Bromista"
+      ],
+      "abilHidden": [
+        "Fuga"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Luminicola"
+        },
+        {
+          "lvl": 1,
+          "m": "Llave Vital"
+        },
+        {
+          "lvl": 1,
+          "m": "Golpe Kárate"
+        },
+        {
+          "lvl": 1,
+          "m": "Ataque Arena"
+        },
+        {
+          "lvl": 5,
+          "m": "Puño Incremento"
+        },
+        {
+          "lvl": 8,
+          "m": "Polvo Ira"
+        },
+        {
+          "lvl": 8,
+          "m": "Picotazo Veneno"
+        },
+        {
+          "lvl": 12,
+          "m": "Danza Aleteo"
+        },
+        {
+          "lvl": 13,
+          "m": "Barrera Espinosa"
+        },
+        {
+          "lvl": 15,
+          "m": "Atadura"
+        },
+        {
+          "lvl": 17,
+          "m": "Corpulencia"
+        },
+        {
+          "lvl": 22,
+          "m": "Motivación"
+        },
+        {
+          "lvl": 26,
+          "m": "Desquite"
+        },
+        {
+          "lvl": 29,
+          "m": "Triple Patada"
+        },
+        {
+          "lvl": 29,
+          "m": "Contraataque"
+        },
+        {
+          "lvl": 33,
+          "m": "Danza Triunfal"
+        },
+        {
+          "lvl": 36,
+          "m": "Puño Dinámico"
+        },
+        {
+          "lvl": 40,
+          "m": "Martillo Dragón"
+        },
+        {
+          "lvl": 44,
+          "m": "Campo de Hierba"
+        },
+        {
+          "lvl": 45,
+          "m": "Reserva"
+        },
+        {
+          "lvl": 48,
+          "m": "Detección"
+        },
+        {
+          "lvl": 53,
+          "m": "Clonatipo"
+        }
+      ],
+      "firstMoves": [
+        "Llave Vital",
+        "Golpe Kárate",
+        "Ataque Arena",
+        "Puño Incremento"
+      ],
+      "spriteKey": "MANKEY"
+    },
+    {
+      "nickname": "DANIPRADOS",
+      "species": "Zigzagoon (Galar)",
+      "level": 18,
+      "types": [
+        "Siniestro",
+        "Normal"
+      ],
+      "ability": "Oportunista",
+      "nature": "Amable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Rueda Fuego",
+        "Cosquillas",
+        "Prensa Metálica",
+        "Viento Afín"
+      ],
+      "iv": [
+        23,
+        23,
+        16,
+        21,
+        27,
+        26
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "abilPool": [
+        "Absorbe Elec.",
+        "Oportunista"
+      ],
+      "abilHidden": [
+        "Reacción Química"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Última Palabra"
+        },
+        {
+          "lvl": 1,
+          "m": "Represalia"
+        },
+        {
+          "lvl": 3,
+          "m": "Cuchillada"
+        },
+        {
+          "lvl": 6,
+          "m": "Cede Paso"
+        },
+        {
+          "lvl": 9,
+          "m": "Rueda Fuego"
+        },
+        {
+          "lvl": 12,
+          "m": "Cosquillas"
+        },
+        {
+          "lvl": 15,
+          "m": "Prensa Metálica"
+        },
+        {
+          "lvl": 18,
+          "m": "Viento Afín"
+        },
+        {
+          "lvl": 21,
+          "m": "Protección"
+        },
+        {
+          "lvl": 24,
+          "m": "Paga Extra"
+        },
+        {
+          "lvl": 27,
+          "m": "Constricción"
+        },
+        {
+          "lvl": 30,
+          "m": "Brecha Negra"
+        },
+        {
+          "lvl": 33,
+          "m": "Garra Nociva"
+        },
+        {
+          "lvl": 36,
+          "m": "Presente"
+        }
+      ],
+      "firstMoves": [
+        "Rueda Fuego",
+        "Cosquillas",
+        "Prensa Metálica",
+        "Viento Afín"
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10174.png",
+      "spriteKey": "ZIGZAGOON_1"
+    },
+    {
       "nickname": "COJONES v2",
       "species": "Exeggcute",
       "level": 23,
@@ -662,12 +661,12 @@
         31
       ],
       "ev": [
-        4,
-        4,
-        9,
-        8,
+        5,
         6,
-        6
+        15,
+        13,
+        16,
+        13
       ],
       "abilPool": [
         "Tenacidad",
@@ -1110,6 +1109,124 @@
       "cause": "",
       "route": "",
       "date": ""
+    },
+    {
+      "nickname": "MIMI",
+      "species": "Torracat",
+      "level": 23,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "Poder Solar",
+      "nature": "Cauta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Resarcimiento",
+        "Rueda Fuego",
+        "Hidropulso",
+        "Nitrocarga"
+      ],
+      "iv": [
+        31,
+        2,
+        17,
+        21,
+        11,
+        22
+      ],
+      "ev": [
+        6,
+        6,
+        16,
+        13,
+        13,
+        13
+      ],
+      "abilPool": [
+        "Poder Solar"
+      ],
+      "abilHidden": [
+        "Aclimatación"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Poder Pasado"
+        },
+        {
+          "lvl": 1,
+          "m": "Clemencia"
+        },
+        {
+          "lvl": 1,
+          "m": "Nitrocarga"
+        },
+        {
+          "lvl": 1,
+          "m": "Calcinación"
+        },
+        {
+          "lvl": 9,
+          "m": "Campo Eléctrico"
+        },
+        {
+          "lvl": 11,
+          "m": "Buena Baza"
+        },
+        {
+          "lvl": 12,
+          "m": "Ascuas"
+        },
+        {
+          "lvl": 15,
+          "m": "Colmillo Ígneo"
+        },
+        {
+          "lvl": 20,
+          "m": "Rizo Algodón"
+        },
+        {
+          "lvl": 25,
+          "m": "Bomba Ácida"
+        },
+        {
+          "lvl": 30,
+          "m": "Imitación"
+        },
+        {
+          "lvl": 35,
+          "m": "Ascenso Draco"
+        },
+        {
+          "lvl": 40,
+          "m": "Hidrovapor"
+        },
+        {
+          "lvl": 45,
+          "m": "Refugio"
+        },
+        {
+          "lvl": 50,
+          "m": "Plancha Corporal"
+        },
+        {
+          "lvl": 55,
+          "m": "Velo Aurora"
+        }
+      ],
+      "tmMoves": [
+        "Cuerno Certero"
+      ],
+      "firstMoves": [
+        "Relajo",
+        "Celebración",
+        "Hidropulso"
+      ],
+      "spriteKey": "TORRACAT",
+      "cause": "",
+      "route": "",
+      "date": ""
     }
   ],
   "captures": [
@@ -1123,28 +1240,6 @@
       "category": "estatico_regalo",
       "level": 2,
       "mon": "Monferno"
-    },
-    {
-      "route": "",
-      "where": "",
-      "species": "Torracat",
-      "nickname": "MIMI",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 5,
-      "mon": "Torracat"
-    },
-    {
-      "route": "",
-      "where": "",
-      "species": "Mankey",
-      "nickname": "ALEY",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 7,
-      "mon": "Mankey"
     },
     {
       "route": "",
@@ -1167,6 +1262,28 @@
       "category": "estatico_regalo",
       "level": 12,
       "mon": "Drowzee"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Mankey",
+      "nickname": "ALEY",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 7,
+      "mon": "Mankey"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Zigzagoon",
+      "nickname": "DANIPRADOS",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 18,
+      "mon": "Zigzagoon"
     },
     {
       "route": "",
@@ -1211,6 +1328,17 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Petilil"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Torracat",
+      "nickname": "MIMI",
+      "shiny": false,
+      "status": "dead",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Torracat"
     }
   ],
   "progress": {
@@ -1233,7 +1361,13 @@
       69,
       70,
       71,
+      72,
+      73,
+      74,
+      75,
+      76,
       110,
+      121,
       138,
       176,
       179,
@@ -1247,20 +1381,29 @@
       334
     ],
     "foundItems": [
+      "Bola Férrea",
       "Botas Gruesas",
       "Brazal Firme",
+      "Cebo Ball",
+      "Cola Skitty",
       "Cubresuelos",
+      "Cuerda Huida",
+      "Elixir",
       "Elixir Máximo",
+      "Energía Potenciadora",
       "Fósil Cráneo",
+      "Fósil Hélix",
       "Gafa Protectora",
       "Menta Firme",
       "Miel",
       "Miniseta",
       "MO Golpe Roca",
       "Mochi Intelecto",
+      "MT102",
       "MT112",
       "MT39",
       "MT40",
+      "MT43",
       "MT67",
       "MT89",
       "MT94",
@@ -1268,7 +1411,10 @@
       "Ornitofósil",
       "Poké Montura",
       "Reglamento",
+      "Restaurar Todo",
       "Revivir",
+      "Revivir Máximo",
+      "Tabla Terror",
       "Velocidad X 6",
       "Vial"
     ],
@@ -1328,6 +1474,30 @@
         "pocket": "Objetos"
       },
       {
+        "id": "SPOOKYPLATE",
+        "name": "Tabla Terror",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "BOOSTERENERGY",
+        "name": "Energía Potenciadora",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "HELIXFOSSIL",
+        "name": "Fósil Hélix",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "IRONBALL",
+        "name": "Bola Férrea",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "REVIVE",
         "name": "Revivir",
         "qty": 1,
@@ -1346,12 +1516,6 @@
         "pocket": "Medicinas"
       },
       {
-        "id": "POTION",
-        "name": "Poción",
-        "qty": 2,
-        "pocket": "Medicinas"
-      },
-      {
         "id": "MAXELIXIR",
         "name": "Elixir Máximo",
         "qty": 1,
@@ -1364,15 +1528,39 @@
         "pocket": "Medicinas"
       },
       {
-        "id": "POKEBALL",
-        "name": "Poké Ball",
+        "id": "MAXREVIVE",
+        "name": "Revivir Máximo",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "ELIXIR",
+        "name": "Elixir",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "FULLRESTORE",
+        "name": "Restaurar Todo",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "GREATBALL",
+        "name": "Super Ball",
+        "qty": 10,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "PREMIERBALL",
+        "name": "Honor Ball",
         "qty": 3,
         "pocket": "Poké Balls"
       },
       {
-        "id": "LEVELBALL",
-        "name": "Nivel Ball",
-        "qty": 1,
+        "id": "POKEBALL",
+        "name": "Poké Ball",
+        "qty": 19,
         "pocket": "Poké Balls"
       },
       {
@@ -1384,6 +1572,12 @@
       {
         "id": "TM40",
         "name": "MT40",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM43",
+        "name": "MT43",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -1406,6 +1600,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM102",
+        "name": "MT102",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM112",
         "name": "MT112",
         "qty": 1,
@@ -1414,6 +1614,12 @@
       {
         "id": "XSPEED6",
         "name": "Velocidad X 6",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "FLUFFYTAIL",
+        "name": "Cola Skitty",
         "qty": 1,
         "pocket": "Objetos de combate"
       },
@@ -1440,11 +1646,18 @@
         "name": "MO Golpe Roca",
         "qty": 1,
         "pocket": "Objetos clave"
+      },
+      {
+        "id": "ESCAPEROPE",
+        "name": "Cuerda Huida",
+        "qty": 1,
+        "pocket": "Objetos clave"
       }
     ]
   },
   "deathLog": [
-    "1806508300"
+    "1806508300",
+    "3100589573"
   ],
   "revividos": 0
 }
