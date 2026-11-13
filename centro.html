@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Centro Locke · Pokémon Añil</title><meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="styles.css?v=7">
+<style>
+.cl{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.bx{background:var(--card,var(--surface,#161b22));border:1px solid var(--border,#30363d);border-radius:12px;padding:14px}
+.bx h3{margin:0 0 8px}.rk{display:flex;align-items:center;gap:10px;padding:6px 0;border-bottom:1px solid var(--border,#30363d)}
+.rk b{width:24px}.rk .n{flex:1}.hm{display:grid;grid-template-columns:repeat(6,1fr);gap:4px;margin-top:6px}
+.hm div{text-align:center;font-size:11px;padding:4px 0;border-radius:6px;background:rgba(128,128,128,.15)}
+.hm .w{background:rgba(239,68,68,.45)}.hm .r{background:rgba(34,197,94,.4)}
+.bar{height:8px;border-radius:5px;background:rgba(128,128,128,.25);overflow:hidden}.bar i{display:block;height:100%}
+.fd{font-size:13px;padding:4px 0;border-bottom:1px solid var(--border,#30363d)}
+#q{width:100%;padding:10px;border-radius:10px;border:1px solid var(--border,#30363d);background:transparent;color:inherit}
+</style></head><body>
+<main class="container">
+<h1>📡 Centro Locke</h1>
+<p class="lead">Todo se lee solo de la partida vía AnilSync. Se refresca cada 60 s · <span id="upd">…</span></p>
+<div class="cl" id="rank"></div>
+<h2>Nivel máximo vs. próximo gimnasio</h2><div class="cl" id="cap"></div>
+<h2>Debilidades del equipo</h2><div class="cl" id="weak"></div>
+<h2>Buscador de Pokémon</h2><input id="q" placeholder="Busca especie, mote, habilidad, movimiento, tipo o jugador…"><div id="res" class="mon-team" style="margin-top:10px"></div>
+<div class="cl" style="margin-top:20px"><div class="bx"><h3>🏆 Logros automáticos</h3><div id="ach"></div></div>
+<div class="bx"><h3>💀 Muro de caídos</h3><div id="dead"></div></div>
+<div class="bx"><h3>🛰️ Actividad reciente (GitHub)</h3><div id="feed">Cargando…</div></div></div>
+</main>
+<script src="app.js?v=14"></script>
+<script>
+const CAPS=[14,21,28,35,43,48,54,60]; // level caps por gimnasio (edítalos a tu gusto)
+const E=escapeHtml; let P=[],cfg;
+const gymsDone=p=>Object.values((p.data.progress||{}).gyms||{}).filter(Boolean).length;
+const avgLv=p=>{const t=p.data.team||[];return t.length?Math.round(t.reduce((a,m)=>a+(m.level||0),0)/t.length):0};
+const mons=p=>[...(p.data.team||[]),...(p.data.box||[])];
+function rank(){const rows=P.map(p=>({p,s:playerStats(p.data),g:gymsDone(p),sh:mons(p).filter(m=>m.shiny).length,av:avgLv(p)}))
+ .sort((a,b)=>b.g-a.g||b.s.livesLeft-a.s.livesLeft);
+ document.getElementById('rank').innerHTML=`<div class="bx"><h3>🥇 Clasificación</h3>${rows.map((r,i)=>`<div class="rk"><b>${['🥇','🥈','🥉'][i]||i+1}</b><span class="n">${E(r.p.data.name||r.p.name)}</span><span>🏅${r.g}</span><span>❤️${r.s.livesLeft}/${r.s.lives}</span><span>⭐${r.sh}</span><span>Nv̄${r.av}</span></div>`).join('')}</div>
+ <div class="bx"><h3>📊 Global</h3><p>Vivos: <b>${rows.reduce((a,r)=>a+r.s.alive,0)}</b> · Caídos: <b>${rows.reduce((a,r)=>a+r.s.dead,0)}</b> · Shinies: <b>${rows.reduce((a,r)=>a+r.sh,0)}</b></p>
+ <p>Vidas gastadas: <b>${rows.reduce((a,r)=>a+r.s.used,0)}</b> de ${rows.reduce((a,r)=>a+r.s.lives,0)}</p>
+ <p class="muted">Eliminados: ${rows.filter(r=>r.s.eliminated).map(r=>E(r.p.name)).join(', ')||'nadie 🎉'}</p></div>`;}
+function cap(){document.getElementById('cap').innerHTML=P.map(p=>{const g=gymsDone(p),c=CAPS[g]||70,mx=Math.max(0,...(p.data.team||[]).map(m=>m.level||0)),over=mx>c;
+ return `<div class="bx"><b>${E(p.data.name||p.name)}</b> · próximo cap <b>Nv.${c}</b><div class="bar" style="margin:8px 0"><i style="width:${Math.min(100,mx/c*100)}%;background:${over?'#ef4444':'#22c55e'}"></i></div>Más alto: Nv.${mx} ${over?'⚠️ ¡Te pasas del cap!':'✅'}</div>`}).join('')}
+async function weak(){await loadTypesChart();const ks=Object.keys(TYPES_CSS_ES);
+ document.getElementById('weak').innerHTML=P.map(p=>{const t=p.data.team||[];const cnt=ks.map(k=>{let w=0,r=0;t.forEach(m=>{const x=typeMult((m.types||[]).map(typeKey),k);if(x>1)w++;else if(x<1)r++});return{k,w,r}});
+ return `<div class="bx"><b>${E(p.data.name||p.name)}</b><div class="hm">${cnt.map(c=>`<div class="${c.w>c.r&&c.w>1?'w':c.r>c.w?'r':''}" title="${c.w} débiles / ${c.r} resisten">${typeBadge(c.k,true)}<br>${c.w}↓ ${c.r}↑</div>`).join('')}</div></div>`}).join('')}
+function ach(){const A=[['Primer compañero',p=>mons(p).length>0],['Escuadrón completo',p=>(p.data.team||[]).length>=6],['Cazashinies',p=>mons(p).some(m=>m.shiny)],['4 medallas',p=>gymsDone(p)>=4],['Líder de Kanto (8 medallas)',p=>gymsDone(p)>=8],['Sin bajas',p=>!(p.data.graveyard||[]).length&&mons(p).length>0],['Superviviente (≥7 vidas, 4 medallas)',p=>gymsDone(p)>=4&&playerStats(p.data).livesLeft>=7],['Campeón',p=>!!p.data.champion]];
+ document.getElementById('ach').innerHTML=A.map(([n,f])=>{const w=P.filter(f).map(p=>E(p.name));return `<div class="fd">${w.length?'🏆':'🔒'} <b>${n}</b> ${w.length?'· '+w.join(', '):''}</div>`}).join('')}
+function dead(){const h=P.flatMap(p=>(p.data.graveyard||[]).map(m=>({p,m})));document.getElementById('dead').innerHTML=h.length?h.map(({p,m})=>`<div class="fd">💀 <b>${E(m.nickname||m.species)}</b> (${E(m.species)} Nv.${m.level||'?'}) · ${E(p.name)} ${m.cause?'· '+E(m.cause):''}</div>`).join(''):'Sin bajas.'}
+function search(){const q=normName(document.getElementById('q').value);const out=document.getElementById('res');if(!q){out.innerHTML='';return}
+ const r=P.flatMap(p=>[['team',p.data.team],['box',p.data.box],['graveyard',p.data.graveyard]].flatMap(([z,l])=>(l||[]).map(m=>({p,z,m})))).filter(({p,m})=>normName([p.name,m.species,m.nickname,m.ability,m.item,m.nature,...(m.types||[]),...(m.moves||[])].join(' ')).includes(q)).slice(0,30);
+ out.innerHTML=r.map(({p,z,m})=>`<div class="bx" style="width:170px;text-align:center">${spriteEl(m)}<div><b>${E(m.nickname||m.species)}</b></div><div class="muted">${E(p.name)} · ${z} · Nv.${m.level}</div></div>`).join('')||'<p class="muted">Nada.</p>';initSpriteAnim(out)}
+async function feed(){try{const r=cfg.repo,j=await(await fetch(`https://api.github.com/repos/${r.owner}/${r.name}/commits?per_page=12`)).json();
+ document.getElementById('feed').innerHTML=j.map(c=>`<div class="fd">${new Date(c.commit.author.date).toLocaleString()} · ${E(c.commit.message.split('\n')[0])}</div>`).join('')}catch(e){document.getElementById('feed').textContent='No disponible.'}}
+async function load(){P=await loadAllPlayers(cfg);rank();cap();await weak();ach();dead();feed();document.getElementById('upd').textContent=new Date().toLocaleTimeString()}
+(async()=>{cfg=await loadConfig();renderHeader('centro.html');renderFooter();await loadFrames();await load();document.getElementById('q').oninput=search;setInterval(load,60000)})();
+</script></body></html>
