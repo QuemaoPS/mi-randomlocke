@@ -4,266 +4,136 @@
   "lives": 30,
   "livesUsed": 6,
   "champion": false,
-  "notes": "Importado del save · 4h 38m jugadas · 41,710₽ · vidas en el juego: 14",
+  "notes": "Importado del save · 5h 3m jugadas · 31,110₽ · vidas en el juego: 14",
   "team": [
     {
-      "nickname": "Subnormal",
-      "species": "Araquanid",
+      "nickname": "Sami Deluxe",
+      "species": "Bronzor",
       "level": 30,
       "types": [
-        "Agua",
-        "Bicho"
+        "Acero",
+        "Psíquico"
       ],
-      "ability": "Voz Fluida",
-      "nature": "Cauta",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Mundo Gélido",
-        "Palma Rauda",
-        "Magnitud",
-        "Clavo Cañón"
-      ],
-      "iv": [
-        20,
-        9,
-        18,
-        31,
-        22,
-        22
-      ],
-      "ev": [
-        0,
-        2,
-        0,
-        0,
-        0,
-        3
-      ],
-      "abilPool": [
-        "Voz Fluida"
-      ],
-      "abilHidden": [
-        "Poder Solar"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Viraje"
-        },
-        {
-          "lvl": 1,
-          "m": "Reflejo"
-        },
-        {
-          "lvl": 1,
-          "m": "Danza Aleteo"
-        },
-        {
-          "lvl": 1,
-          "m": "Ojitos Tiernos"
-        },
-        {
-          "lvl": 1,
-          "m": "Octopresa"
-        },
-        {
-          "lvl": 8,
-          "m": "Refuerzo"
-        },
-        {
-          "lvl": 12,
-          "m": "Acupresión"
-        },
-        {
-          "lvl": 16,
-          "m": "Magnitud"
-        },
-        {
-          "lvl": 20,
-          "m": "Afilar"
-        },
-        {
-          "lvl": 26,
-          "m": "Disparo Demora"
-        },
-        {
-          "lvl": 30,
-          "m": "Palma Rauda"
-        },
-        {
-          "lvl": 32,
-          "m": "Antojo"
-        },
-        {
-          "lvl": 33,
-          "m": "Voto Agua"
-        },
-        {
-          "lvl": 35,
-          "m": "Energibola"
-        },
-        {
-          "lvl": 38,
-          "m": "Relámpago Súbito"
-        },
-        {
-          "lvl": 44,
-          "m": "Red Viscosa"
-        },
-        {
-          "lvl": 50,
-          "m": "Golpe Aéreo"
-        },
-        {
-          "lvl": 56,
-          "m": "Halloween"
-        },
-        {
-          "lvl": 62,
-          "m": "Megacuerno"
-        }
-      ],
-      "tmMoves": [
-        "A Defender",
-        "Aullido",
-        "Canto",
-        "Celebración",
-        "Clavo Cañón",
-        "Corte",
-        "Levitón",
-        "Meditación",
-        "Tormenta Arena",
-        "Trampa Rocas"
-      ],
-      "firstMoves": [
-        "Mundo Gélido",
-        "Sustituto",
-        "Calamidad",
-        "Acua Aro"
-      ],
-      "spriteKey": "ARAQUANID"
-    },
-    {
-      "nickname": "taboun",
-      "species": "Hippopotas",
-      "level": 30,
-      "types": [
-        "Tierra"
-      ],
-      "ability": "Gélido",
+      "ability": "Ojo Compuesto",
       "nature": "Miedosa",
       "item": "",
       "shiny": false,
       "moves": [
-        "Llave Vital",
-        "Bola Hielo",
-        "Bucle Arena",
-        "Bomba Fango"
+        "Vaho Gélido",
+        "Poder Místico",
+        "Alto Voltaje",
+        "Maquinación"
       ],
       "iv": [
-        25,
-        9,
-        20,
-        3,
-        15,
-        22
+        8,
+        10,
+        30,
+        17,
+        24,
+        17
       ],
       "ev": [
-        16,
-        23,
-        17,
-        10,
-        12,
-        19
+        2,
+        4,
+        3,
+        5,
+        1,
+        5
       ],
       "abilPool": [
-        "Gélido"
+        "Velo Agua",
+        "Ojo Compuesto"
       ],
       "abilHidden": [
-        "Respondón"
+        "Receptor"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Día Soleado"
+          "m": "Hidrochorro"
         },
         {
           "lvl": 1,
-          "m": "Cambiadefensa"
+          "m": "Cambiavelocidad"
         },
         {
           "lvl": 4,
-          "m": "Bucle Arena"
+          "m": "Poder Místico"
         },
         {
           "lvl": 8,
-          "m": "Bomba Fango"
+          "m": "Vaho Gélido"
         },
         {
           "lvl": 12,
-          "m": "Ataque Arena"
+          "m": "Bombardeo"
+        },
+        {
+          "lvl": 15,
+          "m": "Abrecaminos"
         },
         {
           "lvl": 16,
-          "m": "Llave Vital"
-        },
-        {
-          "lvl": 19,
-          "m": "Bola Voltio"
+          "m": "Maquinación"
         },
         {
           "lvl": 20,
-          "m": "Bola Hielo"
+          "m": "Garra Metal"
+        },
+        {
+          "lvl": 21,
+          "m": "Avivar"
         },
         {
           "lvl": 24,
-          "m": "Pantalla de Luz"
+          "m": "Embargo"
         },
         {
           "lvl": 28,
-          "m": "Bofetón Lodo"
+          "m": "Onda Trueno"
         },
         {
           "lvl": 32,
-          "m": "Magnitud"
+          "m": "Danza Lunar"
         },
         {
           "lvl": 36,
-          "m": "Acoso"
+          "m": "Testarazo"
         },
         {
           "lvl": 40,
-          "m": "Ovocuración"
+          "m": "Hipertaladro"
         },
         {
           "lvl": 44,
-          "m": "Retribución"
+          "m": "Pulso Noche"
         },
         {
-          "lvl": 48,
-          "m": "Agarrón"
-        },
-        {
-          "lvl": 52,
-          "m": "Cadena Virulenta"
+          "lvl": 45,
+          "m": "Limpieza General"
         }
       ],
       "tmMoves": [
-        "Ataque Furia",
-        "Canto",
-        "Celebración",
+        "Alto Voltaje",
+        "Aullido",
+        "Barrera",
+        "Clavo Cañón",
+        "Corte",
         "Defensa Férrea",
-        "Escudo Real",
-        "Levitón",
-        "Rizo Algodón"
+        "Desarme",
+        "Fachada",
+        "Meditación",
+        "Moflete Estático",
+        "Represalia",
+        "Trampa Rocas"
       ],
       "firstMoves": [
-        "Día Soleado",
-        "Cambiadefensa",
-        "Bucle Arena"
+        "Vaho Gélido",
+        "Bombardeo",
+        "Abrecaminos",
+        "Maquinación"
       ],
-      "spriteKey": "HIPPOPOTAS"
+      "spriteKey": "BRONZOR"
     },
     {
       "nickname": "yyy891",
@@ -292,12 +162,12 @@
         22
       ],
       "ev": [
+        6,
+        7,
         4,
-        5,
-        1,
-        1,
-        3,
-        3
+        6,
+        4,
+        5
       ],
       "abilPool": [
         "Potencia Bruta",
@@ -399,133 +269,125 @@
       "spriteKey": "PAWNIARD"
     },
     {
-      "nickname": "Sami Deluxe",
-      "species": "Bronzor",
+      "nickname": "taboun",
+      "species": "Hippopotas",
       "level": 30,
       "types": [
-        "Acero",
-        "Psíquico"
+        "Tierra"
       ],
-      "ability": "Ojo Compuesto",
+      "ability": "Gélido",
       "nature": "Miedosa",
       "item": "",
       "shiny": false,
       "moves": [
-        "Vaho Gélido",
-        "Poder Místico",
-        "Alto Voltaje",
-        "Maquinación"
+        "Llave Vital",
+        "Bola Hielo",
+        "Bucle Arena",
+        "Bomba Fango"
       ],
       "iv": [
-        8,
-        10,
-        30,
-        17,
-        24,
-        17
+        25,
+        9,
+        20,
+        3,
+        15,
+        22
       ],
       "ev": [
-        0,
-        2,
-        0,
-        0,
-        0,
-        3
+        18,
+        25,
+        20,
+        15,
+        13,
+        21
       ],
       "abilPool": [
-        "Velo Agua",
-        "Ojo Compuesto"
+        "Gélido"
       ],
       "abilHidden": [
-        "Receptor"
+        "Respondón"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Hidrochorro"
+          "m": "Día Soleado"
         },
         {
           "lvl": 1,
-          "m": "Cambiavelocidad"
+          "m": "Cambiadefensa"
         },
         {
           "lvl": 4,
-          "m": "Poder Místico"
+          "m": "Bucle Arena"
         },
         {
           "lvl": 8,
-          "m": "Vaho Gélido"
+          "m": "Bomba Fango"
         },
         {
           "lvl": 12,
-          "m": "Bombardeo"
-        },
-        {
-          "lvl": 15,
-          "m": "Abrecaminos"
+          "m": "Ataque Arena"
         },
         {
           "lvl": 16,
-          "m": "Maquinación"
+          "m": "Llave Vital"
+        },
+        {
+          "lvl": 19,
+          "m": "Bola Voltio"
         },
         {
           "lvl": 20,
-          "m": "Garra Metal"
-        },
-        {
-          "lvl": 21,
-          "m": "Avivar"
+          "m": "Bola Hielo"
         },
         {
           "lvl": 24,
-          "m": "Embargo"
+          "m": "Pantalla de Luz"
         },
         {
           "lvl": 28,
-          "m": "Onda Trueno"
+          "m": "Bofetón Lodo"
         },
         {
           "lvl": 32,
-          "m": "Danza Lunar"
+          "m": "Magnitud"
         },
         {
           "lvl": 36,
-          "m": "Testarazo"
+          "m": "Acoso"
         },
         {
           "lvl": 40,
-          "m": "Hipertaladro"
+          "m": "Ovocuración"
         },
         {
           "lvl": 44,
-          "m": "Pulso Noche"
+          "m": "Retribución"
         },
         {
-          "lvl": 45,
-          "m": "Limpieza General"
+          "lvl": 48,
+          "m": "Agarrón"
+        },
+        {
+          "lvl": 52,
+          "m": "Cadena Virulenta"
         }
       ],
       "tmMoves": [
-        "Alto Voltaje",
-        "Aullido",
-        "Barrera",
-        "Clavo Cañón",
-        "Corte",
+        "Ataque Furia",
+        "Canto",
+        "Celebración",
         "Defensa Férrea",
-        "Desarme",
-        "Fachada",
-        "Meditación",
-        "Moflete Estático",
-        "Represalia",
-        "Trampa Rocas"
+        "Escudo Real",
+        "Levitón",
+        "Rizo Algodón"
       ],
       "firstMoves": [
-        "Vaho Gélido",
-        "Bombardeo",
-        "Abrecaminos",
-        "Maquinación"
+        "Día Soleado",
+        "Cambiadefensa",
+        "Bucle Arena"
       ],
-      "spriteKey": "BRONZOR"
+      "spriteKey": "HIPPOPOTAS"
     },
     {
       "nickname": "Hector",
@@ -554,12 +416,12 @@
         26
       ],
       "ev": [
-        18,
-        23,
-        19,
-        10,
-        12,
-        19
+        20,
+        25,
+        22,
+        15,
+        13,
+        21
       ],
       "abilPool": [
         "Vista Lince",
@@ -681,12 +543,12 @@
         2
       ],
       "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        2,
+        2,
+        3,
+        5,
+        1,
+        2
       ],
       "abilPool": [
         "Tinovictoria",
@@ -786,6 +648,98 @@
       ],
       "spriteKey": "DRAKLOAK",
       "dup": true
+    },
+    {
+      "nickname": "Fuuga",
+      "species": "Charcadet",
+      "level": 30,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "Hidrorrefuerzo",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Puño Furia",
+        "Ida y Vuelta",
+        "Rueda Fuego",
+        "Día Soleado"
+      ],
+      "iv": [
+        19,
+        24,
+        31,
+        10,
+        30,
+        3
+      ],
+      "ev": [
+        2,
+        1,
+        2,
+        4,
+        1,
+        2
+      ],
+      "abilPool": [
+        "Hidrorrefuerzo"
+      ],
+      "abilHidden": [
+        "Energía Pura"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Luz Lunar"
+        },
+        {
+          "lvl": 1,
+          "m": "Palma Rauda"
+        },
+        {
+          "lvl": 1,
+          "m": "Puño Furia"
+        },
+        {
+          "lvl": 8,
+          "m": "Ida y Vuelta"
+        },
+        {
+          "lvl": 12,
+          "m": "Danza Aleteo"
+        },
+        {
+          "lvl": 16,
+          "m": "Día Soleado"
+        },
+        {
+          "lvl": 20,
+          "m": "Golpe Calor"
+        },
+        {
+          "lvl": 24,
+          "m": "Desarme"
+        },
+        {
+          "lvl": 28,
+          "m": "Rueda Fuego"
+        },
+        {
+          "lvl": 32,
+          "m": "Onda Certera"
+        }
+      ],
+      "tmMoves": [
+        "Aullido"
+      ],
+      "firstMoves": [
+        "Puño Furia",
+        "Ida y Vuelta",
+        "Danza Aleteo",
+        "Día Soleado"
+      ],
+      "spriteKey": "CHARCADET"
     }
   ],
   "box": [
@@ -1539,6 +1493,144 @@
       "spriteKey": "DRILBUR"
     },
     {
+      "nickname": "Subnormal",
+      "species": "Araquanid",
+      "level": 30,
+      "types": [
+        "Agua",
+        "Bicho"
+      ],
+      "ability": "Voz Fluida",
+      "nature": "Cauta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Mundo Gélido",
+        "Palma Rauda",
+        "Magnitud",
+        "Clavo Cañón"
+      ],
+      "iv": [
+        20,
+        9,
+        18,
+        31,
+        22,
+        22
+      ],
+      "ev": [
+        0,
+        3,
+        1,
+        1,
+        0,
+        3
+      ],
+      "abilPool": [
+        "Voz Fluida"
+      ],
+      "abilHidden": [
+        "Poder Solar"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Viraje"
+        },
+        {
+          "lvl": 1,
+          "m": "Reflejo"
+        },
+        {
+          "lvl": 1,
+          "m": "Danza Aleteo"
+        },
+        {
+          "lvl": 1,
+          "m": "Ojitos Tiernos"
+        },
+        {
+          "lvl": 1,
+          "m": "Octopresa"
+        },
+        {
+          "lvl": 8,
+          "m": "Refuerzo"
+        },
+        {
+          "lvl": 12,
+          "m": "Acupresión"
+        },
+        {
+          "lvl": 16,
+          "m": "Magnitud"
+        },
+        {
+          "lvl": 20,
+          "m": "Afilar"
+        },
+        {
+          "lvl": 26,
+          "m": "Disparo Demora"
+        },
+        {
+          "lvl": 30,
+          "m": "Palma Rauda"
+        },
+        {
+          "lvl": 32,
+          "m": "Antojo"
+        },
+        {
+          "lvl": 33,
+          "m": "Voto Agua"
+        },
+        {
+          "lvl": 35,
+          "m": "Energibola"
+        },
+        {
+          "lvl": 38,
+          "m": "Relámpago Súbito"
+        },
+        {
+          "lvl": 44,
+          "m": "Red Viscosa"
+        },
+        {
+          "lvl": 50,
+          "m": "Golpe Aéreo"
+        },
+        {
+          "lvl": 56,
+          "m": "Halloween"
+        },
+        {
+          "lvl": 62,
+          "m": "Megacuerno"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Aullido",
+        "Canto",
+        "Celebración",
+        "Clavo Cañón",
+        "Corte",
+        "Levitón",
+        "Meditación",
+        "Tormenta Arena",
+        "Trampa Rocas"
+      ],
+      "firstMoves": [
+        "Mundo Gélido",
+        "Sustituto",
+        "Calamidad",
+        "Acua Aro"
+      ],
+      "spriteKey": "ARAQUANID"
+    },
+    {
       "nickname": "Alex",
       "species": "Loudred",
       "level": 23,
@@ -1653,6 +1745,236 @@
         "Cuchillada"
       ],
       "spriteKey": "LOUDRED"
+    },
+    {
+      "nickname": "Kabron",
+      "species": "Karrablast",
+      "level": 22,
+      "types": [
+        "Bicho"
+      ],
+      "ability": "Caparazón",
+      "nature": "Floja",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Truco Defensa",
+        "Brinco",
+        "Bola Hielo",
+        "Vasto Impacto"
+      ],
+      "iv": [
+        19,
+        17,
+        12,
+        8,
+        12,
+        20
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Floración",
+        "Caparazón"
+      ],
+      "abilHidden": [
+        "Tenacidad"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Gravedad"
+        },
+        {
+          "lvl": 1,
+          "m": "Acoso"
+        },
+        {
+          "lvl": 1,
+          "m": "Luz Lunar"
+        },
+        {
+          "lvl": 4,
+          "m": "Doble Ataque"
+        },
+        {
+          "lvl": 8,
+          "m": "Telépata"
+        },
+        {
+          "lvl": 12,
+          "m": "Truco Defensa"
+        },
+        {
+          "lvl": 16,
+          "m": "Brinco"
+        },
+        {
+          "lvl": 16,
+          "m": "Bola Hielo"
+        },
+        {
+          "lvl": 20,
+          "m": "Vasto Impacto"
+        },
+        {
+          "lvl": 24,
+          "m": "Cuchillada"
+        },
+        {
+          "lvl": 28,
+          "m": "Psicorrayo"
+        },
+        {
+          "lvl": 32,
+          "m": "Bomba Germen"
+        },
+        {
+          "lvl": 32,
+          "m": "Disparo Demora"
+        },
+        {
+          "lvl": 36,
+          "m": "Luminicola"
+        },
+        {
+          "lvl": 40,
+          "m": "A Defender"
+        },
+        {
+          "lvl": 44,
+          "m": "Psicocolmillo"
+        },
+        {
+          "lvl": 48,
+          "m": "Megapatada"
+        }
+      ],
+      "tmMoves": [
+        "Aullido"
+      ],
+      "firstMoves": [
+        "Truco Defensa",
+        "Brinco",
+        "Bola Hielo",
+        "Vasto Impacto"
+      ],
+      "spriteKey": "KARRABLAST"
+    },
+    {
+      "nickname": "Helioptile",
+      "species": "Helioptile",
+      "level": 1,
+      "types": [
+        "Eléctrico",
+        "Normal"
+      ],
+      "ability": "Cuerpo Llama",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Rencor",
+        "Bostezo",
+        "Disparo Espejo"
+      ],
+      "iv": [
+        16,
+        22,
+        13,
+        16,
+        13,
+        4
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Cuerpo Llama",
+        "Respondón"
+      ],
+      "abilHidden": [
+        "Toque Ardiente"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Rencor"
+        },
+        {
+          "lvl": 1,
+          "m": "Bostezo"
+        },
+        {
+          "lvl": 4,
+          "m": "Esquirla Helada"
+        },
+        {
+          "lvl": 8,
+          "m": "Gran Ojo"
+        },
+        {
+          "lvl": 12,
+          "m": "Hoja Mágica"
+        },
+        {
+          "lvl": 16,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 20,
+          "m": "Recogearena"
+        },
+        {
+          "lvl": 22,
+          "m": "Gota Vital"
+        },
+        {
+          "lvl": 24,
+          "m": "Bola Voltio"
+        },
+        {
+          "lvl": 28,
+          "m": "Paliza"
+        },
+        {
+          "lvl": 32,
+          "m": "Sylveotornado"
+        },
+        {
+          "lvl": 36,
+          "m": "Residuos"
+        },
+        {
+          "lvl": 38,
+          "m": "Pikatormenta"
+        },
+        {
+          "lvl": 40,
+          "m": "Estímulo"
+        },
+        {
+          "lvl": 44,
+          "m": "Protección"
+        }
+      ],
+      "firstMoves": [
+        "Rencor",
+        "Bostezo",
+        "Disparo Espejo"
+      ],
+      "spriteKey": "HELIOPTILE"
     }
   ],
   "graveyard": [
@@ -2400,24 +2722,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Araquanid",
-      "nickname": "Subnormal",
+      "species": "Bronzor",
+      "nickname": "Sami Deluxe",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 14,
-      "mon": "Araquanid"
-    },
-    {
-      "route": "",
-      "where": "",
-      "species": "Hippopotas",
-      "nickname": "taboun",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 6,
-      "mon": "Hippopotas"
+      "level": 18,
+      "mon": "Bronzor"
     },
     {
       "route": "",
@@ -2433,13 +2744,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Bronzor",
-      "nickname": "Sami Deluxe",
+      "species": "Hippopotas",
+      "nickname": "taboun",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 18,
-      "mon": "Bronzor"
+      "level": 6,
+      "mon": "Hippopotas"
     },
     {
       "route": "",
@@ -2462,6 +2773,17 @@
       "category": "estatico_regalo",
       "level": 20,
       "mon": "Drakloak"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Charcadet",
+      "nickname": "Fuuga",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 18,
+      "mon": "Charcadet"
     },
     {
       "route": "",
@@ -2532,6 +2854,17 @@
     {
       "route": "",
       "where": "",
+      "species": "Araquanid",
+      "nickname": "Subnormal",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 14,
+      "mon": "Araquanid"
+    },
+    {
+      "route": "",
+      "where": "",
       "species": "Loudred",
       "nickname": "Alex",
       "shiny": false,
@@ -2539,6 +2872,28 @@
       "category": "estatico_regalo",
       "level": 6,
       "mon": "Loudred"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Karrablast",
+      "nickname": "Kabron",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 22,
+      "mon": "Karrablast"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Helioptile",
+      "nickname": "",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 1,
+      "mon": "Helioptile"
     },
     {
       "route": "",
@@ -2655,10 +3010,12 @@
       334
     ],
     "foundItems": [
+      "Amuleto Oval",
       "Baya Algama",
       "Baya Anjiro",
       "Baya Chiri",
       "Baya Dillo",
+      "Baya Higog",
       "Baya Zidra",
       "Cascabel Alivio",
       "Cola Plúmbea",
@@ -2671,6 +3028,7 @@
       "Globo Helio",
       "Guante de Boxeo",
       "Malla Ball",
+      "Menta Agitada",
       "Menta Mansa",
       "Menta Serena",
       "Miniseta",
@@ -2694,6 +3052,8 @@
       "MT51",
       "MT64",
       "MT67",
+      "MT69",
+      "MT70",
       "MT72",
       "MT74",
       "MT75",
@@ -2703,6 +3063,7 @@
       "MT94",
       "Piedra Alba",
       "Piedra Solar",
+      "Poción",
       "Poké Montura",
       "Polvo Brillo",
       "Protección X",
@@ -2712,18 +3073,13 @@
       "Superrepelente",
       "Tabla Legendaria",
       "Tabla Linfa",
+      "Tabla Oscura",
       "Tabla Terrax",
       "Tabla Tóxica",
       "Ticket Barco",
       "Vial"
     ],
     "bag": [
-      {
-        "id": "SUPERREPEL",
-        "name": "Superrepelente",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
       {
         "id": "TINYMUSHROOM",
         "name": "Miniseta",
@@ -2785,12 +3141,6 @@
         "pocket": "Objetos"
       },
       {
-        "id": "HELIXFOSSIL",
-        "name": "Fósil Hélix",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
-      {
         "id": "AIRBALLOON",
         "name": "Globo Helio",
         "qty": 1,
@@ -2815,6 +3165,18 @@
         "pocket": "Objetos"
       },
       {
+        "id": "DREADPLATE",
+        "name": "Tabla Oscura",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "SUPERREPEL",
+        "name": "Superrepelente",
+        "qty": 10,
+        "pocket": "Objetos"
+      },
+      {
         "id": "SHALOURSABLE",
         "name": "Galleta Yantra",
         "qty": 2,
@@ -2823,7 +3185,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 758,
+        "qty": 747,
         "pocket": "Medicinas"
       },
       {
@@ -2841,7 +3203,7 @@
       {
         "id": "POTION",
         "name": "Poción",
-        "qty": 2,
+        "qty": 3,
         "pocket": "Medicinas"
       },
       {
@@ -2875,15 +3237,27 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "IMPISHMINT",
+        "name": "Menta Agitada",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 2,
+        "qty": 11,
         "pocket": "Poké Balls"
       },
       {
         "id": "POKEBALL",
         "name": "Poké Ball",
-        "qty": 4,
+        "qty": 10,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "PREMIERBALL",
+        "name": "Honor Ball",
+        "qty": 2,
         "pocket": "Poké Balls"
       },
       {
@@ -2965,6 +3339,18 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM69",
+        "name": "MT69",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM70",
+        "name": "MT70",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM72",
         "name": "MT72",
         "qty": 1,
@@ -3037,6 +3423,12 @@
         "pocket": "Bayas"
       },
       {
+        "id": "FIGYBERRY",
+        "name": "Baya Higog",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
         "id": "KELPSYBERRY",
         "name": "Baya Algama",
         "qty": 1,
@@ -3105,6 +3497,12 @@
       {
         "id": "SUPERROD",
         "name": "Supercaña",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "OVALCHARM",
+        "name": "Amuleto Oval",
         "qty": 1,
         "pocket": "Objetos clave"
       }
