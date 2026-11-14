@@ -2,9 +2,9 @@
   "id": "Zep",
   "name": "Susi",
   "lives": 30,
-  "livesUsed": 8,
+  "livesUsed": 9,
   "champion": false,
-  "notes": "Importado del save · 15h 12m jugadas · 102,630₽ · vidas en el juego: 12",
+  "notes": "Importado del save · 15h 19m jugadas · 106,830₽ · vidas en el juego: 11",
   "team": [
     {
       "nickname": "Sami Deluxe",
@@ -34,10 +34,10 @@
       ],
       "ev": [
         18,
-        35,
+        37,
         25,
-        16,
-        12,
+        17,
+        13,
         22
       ],
       "abilPool": [
@@ -207,10 +207,10 @@
       ],
       "ev": [
         22,
-        38,
+        40,
         26,
-        17,
-        15,
+        18,
+        16,
         22
       ],
       "abilPool": [
@@ -351,10 +351,10 @@
       ],
       "ev": [
         34,
-        56,
+        58,
         42,
-        26,
-        24,
+        27,
+        25,
         38
       ],
       "abilPool": [
@@ -492,10 +492,10 @@
       ],
       "ev": [
         36,
-        56,
+        58,
         44,
-        26,
-        24,
+        27,
+        25,
         38
       ],
       "abilPool": [
@@ -627,150 +627,147 @@
       "spriteKey": "VENOMOTH"
     },
     {
-      "nickname": "Dios",
-      "species": "Torkoal",
+      "nickname": "Slaaaaim",
+      "species": "Marowak (Alola)",
       "level": 39,
       "types": [
-        "Fuego"
+        "Fuego",
+        "Fantasma"
       ],
-      "ability": "Competitivo",
-      "nature": "Rara",
+      "ability": "Rompeaura",
+      "nature": "Serena",
       "item": "",
       "shiny": false,
       "moves": [
-        "Escudo Real",
-        "Ciclón de Hojas",
-        "Calcinación",
-        "Juego Sucio"
+        "Desarme",
+        "Pirotecnia",
+        "Ráfaga Escamas",
+        "Golpe Roca"
       ],
       "iv": [
-        16,
-        24,
-        3,
-        9,
-        24,
-        23
+        12,
+        25,
+        25,
+        27,
+        22,
+        7
       ],
       "ev": [
-        14,
-        25,
-        16,
-        8,
-        10,
-        5
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
       "abilPool": [
-        "Velo Agua",
-        "Competitivo"
+        "Rompeaura",
+        "Viscosecreción"
       ],
       "abilHidden": [
-        "Medicina Extraña"
+        "Espanto"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Viento Plata"
+          "m": "Giro Bola"
         },
         {
           "lvl": 1,
-          "m": "Confusión"
+          "m": "Bomba Ácida"
         },
         {
-          "lvl": 4,
-          "m": "Calcinación"
+          "lvl": 1,
+          "m": "Onda Simple"
         },
         {
-          "lvl": 8,
-          "m": "Persecución"
+          "lvl": 1,
+          "m": "Golpe Roca"
         },
         {
-          "lvl": 12,
-          "m": "Escudo Real"
+          "lvl": 3,
+          "m": "Viento Aciago"
         },
         {
-          "lvl": 16,
-          "m": "Tormento"
+          "lvl": 7,
+          "m": "Polvo Ira"
+        },
+        {
+          "lvl": 11,
+          "m": "Ráfaga Escamas"
+        },
+        {
+          "lvl": 13,
+          "m": "Doble Equipo"
         },
         {
           "lvl": 17,
-          "m": "Rueda Fuego"
+          "m": "Pirotecnia"
         },
         {
           "lvl": 20,
-          "m": "Aligerar"
+          "m": "Falso Tortazo"
         },
         {
-          "lvl": 24,
-          "m": "Ciclón de Hojas"
+          "lvl": 21,
+          "m": "Refugio"
         },
         {
-          "lvl": 28,
-          "m": "Fuego Fatuo"
+          "lvl": 23,
+          "m": "Tormento"
         },
         {
-          "lvl": 32,
-          "m": "Envite Acuático"
+          "lvl": 27,
+          "m": "Danza Aleteo"
         },
         {
-          "lvl": 36,
-          "m": "Juego Sucio"
+          "lvl": 33,
+          "m": "Reflejo"
         },
         {
-          "lvl": 40,
-          "m": "Lanzamiento"
+          "lvl": 43,
+          "m": "Puño Meteoro"
         },
         {
-          "lvl": 42,
-          "m": "Giro Fuego"
+          "lvl": 49,
+          "m": "Amnesia"
         },
         {
-          "lvl": 44,
-          "m": "Viento Cortante"
+          "lvl": 53,
+          "m": "Espabila"
         },
         {
-          "lvl": 48,
-          "m": "Embargo"
+          "lvl": 59,
+          "m": "Tajo Cruzado"
         },
         {
-          "lvl": 52,
-          "m": "Patada Ígnea"
-        },
-        {
-          "lvl": 52,
-          "m": "Bomba Caramelo"
-        },
-        {
-          "lvl": 56,
-          "m": "Ojitos Tiernos"
-        },
-        {
-          "lvl": 60,
-          "m": "Fuego Sagrado"
-        },
-        {
-          "lvl": 64,
-          "m": "Estoicismo"
+          "lvl": 65,
+          "m": "Pugnachoque"
         }
       ],
       "tmMoves": [
-        "Alto Voltaje",
-        "Ataque Furia",
-        "Ataque Óseo",
-        "Aullido",
-        "Burbuja",
+        "Camaradería",
         "Celebración",
-        "Fachada",
-        "Meditación",
-        "Puya Nociva",
-        "Tormenta Arena"
+        "Corte",
+        "Desarme",
+        "Escudo Real",
+        "Llama Protectora",
+        "Moflete Estático",
+        "Represalia",
+        "Shuriken de Agua",
+        "Tormenta Arena",
+        "Trampa Rocas",
+        "Vasta Guardia",
+        "Viento Plata"
       ],
       "firstMoves": [
-        "Escudo Real",
+        "Ladrón",
         "Tormento",
-        "Rueda Fuego",
-        "Aligerar"
+        "Danza Aleteo",
+        "Reflejo"
       ],
-      "spriteKey": "TORKOAL"
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10115.png",
+      "spriteKey": "MAROWAK_1"
     },
     {
       "nickname": "Cheke",
@@ -800,10 +797,10 @@
       ],
       "ev": [
         4,
-        16,
+        18,
         17,
-        5,
-        5,
+        6,
+        6,
         8
       ],
       "abilPool": [
@@ -1421,30 +1418,29 @@
       "dup": true
     },
     {
-      "nickname": "Slaaaaim",
-      "species": "Marowak (Alola)",
-      "level": 39,
+      "nickname": "Growlithe",
+      "species": "Growlithe",
+      "level": 30,
       "types": [
-        "Fuego",
-        "Fantasma"
+        "Fuego"
       ],
-      "ability": "Rompeaura",
-      "nature": "Serena",
+      "ability": "Geofagia",
+      "nature": "Modesta",
       "item": "",
       "shiny": false,
       "moves": [
-        "Desarme",
-        "Tormento",
-        "Ráfaga Escamas",
-        "Golpe Roca"
+        "Impresionar",
+        "Picoteo",
+        "Vaho Gélido",
+        "Psicoonda"
       ],
       "iv": [
-        12,
+        16,
         25,
-        25,
-        27,
-        22,
-        7
+        13,
+        24,
+        29,
+        2
       ],
       "ev": [
         0,
@@ -1455,112 +1451,101 @@
         0
       ],
       "abilPool": [
-        "Rompeaura",
-        "Viscosecreción"
+        "Hospitalidad",
+        "Geofagia"
       ],
       "abilHidden": [
-        "Espanto"
+        "Simbiosis"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Giro Bola"
+          "m": "Disparo Lodo"
         },
         {
           "lvl": 1,
-          "m": "Bomba Ácida"
+          "m": "Día Soleado"
         },
         {
-          "lvl": 1,
-          "m": "Onda Simple"
+          "lvl": 4,
+          "m": "Hidrochorro"
         },
         {
-          "lvl": 1,
-          "m": "Golpe Roca"
+          "lvl": 8,
+          "m": "Llama Protectora"
         },
         {
-          "lvl": 3,
-          "m": "Viento Aciago"
+          "lvl": 10,
+          "m": "Tenaza"
         },
         {
-          "lvl": 7,
-          "m": "Polvo Ira"
-        },
-        {
-          "lvl": 11,
-          "m": "Ráfaga Escamas"
-        },
-        {
-          "lvl": 13,
-          "m": "Doble Equipo"
-        },
-        {
-          "lvl": 17,
+          "lvl": 12,
           "m": "Pirotecnia"
         },
         {
+          "lvl": 16,
+          "m": "Rueda Fuego"
+        },
+        {
           "lvl": 20,
-          "m": "Falso Tortazo"
+          "m": "Impresionar"
         },
         {
-          "lvl": 21,
-          "m": "Refugio"
+          "lvl": 24,
+          "m": "Picoteo"
         },
         {
-          "lvl": 23,
-          "m": "Tormento"
+          "lvl": 28,
+          "m": "Vaho Gélido"
         },
         {
-          "lvl": 27,
-          "m": "Danza Aleteo"
+          "lvl": 28,
+          "m": "Psicoonda"
         },
         {
-          "lvl": 33,
-          "m": "Reflejo"
+          "lvl": 32,
+          "m": "Ala Aural"
+        },
+        {
+          "lvl": 36,
+          "m": "Calcinación"
+        },
+        {
+          "lvl": 40,
+          "m": "Luz Aniquiladora"
+        },
+        {
+          "lvl": 41,
+          "m": "Metaláser"
         },
         {
           "lvl": 43,
-          "m": "Puño Meteoro"
+          "m": "Aligerar"
         },
         {
-          "lvl": 49,
-          "m": "Amnesia"
+          "lvl": 44,
+          "m": "Envidia ardiente"
         },
         {
-          "lvl": 53,
-          "m": "Espabila"
+          "lvl": 48,
+          "m": "Asalto Barrera"
         },
         {
-          "lvl": 59,
-          "m": "Tajo Cruzado"
+          "lvl": 52,
+          "m": "Lanzallamas"
         },
         {
-          "lvl": 65,
-          "m": "Pugnachoque"
+          "lvl": 56,
+          "m": "Psicocolmillo"
         }
       ],
-      "tmMoves": [
-        "Camaradería",
-        "Celebración",
-        "Corte",
-        "Desarme",
-        "Escudo Real",
-        "Llama Protectora",
-        "Moflete Estático",
-        "Represalia",
-        "Shuriken de Agua",
-        "Tormenta Arena",
-        "Trampa Rocas",
-        "Viento Plata"
-      ],
       "firstMoves": [
-        "Ladrón",
-        "Tormento",
-        "Danza Aleteo",
-        "Reflejo"
+        "Impresionar",
+        "Picoteo",
+        "Vaho Gélido",
+        "Psicoonda"
       ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10115.png",
-      "spriteKey": "MAROWAK_1"
+      "spriteKey": "GROWLITHE"
     },
     {
       "nickname": "8belial",
@@ -2667,136 +2652,6 @@
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10173.png",
       "spriteKey": "CORSOLA_1"
-    },
-    {
-      "nickname": "Growlithe",
-      "species": "Growlithe",
-      "level": 30,
-      "types": [
-        "Fuego"
-      ],
-      "ability": "Geofagia",
-      "nature": "Modesta",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Impresionar",
-        "Picoteo",
-        "Vaho Gélido",
-        "Psicoonda"
-      ],
-      "iv": [
-        16,
-        25,
-        13,
-        24,
-        29,
-        2
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Hospitalidad",
-        "Geofagia"
-      ],
-      "abilHidden": [
-        "Simbiosis"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Disparo Lodo"
-        },
-        {
-          "lvl": 1,
-          "m": "Día Soleado"
-        },
-        {
-          "lvl": 4,
-          "m": "Hidrochorro"
-        },
-        {
-          "lvl": 8,
-          "m": "Llama Protectora"
-        },
-        {
-          "lvl": 10,
-          "m": "Tenaza"
-        },
-        {
-          "lvl": 12,
-          "m": "Pirotecnia"
-        },
-        {
-          "lvl": 16,
-          "m": "Rueda Fuego"
-        },
-        {
-          "lvl": 20,
-          "m": "Impresionar"
-        },
-        {
-          "lvl": 24,
-          "m": "Picoteo"
-        },
-        {
-          "lvl": 28,
-          "m": "Vaho Gélido"
-        },
-        {
-          "lvl": 28,
-          "m": "Psicoonda"
-        },
-        {
-          "lvl": 32,
-          "m": "Ala Aural"
-        },
-        {
-          "lvl": 36,
-          "m": "Calcinación"
-        },
-        {
-          "lvl": 40,
-          "m": "Luz Aniquiladora"
-        },
-        {
-          "lvl": 41,
-          "m": "Metaláser"
-        },
-        {
-          "lvl": 43,
-          "m": "Aligerar"
-        },
-        {
-          "lvl": 44,
-          "m": "Envidia ardiente"
-        },
-        {
-          "lvl": 48,
-          "m": "Asalto Barrera"
-        },
-        {
-          "lvl": 52,
-          "m": "Lanzallamas"
-        },
-        {
-          "lvl": 56,
-          "m": "Psicocolmillo"
-        }
-      ],
-      "firstMoves": [
-        "Impresionar",
-        "Picoteo",
-        "Vaho Gélido",
-        "Psicoonda"
-      ],
-      "spriteKey": "GROWLITHE"
     }
   ],
   "graveyard": [
@@ -3781,6 +3636,155 @@
       "route": "",
       "date": "",
       "dup": true
+    },
+    {
+      "nickname": "Dios",
+      "species": "Torkoal",
+      "level": 39,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "Competitivo",
+      "nature": "Rara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Escudo Real",
+        "Ciclón de Hojas",
+        "Calcinación",
+        "Juego Sucio"
+      ],
+      "iv": [
+        16,
+        24,
+        3,
+        9,
+        24,
+        23
+      ],
+      "ev": [
+        14,
+        25,
+        16,
+        8,
+        10,
+        5
+      ],
+      "abilPool": [
+        "Velo Agua",
+        "Competitivo"
+      ],
+      "abilHidden": [
+        "Medicina Extraña"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Viento Plata"
+        },
+        {
+          "lvl": 1,
+          "m": "Confusión"
+        },
+        {
+          "lvl": 4,
+          "m": "Calcinación"
+        },
+        {
+          "lvl": 8,
+          "m": "Persecución"
+        },
+        {
+          "lvl": 12,
+          "m": "Escudo Real"
+        },
+        {
+          "lvl": 16,
+          "m": "Tormento"
+        },
+        {
+          "lvl": 17,
+          "m": "Rueda Fuego"
+        },
+        {
+          "lvl": 20,
+          "m": "Aligerar"
+        },
+        {
+          "lvl": 24,
+          "m": "Ciclón de Hojas"
+        },
+        {
+          "lvl": 28,
+          "m": "Fuego Fatuo"
+        },
+        {
+          "lvl": 32,
+          "m": "Envite Acuático"
+        },
+        {
+          "lvl": 36,
+          "m": "Juego Sucio"
+        },
+        {
+          "lvl": 40,
+          "m": "Lanzamiento"
+        },
+        {
+          "lvl": 42,
+          "m": "Giro Fuego"
+        },
+        {
+          "lvl": 44,
+          "m": "Viento Cortante"
+        },
+        {
+          "lvl": 48,
+          "m": "Embargo"
+        },
+        {
+          "lvl": 52,
+          "m": "Patada Ígnea"
+        },
+        {
+          "lvl": 52,
+          "m": "Bomba Caramelo"
+        },
+        {
+          "lvl": 56,
+          "m": "Ojitos Tiernos"
+        },
+        {
+          "lvl": 60,
+          "m": "Fuego Sagrado"
+        },
+        {
+          "lvl": 64,
+          "m": "Estoicismo"
+        }
+      ],
+      "tmMoves": [
+        "Alto Voltaje",
+        "Ataque Furia",
+        "Ataque Óseo",
+        "Aullido",
+        "Burbuja",
+        "Celebración",
+        "Fachada",
+        "Meditación",
+        "Puya Nociva",
+        "Tormenta Arena"
+      ],
+      "firstMoves": [
+        "Escudo Real",
+        "Tormento",
+        "Rueda Fuego",
+        "Aligerar"
+      ],
+      "spriteKey": "TORKOAL",
+      "cause": "",
+      "route": "",
+      "date": ""
     }
   ],
   "captures": [
@@ -3831,13 +3835,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Torkoal",
-      "nickname": "Dios",
+      "species": "Marowak",
+      "nickname": "Slaaaaim",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 21,
-      "mon": "Torkoal"
+      "level": 34,
+      "mon": "Marowak"
     },
     {
       "route": "",
@@ -3897,13 +3901,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Marowak",
-      "nickname": "Slaaaaim",
+      "species": "Growlithe",
+      "nickname": "",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 34,
-      "mon": "Marowak"
+      "level": 30,
+      "mon": "Growlithe"
     },
     {
       "route": "",
@@ -4007,17 +4011,6 @@
     {
       "route": "",
       "where": "",
-      "species": "Growlithe",
-      "nickname": "",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 30,
-      "mon": "Growlithe"
-    },
-    {
-      "route": "",
-      "where": "",
       "species": "Sandshrew",
       "nickname": "Icy veedo",
       "shiny": false,
@@ -4102,6 +4095,17 @@
       "category": "estatico_regalo",
       "level": 20,
       "mon": "Drakloak"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Torkoal",
+      "nickname": "Dios",
+      "shiny": false,
+      "status": "dead",
+      "category": "estatico_regalo",
+      "level": 21,
+      "mon": "Torkoal"
     }
   ],
   "progress": {
@@ -4147,6 +4151,7 @@
       112,
       113,
       114,
+      115,
       116,
       120,
       121,
@@ -4172,6 +4177,7 @@
     "foundItems": [
       "Amuleto Oval",
       "Banda Aguante",
+      "Banda Atadura",
       "Baya Algama",
       "Baya Anjiro",
       "Baya Chiri",
@@ -4486,6 +4492,12 @@
       {
         "id": "IRONBALL",
         "name": "Bola Férrea",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "BINDINGBAND",
+        "name": "Banda Atadura",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -4979,7 +4991,8 @@
     "3697401807",
     "4018290219",
     "2383338682",
-    "488332091"
+    "488332091",
+    "2036209699"
   ],
   "revividos": 0
 }
