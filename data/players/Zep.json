@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 6,
   "champion": false,
-  "notes": "Importado del save · 5h 3m jugadas · 31,110₽ · vidas en el juego: 14",
+  "notes": "Importado del save · 5h 20m jugadas · 42,350₽ · vidas en el juego: 14",
   "team": [
     {
       "nickname": "Sami Deluxe",
@@ -33,12 +33,12 @@
         17
       ],
       "ev": [
-        2,
         4,
-        3,
+        7,
         5,
+        8,
         1,
-        5
+        9
       ],
       "abilPool": [
         "Velo Agua",
@@ -125,7 +125,8 @@
         "Meditación",
         "Moflete Estático",
         "Represalia",
-        "Trampa Rocas"
+        "Trampa Rocas",
+        "Trapicheo"
       ],
       "firstMoves": [
         "Vaho Gélido",
@@ -162,12 +163,12 @@
         22
       ],
       "ev": [
+        8,
+        10,
         6,
-        7,
+        9,
         4,
-        6,
-        4,
-        5
+        9
       ],
       "abilPool": [
         "Potencia Bruta",
@@ -252,6 +253,7 @@
       ],
       "tmMoves": [
         "Alto Voltaje",
+        "Ataque Óseo",
         "Celebración",
         "Defensa Férrea",
         "Desarme",
@@ -283,7 +285,7 @@
         "Llave Vital",
         "Bola Hielo",
         "Bucle Arena",
-        "Bomba Fango"
+        "Ataque Óseo"
       ],
       "iv": [
         25,
@@ -294,12 +296,12 @@
         22
       ],
       "ev": [
-        18,
-        25,
         20,
-        15,
+        28,
+        22,
+        18,
         13,
-        21
+        25
       ],
       "abilPool": [
         "Gélido"
@@ -375,6 +377,7 @@
       ],
       "tmMoves": [
         "Ataque Furia",
+        "Ataque Óseo",
         "Canto",
         "Celebración",
         "Defensa Férrea",
@@ -416,12 +419,12 @@
         26
       ],
       "ev": [
-        20,
-        25,
         22,
-        15,
+        28,
+        24,
+        18,
         13,
-        21
+        25
       ],
       "abilPool": [
         "Vista Lince",
@@ -505,6 +508,7 @@
         "Alto Voltaje",
         "Celebración",
         "Clavo Cañón",
+        "Giro Bola",
         "Meditación",
         "Rizo Algodón"
       ],
@@ -543,12 +547,12 @@
         2
       ],
       "ev": [
-        2,
-        2,
-        3,
+        4,
         5,
+        5,
+        8,
         1,
-        2
+        6
       ],
       "abilPool": [
         "Tinovictoria",
@@ -632,13 +636,15 @@
         }
       ],
       "tmMoves": [
+        "Ataque Óseo",
         "Canto",
         "Clavo Cañón",
         "Doble Ataque",
         "Giro Bola",
         "Rizo Algodón",
         "Tormenta Arena",
-        "Trampa Rocas"
+        "Trampa Rocas",
+        "Trapicheo"
       ],
       "firstMoves": [
         "Plegaria Vital",
@@ -675,12 +681,12 @@
         3
       ],
       "ev": [
-        2,
-        1,
-        2,
         4,
+        4,
+        4,
+        7,
         1,
-        2
+        6
       ],
       "abilPool": [
         "Hidrorrefuerzo"
@@ -731,7 +737,17 @@
         }
       ],
       "tmMoves": [
-        "Aullido"
+        "Ataque Furia",
+        "Aullido",
+        "Clavo Cañón",
+        "Defensa Férrea",
+        "Desarme",
+        "Doble Ataque",
+        "Escudo Real",
+        "Meditación",
+        "Represalia",
+        "Trampa Rocas",
+        "Trapicheo"
       ],
       "firstMoves": [
         "Puño Furia",
@@ -2991,12 +3007,17 @@
       81,
       82,
       83,
+      85,
+      87,
+      88,
+      89,
       110,
       112,
       113,
       114,
       121,
       138,
+      152,
       171,
       176,
       179,
@@ -3007,7 +3028,8 @@
       184,
       185,
       323,
-      334
+      334,
+      364
     ],
     "foundItems": [
       "Amuleto Oval",
@@ -3016,7 +3038,9 @@
       "Baya Chiri",
       "Baya Dillo",
       "Baya Higog",
+      "Baya Tamar",
       "Baya Zidra",
+      "Calcio",
       "Cascabel Alivio",
       "Cola Plúmbea",
       "Corazón Dulce",
@@ -3027,11 +3051,13 @@
       "Galleta Yantra",
       "Globo Helio",
       "Guante de Boxeo",
+      "Lazo Destino",
       "Malla Ball",
       "Menta Agitada",
       "Menta Mansa",
       "Menta Serena",
       "Miniseta",
+      "MO Corte",
       "MO Golpe Roca",
       "Mochi Mente",
       "Mochi Vigor",
@@ -3050,6 +3076,7 @@
       "MT47",
       "MT48",
       "MT51",
+      "MT54",
       "MT64",
       "MT67",
       "MT69",
@@ -3177,6 +3204,12 @@
         "pocket": "Objetos"
       },
       {
+        "id": "DESTINYKNOT",
+        "name": "Lazo Destino",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "SHALOURSABLE",
         "name": "Galleta Yantra",
         "qty": 2,
@@ -3239,6 +3272,12 @@
       {
         "id": "IMPISHMINT",
         "name": "Menta Agitada",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "CALCIUM",
+        "name": "Calcio",
         "qty": 1,
         "pocket": "Medicinas"
       },
@@ -3323,6 +3362,12 @@
       {
         "id": "TM51",
         "name": "MT51",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM54",
+        "name": "MT54",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -3435,6 +3480,12 @@
         "pocket": "Bayas"
       },
       {
+        "id": "RINDOBERRY",
+        "name": "Baya Tamar",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
         "id": "HABANBERRY",
         "name": "Baya Anjiro",
         "qty": 1,
@@ -3503,6 +3554,12 @@
       {
         "id": "OVALCHARM",
         "name": "Amuleto Oval",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "CUTITEM",
+        "name": "MO Corte",
         "qty": 1,
         "pocket": "Objetos clave"
       }
