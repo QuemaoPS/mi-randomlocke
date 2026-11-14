@@ -2,9 +2,9 @@
   "id": "Zep",
   "name": "Susi",
   "lives": 30,
-  "livesUsed": 7,
+  "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 6h 46m jugadas · 57,380₽ · vidas en el juego: 13",
+  "notes": "Importado del save · 7h 6m jugadas · 68,960₽ · vidas en el juego: 12",
   "team": [
     {
       "nickname": "Sami Deluxe",
@@ -33,11 +33,11 @@
         17
       ],
       "ev": [
-        6,
+        14,
+        21,
         12,
-        10,
+        11,
         8,
-        3,
         19
       ],
       "abilPool": [
@@ -206,11 +206,11 @@
         22
       ],
       "ev": [
-        10,
-        15,
+        18,
+        24,
+        13,
+        12,
         11,
-        9,
-        6,
         19
       ],
       "abilPool": [
@@ -349,11 +349,11 @@
         22
       ],
       "ev": [
-        22,
-        33,
-        27,
-        18,
-        15,
+        30,
+        42,
+        29,
+        21,
+        20,
         35
       ],
       "abilPool": [
@@ -490,11 +490,11 @@
         26
       ],
       "ev": [
-        24,
-        33,
-        29,
-        18,
-        15,
+        32,
+        42,
+        31,
+        21,
+        20,
         35
       ],
       "abilPool": [
@@ -626,139 +626,154 @@
       "spriteKey": "VENOMOTH"
     },
     {
-      "nickname": "Aley2",
-      "species": "Drakloak",
+      "nickname": "Cheke",
+      "species": "Drifblim",
       "level": 39,
       "types": [
-        "Dragón",
-        "Fantasma"
+        "Fantasma",
+        "Volador"
       ],
-      "ability": "Rompemoldes",
-      "nature": "Afable",
+      "ability": "Fuerza Cerebral",
+      "nature": "Activa",
       "item": "",
       "shiny": false,
       "moves": [
-        "Aguijón Letal",
-        "Garra Umbría",
-        "Golpe Calor",
-        "Veneno X"
+        "Salazón",
+        "Vendaval Gélido",
+        "Sombra Vil",
+        "Niebla Clara"
       ],
       "iv": [
-        17,
-        10,
-        25,
-        26,
-        16,
-        2
+        12,
+        15,
+        15,
+        23,
+        13,
+        14
       ],
       "ev": [
-        6,
-        10,
-        10,
-        8,
-        3,
-        16
+        0,
+        2,
+        4,
+        0,
+        1,
+        5
       ],
       "abilPool": [
-        "Tinovictoria",
-        "Rompemoldes"
+        "Fuerza Cerebral",
+        "Puño Férreo"
       ],
       "abilHidden": [
-        "Sombra Trampa"
+        "Monotema"
       ],
       "learnset": [
         {
           "lvl": -1,
-          "m": "Aguijón Letal"
+          "m": "Prensa Metálica"
         },
         {
           "lvl": 1,
-          "m": "Garra Umbría"
+          "m": "Impresionar"
         },
         {
           "lvl": 1,
-          "m": "Rayo Confuso"
+          "m": "Isoguardia"
         },
         {
           "lvl": 1,
-          "m": "Contraataque"
+          "m": "Viento Afín"
         },
         {
           "lvl": 1,
-          "m": "Confidencia"
+          "m": "Decalcomanía"
         },
         {
           "lvl": 1,
-          "m": "Plegaria Vital"
+          "m": "Rueda Fuego"
         },
         {
-          "lvl": 6,
-          "m": "Polución"
+          "lvl": 1,
+          "m": "Homenaje Póstumo"
         },
         {
           "lvl": 12,
-          "m": "Golpe Rastrero"
+          "m": "Despejar"
         },
         {
-          "lvl": 18,
-          "m": "Veneno X"
+          "lvl": 16,
+          "m": "Rastreo"
+        },
+        {
+          "lvl": 20,
+          "m": "Trampa Venenosa"
+        },
+        {
+          "lvl": 20,
+          "m": "Pesadilla"
         },
         {
           "lvl": 24,
-          "m": "Rizo Algodón"
+          "m": "Ataque Óseo"
         },
         {
-          "lvl": 30,
-          "m": "Golpe Calor"
+          "lvl": 24,
+          "m": "Ataque Furia"
+        },
+        {
+          "lvl": 24,
+          "m": "Bomba Imán"
+        },
+        {
+          "lvl": 31,
+          "m": "Cerrojo Feérico"
         },
         {
           "lvl": 36,
-          "m": "Nieve Polvo"
+          "m": "Vendaval Gélido"
         },
         {
           "lvl": 42,
-          "m": "Cascabel Cura"
+          "m": "Mil Temblores"
+        },
+        {
+          "lvl": 46,
+          "m": "Mil Púas Tóxicas"
         },
         {
           "lvl": 48,
-          "m": "Corte"
+          "m": "Láser Doble"
         },
         {
           "lvl": 54,
-          "m": "Sustituto"
+          "m": "Bramido Dragón"
         },
         {
-          "lvl": 61,
-          "m": "Bola Neblina"
-        },
-        {
-          "lvl": 66,
-          "m": "Acupresión"
-        },
-        {
-          "lvl": 72,
-          "m": "Corte Vacío"
+          "lvl": 55,
+          "m": "Ciclón Primavera"
         }
       ],
       "tmMoves": [
-        "Ataque Óseo",
-        "Canto",
+        "Barrera",
+        "Burbuja",
         "Clavo Cañón",
+        "Corte",
+        "Defensa Férrea",
         "Doble Ataque",
-        "Giro Bola",
+        "Fachada",
+        "Levitón",
+        "Meditación",
+        "Moflete Estático",
         "Rizo Algodón",
-        "Tormenta Arena",
-        "Trampa Rocas",
-        "Trapicheo"
+        "Roca Veloz",
+        "Tormenta Arena"
       ],
       "firstMoves": [
-        "Plegaria Vital",
-        "Polución",
-        "Golpe Rastrero",
-        "Veneno X"
+        "Salazón",
+        "Cambio de Marcha",
+        "Halloween",
+        "Restricción"
       ],
-      "spriteKey": "DRAKLOAK",
-      "dup": true
+      "spriteKey": "DRIFBLIM"
     },
     {
       "nickname": "Dios",
@@ -786,11 +801,11 @@
         23
       ],
       "ev": [
-        2,
-        2,
-        1,
-        0,
-        1,
+        10,
+        11,
+        3,
+        3,
+        6,
         2
       ],
       "abilPool": [
@@ -1403,144 +1418,6 @@
       ],
       "spriteKey": "FLOETTE_4",
       "dup": true
-    },
-    {
-      "nickname": "Cheke",
-      "species": "Drifblim",
-      "level": 39,
-      "types": [
-        "Fantasma",
-        "Volador"
-      ],
-      "ability": "Fuerza Cerebral",
-      "nature": "Activa",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Salazón",
-        "Vendaval Gélido",
-        "Sombra Vil",
-        "Niebla Clara"
-      ],
-      "iv": [
-        12,
-        15,
-        15,
-        23,
-        13,
-        14
-      ],
-      "ev": [
-        0,
-        2,
-        3,
-        0,
-        0,
-        5
-      ],
-      "abilPool": [
-        "Fuerza Cerebral",
-        "Puño Férreo"
-      ],
-      "abilHidden": [
-        "Monotema"
-      ],
-      "learnset": [
-        {
-          "lvl": -1,
-          "m": "Prensa Metálica"
-        },
-        {
-          "lvl": 1,
-          "m": "Impresionar"
-        },
-        {
-          "lvl": 1,
-          "m": "Isoguardia"
-        },
-        {
-          "lvl": 1,
-          "m": "Viento Afín"
-        },
-        {
-          "lvl": 1,
-          "m": "Decalcomanía"
-        },
-        {
-          "lvl": 1,
-          "m": "Rueda Fuego"
-        },
-        {
-          "lvl": 1,
-          "m": "Homenaje Póstumo"
-        },
-        {
-          "lvl": 12,
-          "m": "Despejar"
-        },
-        {
-          "lvl": 16,
-          "m": "Rastreo"
-        },
-        {
-          "lvl": 20,
-          "m": "Trampa Venenosa"
-        },
-        {
-          "lvl": 20,
-          "m": "Pesadilla"
-        },
-        {
-          "lvl": 24,
-          "m": "Ataque Óseo"
-        },
-        {
-          "lvl": 24,
-          "m": "Ataque Furia"
-        },
-        {
-          "lvl": 24,
-          "m": "Bomba Imán"
-        },
-        {
-          "lvl": 31,
-          "m": "Cerrojo Feérico"
-        },
-        {
-          "lvl": 36,
-          "m": "Vendaval Gélido"
-        },
-        {
-          "lvl": 42,
-          "m": "Mil Temblores"
-        },
-        {
-          "lvl": 46,
-          "m": "Mil Púas Tóxicas"
-        },
-        {
-          "lvl": 48,
-          "m": "Láser Doble"
-        },
-        {
-          "lvl": 54,
-          "m": "Bramido Dragón"
-        },
-        {
-          "lvl": 55,
-          "m": "Ciclón Primavera"
-        }
-      ],
-      "tmMoves": [
-        "Clavo Cañón"
-      ],
-      "firstMoves": [
-        "Salazón",
-        "Cambio de Marcha",
-        "Halloween",
-        "Restricción"
-      ],
-      "spriteKey": "DRIFBLIM"
     },
     {
       "nickname": "8belial",
@@ -2435,9 +2312,359 @@
         "Placaje"
       ],
       "spriteKey": "GURDURR"
+    },
+    {
+      "nickname": "Eelektrik",
+      "species": "Eelektrik",
+      "level": 27,
+      "types": [
+        "Eléctrico"
+      ],
+      "ability": "Aclimatación",
+      "nature": "Floja",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Chispa",
+        "Ayuda",
+        "Rugido",
+        "Aire Afilado"
+      ],
+      "iv": [
+        11,
+        30,
+        0,
+        28,
+        23,
+        5
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Aclimatación"
+      ],
+      "abilHidden": [],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Telequinesis"
+        },
+        {
+          "lvl": 1,
+          "m": "Puño Mareo"
+        },
+        {
+          "lvl": 1,
+          "m": "Cambiaalmas"
+        },
+        {
+          "lvl": 1,
+          "m": "Chispa"
+        },
+        {
+          "lvl": 1,
+          "m": "Ayuda"
+        },
+        {
+          "lvl": 9,
+          "m": "Rugido"
+        },
+        {
+          "lvl": 19,
+          "m": "Aire Afilado"
+        },
+        {
+          "lvl": 29,
+          "m": "Pikaturbo"
+        },
+        {
+          "lvl": 44,
+          "m": "Tierra Viva"
+        },
+        {
+          "lvl": 49,
+          "m": "Alarido"
+        },
+        {
+          "lvl": 54,
+          "m": "Danza Caos"
+        },
+        {
+          "lvl": 59,
+          "m": "Robo"
+        },
+        {
+          "lvl": 64,
+          "m": "Giro Fuego"
+        },
+        {
+          "lvl": 69,
+          "m": "Carga Parábola"
+        },
+        {
+          "lvl": 74,
+          "m": "Desarrollo"
+        }
+      ],
+      "tmMoves": [
+        "Rizo Algodón"
+      ],
+      "firstMoves": [
+        "Chispa",
+        "Ayuda",
+        "Rugido",
+        "Aire Afilado"
+      ],
+      "spriteKey": "EELEKTRIK"
+    },
+    {
+      "nickname": "Cabron",
+      "species": "Corsola (Galar)",
+      "level": 29,
+      "types": [
+        "Fantasma"
+      ],
+      "ability": "Piel Herbácea",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Marcha Espectral",
+        "Látigo Cepa",
+        "Sonámbulo",
+        "Aguzar"
+      ],
+      "iv": [
+        0,
+        2,
+        23,
+        7,
+        27,
+        12
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Piel Herbácea"
+      ],
+      "abilHidden": [
+        "Poder Arena"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Tinieblas"
+        },
+        {
+          "lvl": 1,
+          "m": "Fría Acogida"
+        },
+        {
+          "lvl": 5,
+          "m": "Placaje"
+        },
+        {
+          "lvl": 10,
+          "m": "Marcha Espectral"
+        },
+        {
+          "lvl": 15,
+          "m": "Látigo Cepa"
+        },
+        {
+          "lvl": 20,
+          "m": "Sonámbulo"
+        },
+        {
+          "lvl": 25,
+          "m": "Aguzar"
+        },
+        {
+          "lvl": 30,
+          "m": "Lengüetazo"
+        },
+        {
+          "lvl": 35,
+          "m": "Puño Furia"
+        },
+        {
+          "lvl": 40,
+          "m": "Chispazo"
+        },
+        {
+          "lvl": 45,
+          "m": "Retribución"
+        },
+        {
+          "lvl": 50,
+          "m": "Mismo Destino"
+        },
+        {
+          "lvl": 55,
+          "m": "Puntada Sombría"
+        }
+      ],
+      "firstMoves": [
+        "Marcha Espectral",
+        "Látigo Cepa",
+        "Sonámbulo",
+        "Aguzar"
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10173.png",
+      "spriteKey": "CORSOLA_1"
     }
   ],
   "graveyard": [
+    {
+      "nickname": "Aley2",
+      "species": "Drakloak",
+      "level": 39,
+      "types": [
+        "Dragón",
+        "Fantasma"
+      ],
+      "ability": "Rompemoldes",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Aguijón Letal",
+        "Garra Umbría",
+        "Golpe Calor",
+        "Veneno X"
+      ],
+      "iv": [
+        17,
+        10,
+        25,
+        26,
+        16,
+        2
+      ],
+      "ev": [
+        10,
+        17,
+        11,
+        11,
+        7,
+        16
+      ],
+      "abilPool": [
+        "Tinovictoria",
+        "Rompemoldes"
+      ],
+      "abilHidden": [
+        "Sombra Trampa"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Aguijón Letal"
+        },
+        {
+          "lvl": 1,
+          "m": "Garra Umbría"
+        },
+        {
+          "lvl": 1,
+          "m": "Rayo Confuso"
+        },
+        {
+          "lvl": 1,
+          "m": "Contraataque"
+        },
+        {
+          "lvl": 1,
+          "m": "Confidencia"
+        },
+        {
+          "lvl": 1,
+          "m": "Plegaria Vital"
+        },
+        {
+          "lvl": 6,
+          "m": "Polución"
+        },
+        {
+          "lvl": 12,
+          "m": "Golpe Rastrero"
+        },
+        {
+          "lvl": 18,
+          "m": "Veneno X"
+        },
+        {
+          "lvl": 24,
+          "m": "Rizo Algodón"
+        },
+        {
+          "lvl": 30,
+          "m": "Golpe Calor"
+        },
+        {
+          "lvl": 36,
+          "m": "Nieve Polvo"
+        },
+        {
+          "lvl": 42,
+          "m": "Cascabel Cura"
+        },
+        {
+          "lvl": 48,
+          "m": "Corte"
+        },
+        {
+          "lvl": 54,
+          "m": "Sustituto"
+        },
+        {
+          "lvl": 61,
+          "m": "Bola Neblina"
+        },
+        {
+          "lvl": 66,
+          "m": "Acupresión"
+        },
+        {
+          "lvl": 72,
+          "m": "Corte Vacío"
+        }
+      ],
+      "tmMoves": [
+        "Ataque Óseo",
+        "Canto",
+        "Clavo Cañón",
+        "Doble Ataque",
+        "Giro Bola",
+        "Rizo Algodón",
+        "Tormenta Arena",
+        "Trampa Rocas",
+        "Trapicheo"
+      ],
+      "firstMoves": [
+        "Plegaria Vital",
+        "Polución",
+        "Golpe Rastrero",
+        "Veneno X"
+      ],
+      "spriteKey": "DRAKLOAK",
+      "cause": "",
+      "route": "",
+      "date": "",
+      "dup": true
+    },
     {
       "nickname": "Icy veedo",
       "species": "Sandshrew",
@@ -3331,13 +3558,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Drakloak",
-      "nickname": "Aley2",
+      "species": "Drifblim",
+      "nickname": "Cheke",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 20,
-      "mon": "Drakloak"
+      "level": 21,
+      "mon": "Drifblim"
     },
     {
       "route": "",
@@ -3397,13 +3624,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Drifblim",
-      "nickname": "Cheke",
+      "species": "Drakloak",
+      "nickname": "Aley2",
       "shiny": false,
-      "status": "captured",
+      "status": "dead",
       "category": "estatico_regalo",
-      "level": 21,
-      "mon": "Drifblim"
+      "level": 20,
+      "mon": "Drakloak"
     },
     {
       "route": "",
@@ -3481,6 +3708,28 @@
       "category": "estatico_regalo",
       "level": 25,
       "mon": "Gurdurr"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Eelektrik",
+      "nickname": "",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 27,
+      "mon": "Eelektrik"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Corsola",
+      "nickname": "Cabron",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 29,
+      "mon": "Corsola"
     },
     {
       "route": "",
@@ -3594,10 +3843,13 @@
       87,
       88,
       89,
+      90,
+      92,
       110,
       112,
       113,
       114,
+      120,
       121,
       138,
       152,
@@ -3611,6 +3863,7 @@
       184,
       185,
       186,
+      301,
       323,
       334,
       363,
@@ -3641,6 +3894,7 @@
       "Galleta Yantra",
       "Gema Fantasma",
       "Globo Helio",
+      "Gran Lustresfera",
       "Guante de Boxeo",
       "Lazo Destino",
       "Malla Ball",
@@ -3672,6 +3926,7 @@
       "MT48",
       "MT51",
       "MT54",
+      "MT57",
       "MT64",
       "MT67",
       "MT69",
@@ -3692,10 +3947,12 @@
       "Poké Montura",
       "Polvo Brillo",
       "Polvo Curación",
+      "Polvo Energía",
       "Precisión X 3",
       "Prisma Azul",
       "Prisma Rojo",
       "Protección X",
+      "Puerro",
       "Raíz Energía",
       "Reglamento",
       "Seguro Fallo",
@@ -3774,7 +4031,7 @@
       {
         "id": "AIRBALLOON",
         "name": "Globo Helio",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos"
       },
       {
@@ -3846,6 +4103,18 @@
       {
         "id": "GALARICAWREATH",
         "name": "Corona Galanuez",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "LUSTROUSGLOBE",
+        "name": "Gran Lustresfera",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "LEEK",
+        "name": "Puerro",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -3934,15 +4203,21 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "ENERGYPOWDER",
+        "name": "Polvo Energía",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 11,
+        "qty": 8,
         "pocket": "Poké Balls"
       },
       {
         "id": "POKEBALL",
         "name": "Poké Ball",
-        "qty": 7,
+        "qty": 3,
         "pocket": "Poké Balls"
       },
       {
@@ -4032,6 +4307,12 @@
       {
         "id": "TM54",
         "name": "MT54",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM57",
+        "name": "MT57",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -4278,7 +4559,8 @@
     "2457002874",
     "3697401807",
     "4018290219",
-    "2383338682"
+    "2383338682",
+    "488332091"
   ],
   "revividos": 0
 }
