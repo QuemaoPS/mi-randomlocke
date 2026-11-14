@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 7,
   "champion": false,
-  "notes": "Importado del save · 6h 42m jugadas · 52,450₽ · vidas en el juego: 13",
+  "notes": "Importado del save · 6h 46m jugadas · 57,380₽ · vidas en el juego: 13",
   "team": [
     {
       "nickname": "Sami Deluxe",
@@ -33,12 +33,12 @@
         17
       ],
       "ev": [
-        4,
+        6,
+        12,
         10,
-        9,
         8,
-        2,
-        17
+        3,
+        19
       ],
       "abilPool": [
         "Chorro Arena",
@@ -206,12 +206,12 @@
         22
       ],
       "ev": [
-        8,
-        13,
         10,
+        15,
+        11,
         9,
-        5,
-        17
+        6,
+        19
       ],
       "abilPool": [
         "Velo arena",
@@ -349,12 +349,12 @@
         22
       ],
       "ev": [
-        20,
-        31,
-        26,
+        22,
+        33,
+        27,
         18,
-        14,
-        33
+        15,
+        35
       ],
       "abilPool": [
         "Albino"
@@ -490,12 +490,12 @@
         26
       ],
       "ev": [
-        22,
-        31,
-        28,
+        24,
+        33,
+        29,
         18,
-        14,
-        33
+        15,
+        35
       ],
       "abilPool": [
         "Unísono",
@@ -652,12 +652,12 @@
         2
       ],
       "ev": [
-        4,
+        6,
+        10,
+        10,
         8,
-        9,
-        8,
-        2,
-        14
+        3,
+        16
       ],
       "abilPool": [
         "Tinovictoria",
@@ -786,12 +786,12 @@
         23
       ],
       "ev": [
+        2,
+        2,
+        1,
         0,
-        0,
-        0,
-        0,
-        0,
-        0
+        1,
+        2
       ],
       "abilPool": [
         "Velo Agua",
@@ -2314,6 +2314,127 @@
         "Alto Voltaje"
       ],
       "spriteKey": "GALVANTULA"
+    },
+    {
+      "nickname": "Gordo",
+      "species": "Gurdurr",
+      "level": 25,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "Defensa Hoja",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Remolino",
+        "Triple Patada",
+        "Golpe Roca",
+        "Placaje"
+      ],
+      "iv": [
+        19,
+        28,
+        0,
+        1,
+        21,
+        17
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Defensa Hoja",
+        "Anticipación"
+      ],
+      "abilHidden": [
+        "Alerta"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Puño Incremento"
+        },
+        {
+          "lvl": 1,
+          "m": "Giro Bola"
+        },
+        {
+          "lvl": 1,
+          "m": "Autosugestión"
+        },
+        {
+          "lvl": 1,
+          "m": "Danza Aleteo"
+        },
+        {
+          "lvl": 1,
+          "m": "Patada Baja"
+        },
+        {
+          "lvl": 12,
+          "m": "Llanto Falso"
+        },
+        {
+          "lvl": 16,
+          "m": "Celebración"
+        },
+        {
+          "lvl": 20,
+          "m": "Remolino"
+        },
+        {
+          "lvl": 20,
+          "m": "Triple Patada"
+        },
+        {
+          "lvl": 24,
+          "m": "Golpe Roca"
+        },
+        {
+          "lvl": 24,
+          "m": "Placaje"
+        },
+        {
+          "lvl": 30,
+          "m": "Legado"
+        },
+        {
+          "lvl": 36,
+          "m": "Pulpocañón"
+        },
+        {
+          "lvl": 42,
+          "m": "Sincrorruido"
+        },
+        {
+          "lvl": 48,
+          "m": "Cepo"
+        },
+        {
+          "lvl": 54,
+          "m": "Armadura Ácida"
+        },
+        {
+          "lvl": 60,
+          "m": "Puntapié"
+        }
+      ],
+      "tmMoves": [
+        "Clavo Cañón"
+      ],
+      "firstMoves": [
+        "Remolino",
+        "Triple Patada",
+        "Golpe Roca",
+        "Placaje"
+      ],
+      "spriteKey": "GURDURR"
     }
   ],
   "graveyard": [
@@ -3353,6 +3474,17 @@
     {
       "route": "",
       "where": "",
+      "species": "Gurdurr",
+      "nickname": "Gordo",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 25,
+      "mon": "Gurdurr"
+    },
+    {
+      "route": "",
+      "where": "",
       "species": "Sandshrew",
       "nickname": "Icy veedo",
       "shiny": false,
@@ -3560,9 +3692,11 @@
       "Poké Montura",
       "Polvo Brillo",
       "Polvo Curación",
+      "Precisión X 3",
       "Prisma Azul",
       "Prisma Rojo",
       "Protección X",
+      "Raíz Energía",
       "Reglamento",
       "Seguro Fallo",
       "Servicio Raro",
@@ -3794,6 +3928,12 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "ENERGYROOT",
+        "name": "Raíz Energía",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "GREATBALL",
         "name": "Super Ball",
         "qty": 11,
@@ -3802,7 +3942,7 @@
       {
         "id": "POKEBALL",
         "name": "Poké Ball",
-        "qty": 8,
+        "qty": 7,
         "pocket": "Poké Balls"
       },
       {
@@ -4060,6 +4200,12 @@
       {
         "id": "GUARDSPEC",
         "name": "Protección X",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XACCURACY3",
+        "name": "Precisión X 3",
         "qty": 1,
         "pocket": "Objetos de combate"
       },
