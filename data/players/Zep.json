@@ -2,9 +2,9 @@
   "id": "Zep",
   "name": "Susi",
   "lives": 30,
-  "livesUsed": 6,
+  "livesUsed": 7,
   "champion": false,
-  "notes": "Importado del save · 5h 21m jugadas · 42,350₽ · vidas en el juego: 14",
+  "notes": "Importado del save · 5h 59m jugadas · 52,450₽ · vidas en el juego: 13",
   "team": [
     {
       "nickname": "Sami Deluxe",
@@ -34,11 +34,11 @@
       ],
       "ev": [
         4,
-        7,
-        5,
+        10,
+        6,
         8,
-        1,
-        9
+        2,
+        13
       ],
       "abilPool": [
         "Velo Agua",
@@ -164,11 +164,11 @@
       ],
       "ev": [
         8,
-        10,
-        6,
+        13,
+        7,
         9,
-        4,
-        9
+        5,
+        13
       ],
       "abilPool": [
         "Potencia Bruta",
@@ -297,11 +297,11 @@
       ],
       "ev": [
         20,
-        28,
-        22,
+        31,
+        23,
         18,
-        13,
-        25
+        14,
+        29
       ],
       "abilPool": [
         "Gélido"
@@ -420,11 +420,11 @@
       ],
       "ev": [
         22,
-        28,
-        24,
+        31,
+        25,
         18,
-        13,
-        25
+        14,
+        29
       ],
       "abilPool": [
         "Vista Lince",
@@ -548,11 +548,11 @@
       ],
       "ev": [
         4,
-        5,
-        5,
         8,
-        1,
-        6
+        6,
+        8,
+        2,
+        10
       ],
       "abilPool": [
         "Tinovictoria",
@@ -654,108 +654,6 @@
       ],
       "spriteKey": "DRAKLOAK",
       "dup": true
-    },
-    {
-      "nickname": "Fuuga",
-      "species": "Charcadet",
-      "level": 30,
-      "types": [
-        "Fuego"
-      ],
-      "ability": "Hidrorrefuerzo",
-      "nature": "Plácida",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Puño Furia",
-        "Ida y Vuelta",
-        "Rueda Fuego",
-        "Día Soleado"
-      ],
-      "iv": [
-        19,
-        24,
-        31,
-        10,
-        30,
-        3
-      ],
-      "ev": [
-        4,
-        4,
-        4,
-        7,
-        1,
-        6
-      ],
-      "abilPool": [
-        "Hidrorrefuerzo"
-      ],
-      "abilHidden": [
-        "Energía Pura"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Luz Lunar"
-        },
-        {
-          "lvl": 1,
-          "m": "Palma Rauda"
-        },
-        {
-          "lvl": 1,
-          "m": "Puño Furia"
-        },
-        {
-          "lvl": 8,
-          "m": "Ida y Vuelta"
-        },
-        {
-          "lvl": 12,
-          "m": "Danza Aleteo"
-        },
-        {
-          "lvl": 16,
-          "m": "Día Soleado"
-        },
-        {
-          "lvl": 20,
-          "m": "Golpe Calor"
-        },
-        {
-          "lvl": 24,
-          "m": "Desarme"
-        },
-        {
-          "lvl": 28,
-          "m": "Rueda Fuego"
-        },
-        {
-          "lvl": 32,
-          "m": "Onda Certera"
-        }
-      ],
-      "tmMoves": [
-        "Ataque Furia",
-        "Aullido",
-        "Clavo Cañón",
-        "Defensa Férrea",
-        "Desarme",
-        "Doble Ataque",
-        "Escudo Real",
-        "Meditación",
-        "Represalia",
-        "Trampa Rocas",
-        "Trapicheo"
-      ],
-      "firstMoves": [
-        "Puño Furia",
-        "Ida y Vuelta",
-        "Danza Aleteo",
-        "Día Soleado"
-      ],
-      "spriteKey": "CHARCADET"
     }
   ],
   "box": [
@@ -1995,6 +1893,111 @@
   ],
   "graveyard": [
     {
+      "nickname": "Fuuga",
+      "species": "Charcadet",
+      "level": 30,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "Hidrorrefuerzo",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Puño Furia",
+        "Ida y Vuelta",
+        "Rueda Fuego",
+        "Día Soleado"
+      ],
+      "iv": [
+        19,
+        24,
+        31,
+        10,
+        30,
+        3
+      ],
+      "ev": [
+        4,
+        7,
+        5,
+        7,
+        2,
+        9
+      ],
+      "abilPool": [
+        "Hidrorrefuerzo"
+      ],
+      "abilHidden": [
+        "Energía Pura"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Luz Lunar"
+        },
+        {
+          "lvl": 1,
+          "m": "Palma Rauda"
+        },
+        {
+          "lvl": 1,
+          "m": "Puño Furia"
+        },
+        {
+          "lvl": 8,
+          "m": "Ida y Vuelta"
+        },
+        {
+          "lvl": 12,
+          "m": "Danza Aleteo"
+        },
+        {
+          "lvl": 16,
+          "m": "Día Soleado"
+        },
+        {
+          "lvl": 20,
+          "m": "Golpe Calor"
+        },
+        {
+          "lvl": 24,
+          "m": "Desarme"
+        },
+        {
+          "lvl": 28,
+          "m": "Rueda Fuego"
+        },
+        {
+          "lvl": 32,
+          "m": "Onda Certera"
+        }
+      ],
+      "tmMoves": [
+        "Ataque Furia",
+        "Aullido",
+        "Clavo Cañón",
+        "Defensa Férrea",
+        "Desarme",
+        "Doble Ataque",
+        "Escudo Real",
+        "Meditación",
+        "Represalia",
+        "Trampa Rocas",
+        "Trapicheo"
+      ],
+      "firstMoves": [
+        "Puño Furia",
+        "Ida y Vuelta",
+        "Danza Aleteo",
+        "Día Soleado"
+      ],
+      "spriteKey": "CHARCADET",
+      "cause": "",
+      "route": "",
+      "date": ""
+    },
+    {
       "nickname": "Icy veedo",
       "species": "Sandshrew",
       "level": 14,
@@ -2796,7 +2799,7 @@
       "species": "Charcadet",
       "nickname": "Fuuga",
       "shiny": false,
-      "status": "captured",
+      "status": "dead",
       "category": "estatico_regalo",
       "level": 18,
       "mon": "Charcadet"
@@ -2981,7 +2984,8 @@
   "progress": {
     "gyms": {
       "gym1": true,
-      "gym2": true
+      "gym2": true,
+      "gym3": true
     },
     "bosses": {},
     "npcs": {},
@@ -3027,9 +3031,12 @@
       183,
       184,
       185,
+      186,
       323,
       334,
-      364
+      363,
+      364,
+      365
     ],
     "foundItems": [
       "Amuleto Oval",
@@ -3053,6 +3060,7 @@
       "Guante de Boxeo",
       "Lazo Destino",
       "Malla Ball",
+      "Master Ball",
       "Menta Agitada",
       "Menta Mansa",
       "Menta Serena",
@@ -3068,6 +3076,7 @@
       "MT17",
       "MT25",
       "MT33",
+      "MT34",
       "MT39",
       "MT40",
       "MT43",
@@ -3082,6 +3091,7 @@
       "MT69",
       "MT70",
       "MT72",
+      "MT73",
       "MT74",
       "MT75",
       "MT85",
@@ -3093,6 +3103,7 @@
       "Poción",
       "Poké Montura",
       "Polvo Brillo",
+      "Polvo Curación",
       "Protección X",
       "Reglamento",
       "Seguro Fallo",
@@ -3134,7 +3145,7 @@
       {
         "id": "PUNCHINGGLOVE",
         "name": "Guante de Boxeo",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos"
       },
       {
@@ -3282,6 +3293,12 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "HEALPOWDER",
+        "name": "Polvo Curación",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "GREATBALL",
         "name": "Super Ball",
         "qty": 11,
@@ -3300,6 +3317,12 @@
         "pocket": "Poké Balls"
       },
       {
+        "id": "MASTERBALL",
+        "name": "Master Ball",
+        "qty": 1,
+        "pocket": "Poké Balls"
+      },
+      {
         "id": "TM17",
         "name": "MT17",
         "qty": 1,
@@ -3314,6 +3337,12 @@
       {
         "id": "TM33",
         "name": "MT33",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM34",
+        "name": "MT34",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -3398,6 +3427,12 @@
       {
         "id": "TM72",
         "name": "MT72",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM73",
+        "name": "MT73",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -3571,7 +3606,8 @@
     "2485586078",
     "2457002874",
     "3697401807",
-    "4018290219"
+    "4018290219",
+    "2383338682"
   ],
   "revividos": 0
 }
