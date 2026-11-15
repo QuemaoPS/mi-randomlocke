@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 0h 39m jugadas · 5,000₽ · vidas en el juego: 19",
+  "notes": "Importado del save · 1h 11m jugadas · 2,150₽ · vidas en el juego: 19",
   "team": [
     {
       "nickname": "Tusmuertos",
@@ -32,12 +32,12 @@
         6
       ],
       "ev": [
-        1,
-        2,
-        2,
-        2,
+        4,
+        5,
+        5,
         3,
-        2
+        5,
+        5
       ],
       "abilPool": [
         "Insonorizar"
@@ -142,12 +142,12 @@
         15
       ],
       "ev": [
-        1,
+        4,
+        5,
+        5,
         2,
-        2,
-        1,
-        1,
-        2
+        3,
+        5
       ],
       "abilPool": [
         "Torrente"
@@ -227,141 +227,6 @@
       "spriteKey": "GASTLY"
     },
     {
-      "nickname": "Marica",
-      "species": "Hoppip",
-      "level": 14,
-      "types": [
-        "Planta",
-        "Volador"
-      ],
-      "ability": "Ignorante",
-      "nature": "Activa",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Meteorobola",
-        "Agarrón",
-        "Arraigo",
-        "Homenaje Póstumo"
-      ],
-      "iv": [
-        4,
-        28,
-        0,
-        19,
-        21,
-        27
-      ],
-      "ev": [
-        1,
-        2,
-        2,
-        1,
-        0,
-        2
-      ],
-      "abilPool": [
-        "Ignorante",
-        "Coránima"
-      ],
-      "abilHidden": [
-        "Cromolente"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Foco Energía"
-        },
-        {
-          "lvl": 1,
-          "m": "Fotosíntesis"
-        },
-        {
-          "lvl": 4,
-          "m": "Ataque Arena"
-        },
-        {
-          "lvl": 6,
-          "m": "Relajo"
-        },
-        {
-          "lvl": 8,
-          "m": "Cede Paso"
-        },
-        {
-          "lvl": 10,
-          "m": "Carga"
-        },
-        {
-          "lvl": 10,
-          "m": "Meteorobola"
-        },
-        {
-          "lvl": 10,
-          "m": "Danza Pluma"
-        },
-        {
-          "lvl": 10,
-          "m": "Arraigo"
-        },
-        {
-          "lvl": 12,
-          "m": "Agarrón"
-        },
-        {
-          "lvl": 15,
-          "m": "Esquirla Helada"
-        },
-        {
-          "lvl": 19,
-          "m": "Bostezo"
-        },
-        {
-          "lvl": 22,
-          "m": "Golpe Aéreo"
-        },
-        {
-          "lvl": 24,
-          "m": "Psicocambio"
-        },
-        {
-          "lvl": 27,
-          "m": "Onda Simple"
-        },
-        {
-          "lvl": 31,
-          "m": "Vuelo"
-        },
-        {
-          "lvl": 32,
-          "m": "Látigo Cepa"
-        },
-        {
-          "lvl": 35,
-          "m": "Velo Sagrado"
-        },
-        {
-          "lvl": 37,
-          "m": "Shuriken de Agua"
-        },
-        {
-          "lvl": 38,
-          "m": "Doble Ataque"
-        },
-        {
-          "lvl": 40,
-          "m": "Ataque Aéreo"
-        }
-      ],
-      "firstMoves": [
-        "Foco Energía",
-        "Fotosíntesis",
-        "Ataque Arena",
-        "Homenaje Póstumo"
-      ],
-      "spriteKey": "HOPPIP"
-    },
-    {
       "nickname": "Tetorras",
       "species": "Hippopotas",
       "level": 14,
@@ -387,12 +252,12 @@
         0
       ],
       "ev": [
-        1,
+        4,
+        5,
+        4,
         2,
-        1,
-        1,
-        0,
-        2
+        2,
+        5
       ],
       "abilPool": [
         "Olor Persistente"
@@ -499,12 +364,12 @@
         29
       ],
       "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        3,
+        3,
+        3,
+        1,
+        2,
+        3
       ],
       "abilPool": [
         "Amor Filial"
@@ -585,9 +450,375 @@
         "Fitoimpulso"
       ],
       "spriteKey": "FROAKIE"
+    },
+    {
+      "nickname": "Ovario",
+      "species": "Whirlipede",
+      "level": 14,
+      "types": [
+        "Bicho",
+        "Veneno"
+      ],
+      "ability": "Ensañamiento",
+      "nature": "Modesta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Viento Feérico",
+        "Pesadilla",
+        "Cola Dragón",
+        "Espabila"
+      ],
+      "iv": [
+        16,
+        14,
+        30,
+        8,
+        0,
+        11
+      ],
+      "ev": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "abilPool": [
+        "Zoquete",
+        "Ensañamiento"
+      ],
+      "abilHidden": [
+        "Intimidación"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Enrosque"
+        },
+        {
+          "lvl": 1,
+          "m": "Ida y Vuelta"
+        },
+        {
+          "lvl": 1,
+          "m": "Viento Feérico"
+        },
+        {
+          "lvl": 1,
+          "m": "Pesadilla"
+        },
+        {
+          "lvl": 1,
+          "m": "Cola Dragón"
+        },
+        {
+          "lvl": 1,
+          "m": "Espabila"
+        },
+        {
+          "lvl": 12,
+          "m": "Pantalla de Humo"
+        },
+        {
+          "lvl": 12,
+          "m": "Foco Energía"
+        },
+        {
+          "lvl": 16,
+          "m": "Acupresión"
+        },
+        {
+          "lvl": 20,
+          "m": "Tinieblas"
+        },
+        {
+          "lvl": 26,
+          "m": "Triple Patada"
+        },
+        {
+          "lvl": 32,
+          "m": "Garra Nociva"
+        },
+        {
+          "lvl": 37,
+          "m": "Electroderrape"
+        },
+        {
+          "lvl": 38,
+          "m": "Golpe Kárate"
+        },
+        {
+          "lvl": 44,
+          "m": "Corpulencia"
+        },
+        {
+          "lvl": 46,
+          "m": "Bomba Lodo"
+        },
+        {
+          "lvl": 50,
+          "m": "Veneno X"
+        },
+        {
+          "lvl": 56,
+          "m": "Tajo Umbrío"
+        }
+      ],
+      "firstMoves": [
+        "Viento Feérico",
+        "Pesadilla",
+        "Cola Dragón",
+        "Espabila"
+      ],
+      "spriteKey": "WHIRLIPEDE"
+    },
+    {
+      "nickname": "Candelabro",
+      "species": "Pumpkaboo",
+      "level": 14,
+      "types": [
+        "Fantasma",
+        "Planta"
+      ],
+      "ability": "Anticipación",
+      "nature": "Activa",
+      "item": "Semilla Milagro",
+      "shiny": false,
+      "moves": [
+        "Cuchillada",
+        "Púas Tóxicas",
+        "Bola Hielo",
+        "Patada Giro"
+      ],
+      "iv": [
+        11,
+        5,
+        4,
+        2,
+        31,
+        10
+      ],
+      "ev": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "abilPool": [
+        "Alma Cura",
+        "Anticipación"
+      ],
+      "abilHidden": [
+        "Turbollama"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Cuchillada"
+        },
+        {
+          "lvl": 4,
+          "m": "Danza Pluma"
+        },
+        {
+          "lvl": 6,
+          "m": "Bola Hielo"
+        },
+        {
+          "lvl": 8,
+          "m": "Patada Giro"
+        },
+        {
+          "lvl": 12,
+          "m": "Púas Tóxicas"
+        },
+        {
+          "lvl": 16,
+          "m": "Marcha Espectral"
+        },
+        {
+          "lvl": 20,
+          "m": "Follaje"
+        },
+        {
+          "lvl": 24,
+          "m": "Velo Aurora"
+        },
+        {
+          "lvl": 28,
+          "m": "Encanto"
+        },
+        {
+          "lvl": 32,
+          "m": "Puño Cometa"
+        },
+        {
+          "lvl": 36,
+          "m": "Latigazo"
+        },
+        {
+          "lvl": 36,
+          "m": "Puntada Sombría"
+        },
+        {
+          "lvl": 40,
+          "m": "Obstrucción"
+        },
+        {
+          "lvl": 44,
+          "m": "Planta Feroz"
+        }
+      ],
+      "firstMoves": [
+        "Cuchillada",
+        "Danza Pluma",
+        "Bola Hielo",
+        "Patada Giro"
+      ],
+      "spriteKey": "PUMPKABOO"
     }
   ],
-  "box": [],
+  "box": [
+    {
+      "nickname": "Marica",
+      "species": "Hoppip",
+      "level": 14,
+      "types": [
+        "Planta",
+        "Volador"
+      ],
+      "ability": "Ignorante",
+      "nature": "Activa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Meteorobola",
+        "Agarrón",
+        "Arraigo",
+        "Homenaje Póstumo"
+      ],
+      "iv": [
+        4,
+        28,
+        0,
+        19,
+        21,
+        27
+      ],
+      "ev": [
+        4,
+        4,
+        5,
+        2,
+        1,
+        5
+      ],
+      "abilPool": [
+        "Ignorante",
+        "Coránima"
+      ],
+      "abilHidden": [
+        "Cromolente"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Foco Energía"
+        },
+        {
+          "lvl": 1,
+          "m": "Fotosíntesis"
+        },
+        {
+          "lvl": 4,
+          "m": "Ataque Arena"
+        },
+        {
+          "lvl": 6,
+          "m": "Relajo"
+        },
+        {
+          "lvl": 8,
+          "m": "Cede Paso"
+        },
+        {
+          "lvl": 10,
+          "m": "Carga"
+        },
+        {
+          "lvl": 10,
+          "m": "Meteorobola"
+        },
+        {
+          "lvl": 10,
+          "m": "Danza Pluma"
+        },
+        {
+          "lvl": 10,
+          "m": "Arraigo"
+        },
+        {
+          "lvl": 12,
+          "m": "Agarrón"
+        },
+        {
+          "lvl": 15,
+          "m": "Esquirla Helada"
+        },
+        {
+          "lvl": 19,
+          "m": "Bostezo"
+        },
+        {
+          "lvl": 22,
+          "m": "Golpe Aéreo"
+        },
+        {
+          "lvl": 24,
+          "m": "Psicocambio"
+        },
+        {
+          "lvl": 27,
+          "m": "Onda Simple"
+        },
+        {
+          "lvl": 31,
+          "m": "Vuelo"
+        },
+        {
+          "lvl": 32,
+          "m": "Látigo Cepa"
+        },
+        {
+          "lvl": 35,
+          "m": "Velo Sagrado"
+        },
+        {
+          "lvl": 37,
+          "m": "Shuriken de Agua"
+        },
+        {
+          "lvl": 38,
+          "m": "Doble Ataque"
+        },
+        {
+          "lvl": 40,
+          "m": "Ataque Aéreo"
+        }
+      ],
+      "firstMoves": [
+        "Foco Energía",
+        "Fotosíntesis",
+        "Ataque Arena",
+        "Homenaje Póstumo"
+      ],
+      "spriteKey": "HOPPIP"
+    }
+  ],
   "graveyard": [
     {
       "nickname": "Elenita",
@@ -764,17 +995,6 @@
     {
       "route": "",
       "where": "",
-      "species": "Hoppip",
-      "nickname": "Marica",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 4,
-      "mon": "Hoppip"
-    },
-    {
-      "route": "",
-      "where": "",
       "species": "Hippopotas",
       "nickname": "Tetorras",
       "shiny": false,
@@ -782,6 +1002,39 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Hippopotas"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Froakie",
+      "nickname": "ChupalaXavi",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 7,
+      "mon": "Froakie"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Whirlipede",
+      "nickname": "Ovario",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 9,
+      "mon": "Whirlipede"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Pumpkaboo",
+      "nickname": "Candelabro",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 11,
+      "mon": "Pumpkaboo"
     },
     {
       "route": "",
@@ -797,13 +1050,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Froakie",
-      "nickname": "ChupalaXavi",
+      "species": "Hoppip",
+      "nickname": "Marica",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 7,
-      "mon": "Froakie"
+      "level": 4,
+      "mon": "Hoppip"
     }
   ],
   "progress": {
@@ -837,6 +1090,11 @@
     ],
     "foundItems": [
       "Corazón Dulce",
+      "Gema Planta",
+      "Mochila Escape",
+      "MT11",
+      "MT51",
+      "Piedra Pómez",
       "Piedra Trueno",
       "Poción",
       "Poké Montura",
@@ -865,15 +1123,33 @@
         "pocket": "Objetos"
       },
       {
+        "id": "EJECTPACK",
+        "name": "Mochila Escape",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "FLOATSTONE",
+        "name": "Piedra Pómez",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "GRASSGEM",
+        "name": "Gema Planta",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "POTION",
         "name": "Poción",
-        "qty": 2,
+        "qty": 1,
         "pocket": "Medicinas"
       },
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 992,
+        "qty": 984,
         "pocket": "Medicinas"
       },
       {
@@ -891,8 +1167,32 @@
       {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 5,
+        "qty": 9,
         "pocket": "Poké Balls"
+      },
+      {
+        "id": "POKEBALL",
+        "name": "Poké Ball",
+        "qty": 9,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "PREMIERBALL",
+        "name": "Honor Ball",
+        "qty": 1,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "TM11",
+        "name": "MT11",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM51",
+        "name": "MT51",
+        "qty": 1,
+        "pocket": "MTs y MOs"
       },
       {
         "id": "RULEBOOK",
