@@ -2,9 +2,9 @@
   "id": "quemao",
   "name": " KAHBA",
   "lives": 30,
-  "livesUsed": 2,
+  "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 5h 54m jugadas · 29,740₽ · vidas en el juego: 18",
+  "notes": "Importado del save · 6h 3m jugadas · 31,210₽ · vidas en el juego: 17",
   "team": [
     {
       "nickname": "YYY891",
@@ -33,11 +33,11 @@
       ],
       "ev": [
         8,
-        10,
-        18,
+        11,
+        19,
         16,
         19,
-        12
+        13
       ],
       "abilPool": [
         "Pararrayos"
@@ -175,11 +175,11 @@
       ],
       "ev": [
         8,
-        10,
-        19,
+        11,
+        20,
         17,
         15,
-        12
+        13
       ],
       "abilPool": [
         "Ímpetu Arena"
@@ -278,7 +278,7 @@
       "types": [
         "Agua"
       ],
-      "ability": "",
+      "ability": "Audaz",
       "nature": "Plácida",
       "item": "",
       "shiny": false,
@@ -298,11 +298,11 @@
       ],
       "ev": [
         0,
+        1,
+        1,
         0,
         0,
-        0,
-        0,
-        0
+        1
       ],
       "abilPool": [
         "Audaz"
@@ -420,11 +420,11 @@
       ],
       "ev": [
         3,
-        3,
         4,
+        5,
         4,
         3,
-        0
+        1
       ],
       "abilPool": [
         "Ojo Mental",
@@ -549,11 +549,11 @@
       ],
       "ev": [
         0,
+        3,
         2,
-        1,
         2,
         0,
-        0
+        1
       ],
       "abilPool": [
         "Allanamiento",
@@ -631,133 +631,6 @@
         "Último Lugar"
       ],
       "spriteKey": "NIDORINA"
-    },
-    {
-      "nickname": "COJONES v2",
-      "species": "Exeggcute",
-      "level": 23,
-      "types": [
-        "Planta",
-        "Psíquico"
-      ],
-      "ability": "Tenacidad",
-      "nature": "Serena",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Barrera Espinosa",
-        "Psicorrayo",
-        "Abatidoras",
-        "Hierba Lazo"
-      ],
-      "iv": [
-        14,
-        21,
-        20,
-        2,
-        18,
-        31
-      ],
-      "ev": [
-        8,
-        10,
-        19,
-        17,
-        19,
-        13
-      ],
-      "abilPool": [
-        "Tenacidad",
-        "Cobardía"
-      ],
-      "abilHidden": [
-        "Espada Debacle"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Chapoteo Lodo"
-        },
-        {
-          "lvl": 1,
-          "m": "Pulso Cura"
-        },
-        {
-          "lvl": 1,
-          "m": "Rizo Algodón"
-        },
-        {
-          "lvl": 5,
-          "m": "Bloqueo"
-        },
-        {
-          "lvl": 10,
-          "m": "Barrera Espinosa"
-        },
-        {
-          "lvl": 15,
-          "m": "Psicorrayo"
-        },
-        {
-          "lvl": 19,
-          "m": "Abatidoras"
-        },
-        {
-          "lvl": 20,
-          "m": "Salazón"
-        },
-        {
-          "lvl": 21,
-          "m": "Hierba Lazo"
-        },
-        {
-          "lvl": 23,
-          "m": "Pantalla de Humo"
-        },
-        {
-          "lvl": 25,
-          "m": "Sísmico"
-        },
-        {
-          "lvl": 30,
-          "m": "Pisotón"
-        },
-        {
-          "lvl": 30,
-          "m": "Manto Espejo"
-        },
-        {
-          "lvl": 35,
-          "m": "Voto Planta"
-        },
-        {
-          "lvl": 40,
-          "m": "Lluevehojas"
-        },
-        {
-          "lvl": 45,
-          "m": "Hoja Mágica"
-        },
-        {
-          "lvl": 50,
-          "m": "Estrujón"
-        },
-        {
-          "lvl": 53,
-          "m": "Escaramuza"
-        },
-        {
-          "lvl": 55,
-          "m": "Cañón Batidor"
-        }
-      ],
-      "firstMoves": [
-        "Chapoteo Lodo",
-        "Pulso Cura",
-        "Rizo Algodón",
-        "Torbellino"
-      ],
-      "spriteKey": "EXEGGCUTE"
     }
   ],
   "box": [
@@ -1369,6 +1242,136 @@
   ],
   "graveyard": [
     {
+      "nickname": "COJONES v2",
+      "species": "Exeggcute",
+      "level": 23,
+      "types": [
+        "Planta",
+        "Psíquico"
+      ],
+      "ability": "Tenacidad",
+      "nature": "Serena",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Barrera Espinosa",
+        "Psicorrayo",
+        "Abatidoras",
+        "Hierba Lazo"
+      ],
+      "iv": [
+        14,
+        21,
+        20,
+        2,
+        18,
+        31
+      ],
+      "ev": [
+        8,
+        10,
+        20,
+        17,
+        19,
+        14
+      ],
+      "abilPool": [
+        "Tenacidad",
+        "Cobardía"
+      ],
+      "abilHidden": [
+        "Espada Debacle"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Chapoteo Lodo"
+        },
+        {
+          "lvl": 1,
+          "m": "Pulso Cura"
+        },
+        {
+          "lvl": 1,
+          "m": "Rizo Algodón"
+        },
+        {
+          "lvl": 5,
+          "m": "Bloqueo"
+        },
+        {
+          "lvl": 10,
+          "m": "Barrera Espinosa"
+        },
+        {
+          "lvl": 15,
+          "m": "Psicorrayo"
+        },
+        {
+          "lvl": 19,
+          "m": "Abatidoras"
+        },
+        {
+          "lvl": 20,
+          "m": "Salazón"
+        },
+        {
+          "lvl": 21,
+          "m": "Hierba Lazo"
+        },
+        {
+          "lvl": 23,
+          "m": "Pantalla de Humo"
+        },
+        {
+          "lvl": 25,
+          "m": "Sísmico"
+        },
+        {
+          "lvl": 30,
+          "m": "Pisotón"
+        },
+        {
+          "lvl": 30,
+          "m": "Manto Espejo"
+        },
+        {
+          "lvl": 35,
+          "m": "Voto Planta"
+        },
+        {
+          "lvl": 40,
+          "m": "Lluevehojas"
+        },
+        {
+          "lvl": 45,
+          "m": "Hoja Mágica"
+        },
+        {
+          "lvl": 50,
+          "m": "Estrujón"
+        },
+        {
+          "lvl": 53,
+          "m": "Escaramuza"
+        },
+        {
+          "lvl": 55,
+          "m": "Cañón Batidor"
+        }
+      ],
+      "firstMoves": [
+        "Chapoteo Lodo",
+        "Pulso Cura",
+        "Rizo Algodón",
+        "Torbellino"
+      ],
+      "spriteKey": "EXEGGCUTE",
+      "cause": "",
+      "route": "",
+      "date": ""
+    },
+    {
       "nickname": "MARIHUANA",
       "species": "Petilil",
       "level": 10,
@@ -1669,7 +1672,7 @@
       "species": "Exeggcute",
       "nickname": "COJONES v2",
       "shiny": false,
-      "status": "captured",
+      "status": "dead",
       "category": "estatico_regalo",
       "level": 3,
       "mon": "Exeggcute"
@@ -1778,6 +1781,9 @@
       75,
       76,
       80,
+      81,
+      82,
+      83,
       110,
       121,
       138,
@@ -1831,6 +1837,7 @@
       "Revivir",
       "Revivir Máximo",
       "Tabla Terror",
+      "Ticket Barco",
       "Velocidad X 6",
       "Vial"
     ],
@@ -2092,12 +2099,19 @@
         "name": "Cuerda Huida",
         "qty": 1,
         "pocket": "Objetos clave"
+      },
+      {
+        "id": "TICKETBARCO",
+        "name": "Ticket Barco",
+        "qty": 1,
+        "pocket": "Objetos clave"
       }
     ]
   },
   "deathLog": [
     "1806508300",
-    "3100589573"
+    "3100589573",
+    "2527730370"
   ],
   "revividos": 0
 }
