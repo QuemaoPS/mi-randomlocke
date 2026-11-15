@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 4,
   "champion": false,
-  "notes": "Importado del save · 3h 31m jugadas · 47,250₽ · vidas en el juego: 16",
+  "notes": "Importado del save · 3h 36m jugadas · 51,750₽ · vidas en el juego: 16",
   "team": [
     {
       "nickname": "Pedrusco",
@@ -37,8 +37,8 @@
         27,
         11,
         8,
-        8,
-        18
+        9,
+        21
       ],
       "abilPool": [
         "Ímpetu Arena",
@@ -151,8 +151,8 @@
         27,
         11,
         8,
-        8,
-        18
+        9,
+        21
       ],
       "abilPool": [
         "Mano Rápida"
@@ -267,8 +267,8 @@
         25,
         9,
         7,
-        8,
-        16
+        9,
+        19
       ],
       "abilPool": [
         "Cólera"
@@ -396,8 +396,8 @@
         5,
         1,
         1,
-        4,
-        3
+        5,
+        6
       ],
       "abilPool": [
         "Hospitalidad"
@@ -480,8 +480,8 @@
         22,
         7,
         6,
-        6,
-        10
+        7,
+        13
       ],
       "abilPool": [
         "Torrente",
@@ -617,8 +617,8 @@
         21,
         9,
         9,
-        6,
-        15
+        7,
+        18
       ],
       "abilPool": [
         "Compiescolta",
@@ -2152,7 +2152,8 @@
   "progress": {
     "gyms": {
       "gym1": true,
-      "gym2": true
+      "gym2": true,
+      "gym3": true
     },
     "bosses": {},
     "npcs": {},
@@ -2196,6 +2197,7 @@
       183,
       184,
       185,
+      186,
       238,
       323,
       334,
@@ -2250,6 +2252,7 @@
       "MT51",
       "MT52",
       "MT68",
+      "MT73",
       "MT78",
       "MT81",
       "MT85",
@@ -2262,6 +2265,7 @@
       "Poción",
       "Poké Montura",
       "Precisión X 6",
+      "Protector",
       "Raíz Grande",
       "Reglamento",
       "Scapsula",
@@ -2389,6 +2393,12 @@
       {
         "id": "REAPERCLOTH",
         "name": "Tela Terrible",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "PROTECTOR",
+        "name": "Protector",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -2567,6 +2577,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM73",
+        "name": "MT73",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM78",
         "name": "MT78",
         "qty": 1,
@@ -2635,7 +2651,7 @@
       {
         "id": "MAXMUSHROOMS",
         "name": "Maxiseta",
-        "qty": 2,
+        "qty": 3,
         "pocket": "Objetos de combate"
       },
       {
