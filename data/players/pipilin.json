@@ -1,0 +1,52 @@
+{
+  "id": "pipilin",
+  "name": "Pipilin23",
+  "lives": 30,
+  "livesUsed": 0,
+  "champion": false,
+  "notes": "Importado del save · 0h 9m jugadas · 3,000₽ · vidas en el juego: 20",
+  "team": [],
+  "box": [],
+  "graveyard": [],
+  "captures": [],
+  "progress": {
+    "gyms": {},
+    "bosses": {},
+    "npcs": {},
+    "routes": {},
+    "items": {},
+    "encounters": {},
+    "switches": [
+      48,
+      110,
+      176,
+      179,
+      180,
+      181,
+      182,
+      183,
+      323,
+      334
+    ],
+    "foundItems": [
+      "Poción",
+      "Reglamento"
+    ],
+    "bag": [
+      {
+        "id": "POTION",
+        "name": "Poción",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "RULEBOOK",
+        "name": "Reglamento",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      }
+    ]
+  },
+  "deathLog": [],
+  "revividos": 0
+}
