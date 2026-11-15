@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 4,
   "champion": false,
-  "notes": "Importado del save · 3h 7m jugadas · 34,760₽ · vidas en el juego: 16",
+  "notes": "Importado del save · 3h 11m jugadas · 39,440₽ · vidas en el juego: 16",
   "team": [
     {
       "nickname": "Rojazo",
@@ -34,11 +34,11 @@
       ],
       "ev": [
         7,
-        21,
+        23,
         8,
-        6,
+        7,
         4,
-        13
+        14
       ],
       "abilPool": [
         "Cólera"
@@ -163,11 +163,11 @@
       ],
       "ev": [
         11,
-        23,
+        25,
         10,
-        7,
+        8,
         4,
-        15
+        16
       ],
       "abilPool": [
         "Mano Rápida"
@@ -279,11 +279,11 @@
       ],
       "ev": [
         11,
-        23,
+        25,
         10,
-        7,
+        8,
         4,
-        15
+        16
       ],
       "abilPool": [
         "Ímpetu Arena",
@@ -393,11 +393,11 @@
       ],
       "ev": [
         0,
+        3,
+        0,
         1,
         0,
-        0,
-        0,
-        0
+        1
       ],
       "abilPool": [
         "Hospitalidad"
@@ -477,11 +477,11 @@
       ],
       "ev": [
         6,
-        18,
+        20,
         6,
-        5,
+        6,
         2,
-        7
+        8
       ],
       "abilPool": [
         "Torrente",
@@ -614,11 +614,11 @@
       ],
       "ev": [
         10,
-        17,
+        19,
         8,
-        8,
+        9,
         2,
-        12
+        13
       ],
       "abilPool": [
         "Compiescolta",
@@ -2073,12 +2073,14 @@
       "Antiparalizador",
       "At. Esp. X 3",
       "Ataque X 2",
+      "Ataque X 3",
       "Baya Maranga",
       "Baya Pomaro",
       "Bola Férrea",
       "Bono Bici",
       "Corazón Dulce",
       "Cuerda Huida",
+      "Diamansfera",
       "Espray Bucal",
       "Fósil Hélix",
       "Gema Normal",
@@ -2125,6 +2127,7 @@
       "Tabla Mental",
       "Ticket Barco",
       "Tiraobjeto",
+      "Velocidad X",
       "Velocidad X 2",
       "Vial",
       "Zinc"
@@ -2217,6 +2220,12 @@
       {
         "id": "THUNDERSTONE",
         "name": "Piedra Trueno",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "ADAMANTORB",
+        "name": "Diamansfera",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -2445,6 +2454,18 @@
       {
         "id": "ITEMDROP",
         "name": "Tiraobjeto",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XATTACK3",
+        "name": "Ataque X 3",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XSPEED",
+        "name": "Velocidad X",
         "qty": 1,
         "pocket": "Objetos de combate"
       },
