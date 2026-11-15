@@ -4,11 +4,523 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 9m jugadas · 3,000₽ · vidas en el juego: 20",
-  "team": [],
+  "notes": "Importado del save · 0h 21m jugadas · 3,500₽ · vidas en el juego: 20",
+  "team": [
+    {
+      "nickname": "Tusmuertos",
+      "species": "Duskull",
+      "level": 7,
+      "types": [
+        "Fantasma"
+      ],
+      "ability": "Insonorizar",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Fachada",
+        "Acua Aro",
+        "Rabia",
+        "Mofa"
+      ],
+      "iv": [
+        21,
+        28,
+        24,
+        28,
+        23,
+        6
+      ],
+      "ev": [
+        0,
+        0,
+        1,
+        1,
+        3,
+        0
+      ],
+      "abilPool": [
+        "Insonorizar"
+      ],
+      "abilHidden": [
+        "Cura Natural"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Contraataque"
+        },
+        {
+          "lvl": 1,
+          "m": "Acua Aro"
+        },
+        {
+          "lvl": 1,
+          "m": "Rabia"
+        },
+        {
+          "lvl": 4,
+          "m": "Mofa"
+        },
+        {
+          "lvl": 8,
+          "m": "Viento Aciago"
+        },
+        {
+          "lvl": 12,
+          "m": "Vaho Gélido"
+        },
+        {
+          "lvl": 16,
+          "m": "Ciclón de Hojas"
+        },
+        {
+          "lvl": 20,
+          "m": "Purificación"
+        },
+        {
+          "lvl": 24,
+          "m": "Seducción"
+        },
+        {
+          "lvl": 25,
+          "m": "Defensa Férrea"
+        },
+        {
+          "lvl": 28,
+          "m": "Giro Rápido"
+        },
+        {
+          "lvl": 32,
+          "m": "Fuerza"
+        },
+        {
+          "lvl": 36,
+          "m": "Hipnosis"
+        },
+        {
+          "lvl": 40,
+          "m": "Chispa"
+        },
+        {
+          "lvl": 44,
+          "m": "Hidroariete"
+        }
+      ],
+      "firstMoves": [
+        "Fachada",
+        "Acua Aro",
+        "Rabia",
+        "Mofa"
+      ],
+      "spriteKey": "DUSKULL"
+    },
+    {
+      "nickname": "Kalewis",
+      "species": "Gastly",
+      "level": 6,
+      "types": [
+        "Fantasma",
+        "Veneno"
+      ],
+      "ability": "Torrente",
+      "nature": "Grosera",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Maldición",
+        "Hoja Afilada",
+        "Antojo",
+        "Homenaje Póstumo"
+      ],
+      "iv": [
+        3,
+        19,
+        8,
+        17,
+        21,
+        15
+      ],
+      "ev": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "abilPool": [
+        "Torrente"
+      ],
+      "abilHidden": [],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Maldición"
+        },
+        {
+          "lvl": 1,
+          "m": "Bramido Dragón"
+        },
+        {
+          "lvl": 4,
+          "m": "Homenaje Póstumo"
+        },
+        {
+          "lvl": 5,
+          "m": "Hoja Afilada"
+        },
+        {
+          "lvl": 8,
+          "m": "Escudo Tatami"
+        },
+        {
+          "lvl": 12,
+          "m": "Escupir"
+        },
+        {
+          "lvl": 16,
+          "m": "Conjuro"
+        },
+        {
+          "lvl": 20,
+          "m": "Telépata"
+        },
+        {
+          "lvl": 24,
+          "m": "Beso Amoroso"
+        },
+        {
+          "lvl": 28,
+          "m": "Piñón Auxiliar"
+        },
+        {
+          "lvl": 32,
+          "m": "Lanza Glacial"
+        },
+        {
+          "lvl": 36,
+          "m": "Corte"
+        },
+        {
+          "lvl": 40,
+          "m": "Bofetón Lodo"
+        },
+        {
+          "lvl": 44,
+          "m": "Buceo"
+        },
+        {
+          "lvl": 47,
+          "m": "Descanso"
+        },
+        {
+          "lvl": 48,
+          "m": "Onda Simple"
+        }
+      ],
+      "firstMoves": [
+        "Maldición",
+        "Bramido Dragón",
+        "Antojo"
+      ],
+      "spriteKey": "GASTLY"
+    },
+    {
+      "nickname": "Marica",
+      "species": "Hoppip",
+      "level": 5,
+      "types": [
+        "Planta",
+        "Volador"
+      ],
+      "ability": "Ignorante",
+      "nature": "Activa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Foco Energía",
+        "Fotosíntesis",
+        "Ataque Arena",
+        "Homenaje Póstumo"
+      ],
+      "iv": [
+        4,
+        28,
+        0,
+        19,
+        21,
+        27
+      ],
+      "ev": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Ignorante",
+        "Coránima"
+      ],
+      "abilHidden": [
+        "Cromolente"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Foco Energía"
+        },
+        {
+          "lvl": 1,
+          "m": "Fotosíntesis"
+        },
+        {
+          "lvl": 4,
+          "m": "Ataque Arena"
+        },
+        {
+          "lvl": 6,
+          "m": "Relajo"
+        },
+        {
+          "lvl": 8,
+          "m": "Cede Paso"
+        },
+        {
+          "lvl": 10,
+          "m": "Carga"
+        },
+        {
+          "lvl": 10,
+          "m": "Meteorobola"
+        },
+        {
+          "lvl": 10,
+          "m": "Danza Pluma"
+        },
+        {
+          "lvl": 10,
+          "m": "Arraigo"
+        },
+        {
+          "lvl": 12,
+          "m": "Agarrón"
+        },
+        {
+          "lvl": 15,
+          "m": "Esquirla Helada"
+        },
+        {
+          "lvl": 19,
+          "m": "Bostezo"
+        },
+        {
+          "lvl": 22,
+          "m": "Golpe Aéreo"
+        },
+        {
+          "lvl": 24,
+          "m": "Psicocambio"
+        },
+        {
+          "lvl": 27,
+          "m": "Onda Simple"
+        },
+        {
+          "lvl": 31,
+          "m": "Vuelo"
+        },
+        {
+          "lvl": 32,
+          "m": "Látigo Cepa"
+        },
+        {
+          "lvl": 35,
+          "m": "Velo Sagrado"
+        },
+        {
+          "lvl": 37,
+          "m": "Shuriken de Agua"
+        },
+        {
+          "lvl": 38,
+          "m": "Doble Ataque"
+        },
+        {
+          "lvl": 40,
+          "m": "Ataque Aéreo"
+        }
+      ],
+      "firstMoves": [
+        "Foco Energía",
+        "Fotosíntesis",
+        "Ataque Arena",
+        "Homenaje Póstumo"
+      ],
+      "spriteKey": "HOPPIP"
+    },
+    {
+      "nickname": "Tetorras",
+      "species": "Hippopotas",
+      "level": 5,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Olor Persistente",
+      "nature": "Cauta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Ataque Óseo",
+        "Bomba Fango",
+        "Arenas Ardientes"
+      ],
+      "iv": [
+        19,
+        22,
+        16,
+        25,
+        17,
+        0
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Olor Persistente"
+      ],
+      "abilHidden": [
+        "Velo arena"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Ataque Óseo"
+        },
+        {
+          "lvl": 1,
+          "m": "Bomba Fango"
+        },
+        {
+          "lvl": 4,
+          "m": "Arenas Ardientes"
+        },
+        {
+          "lvl": 8,
+          "m": "Terratemblor"
+        },
+        {
+          "lvl": 12,
+          "m": "Defensa Floral"
+        },
+        {
+          "lvl": 16,
+          "m": "Bucle Arena"
+        },
+        {
+          "lvl": 19,
+          "m": "Bálsamo Osado"
+        },
+        {
+          "lvl": 20,
+          "m": "Garra Umbría"
+        },
+        {
+          "lvl": 24,
+          "m": "Hueso Palo"
+        },
+        {
+          "lvl": 28,
+          "m": "Masa Cósmica"
+        },
+        {
+          "lvl": 32,
+          "m": "Magnitud"
+        },
+        {
+          "lvl": 36,
+          "m": "Cortina Plasma"
+        },
+        {
+          "lvl": 40,
+          "m": "Filo del Abismo"
+        },
+        {
+          "lvl": 44,
+          "m": "Patada Relámpago"
+        },
+        {
+          "lvl": 48,
+          "m": "Lanzamugre"
+        },
+        {
+          "lvl": 52,
+          "m": "Danza Caos"
+        }
+      ],
+      "firstMoves": [
+        "Ataque Óseo",
+        "Bomba Fango",
+        "Arenas Ardientes"
+      ],
+      "spriteKey": "HIPPOPOTAS"
+    }
+  ],
   "box": [],
   "graveyard": [],
-  "captures": [],
+  "captures": [
+    {
+      "route": "",
+      "where": "",
+      "species": "Duskull",
+      "nickname": "Tusmuertos",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Duskull"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Gastly",
+      "nickname": "Kalewis",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 3,
+      "mon": "Gastly"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Hoppip",
+      "nickname": "Marica",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 4,
+      "mon": "Hoppip"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Hippopotas",
+      "nickname": "Tetorras",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Hippopotas"
+    }
+  ],
   "progress": {
     "gyms": {},
     "bosses": {},
@@ -18,6 +530,13 @@
     "encounters": {},
     "switches": [
       48,
+      60,
+      61,
+      63,
+      66,
+      67,
+      68,
+      69,
       110,
       176,
       179,
@@ -29,19 +548,59 @@
       334
     ],
     "foundItems": [
+      "Piedra Trueno",
       "Poción",
-      "Reglamento"
+      "Poké Montura",
+      "Reglamento",
+      "Tabla Tóxica",
+      "Vial"
     ],
     "bag": [
       {
+        "id": "TOXICPLATE",
+        "name": "Tabla Tóxica",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "THUNDERSTONE",
+        "name": "Piedra Trueno",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "POTION",
         "name": "Poción",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Medicinas"
+      },
+      {
+        "id": "POKEBALL",
+        "name": "Poké Ball",
+        "qty": 3,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "GREATBALL",
+        "name": "Super Ball",
+        "qty": 8,
+        "pocket": "Poké Balls"
       },
       {
         "id": "RULEBOOK",
         "name": "Reglamento",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "VIAL",
+        "name": "Vial",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "POKERIDER",
+        "name": "Poké Montura",
         "qty": 1,
         "pocket": "Objetos clave"
       }
