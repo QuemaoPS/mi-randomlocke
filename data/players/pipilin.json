@@ -2,14 +2,14 @@
   "id": "pipilin",
   "name": "Pipilin23",
   "lives": 30,
-  "livesUsed": 0,
+  "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 0h 21m jugadas · 3,500₽ · vidas en el juego: 20",
+  "notes": "Importado del save · 0h 39m jugadas · 5,000₽ · vidas en el juego: 19",
   "team": [
     {
       "nickname": "Tusmuertos",
       "species": "Duskull",
-      "level": 7,
+      "level": 14,
       "types": [
         "Fantasma"
       ],
@@ -19,9 +19,9 @@
       "shiny": false,
       "moves": [
         "Fachada",
-        "Acua Aro",
+        "Vaho Gélido",
         "Rabia",
-        "Mofa"
+        "Viento Aciago"
       ],
       "iv": [
         21,
@@ -32,12 +32,12 @@
         6
       ],
       "ev": [
-        0,
-        0,
         1,
-        1,
+        2,
+        2,
+        2,
         3,
-        0
+        2
       ],
       "abilPool": [
         "Insonorizar"
@@ -118,7 +118,7 @@
     {
       "nickname": "Kalewis",
       "species": "Gastly",
-      "level": 6,
+      "level": 14,
       "types": [
         "Fantasma",
         "Veneno"
@@ -142,12 +142,12 @@
         15
       ],
       "ev": [
-        0,
-        0,
         1,
-        0,
+        2,
+        2,
         1,
-        0
+        1,
+        2
       ],
       "abilPool": [
         "Torrente"
@@ -229,7 +229,7 @@
     {
       "nickname": "Marica",
       "species": "Hoppip",
-      "level": 5,
+      "level": 14,
       "types": [
         "Planta",
         "Volador"
@@ -239,9 +239,9 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Foco Energía",
-        "Fotosíntesis",
-        "Ataque Arena",
+        "Meteorobola",
+        "Agarrón",
+        "Arraigo",
         "Homenaje Póstumo"
       ],
       "iv": [
@@ -253,12 +253,12 @@
         27
       ],
       "ev": [
-        0,
-        0,
+        1,
+        2,
+        2,
         1,
         0,
-        0,
-        0
+        2
       ],
       "abilPool": [
         "Ignorante",
@@ -364,7 +364,7 @@
     {
       "nickname": "Tetorras",
       "species": "Hippopotas",
-      "level": 5,
+      "level": 14,
       "types": [
         "Tierra"
       ],
@@ -375,7 +375,8 @@
       "moves": [
         "Ataque Óseo",
         "Bomba Fango",
-        "Arenas Ardientes"
+        "Arenas Ardientes",
+        "Terratemblor"
       ],
       "iv": [
         19,
@@ -386,12 +387,12 @@
         0
       ],
       "ev": [
+        1,
+        2,
+        1,
+        1,
         0,
-        0,
-        0,
-        0,
-        0,
-        0
+        2
       ],
       "abilPool": [
         "Olor Persistente"
@@ -471,10 +472,272 @@
         "Arenas Ardientes"
       ],
       "spriteKey": "HIPPOPOTAS"
+    },
+    {
+      "nickname": "ChupalaXavi",
+      "species": "Froakie",
+      "level": 14,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Amor Filial",
+      "nature": "Ingenua",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Triple Inmersión",
+        "Acua Aro",
+        "Cepo",
+        "Fitoimpulso"
+      ],
+      "iv": [
+        7,
+        13,
+        7,
+        2,
+        13,
+        29
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Amor Filial"
+      ],
+      "abilHidden": [
+        "Carga Cuark"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Furia"
+        },
+        {
+          "lvl": 1,
+          "m": "Acua Aro"
+        },
+        {
+          "lvl": 6,
+          "m": "Cepo"
+        },
+        {
+          "lvl": 7,
+          "m": "Fitoimpulso"
+        },
+        {
+          "lvl": 8,
+          "m": "Empapar"
+        },
+        {
+          "lvl": 10,
+          "m": "Triple Inmersión"
+        },
+        {
+          "lvl": 14,
+          "m": "Último Lugar"
+        },
+        {
+          "lvl": 18,
+          "m": "Hilo Venenoso"
+        },
+        {
+          "lvl": 21,
+          "m": "Torbellino"
+        },
+        {
+          "lvl": 25,
+          "m": "Salmuera"
+        },
+        {
+          "lvl": 25,
+          "m": "Malicioso"
+        },
+        {
+          "lvl": 29,
+          "m": "Doble Bofetón"
+        },
+        {
+          "lvl": 35,
+          "m": "Psicocambio"
+        },
+        {
+          "lvl": 39,
+          "m": "Rayo Meteórico"
+        },
+        {
+          "lvl": 43,
+          "m": "Tajo Acuático"
+        },
+        {
+          "lvl": 48,
+          "m": "Agua Lodosa"
+        }
+      ],
+      "firstMoves": [
+        "Furia",
+        "Acua Aro",
+        "Cepo",
+        "Fitoimpulso"
+      ],
+      "spriteKey": "FROAKIE"
     }
   ],
   "box": [],
-  "graveyard": [],
+  "graveyard": [
+    {
+      "nickname": "Elenita",
+      "species": "Skitty",
+      "level": 6,
+      "types": [
+        "Normal"
+      ],
+      "ability": "Pompa",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Onda Voltio",
+        "Chulería",
+        "Beso Dulce",
+        "Danza Amiga"
+      ],
+      "iv": [
+        12,
+        8,
+        2,
+        30,
+        21,
+        5
+      ],
+      "ev": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Pompa"
+      ],
+      "abilHidden": [
+        "Olor Persistente"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Cambio de Banda"
+        },
+        {
+          "lvl": 1,
+          "m": "Hidrochorro"
+        },
+        {
+          "lvl": 1,
+          "m": "Chulería"
+        },
+        {
+          "lvl": 4,
+          "m": "Beso Dulce"
+        },
+        {
+          "lvl": 4,
+          "m": "Danza Amiga"
+        },
+        {
+          "lvl": 7,
+          "m": "Defensa Floral"
+        },
+        {
+          "lvl": 10,
+          "m": "Bálsamo Osado"
+        },
+        {
+          "lvl": 13,
+          "m": "Conversión2"
+        },
+        {
+          "lvl": 15,
+          "m": "Telépata"
+        },
+        {
+          "lvl": 16,
+          "m": "Desarme"
+        },
+        {
+          "lvl": 18,
+          "m": "Cambiadefensa"
+        },
+        {
+          "lvl": 19,
+          "m": "Cambio de Cancha"
+        },
+        {
+          "lvl": 22,
+          "m": "Psicocorte"
+        },
+        {
+          "lvl": 22,
+          "m": "Psicoonda"
+        },
+        {
+          "lvl": 25,
+          "m": "Fanfarronear"
+        },
+        {
+          "lvl": 29,
+          "m": "Envidia ardiente"
+        },
+        {
+          "lvl": 31,
+          "m": "Luna Roja"
+        },
+        {
+          "lvl": 32,
+          "m": "Detección"
+        },
+        {
+          "lvl": 34,
+          "m": "Triple Golpe"
+        },
+        {
+          "lvl": 37,
+          "m": "Tinieblas"
+        },
+        {
+          "lvl": 40,
+          "m": "Testarazo"
+        },
+        {
+          "lvl": 43,
+          "m": "Semilladora"
+        },
+        {
+          "lvl": 46,
+          "m": "Restricción"
+        },
+        {
+          "lvl": 46,
+          "m": "Cura Floral"
+        }
+      ],
+      "firstMoves": [
+        "Onda Voltio",
+        "Chulería",
+        "Beso Dulce",
+        "Danza Amiga"
+      ],
+      "spriteKey": "SKITTY",
+      "cause": "",
+      "route": "",
+      "date": ""
+    }
+  ],
   "captures": [
     {
       "route": "",
@@ -519,6 +782,28 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Hippopotas"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Skitty",
+      "nickname": "Elenita",
+      "shiny": false,
+      "status": "dead",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Skitty"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Froakie",
+      "nickname": "ChupalaXavi",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 7,
+      "mon": "Froakie"
     }
   ],
   "progress": {
@@ -537,6 +822,8 @@
       67,
       68,
       69,
+      70,
+      71,
       110,
       176,
       179,
@@ -545,13 +832,16 @@
       182,
       183,
       323,
+      333,
       334
     ],
     "foundItems": [
+      "Corazón Dulce",
       "Piedra Trueno",
       "Poción",
       "Poké Montura",
       "Reglamento",
+      "Tabla Bicho",
       "Tabla Tóxica",
       "Vial"
     ],
@@ -569,21 +859,39 @@
         "pocket": "Objetos"
       },
       {
+        "id": "INSECTPLATE",
+        "name": "Tabla Bicho",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "POTION",
         "name": "Poción",
         "qty": 2,
         "pocket": "Medicinas"
       },
       {
-        "id": "POKEBALL",
-        "name": "Poké Ball",
-        "qty": 3,
-        "pocket": "Poké Balls"
+        "id": "RARECANDY",
+        "name": "Caramelo Raro",
+        "qty": 992,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "SWEETHEART",
+        "name": "Corazón Dulce",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "RARECANDY",
+        "name": "Caramelo Raro",
+        "qty": 168,
+        "pocket": "Medicinas"
       },
       {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 8,
+        "qty": 5,
         "pocket": "Poké Balls"
       },
       {
@@ -606,6 +914,8 @@
       }
     ]
   },
-  "deathLog": [],
+  "deathLog": [
+    "2089449744"
+  ],
   "revividos": 0
 }
