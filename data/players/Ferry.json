@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 4,
   "champion": false,
-  "notes": "Importado del save · 3h 3m jugadas · 37,760₽ · vidas en el juego: 16",
+  "notes": "Importado del save · 3h 7m jugadas · 34,760₽ · vidas en el juego: 16",
   "team": [
     {
       "nickname": "Rojazo",
@@ -34,7 +34,7 @@
       ],
       "ev": [
         7,
-        20,
+        21,
         8,
         6,
         4,
@@ -163,7 +163,7 @@
       ],
       "ev": [
         11,
-        22,
+        23,
         10,
         7,
         4,
@@ -279,7 +279,7 @@
       ],
       "ev": [
         11,
-        22,
+        23,
         10,
         7,
         4,
@@ -393,7 +393,7 @@
       ],
       "ev": [
         0,
-        0,
+        1,
         0,
         0,
         0,
@@ -477,7 +477,7 @@
       ],
       "ev": [
         6,
-        17,
+        18,
         6,
         5,
         2,
@@ -614,7 +614,7 @@
       ],
       "ev": [
         10,
-        16,
+        17,
         8,
         8,
         2,
@@ -1232,6 +1232,127 @@
         "Refuerzo"
       ],
       "spriteKey": "TANDEMAUS"
+    },
+    {
+      "nickname": "EscarbatGood",
+      "species": "Karrablast",
+      "level": 23,
+      "types": [
+        "Bicho"
+      ],
+      "ability": "Tumbos",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Amago",
+        "Fertilizante",
+        "Corpulencia",
+        "Telatrampa"
+      ],
+      "iv": [
+        20,
+        5,
+        24,
+        12,
+        22,
+        6
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Tumbos",
+        "Baba"
+      ],
+      "abilHidden": [
+        "Ímpetu Ardiente"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "A Defender"
+        },
+        {
+          "lvl": 1,
+          "m": "Rizo Defensa"
+        },
+        {
+          "lvl": 1,
+          "m": "Tormenta Arena"
+        },
+        {
+          "lvl": 4,
+          "m": "Respiro"
+        },
+        {
+          "lvl": 8,
+          "m": "Represalia"
+        },
+        {
+          "lvl": 12,
+          "m": "Maquinación"
+        },
+        {
+          "lvl": 16,
+          "m": "Fertilizante"
+        },
+        {
+          "lvl": 16,
+          "m": "Corpulencia"
+        },
+        {
+          "lvl": 20,
+          "m": "Telatrampa"
+        },
+        {
+          "lvl": 24,
+          "m": "Pin Misil"
+        },
+        {
+          "lvl": 28,
+          "m": "Acoso"
+        },
+        {
+          "lvl": 32,
+          "m": "Rayo Señal"
+        },
+        {
+          "lvl": 32,
+          "m": "Plancha"
+        },
+        {
+          "lvl": 36,
+          "m": "Polvo Explosivo"
+        },
+        {
+          "lvl": 40,
+          "m": "Patada Ígnea"
+        },
+        {
+          "lvl": 44,
+          "m": "Psíquico"
+        },
+        {
+          "lvl": 48,
+          "m": "Fuego Sagrado"
+        }
+      ],
+      "tmMoves": [
+        "Giro Mortífero"
+      ],
+      "firstMoves": [
+        "Amago",
+        "Fertilizante",
+        "Corpulencia",
+        "Telatrampa"
+      ],
+      "spriteKey": "KARRABLAST"
     }
   ],
   "graveyard": [
@@ -1858,6 +1979,17 @@
     {
       "route": "",
       "where": "",
+      "species": "Karrablast",
+      "nickname": "EscarbatGood",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 23,
+      "mon": "Karrablast"
+    },
+    {
+      "route": "",
+      "where": "",
       "species": "Tinkatink",
       "nickname": "QueFeo",
       "shiny": false,
@@ -1918,6 +2050,7 @@
       81,
       82,
       83,
+      84,
       110,
       121,
       138,
@@ -1931,7 +2064,10 @@
       185,
       238,
       323,
-      334
+      334,
+      363,
+      364,
+      365
     ],
     "foundItems": [
       "Antiparalizador",
@@ -1940,11 +2076,14 @@
       "Baya Maranga",
       "Baya Pomaro",
       "Bola Férrea",
+      "Bono Bici",
       "Corazón Dulce",
       "Cuerda Huida",
+      "Espray Bucal",
       "Fósil Hélix",
       "Gema Normal",
       "Incienso Lento",
+      "Llamasfera",
       "Máscara Horno",
       "Maxiseta",
       "Menta Alegre",
@@ -1952,6 +2091,7 @@
       "MO Golpe Roca",
       "Mochi Aguante",
       "Mochi Intelecto",
+      "MT05",
       "MT07",
       "MT101",
       "MT102",
@@ -1972,6 +2112,7 @@
       "Pico Afilado",
       "Piedra Eterna",
       "Piedra Hielo",
+      "Piedra Trueno",
       "Poción",
       "Poké Montura",
       "Precisión X 6",
@@ -2062,6 +2203,24 @@
         "pocket": "Objetos"
       },
       {
+        "id": "THROATSPRAY",
+        "name": "Espray Bucal",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "FLAMEORB",
+        "name": "Llamasfera",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "THUNDERSTONE",
+        "name": "Piedra Trueno",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "POTION",
         "name": "Poción",
         "qty": 3,
@@ -2136,7 +2295,7 @@
       {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 5,
+        "qty": 9,
         "pocket": "Poké Balls"
       },
       {
@@ -2144,6 +2303,12 @@
         "name": "Honor Ball",
         "qty": 1,
         "pocket": "Poké Balls"
+      },
+      {
+        "id": "TM05",
+        "name": "MT05",
+        "qty": 1,
+        "pocket": "MTs y MOs"
       },
       {
         "id": "TM07",
@@ -2322,6 +2487,12 @@
       {
         "id": "TICKETBARCO",
         "name": "Ticket Barco",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "BONOBICI",
+        "name": "Bono Bici",
         "qty": 1,
         "pocket": "Objetos clave"
       }
