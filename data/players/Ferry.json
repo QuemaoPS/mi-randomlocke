@@ -4,123 +4,8 @@
   "lives": 30,
   "livesUsed": 4,
   "champion": false,
-  "notes": "Importado del save · 3h 42m jugadas · 51,750₽ · vidas en el juego: 16",
+  "notes": "Importado del save · 3h 45m jugadas · 55,440₽ · vidas en el juego: 16",
   "team": [
-    {
-      "nickname": "Pedrusco",
-      "species": "Carkol",
-      "level": 39,
-      "types": [
-        "Roca",
-        "Fuego"
-      ],
-      "ability": "Ímpetu Arena",
-      "nature": "Audaz",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Rodar",
-        "Buena Baza",
-        "Lluvia Ígnea",
-        "Cepo"
-      ],
-      "iv": [
-        5,
-        25,
-        26,
-        21,
-        22,
-        11
-      ],
-      "ev": [
-        11,
-        27,
-        11,
-        8,
-        9,
-        21
-      ],
-      "abilPool": [
-        "Ímpetu Arena",
-        "Pelaje Recio"
-      ],
-      "abilHidden": [
-        "Escudo Magma"
-      ],
-      "learnset": [
-        {
-          "lvl": -1,
-          "m": "Descanso"
-        },
-        {
-          "lvl": 1,
-          "m": "Deseo"
-        },
-        {
-          "lvl": 1,
-          "m": "Vasta Guardia"
-        },
-        {
-          "lvl": 1,
-          "m": "Ascuas"
-        },
-        {
-          "lvl": 1,
-          "m": "Buena Baza"
-        },
-        {
-          "lvl": 15,
-          "m": "Cambio de Cancha"
-        },
-        {
-          "lvl": 20,
-          "m": "Giro Fuego"
-        },
-        {
-          "lvl": 27,
-          "m": "Cepo"
-        },
-        {
-          "lvl": 35,
-          "m": "Lluvia Ígnea"
-        },
-        {
-          "lvl": 41,
-          "m": "Fuerza"
-        },
-        {
-          "lvl": 48,
-          "m": "Disparo Demora"
-        },
-        {
-          "lvl": 55,
-          "m": "Carga Tóxica"
-        },
-        {
-          "lvl": 55,
-          "m": "Fuego Sagrado"
-        },
-        {
-          "lvl": 55,
-          "m": "Plegaria Lunar"
-        }
-      ],
-      "tmMoves": [
-        "Arenas Ardientes",
-        "Beso Drenaje",
-        "Beso Dulce",
-        "Giro Mortífero",
-        "Pirotecnia",
-        "Silbato",
-        "Voz Cautivadora"
-      ],
-      "firstMoves": [
-        "Deslome",
-        "Buena Baza",
-        "Barrera Espinosa"
-      ],
-      "spriteKey": "CARKOL"
-    },
     {
       "nickname": "Playmobil",
       "species": "Vibrava",
@@ -129,7 +14,7 @@
         "Tierra",
         "Dragón"
       ],
-      "ability": "",
+      "ability": "Veleta",
       "nature": "Tímida",
       "item": "",
       "shiny": false,
@@ -148,11 +33,11 @@
         10
       ],
       "ev": [
-        3,
-        5,
         4,
         5,
-        2,
+        4,
+        7,
+        4,
         8
       ],
       "abilPool": [
@@ -277,6 +162,121 @@
       "spriteKey": "VIBRAVA"
     },
     {
+      "nickname": "Pedrusco",
+      "species": "Carkol",
+      "level": 39,
+      "types": [
+        "Roca",
+        "Fuego"
+      ],
+      "ability": "Ímpetu Arena",
+      "nature": "Audaz",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Rodar",
+        "Buena Baza",
+        "Lluvia Ígnea",
+        "Cepo"
+      ],
+      "iv": [
+        5,
+        25,
+        26,
+        21,
+        22,
+        11
+      ],
+      "ev": [
+        12,
+        27,
+        11,
+        10,
+        11,
+        21
+      ],
+      "abilPool": [
+        "Ímpetu Arena",
+        "Pelaje Recio"
+      ],
+      "abilHidden": [
+        "Escudo Magma"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Descanso"
+        },
+        {
+          "lvl": 1,
+          "m": "Deseo"
+        },
+        {
+          "lvl": 1,
+          "m": "Vasta Guardia"
+        },
+        {
+          "lvl": 1,
+          "m": "Ascuas"
+        },
+        {
+          "lvl": 1,
+          "m": "Buena Baza"
+        },
+        {
+          "lvl": 15,
+          "m": "Cambio de Cancha"
+        },
+        {
+          "lvl": 20,
+          "m": "Giro Fuego"
+        },
+        {
+          "lvl": 27,
+          "m": "Cepo"
+        },
+        {
+          "lvl": 35,
+          "m": "Lluvia Ígnea"
+        },
+        {
+          "lvl": 41,
+          "m": "Fuerza"
+        },
+        {
+          "lvl": 48,
+          "m": "Disparo Demora"
+        },
+        {
+          "lvl": 55,
+          "m": "Carga Tóxica"
+        },
+        {
+          "lvl": 55,
+          "m": "Fuego Sagrado"
+        },
+        {
+          "lvl": 55,
+          "m": "Plegaria Lunar"
+        }
+      ],
+      "tmMoves": [
+        "Arenas Ardientes",
+        "Beso Drenaje",
+        "Beso Dulce",
+        "Giro Mortífero",
+        "Pirotecnia",
+        "Silbato",
+        "Voz Cautivadora"
+      ],
+      "firstMoves": [
+        "Deslome",
+        "Buena Baza",
+        "Barrera Espinosa"
+      ],
+      "spriteKey": "CARKOL"
+    },
+    {
       "nickname": "Rojazo",
       "species": "Talonflame",
       "level": 39,
@@ -284,7 +284,7 @@
         "Fuego",
         "Volador"
       ],
-      "ability": "",
+      "ability": "Funda",
       "nature": "Modesta",
       "item": "",
       "shiny": false,
@@ -303,11 +303,11 @@
         19
       ],
       "ev": [
-        7,
+        8,
         25,
         9,
-        7,
         9,
+        11,
         19
       ],
       "abilPool": [
@@ -432,11 +432,11 @@
         15
       ],
       "ev": [
-        0,
-        5,
-        1,
         1,
         5,
+        1,
+        3,
+        7,
         6
       ],
       "abilPool": [
@@ -516,11 +516,11 @@
         13
       ],
       "ev": [
-        6,
+        7,
         22,
         7,
-        6,
-        7,
+        8,
+        9,
         13
       ],
       "abilPool": [
@@ -653,11 +653,11 @@
         1
       ],
       "ev": [
-        10,
+        11,
         21,
         9,
+        11,
         9,
-        7,
         18
       ],
       "abilPool": [
@@ -2002,17 +2002,6 @@
     {
       "route": "",
       "where": "",
-      "species": "Carkol",
-      "nickname": "Pedrusco",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 5,
-      "mon": "Carkol"
-    },
-    {
-      "route": "",
-      "where": "",
       "species": "Vibrava",
       "nickname": "Playmobil",
       "shiny": false,
@@ -2020,6 +2009,17 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Vibrava"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Carkol",
+      "nickname": "Pedrusco",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Carkol"
     },
     {
       "route": "",
