@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 4,
   "champion": false,
-  "notes": "Importado del save · 3h 36m jugadas · 51,750₽ · vidas en el juego: 16",
+  "notes": "Importado del save · 3h 42m jugadas · 51,750₽ · vidas en el juego: 16",
   "team": [
     {
       "nickname": "Pedrusco",
       "species": "Carkol",
-      "level": 30,
+      "level": 39,
       "types": [
         "Roca",
         "Fuego"
@@ -21,7 +21,7 @@
       "moves": [
         "Rodar",
         "Buena Baza",
-        "Giro Fuego",
+        "Lluvia Ígnea",
         "Cepo"
       ],
       "iv": [
@@ -122,136 +122,176 @@
       "spriteKey": "CARKOL"
     },
     {
-      "nickname": "CobraKaiTU",
-      "species": "Kubfu",
-      "level": 30,
+      "nickname": "Playmobil",
+      "species": "Vibrava",
+      "level": 39,
       "types": [
-        "Lucha"
+        "Tierra",
+        "Dragón"
       ],
-      "ability": "Mano Rápida",
-      "nature": "Alocada",
+      "ability": "",
+      "nature": "Tímida",
       "item": "",
       "shiny": false,
       "moves": [
-        "Mandato",
-        "Ráfaga Escamas",
-        "Llave Vital",
-        "Doble Patada"
+        "Estímulo",
+        "Arenas Ardientes",
+        "Ascenso Draco",
+        "Recogearena"
       ],
       "iv": [
-        17,
-        29,
+        27,
         21,
-        18,
-        20,
-        1
+        4,
+        6,
+        14,
+        10
       ],
       "ev": [
-        11,
-        27,
-        11,
-        8,
-        9,
-        21
+        3,
+        5,
+        4,
+        5,
+        2,
+        8
       ],
       "abilPool": [
-        "Mano Rápida"
+        "Veleta"
       ],
       "abilHidden": [],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Restricción"
+          "lvl": -1,
+          "m": "Arenas Ardientes"
+        },
+        {
+          "lvl": -1,
+          "m": "Puño Jet"
+        },
+        {
+          "lvl": -1,
+          "m": "Púas"
+        },
+        {
+          "lvl": -1,
+          "m": "Motivación"
+        },
+        {
+          "lvl": -1,
+          "m": "Disparo Lodo"
+        },
+        {
+          "lvl": -1,
+          "m": "Terratemblor"
+        },
+        {
+          "lvl": -1,
+          "m": "Salpicadura"
         },
         {
           "lvl": 1,
-          "m": "Mandato"
-        },
-        {
-          "lvl": 4,
-          "m": "Destello"
-        },
-        {
-          "lvl": 8,
-          "m": "Pesadilla"
-        },
-        {
-          "lvl": 12,
-          "m": "Doble Patada"
-        },
-        {
-          "lvl": 16,
-          "m": "Empujón"
-        },
-        {
-          "lvl": 20,
-          "m": "Ráfaga Escamas"
-        },
-        {
-          "lvl": 24,
-          "m": "Foco"
-        },
-        {
-          "lvl": 28,
-          "m": "Llave Vital"
-        },
-        {
-          "lvl": 32,
-          "m": "Cabezazo Zen"
-        },
-        {
-          "lvl": 36,
           "m": "Viento Aciago"
         },
         {
-          "lvl": 40,
-          "m": "Triple Patada"
+          "lvl": 1,
+          "m": "Chapoteo Lodo"
+        },
+        {
+          "lvl": 1,
+          "m": "Maldición"
+        },
+        {
+          "lvl": 1,
+          "m": "Bofetón Lodo"
+        },
+        {
+          "lvl": 1,
+          "m": "Electrificación"
+        },
+        {
+          "lvl": 1,
+          "m": "Ataque Rápido"
+        },
+        {
+          "lvl": 12,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 16,
+          "m": "Telépata"
+        },
+        {
+          "lvl": 17,
+          "m": "Dragoaliento"
+        },
+        {
+          "lvl": 20,
+          "m": "Giro Vil"
+        },
+        {
+          "lvl": 24,
+          "m": "Ojos Llorosos"
+        },
+        {
+          "lvl": 25,
+          "m": "Polvo Ira"
+        },
+        {
+          "lvl": 28,
+          "m": "Ataque Óseo"
+        },
+        {
+          "lvl": 32,
+          "m": "Hoja Mágica"
+        },
+        {
+          "lvl": 38,
+          "m": "Alto Voltaje"
         },
         {
           "lvl": 44,
-          "m": "Plancha Voladora"
+          "m": "Arraigo"
         },
         {
-          "lvl": 48,
-          "m": "Autodestrucción"
+          "lvl": 49,
+          "m": "Confusión"
         },
         {
-          "lvl": 52,
-          "m": "Puño Certero"
+          "lvl": 50,
+          "m": "Magnitud"
+        },
+        {
+          "lvl": 56,
+          "m": "Reducción"
+        },
+        {
+          "lvl": 62,
+          "m": "Surf"
         }
       ],
-      "tmMoves": [
-        "Beso Drenaje",
-        "Embargo",
-        "Giro Mortífero",
-        "Pirotecnia",
-        "Silbato",
-        "Voz Cautivadora"
-      ],
       "firstMoves": [
-        "Mandato",
-        "Destello",
-        "Pesadilla",
-        "Doble Patada"
+        "Cerrojo Feérico",
+        "Ataque Óseo",
+        "Refuerzo"
       ],
-      "spriteKey": "KUBFU"
+      "spriteKey": "VIBRAVA"
     },
     {
       "nickname": "Rojazo",
-      "species": "Fletchinder",
-      "level": 30,
+      "species": "Talonflame",
+      "level": 39,
       "types": [
         "Fuego",
         "Volador"
       ],
-      "ability": "Cólera",
+      "ability": "",
       "nature": "Modesta",
       "item": "",
       "shiny": false,
       "moves": [
         "Hoja Afilada",
         "Recogearena",
-        "Clemencia",
+        "Vendaval",
         "Capa Mágica"
       ],
       "iv": [
@@ -271,92 +311,92 @@
         19
       ],
       "abilPool": [
-        "Cólera"
+        "Funda"
       ],
       "abilHidden": [
-        "Cacheo"
+        "Alerta"
       ],
       "learnset": [
         {
-          "lvl": -1,
-          "m": "Ataque Ala"
+          "lvl": 1,
+          "m": "Viento Afín"
         },
         {
           "lvl": 1,
-          "m": "Pikaturbo"
+          "m": "Pirotecnia"
         },
         {
           "lvl": 1,
-          "m": "Ojos Llorosos"
+          "m": "Respiro"
         },
         {
           "lvl": 1,
-          "m": "Última Palabra"
+          "m": "Truco Fuerza"
         },
         {
           "lvl": 1,
-          "m": "Alto Voltaje"
+          "m": "Hoja Mágica"
         },
         {
           "lvl": 1,
-          "m": "Masa Cósmica"
+          "m": "Sombra Vil"
         },
         {
           "lvl": 1,
-          "m": "Tinieblas"
+          "m": "Puño Bala"
+        },
+        {
+          "lvl": 1,
+          "m": "Aire Afilado"
         },
         {
           "lvl": 15,
-          "m": "Caída Libre"
+          "m": "Acua Aro"
         },
         {
           "lvl": 22,
-          "m": "Clemencia"
+          "m": "Rueda Fuego"
         },
         {
           "lvl": 27,
-          "m": "Trapicheo"
+          "m": "Manto Espejo"
         },
         {
           "lvl": 29,
-          "m": "Capa Mágica"
+          "m": "Cura Floral"
         },
         {
           "lvl": 31,
-          "m": "Cambio de Cancha"
+          "m": "Seducción"
         },
         {
-          "lvl": 36,
-          "m": "Vendaval"
+          "lvl": 38,
+          "m": "Juego Sucio"
         },
         {
-          "lvl": 43,
-          "m": "Mil Temblores"
+          "lvl": 47,
+          "m": "Alquitranazo"
         },
         {
-          "lvl": 46,
-          "m": "Nitrocarga"
+          "lvl": 49,
+          "m": "Remolino"
         },
         {
-          "lvl": 50,
-          "m": "Giro Mortífero"
+          "lvl": 56,
+          "m": "Puya Nociva"
         },
         {
-          "lvl": 57,
-          "m": "Doble Golpe"
+          "lvl": 65,
+          "m": "Rizo Algodón"
         },
         {
-          "lvl": 64,
-          "m": "Fotocolisión"
+          "lvl": 74,
+          "m": "Aguzar"
+        },
+        {
+          "lvl": 83,
+          "m": "Hipertaladro"
         }
-      ],
-      "tmMoves": [
-        "Afilar",
-        "Arenas Ardientes",
-        "Beso Drenaje",
-        "Cambiavelocidad",
-        "Pirotecnia",
-        "Voz Cautivadora"
       ],
       "firstMoves": [
         "Refuerzo",
@@ -364,12 +404,12 @@
         "Furia Natural",
         "Doble Bofetón"
       ],
-      "spriteKey": "FLETCHINDER"
+      "spriteKey": "TALONFLAME"
     },
     {
       "nickname": "Abascal",
       "species": "Wobbuffet",
-      "level": 30,
+      "level": 39,
       "types": [
         "Psíquico"
       ],
@@ -453,7 +493,7 @@
     {
       "nickname": "SeCreGuapa",
       "species": "Tsareena",
-      "level": 30,
+      "level": 39,
       "types": [
         "Planta"
       ],
@@ -464,7 +504,7 @@
       "moves": [
         "Arenas Ardientes",
         "Bomba Caramelo",
-        "Retracción",
+        "Electropico",
         "Espora"
       ],
       "iv": [
@@ -589,7 +629,7 @@
     {
       "nickname": "Badasssss",
       "species": "Toxtricity",
-      "level": 30,
+      "level": 39,
       "types": [
         "Eléctrico",
         "Veneno"
@@ -599,7 +639,7 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Eco Voz",
+        "Fuerza",
         "Arenas Ardientes",
         "Truco Fuerza",
         "Tambor"
@@ -765,132 +805,119 @@
   ],
   "box": [
     {
-      "nickname": "Playmobil",
-      "species": "Trapinch",
-      "level": 20,
+      "nickname": "CobraKaiTU",
+      "species": "Kubfu",
+      "level": 30,
       "types": [
-        "Tierra"
+        "Lucha"
       ],
-      "ability": "Piel Seca",
-      "nature": "Tímida",
+      "ability": "Mano Rápida",
+      "nature": "Alocada",
       "item": "",
       "shiny": false,
       "moves": [
-        "Estímulo",
-        "Arenas Ardientes",
-        "Punzada Rama",
-        "Recogearena"
+        "Mandato",
+        "Ráfaga Escamas",
+        "Llave Vital",
+        "Doble Patada"
       ],
       "iv": [
-        27,
+        17,
+        29,
         21,
-        4,
-        6,
-        14,
-        10
+        18,
+        20,
+        1
       ],
       "ev": [
-        3,
-        5,
-        4,
-        5,
-        2,
-        8
+        11,
+        27,
+        11,
+        8,
+        9,
+        21
       ],
       "abilPool": [
-        "Coránima",
-        "Piel Seca"
+        "Mano Rápida"
       ],
-      "abilHidden": [
-        "Espanto"
-      ],
+      "abilHidden": [],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Cerrojo Feérico"
+          "m": "Restricción"
         },
         {
           "lvl": 1,
-          "m": "Ataque Óseo"
+          "m": "Mandato"
         },
         {
           "lvl": 4,
-          "m": "Refuerzo"
-        },
-        {
-          "lvl": 7,
-          "m": "Recogearena"
+          "m": "Destello"
         },
         {
           "lvl": 8,
-          "m": "Manto Espejo"
+          "m": "Pesadilla"
         },
         {
           "lvl": 12,
-          "m": "Punzada Rama"
+          "m": "Doble Patada"
         },
         {
           "lvl": 16,
-          "m": "Estímulo"
-        },
-        {
-          "lvl": 17,
-          "m": "Arenas Ardientes"
+          "m": "Empujón"
         },
         {
           "lvl": 20,
-          "m": "Chirrido"
+          "m": "Ráfaga Escamas"
         },
         {
           "lvl": 24,
-          "m": "Bofetón Lodo"
-        },
-        {
-          "lvl": 25,
-          "m": "Bomba Fango"
+          "m": "Foco"
         },
         {
           "lvl": 28,
-          "m": "Disparo Lodo"
+          "m": "Llave Vital"
         },
         {
           "lvl": 32,
-          "m": "Huesomerang"
+          "m": "Cabezazo Zen"
         },
         {
           "lvl": 36,
-          "m": "Ascenso Draco"
+          "m": "Viento Aciago"
         },
         {
           "lvl": 40,
-          "m": "Poder Pasado"
+          "m": "Triple Patada"
         },
         {
           "lvl": 44,
-          "m": "Bruma Explosiva"
+          "m": "Plancha Voladora"
         },
         {
           "lvl": 48,
-          "m": "Danza Amiga"
+          "m": "Autodestrucción"
         },
         {
-          "lvl": 49,
-          "m": "Poder Reserva"
-        },
-        {
-          "lvl": 61,
-          "m": "Fertilizante"
+          "lvl": 52,
+          "m": "Puño Certero"
         }
       ],
       "tmMoves": [
-        "Beso Dulce"
+        "Beso Drenaje",
+        "Embargo",
+        "Giro Mortífero",
+        "Pirotecnia",
+        "Silbato",
+        "Voz Cautivadora"
       ],
       "firstMoves": [
-        "Cerrojo Feérico",
-        "Ataque Óseo",
-        "Refuerzo"
+        "Mandato",
+        "Destello",
+        "Pesadilla",
+        "Doble Patada"
       ],
-      "spriteKey": "TRAPINCH"
+      "spriteKey": "KUBFU"
     },
     {
       "nickname": "ModeloPutero",
@@ -1986,24 +2013,24 @@
     {
       "route": "",
       "where": "",
-      "species": "Kubfu",
-      "nickname": "CobraKaiTU",
+      "species": "Vibrava",
+      "nickname": "Playmobil",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 14,
-      "mon": "Kubfu"
+      "level": 5,
+      "mon": "Vibrava"
     },
     {
       "route": "",
       "where": "",
-      "species": "Fletchinder",
+      "species": "Talonflame",
       "nickname": "Rojazo",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
       "level": 15,
-      "mon": "Fletchinder"
+      "mon": "Talonflame"
     },
     {
       "route": "",
@@ -2052,13 +2079,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Trapinch",
-      "nickname": "Playmobil",
+      "species": "Kubfu",
+      "nickname": "CobraKaiTU",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 5,
-      "mon": "Trapinch"
+      "level": 14,
+      "mon": "Kubfu"
     },
     {
       "route": "",
@@ -2411,7 +2438,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 832,
+        "qty": 768,
         "pocket": "Medicinas"
       },
       {
