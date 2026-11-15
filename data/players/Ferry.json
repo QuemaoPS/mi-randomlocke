@@ -4,8 +4,238 @@
   "lives": 30,
   "livesUsed": 4,
   "champion": false,
-  "notes": "Importado del save · 3h 11m jugadas · 39,440₽ · vidas en el juego: 16",
+  "notes": "Importado del save · 3h 31m jugadas · 47,250₽ · vidas en el juego: 16",
   "team": [
+    {
+      "nickname": "Pedrusco",
+      "species": "Carkol",
+      "level": 30,
+      "types": [
+        "Roca",
+        "Fuego"
+      ],
+      "ability": "Ímpetu Arena",
+      "nature": "Audaz",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Rodar",
+        "Buena Baza",
+        "Giro Fuego",
+        "Cepo"
+      ],
+      "iv": [
+        5,
+        25,
+        26,
+        21,
+        22,
+        11
+      ],
+      "ev": [
+        11,
+        27,
+        11,
+        8,
+        8,
+        18
+      ],
+      "abilPool": [
+        "Ímpetu Arena",
+        "Pelaje Recio"
+      ],
+      "abilHidden": [
+        "Escudo Magma"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Descanso"
+        },
+        {
+          "lvl": 1,
+          "m": "Deseo"
+        },
+        {
+          "lvl": 1,
+          "m": "Vasta Guardia"
+        },
+        {
+          "lvl": 1,
+          "m": "Ascuas"
+        },
+        {
+          "lvl": 1,
+          "m": "Buena Baza"
+        },
+        {
+          "lvl": 15,
+          "m": "Cambio de Cancha"
+        },
+        {
+          "lvl": 20,
+          "m": "Giro Fuego"
+        },
+        {
+          "lvl": 27,
+          "m": "Cepo"
+        },
+        {
+          "lvl": 35,
+          "m": "Lluvia Ígnea"
+        },
+        {
+          "lvl": 41,
+          "m": "Fuerza"
+        },
+        {
+          "lvl": 48,
+          "m": "Disparo Demora"
+        },
+        {
+          "lvl": 55,
+          "m": "Carga Tóxica"
+        },
+        {
+          "lvl": 55,
+          "m": "Fuego Sagrado"
+        },
+        {
+          "lvl": 55,
+          "m": "Plegaria Lunar"
+        }
+      ],
+      "tmMoves": [
+        "Arenas Ardientes",
+        "Beso Drenaje",
+        "Beso Dulce",
+        "Giro Mortífero",
+        "Pirotecnia",
+        "Silbato",
+        "Voz Cautivadora"
+      ],
+      "firstMoves": [
+        "Deslome",
+        "Buena Baza",
+        "Barrera Espinosa"
+      ],
+      "spriteKey": "CARKOL"
+    },
+    {
+      "nickname": "CobraKaiTU",
+      "species": "Kubfu",
+      "level": 30,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "Mano Rápida",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Mandato",
+        "Ráfaga Escamas",
+        "Llave Vital",
+        "Doble Patada"
+      ],
+      "iv": [
+        17,
+        29,
+        21,
+        18,
+        20,
+        1
+      ],
+      "ev": [
+        11,
+        27,
+        11,
+        8,
+        8,
+        18
+      ],
+      "abilPool": [
+        "Mano Rápida"
+      ],
+      "abilHidden": [],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Restricción"
+        },
+        {
+          "lvl": 1,
+          "m": "Mandato"
+        },
+        {
+          "lvl": 4,
+          "m": "Destello"
+        },
+        {
+          "lvl": 8,
+          "m": "Pesadilla"
+        },
+        {
+          "lvl": 12,
+          "m": "Doble Patada"
+        },
+        {
+          "lvl": 16,
+          "m": "Empujón"
+        },
+        {
+          "lvl": 20,
+          "m": "Ráfaga Escamas"
+        },
+        {
+          "lvl": 24,
+          "m": "Foco"
+        },
+        {
+          "lvl": 28,
+          "m": "Llave Vital"
+        },
+        {
+          "lvl": 32,
+          "m": "Cabezazo Zen"
+        },
+        {
+          "lvl": 36,
+          "m": "Viento Aciago"
+        },
+        {
+          "lvl": 40,
+          "m": "Triple Patada"
+        },
+        {
+          "lvl": 44,
+          "m": "Plancha Voladora"
+        },
+        {
+          "lvl": 48,
+          "m": "Autodestrucción"
+        },
+        {
+          "lvl": 52,
+          "m": "Puño Certero"
+        }
+      ],
+      "tmMoves": [
+        "Beso Drenaje",
+        "Embargo",
+        "Giro Mortífero",
+        "Pirotecnia",
+        "Silbato",
+        "Voz Cautivadora"
+      ],
+      "firstMoves": [
+        "Mandato",
+        "Destello",
+        "Pesadilla",
+        "Doble Patada"
+      ],
+      "spriteKey": "KUBFU"
+    },
     {
       "nickname": "Rojazo",
       "species": "Fletchinder",
@@ -34,11 +264,11 @@
       ],
       "ev": [
         7,
-        23,
-        8,
+        25,
+        9,
         7,
-        4,
-        14
+        8,
+        16
       ],
       "abilPool": [
         "Cólera"
@@ -137,236 +367,6 @@
       "spriteKey": "FLETCHINDER"
     },
     {
-      "nickname": "CobraKaiTU",
-      "species": "Kubfu",
-      "level": 30,
-      "types": [
-        "Lucha"
-      ],
-      "ability": "Mano Rápida",
-      "nature": "Alocada",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Mandato",
-        "Ráfaga Escamas",
-        "Llave Vital",
-        "Doble Patada"
-      ],
-      "iv": [
-        17,
-        29,
-        21,
-        18,
-        20,
-        1
-      ],
-      "ev": [
-        11,
-        25,
-        10,
-        8,
-        4,
-        16
-      ],
-      "abilPool": [
-        "Mano Rápida"
-      ],
-      "abilHidden": [],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Restricción"
-        },
-        {
-          "lvl": 1,
-          "m": "Mandato"
-        },
-        {
-          "lvl": 4,
-          "m": "Destello"
-        },
-        {
-          "lvl": 8,
-          "m": "Pesadilla"
-        },
-        {
-          "lvl": 12,
-          "m": "Doble Patada"
-        },
-        {
-          "lvl": 16,
-          "m": "Empujón"
-        },
-        {
-          "lvl": 20,
-          "m": "Ráfaga Escamas"
-        },
-        {
-          "lvl": 24,
-          "m": "Foco"
-        },
-        {
-          "lvl": 28,
-          "m": "Llave Vital"
-        },
-        {
-          "lvl": 32,
-          "m": "Cabezazo Zen"
-        },
-        {
-          "lvl": 36,
-          "m": "Viento Aciago"
-        },
-        {
-          "lvl": 40,
-          "m": "Triple Patada"
-        },
-        {
-          "lvl": 44,
-          "m": "Plancha Voladora"
-        },
-        {
-          "lvl": 48,
-          "m": "Autodestrucción"
-        },
-        {
-          "lvl": 52,
-          "m": "Puño Certero"
-        }
-      ],
-      "tmMoves": [
-        "Beso Drenaje",
-        "Embargo",
-        "Giro Mortífero",
-        "Pirotecnia",
-        "Silbato",
-        "Voz Cautivadora"
-      ],
-      "firstMoves": [
-        "Mandato",
-        "Destello",
-        "Pesadilla",
-        "Doble Patada"
-      ],
-      "spriteKey": "KUBFU"
-    },
-    {
-      "nickname": "Pedrusco",
-      "species": "Carkol",
-      "level": 30,
-      "types": [
-        "Roca",
-        "Fuego"
-      ],
-      "ability": "Ímpetu Arena",
-      "nature": "Audaz",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Rodar",
-        "Buena Baza",
-        "Giro Fuego",
-        "Cepo"
-      ],
-      "iv": [
-        5,
-        25,
-        26,
-        21,
-        22,
-        11
-      ],
-      "ev": [
-        11,
-        25,
-        10,
-        8,
-        4,
-        16
-      ],
-      "abilPool": [
-        "Ímpetu Arena",
-        "Pelaje Recio"
-      ],
-      "abilHidden": [
-        "Escudo Magma"
-      ],
-      "learnset": [
-        {
-          "lvl": -1,
-          "m": "Descanso"
-        },
-        {
-          "lvl": 1,
-          "m": "Deseo"
-        },
-        {
-          "lvl": 1,
-          "m": "Vasta Guardia"
-        },
-        {
-          "lvl": 1,
-          "m": "Ascuas"
-        },
-        {
-          "lvl": 1,
-          "m": "Buena Baza"
-        },
-        {
-          "lvl": 15,
-          "m": "Cambio de Cancha"
-        },
-        {
-          "lvl": 20,
-          "m": "Giro Fuego"
-        },
-        {
-          "lvl": 27,
-          "m": "Cepo"
-        },
-        {
-          "lvl": 35,
-          "m": "Lluvia Ígnea"
-        },
-        {
-          "lvl": 41,
-          "m": "Fuerza"
-        },
-        {
-          "lvl": 48,
-          "m": "Disparo Demora"
-        },
-        {
-          "lvl": 55,
-          "m": "Carga Tóxica"
-        },
-        {
-          "lvl": 55,
-          "m": "Fuego Sagrado"
-        },
-        {
-          "lvl": 55,
-          "m": "Plegaria Lunar"
-        }
-      ],
-      "tmMoves": [
-        "Arenas Ardientes",
-        "Beso Drenaje",
-        "Beso Dulce",
-        "Giro Mortífero",
-        "Pirotecnia",
-        "Silbato",
-        "Voz Cautivadora"
-      ],
-      "firstMoves": [
-        "Deslome",
-        "Buena Baza",
-        "Barrera Espinosa"
-      ],
-      "spriteKey": "CARKOL"
-    },
-    {
       "nickname": "Abascal",
       "species": "Wobbuffet",
       "level": 30,
@@ -393,11 +393,11 @@
       ],
       "ev": [
         0,
-        3,
-        0,
+        5,
         1,
-        0,
-        1
+        1,
+        4,
+        3
       ],
       "abilPool": [
         "Hospitalidad"
@@ -477,11 +477,11 @@
       ],
       "ev": [
         6,
-        20,
+        22,
+        7,
         6,
         6,
-        2,
-        8
+        10
       ],
       "abilPool": [
         "Torrente",
@@ -614,11 +614,11 @@
       ],
       "ev": [
         10,
-        19,
-        8,
+        21,
         9,
-        2,
-        13
+        9,
+        6,
+        15
       ],
       "abilPool": [
         "Compiescolta",
@@ -1353,6 +1353,123 @@
         "Telatrampa"
       ],
       "spriteKey": "KARRABLAST"
+    },
+    {
+      "nickname": "Gorditoooooo",
+      "species": "Stufful",
+      "level": 21,
+      "types": [
+        "Normal",
+        "Lucha"
+      ],
+      "ability": "Espejo Mágico",
+      "nature": "Alegre",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Poder Reserva",
+        "Supersónico",
+        "Confidencia",
+        "Danza Caos"
+      ],
+      "iv": [
+        31,
+        7,
+        22,
+        3,
+        10,
+        24
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Espejo Mágico"
+      ],
+      "abilHidden": [
+        "Absorbe Fuego"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Recuperación"
+        },
+        {
+          "lvl": 1,
+          "m": "Cambiadefensa"
+        },
+        {
+          "lvl": 4,
+          "m": "Burbuja"
+        },
+        {
+          "lvl": 8,
+          "m": "Alquitranazo"
+        },
+        {
+          "lvl": 10,
+          "m": "Telépata"
+        },
+        {
+          "lvl": 12,
+          "m": "Paralizador"
+        },
+        {
+          "lvl": 14,
+          "m": "Supersónico"
+        },
+        {
+          "lvl": 16,
+          "m": "Confidencia"
+        },
+        {
+          "lvl": 20,
+          "m": "Danza Caos"
+        },
+        {
+          "lvl": 24,
+          "m": "Venganza"
+        },
+        {
+          "lvl": 28,
+          "m": "Restricción"
+        },
+        {
+          "lvl": 32,
+          "m": "Beso Dulce"
+        },
+        {
+          "lvl": 36,
+          "m": "Cascabel Cura"
+        },
+        {
+          "lvl": 40,
+          "m": "Amnesia"
+        },
+        {
+          "lvl": 44,
+          "m": "Plegaria Vital"
+        },
+        {
+          "lvl": 48,
+          "m": "Pantalla de Luz"
+        }
+      ],
+      "tmMoves": [
+        "Giro Mortífero"
+      ],
+      "firstMoves": [
+        "Poder Reserva",
+        "Supersónico",
+        "Confidencia",
+        "Danza Caos"
+      ],
+      "spriteKey": "STUFFUL"
     }
   ],
   "graveyard": [
@@ -1858,13 +1975,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Fletchinder",
-      "nickname": "Rojazo",
+      "species": "Carkol",
+      "nickname": "Pedrusco",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 15,
-      "mon": "Fletchinder"
+      "level": 5,
+      "mon": "Carkol"
     },
     {
       "route": "",
@@ -1880,13 +1997,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Carkol",
-      "nickname": "Pedrusco",
+      "species": "Fletchinder",
+      "nickname": "Rojazo",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 5,
-      "mon": "Carkol"
+      "level": 15,
+      "mon": "Fletchinder"
     },
     {
       "route": "",
@@ -2019,6 +2136,17 @@
       "category": "estatico_regalo",
       "level": 7,
       "mon": "Drizzile"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Stufful",
+      "nickname": "Gorditoooooo",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 21,
+      "mon": "Stufful"
     }
   ],
   "progress": {
@@ -2051,9 +2179,15 @@
       82,
       83,
       84,
+      85,
+      86,
+      87,
+      88,
+      89,
       110,
       121,
       138,
+      152,
       176,
       179,
       180,
@@ -2083,13 +2217,18 @@
       "Diamansfera",
       "Espray Bucal",
       "Fósil Hélix",
+      "Gema Dragón",
       "Gema Normal",
+      "Gran Griseosfera",
       "Incienso Lento",
       "Llamasfera",
       "Máscara Horno",
       "Maxiseta",
       "Menta Alegre",
       "Menta Cauta",
+      "Menta Pícara",
+      "MO Corte",
+      "MO Destello",
       "MO Golpe Roca",
       "Mochi Aguante",
       "Mochi Intelecto",
@@ -2098,15 +2237,20 @@
       "MT101",
       "MT102",
       "MT104",
+      "MT120",
       "MT15",
       "MT18",
       "MT38",
       "MT39",
+      "MT42",
       "MT43",
       "MT46",
       "MT47",
       "MT48",
       "MT51",
+      "MT52",
+      "MT68",
+      "MT78",
       "MT81",
       "MT85",
       "Ocaso Ball",
@@ -2125,6 +2269,7 @@
       "Swiftfeather",
       "Tabla Helada",
       "Tabla Mental",
+      "Tela Terrible",
       "Ticket Barco",
       "Tiraobjeto",
       "Velocidad X",
@@ -2230,6 +2375,24 @@
         "pocket": "Objetos"
       },
       {
+        "id": "GRISEOUSCORE",
+        "name": "Gran Griseosfera",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "DRAGONGEM",
+        "name": "Gema Dragón",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "REAPERCLOTH",
+        "name": "Tela Terrible",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "POTION",
         "name": "Poción",
         "qty": 3,
@@ -2290,6 +2453,12 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "NAUGHTYMINT",
+        "name": "Menta Pícara",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "DUSKBALL",
         "name": "Ocaso Ball",
         "qty": 2,
@@ -2304,7 +2473,7 @@
       {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 9,
+        "qty": 8,
         "pocket": "Poké Balls"
       },
       {
@@ -2350,6 +2519,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM42",
+        "name": "MT42",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM43",
         "name": "MT43",
         "qty": 1,
@@ -2380,6 +2555,24 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM52",
+        "name": "MT52",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM68",
+        "name": "MT68",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM78",
+        "name": "MT78",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM81",
         "name": "MT81",
         "qty": 1,
@@ -2406,6 +2599,12 @@
       {
         "id": "TM104",
         "name": "MT104",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM120",
+        "name": "MT120",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -2514,6 +2713,18 @@
       {
         "id": "BONOBICI",
         "name": "Bono Bici",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "FLASHITEM",
+        "name": "MO Destello",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "CUTITEM",
+        "name": "MO Corte",
         "qty": 1,
         "pocket": "Objetos clave"
       }
