@@ -2,9 +2,9 @@
   "id": "Zep",
   "name": "Susi",
   "lives": 30,
-  "livesUsed": 9,
+  "livesUsed": 11,
   "champion": false,
-  "notes": "Importado del save · 15h 19m jugadas · 106,830₽ · vidas en el juego: 11",
+  "notes": "Importado del save · 16h 1m jugadas · 145,120₽ · vidas en el juego: 9",
   "team": [
     {
       "nickname": "Sami Deluxe",
@@ -33,12 +33,12 @@
         17
       ],
       "ev": [
-        18,
-        37,
-        25,
-        17,
-        13,
-        22
+        26,
+        44,
+        36,
+        19,
+        19,
+        24
       ],
       "abilPool": [
         "Chorro Arena",
@@ -206,12 +206,12 @@
         22
       ],
       "ev": [
+        30,
+        47,
+        37,
+        20,
         22,
-        40,
-        26,
-        18,
-        16,
-        22
+        24
       ],
       "abilPool": [
         "Velo arena",
@@ -325,144 +325,135 @@
       "spriteKey": "BISHARP"
     },
     {
-      "nickname": "taboun",
-      "species": "Hippowdon",
+      "nickname": "Gordo",
+      "species": "Gurdurr",
       "level": 39,
       "types": [
-        "Tierra"
+        "Lucha"
       ],
-      "ability": "Albino",
-      "nature": "Miedosa",
+      "ability": "Defensa Hoja",
+      "nature": "Fuerte",
       "item": "",
       "shiny": false,
       "moves": [
-        "Llave Vital",
-        "Bola Hielo",
-        "Mil Temblores",
+        "Puño Incremento",
+        "Giro Bola",
+        "Puya Nociva",
         "Roca Veloz"
       ],
       "iv": [
-        25,
-        9,
-        20,
-        3,
-        15,
-        22
+        19,
+        28,
+        0,
+        1,
+        21,
+        17
       ],
       "ev": [
-        34,
-        58,
-        42,
-        27,
-        25,
-        38
+        6,
+        5,
+        9,
+        2,
+        5,
+        2
       ],
       "abilPool": [
-        "Albino"
+        "Defensa Hoja",
+        "Anticipación"
       ],
       "abilHidden": [
-        "Velo Flor"
+        "Alerta"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Rayo Carga"
+          "m": "Puño Incremento"
         },
         {
           "lvl": 1,
-          "m": "Barrera"
+          "m": "Giro Bola"
         },
         {
           "lvl": 1,
-          "m": "Canto"
+          "m": "Autosugestión"
         },
         {
           "lvl": 1,
-          "m": "Sísmico"
+          "m": "Danza Aleteo"
         },
         {
           "lvl": 1,
-          "m": "Constricción"
-        },
-        {
-          "lvl": 1,
-          "m": "Rompecoraza"
-        },
-        {
-          "lvl": 1,
-          "m": "Magnitud"
+          "m": "Patada Baja"
         },
         {
           "lvl": 12,
-          "m": "Arenas Ardientes"
+          "m": "Llanto Falso"
         },
         {
           "lvl": 16,
-          "m": "Bofetón Lodo"
-        },
-        {
-          "lvl": 19,
-          "m": "Torbellino"
+          "m": "Celebración"
         },
         {
           "lvl": 20,
-          "m": "Doble Golpe"
+          "m": "Remolino"
+        },
+        {
+          "lvl": 20,
+          "m": "Triple Patada"
         },
         {
           "lvl": 24,
-          "m": "Ataque Óseo"
+          "m": "Golpe Roca"
         },
         {
-          "lvl": 28,
-          "m": "Fertilizante"
+          "lvl": 24,
+          "m": "Placaje"
         },
         {
-          "lvl": 32,
-          "m": "Anulación"
+          "lvl": 30,
+          "m": "Legado"
         },
         {
-          "lvl": 38,
-          "m": "Mil Temblores"
+          "lvl": 36,
+          "m": "Pulpocañón"
         },
         {
-          "lvl": 44,
-          "m": "Batería Asalto"
+          "lvl": 42,
+          "m": "Sincrorruido"
         },
         {
-          "lvl": 50,
-          "m": "Pikaturbo"
+          "lvl": 48,
+          "m": "Cepo"
         },
         {
-          "lvl": 56,
-          "m": "Vapodrenaje"
+          "lvl": 54,
+          "m": "Armadura Ácida"
         },
         {
-          "lvl": 62,
-          "m": "Metrónomo"
+          "lvl": 60,
+          "m": "Puntapié"
         }
       ],
       "tmMoves": [
-        "Ataque Óseo",
-        "Barrera",
-        "Celebración",
-        "Corte",
+        "Canto",
+        "Clavo Cañón",
         "Daño Secreto",
-        "Defensa Férrea",
         "Desarme",
-        "Doble Ataque",
-        "Giro Bola",
+        "Escupir",
+        "Golpe Bajo",
         "Puya Nociva",
+        "Reciclaje",
         "Roca Veloz",
-        "Trampa Rocas",
-        "Transformación",
-        "Trapicheo"
+        "Trapicheo",
+        "Vasta Guardia"
       ],
       "firstMoves": [
-        "Día Soleado",
-        "Cambiadefensa",
-        "Bucle Arena"
+        "Remolino",
+        "Triple Patada",
+        "Golpe Roca",
+        "Placaje"
       ],
-      "spriteKey": "HIPPOWDON"
+      "spriteKey": "GURDURR"
     },
     {
       "nickname": "Hector",
@@ -491,12 +482,12 @@
         26
       ],
       "ev": [
-        36,
-        58,
         44,
-        27,
-        25,
-        38
+        65,
+        55,
+        29,
+        31,
+        40
       ],
       "abilPool": [
         "Unísono",
@@ -627,149 +618,6 @@
       "spriteKey": "VENOMOTH"
     },
     {
-      "nickname": "Slaaaaim",
-      "species": "Marowak (Alola)",
-      "level": 39,
-      "types": [
-        "Fuego",
-        "Fantasma"
-      ],
-      "ability": "Rompeaura",
-      "nature": "Serena",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Desarme",
-        "Pirotecnia",
-        "Ráfaga Escamas",
-        "Golpe Roca"
-      ],
-      "iv": [
-        12,
-        25,
-        25,
-        27,
-        22,
-        7
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Rompeaura",
-        "Viscosecreción"
-      ],
-      "abilHidden": [
-        "Espanto"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Giro Bola"
-        },
-        {
-          "lvl": 1,
-          "m": "Bomba Ácida"
-        },
-        {
-          "lvl": 1,
-          "m": "Onda Simple"
-        },
-        {
-          "lvl": 1,
-          "m": "Golpe Roca"
-        },
-        {
-          "lvl": 3,
-          "m": "Viento Aciago"
-        },
-        {
-          "lvl": 7,
-          "m": "Polvo Ira"
-        },
-        {
-          "lvl": 11,
-          "m": "Ráfaga Escamas"
-        },
-        {
-          "lvl": 13,
-          "m": "Doble Equipo"
-        },
-        {
-          "lvl": 17,
-          "m": "Pirotecnia"
-        },
-        {
-          "lvl": 20,
-          "m": "Falso Tortazo"
-        },
-        {
-          "lvl": 21,
-          "m": "Refugio"
-        },
-        {
-          "lvl": 23,
-          "m": "Tormento"
-        },
-        {
-          "lvl": 27,
-          "m": "Danza Aleteo"
-        },
-        {
-          "lvl": 33,
-          "m": "Reflejo"
-        },
-        {
-          "lvl": 43,
-          "m": "Puño Meteoro"
-        },
-        {
-          "lvl": 49,
-          "m": "Amnesia"
-        },
-        {
-          "lvl": 53,
-          "m": "Espabila"
-        },
-        {
-          "lvl": 59,
-          "m": "Tajo Cruzado"
-        },
-        {
-          "lvl": 65,
-          "m": "Pugnachoque"
-        }
-      ],
-      "tmMoves": [
-        "Camaradería",
-        "Celebración",
-        "Corte",
-        "Desarme",
-        "Escudo Real",
-        "Llama Protectora",
-        "Moflete Estático",
-        "Represalia",
-        "Shuriken de Agua",
-        "Tormenta Arena",
-        "Trampa Rocas",
-        "Vasta Guardia",
-        "Viento Plata"
-      ],
-      "firstMoves": [
-        "Ladrón",
-        "Tormento",
-        "Danza Aleteo",
-        "Reflejo"
-      ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10115.png",
-      "spriteKey": "MAROWAK_1"
-    },
-    {
       "nickname": "Cheke",
       "species": "Drifblim",
       "level": 39,
@@ -796,12 +644,12 @@
         14
       ],
       "ev": [
-        4,
-        18,
-        17,
-        6,
-        6,
-        8
+        12,
+        25,
+        28,
+        8,
+        12,
+        10
       ],
       "abilPool": [
         "Fuerza Cerebral",
@@ -2321,127 +2169,6 @@
       "spriteKey": "GALVANTULA"
     },
     {
-      "nickname": "Gordo",
-      "species": "Gurdurr",
-      "level": 39,
-      "types": [
-        "Lucha"
-      ],
-      "ability": "Defensa Hoja",
-      "nature": "Fuerte",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Remolino",
-        "Triple Patada",
-        "Golpe Roca",
-        "Placaje"
-      ],
-      "iv": [
-        19,
-        28,
-        0,
-        1,
-        21,
-        17
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Defensa Hoja",
-        "Anticipación"
-      ],
-      "abilHidden": [
-        "Alerta"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Puño Incremento"
-        },
-        {
-          "lvl": 1,
-          "m": "Giro Bola"
-        },
-        {
-          "lvl": 1,
-          "m": "Autosugestión"
-        },
-        {
-          "lvl": 1,
-          "m": "Danza Aleteo"
-        },
-        {
-          "lvl": 1,
-          "m": "Patada Baja"
-        },
-        {
-          "lvl": 12,
-          "m": "Llanto Falso"
-        },
-        {
-          "lvl": 16,
-          "m": "Celebración"
-        },
-        {
-          "lvl": 20,
-          "m": "Remolino"
-        },
-        {
-          "lvl": 20,
-          "m": "Triple Patada"
-        },
-        {
-          "lvl": 24,
-          "m": "Golpe Roca"
-        },
-        {
-          "lvl": 24,
-          "m": "Placaje"
-        },
-        {
-          "lvl": 30,
-          "m": "Legado"
-        },
-        {
-          "lvl": 36,
-          "m": "Pulpocañón"
-        },
-        {
-          "lvl": 42,
-          "m": "Sincrorruido"
-        },
-        {
-          "lvl": 48,
-          "m": "Cepo"
-        },
-        {
-          "lvl": 54,
-          "m": "Armadura Ácida"
-        },
-        {
-          "lvl": 60,
-          "m": "Puntapié"
-        }
-      ],
-      "tmMoves": [
-        "Clavo Cañón"
-      ],
-      "firstMoves": [
-        "Remolino",
-        "Triple Patada",
-        "Golpe Roca",
-        "Placaje"
-      ],
-      "spriteKey": "GURDURR"
-    },
-    {
       "nickname": "Eelektrik",
       "species": "Eelektrik",
       "level": 27,
@@ -2655,6 +2382,295 @@
     }
   ],
   "graveyard": [
+    {
+      "nickname": "Slaaaaim",
+      "species": "Marowak (Alola)",
+      "level": 39,
+      "types": [
+        "Fuego",
+        "Fantasma"
+      ],
+      "ability": "Rompeaura",
+      "nature": "Serena",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Desarme",
+        "Pirotecnia",
+        "Ráfaga Escamas",
+        "Golpe Roca"
+      ],
+      "iv": [
+        12,
+        25,
+        25,
+        27,
+        22,
+        7
+      ],
+      "ev": [
+        8,
+        7,
+        11,
+        2,
+        3,
+        0
+      ],
+      "abilPool": [
+        "Rompeaura",
+        "Viscosecreción"
+      ],
+      "abilHidden": [
+        "Espanto"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Giro Bola"
+        },
+        {
+          "lvl": 1,
+          "m": "Bomba Ácida"
+        },
+        {
+          "lvl": 1,
+          "m": "Onda Simple"
+        },
+        {
+          "lvl": 1,
+          "m": "Golpe Roca"
+        },
+        {
+          "lvl": 3,
+          "m": "Viento Aciago"
+        },
+        {
+          "lvl": 7,
+          "m": "Polvo Ira"
+        },
+        {
+          "lvl": 11,
+          "m": "Ráfaga Escamas"
+        },
+        {
+          "lvl": 13,
+          "m": "Doble Equipo"
+        },
+        {
+          "lvl": 17,
+          "m": "Pirotecnia"
+        },
+        {
+          "lvl": 20,
+          "m": "Falso Tortazo"
+        },
+        {
+          "lvl": 21,
+          "m": "Refugio"
+        },
+        {
+          "lvl": 23,
+          "m": "Tormento"
+        },
+        {
+          "lvl": 27,
+          "m": "Danza Aleteo"
+        },
+        {
+          "lvl": 33,
+          "m": "Reflejo"
+        },
+        {
+          "lvl": 43,
+          "m": "Puño Meteoro"
+        },
+        {
+          "lvl": 49,
+          "m": "Amnesia"
+        },
+        {
+          "lvl": 53,
+          "m": "Espabila"
+        },
+        {
+          "lvl": 59,
+          "m": "Tajo Cruzado"
+        },
+        {
+          "lvl": 65,
+          "m": "Pugnachoque"
+        }
+      ],
+      "tmMoves": [
+        "Camaradería",
+        "Celebración",
+        "Corte",
+        "Desarme",
+        "Escudo Real",
+        "Llama Protectora",
+        "Moflete Estático",
+        "Represalia",
+        "Shuriken de Agua",
+        "Tormenta Arena",
+        "Trampa Rocas",
+        "Vasta Guardia",
+        "Viento Plata"
+      ],
+      "firstMoves": [
+        "Ladrón",
+        "Tormento",
+        "Danza Aleteo",
+        "Reflejo"
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10115.png",
+      "spriteKey": "MAROWAK_1",
+      "cause": "",
+      "route": "",
+      "date": ""
+    },
+    {
+      "nickname": "taboun",
+      "species": "Hippowdon",
+      "level": 39,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Albino",
+      "nature": "Miedosa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Llave Vital",
+        "Bola Hielo",
+        "Mil Temblores",
+        "Roca Veloz"
+      ],
+      "iv": [
+        25,
+        9,
+        20,
+        3,
+        15,
+        22
+      ],
+      "ev": [
+        36,
+        58,
+        44,
+        27,
+        26,
+        38
+      ],
+      "abilPool": [
+        "Albino"
+      ],
+      "abilHidden": [
+        "Velo Flor"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Rayo Carga"
+        },
+        {
+          "lvl": 1,
+          "m": "Barrera"
+        },
+        {
+          "lvl": 1,
+          "m": "Canto"
+        },
+        {
+          "lvl": 1,
+          "m": "Sísmico"
+        },
+        {
+          "lvl": 1,
+          "m": "Constricción"
+        },
+        {
+          "lvl": 1,
+          "m": "Rompecoraza"
+        },
+        {
+          "lvl": 1,
+          "m": "Magnitud"
+        },
+        {
+          "lvl": 12,
+          "m": "Arenas Ardientes"
+        },
+        {
+          "lvl": 16,
+          "m": "Bofetón Lodo"
+        },
+        {
+          "lvl": 19,
+          "m": "Torbellino"
+        },
+        {
+          "lvl": 20,
+          "m": "Doble Golpe"
+        },
+        {
+          "lvl": 24,
+          "m": "Ataque Óseo"
+        },
+        {
+          "lvl": 28,
+          "m": "Fertilizante"
+        },
+        {
+          "lvl": 32,
+          "m": "Anulación"
+        },
+        {
+          "lvl": 38,
+          "m": "Mil Temblores"
+        },
+        {
+          "lvl": 44,
+          "m": "Batería Asalto"
+        },
+        {
+          "lvl": 50,
+          "m": "Pikaturbo"
+        },
+        {
+          "lvl": 56,
+          "m": "Vapodrenaje"
+        },
+        {
+          "lvl": 62,
+          "m": "Metrónomo"
+        }
+      ],
+      "tmMoves": [
+        "Ataque Óseo",
+        "Barrera",
+        "Celebración",
+        "Corte",
+        "Daño Secreto",
+        "Defensa Férrea",
+        "Desarme",
+        "Doble Ataque",
+        "Giro Bola",
+        "Puya Nociva",
+        "Roca Veloz",
+        "Trampa Rocas",
+        "Transformación",
+        "Trapicheo"
+      ],
+      "firstMoves": [
+        "Día Soleado",
+        "Cambiadefensa",
+        "Bucle Arena"
+      ],
+      "spriteKey": "HIPPOWDON",
+      "cause": "",
+      "route": "",
+      "date": ""
+    },
     {
       "nickname": "Icy veedo",
       "species": "Sandshrew",
@@ -3813,13 +3829,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Hippowdon",
-      "nickname": "taboun",
+      "species": "Gurdurr",
+      "nickname": "Gordo",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 6,
-      "mon": "Hippowdon"
+      "level": 25,
+      "mon": "Gurdurr"
     },
     {
       "route": "",
@@ -3838,7 +3854,7 @@
       "species": "Marowak",
       "nickname": "Slaaaaim",
       "shiny": false,
-      "status": "captured",
+      "status": "dead",
       "category": "estatico_regalo",
       "level": 34,
       "mon": "Marowak"
@@ -3978,13 +3994,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Gurdurr",
-      "nickname": "Gordo",
+      "species": "Hippowdon",
+      "nickname": "taboun",
       "shiny": false,
-      "status": "captured",
+      "status": "dead",
       "category": "estatico_regalo",
-      "level": 25,
-      "mon": "Gurdurr"
+      "level": 6,
+      "mon": "Hippowdon"
     },
     {
       "route": "",
@@ -4112,7 +4128,8 @@
     "gyms": {
       "gym1": true,
       "gym2": true,
-      "gym3": true
+      "gym3": true,
+      "gym4": true
     },
     "bosses": {},
     "npcs": {},
@@ -4147,6 +4164,7 @@
       92,
       94,
       95,
+      96,
       110,
       112,
       113,
@@ -4167,6 +4185,8 @@
       184,
       185,
       186,
+      187,
+      271,
       301,
       323,
       334,
@@ -4175,6 +4195,8 @@
       365
     ],
     "foundItems": [
+      "Ámbar Viejo",
+      "Amigo Ball",
       "Amuleto Oval",
       "Banda Aguante",
       "Banda Atadura",
@@ -4185,8 +4207,10 @@
       "Baya Higog",
       "Baya Kouba",
       "Baya Tamar",
+      "Baya Tamate",
       "Baya Zidra",
       "Baya Zonlan",
+      "Baya Zreza",
       "Bola Férrea",
       "Calcio",
       "Cascabel Alivio",
@@ -4195,6 +4219,7 @@
       "Cordón Unión",
       "Corona Galanuez",
       "Cuerda Huida",
+      "Ensueño Ball",
       "Éter Máximo",
       "Fósil Garra",
       "Fósil Hélix",
@@ -4209,6 +4234,8 @@
       "Incienso Raro",
       "Lazo Destino",
       "Lente Recia",
+      "Llave Rocket",
+      "Lupa",
       "Malla Ball",
       "Master Ball",
       "Menta Agitada",
@@ -4220,12 +4247,14 @@
       "MO Golpe Roca",
       "Mochi Mente",
       "Mochi Vigor",
+      "MT01",
       "MT101",
       "MT102",
       "MT103",
       "MT116",
       "MT12",
       "MT122",
+      "MT125",
       "MT17",
       "MT24",
       "MT25",
@@ -4245,7 +4274,9 @@
       "MT57",
       "MT60",
       "MT62",
+      "MT63",
       "MT64",
+      "MT66",
       "MT67",
       "MT69",
       "MT70",
@@ -4274,9 +4305,11 @@
       "Prisma Rojo",
       "Protección X",
       "Puerro",
+      "Puño Suerte",
       "Raíz Energía",
       "Reglamento",
       "Restaurar Todo",
+      "Roca Lluvia",
       "Saquito Fragante",
       "Seguro Fallo",
       "Servicio Raro",
@@ -4318,7 +4351,7 @@
       {
         "id": "PUNCHINGGLOVE",
         "name": "Guante de Boxeo",
-        "qty": 2,
+        "qty": 3,
         "pocket": "Objetos"
       },
       {
@@ -4502,6 +4535,30 @@
         "pocket": "Objetos"
       },
       {
+        "id": "WIDELENS",
+        "name": "Lupa",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "DAMPROCK",
+        "name": "Roca Lluvia",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "OLDAMBER",
+        "name": "Ámbar Viejo",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "LUCKYPUNCH",
+        "name": "Puño Suerte",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "SHALOURSABLE",
         "name": "Galleta Yantra",
         "qty": 2,
@@ -4614,6 +4671,24 @@
         "name": "Master Ball",
         "qty": 1,
         "pocket": "Poké Balls"
+      },
+      {
+        "id": "DREAMBALL",
+        "name": "Ensueño Ball",
+        "qty": 1,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "FRIENDBALL",
+        "name": "Amigo Ball",
+        "qty": 1,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "TM01",
+        "name": "MT01",
+        "qty": 1,
+        "pocket": "MTs y MOs"
       },
       {
         "id": "TM12",
@@ -4736,8 +4811,20 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM63",
+        "name": "MT63",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM64",
         "name": "MT64",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM66",
+        "name": "MT66",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -4844,6 +4931,18 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM125",
+        "name": "MT125",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "CHERIBERRY",
+        "name": "Baya Zreza",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
         "id": "SITRUSBERRY",
         "name": "Baya Zidra",
         "qty": 1,
@@ -4858,6 +4957,12 @@
       {
         "id": "KELPSYBERRY",
         "name": "Baya Algama",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "TAMATOBERRY",
+        "name": "Baya Tamate",
         "qty": 1,
         "pocket": "Bayas"
       },
@@ -4928,8 +5033,8 @@
         "pocket": "Objetos clave"
       },
       {
-        "id": "VIAL",
-        "name": "Vial",
+        "id": "EMPTYVIAL",
+        "name": "Emptyvial",
         "qty": 1,
         "pocket": "Objetos clave"
       },
@@ -4980,6 +5085,12 @@
         "name": "MO Destello",
         "qty": 1,
         "pocket": "Objetos clave"
+      },
+      {
+        "id": "LLAVEROCKET",
+        "name": "Llave Rocket",
+        "qty": 1,
+        "pocket": "Objetos clave"
       }
     ]
   },
@@ -4992,7 +5103,9 @@
     "4018290219",
     "2383338682",
     "488332091",
-    "2036209699"
+    "2036209699",
+    "703404520",
+    "1573450960"
   ],
   "revividos": 0
 }
