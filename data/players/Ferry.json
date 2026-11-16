@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 5h 11m jugadas · 87,090₽ · vidas en el juego: 15",
+  "notes": "Importado del save · 5h 15m jugadas · 88,690₽ · vidas en el juego: 15",
   "team": [
     {
       "nickname": "Rojazo",
@@ -34,8 +34,8 @@
       ],
       "ev": [
         9,
-        45,
-        19,
+        47,
+        21,
         11,
         19,
         32
@@ -168,8 +168,8 @@
       ],
       "ev": [
         8,
-        38,
-        12,
+        40,
+        14,
         10,
         14,
         23
@@ -306,8 +306,8 @@
       ],
       "ev": [
         5,
-        25,
-        14,
+        27,
+        16,
         9,
         12,
         21
@@ -468,8 +468,8 @@
       ],
       "ev": [
         13,
-        47,
-        21,
+        49,
+        23,
         12,
         19,
         34
@@ -585,8 +585,8 @@
       ],
       "ev": [
         0,
-        18,
-        10,
+        20,
+        12,
         0,
         8,
         10
@@ -730,8 +730,8 @@
       ],
       "ev": [
         2,
-        25,
-        11,
+        27,
+        13,
         5,
         15,
         19
@@ -1821,6 +1821,132 @@
         "Plegaria Lunar"
       ],
       "spriteKey": "RUFFLET_1"
+    },
+    {
+      "nickname": "Peter",
+      "species": "Whirlipede",
+      "level": 28,
+      "types": [
+        "Bicho",
+        "Veneno"
+      ],
+      "ability": "Cura Lluvia",
+      "nature": "Alegre",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Hoja Mágica",
+        "Onda Anómala",
+        "Superdiente",
+        "Adaptación"
+      ],
+      "iv": [
+        6,
+        22,
+        18,
+        0,
+        7,
+        16
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Cura Lluvia",
+        "Ignífugo"
+      ],
+      "abilHidden": [
+        "Fuga"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Acoso"
+        },
+        {
+          "lvl": 1,
+          "m": "Granizo"
+        },
+        {
+          "lvl": 1,
+          "m": "Despejar"
+        },
+        {
+          "lvl": 1,
+          "m": "Alivio"
+        },
+        {
+          "lvl": 1,
+          "m": "Falso Tortazo"
+        },
+        {
+          "lvl": 1,
+          "m": "Ataque Furia"
+        },
+        {
+          "lvl": 12,
+          "m": "Doble Ataque"
+        },
+        {
+          "lvl": 12,
+          "m": "Enrosque"
+        },
+        {
+          "lvl": 16,
+          "m": "Onda Anómala"
+        },
+        {
+          "lvl": 20,
+          "m": "Superdiente"
+        },
+        {
+          "lvl": 26,
+          "m": "Adaptación"
+        },
+        {
+          "lvl": 32,
+          "m": "Pulso Primigenio"
+        },
+        {
+          "lvl": 37,
+          "m": "Neblina"
+        },
+        {
+          "lvl": 38,
+          "m": "Salazón"
+        },
+        {
+          "lvl": 44,
+          "m": "Puños Plasma"
+        },
+        {
+          "lvl": 46,
+          "m": "Deseo"
+        },
+        {
+          "lvl": 50,
+          "m": "Electrificación"
+        },
+        {
+          "lvl": 56,
+          "m": "Poder Reserva"
+        }
+      ],
+      "tmMoves": [
+        "Giro Mortífero"
+      ],
+      "firstMoves": [
+        "Hoja Mágica",
+        "Onda Anómala",
+        "Superdiente",
+        "Adaptación"
+      ],
+      "spriteKey": "WHIRLIPEDE"
     }
   ],
   "graveyard": [
@@ -2674,6 +2800,17 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Butterfree"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Whirlipede",
+      "nickname": "Peter",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 28,
+      "mon": "Whirlipede"
     }
   ],
   "progress": {
@@ -2742,6 +2879,7 @@
       "At. Esp. X 3",
       "Ataque X 2",
       "Ataque X 3",
+      "Baya Grana",
       "Baya Maranga",
       "Baya Pomaro",
       "Bici",
@@ -3040,7 +3178,7 @@
       {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 10,
+        "qty": 8,
         "pocket": "Poké Balls"
       },
       {
@@ -3228,6 +3366,12 @@
         "name": "MT120",
         "qty": 1,
         "pocket": "MTs y MOs"
+      },
+      {
+        "id": "POMEGBERRY",
+        "name": "Baya Grana",
+        "qty": 1,
+        "pocket": "Bayas"
       },
       {
         "id": "CHOPLEBERRY",
