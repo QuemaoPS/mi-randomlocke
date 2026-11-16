@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 10,
   "champion": false,
-  "notes": "Importado del save · 6h 25m jugadas · 108,130₽ · vidas en el juego: 10",
+  "notes": "Importado del save · 6h 52m jugadas · 58,030₽ · vidas en el juego: 10",
   "team": [
     {
       "nickname": "EscarbatGood",
@@ -1398,6 +1398,132 @@
         "Terratemblor"
       ],
       "spriteKey": "SWADLOON"
+    },
+    {
+      "nickname": "Putilla",
+      "species": "Mothim",
+      "level": 35,
+      "types": [
+        "Bicho",
+        "Volador"
+      ],
+      "ability": "",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Alud",
+        "Shuriken de Agua",
+        "Golpe Rastrero",
+        "A Defender"
+      ],
+      "iv": [
+        8,
+        27,
+        9,
+        7,
+        1,
+        17
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Aura Feérica"
+      ],
+      "abilHidden": [
+        "Compiescolta"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Confidencia"
+        },
+        {
+          "lvl": 1,
+          "m": "Palmeo"
+        },
+        {
+          "lvl": 10,
+          "m": "Telatrampa"
+        },
+        {
+          "lvl": 15,
+          "m": "Constricción"
+        },
+        {
+          "lvl": 20,
+          "m": "Cambio de Cancha"
+        },
+        {
+          "lvl": 20,
+          "m": "Respiro"
+        },
+        {
+          "lvl": 23,
+          "m": "Ataque Ala"
+        },
+        {
+          "lvl": 26,
+          "m": "Vasta Guardia"
+        },
+        {
+          "lvl": 29,
+          "m": "Alud"
+        },
+        {
+          "lvl": 32,
+          "m": "Shuriken de Agua"
+        },
+        {
+          "lvl": 35,
+          "m": "Golpe Rastrero"
+        },
+        {
+          "lvl": 35,
+          "m": "A Defender"
+        },
+        {
+          "lvl": 38,
+          "m": "Ascenso Draco"
+        },
+        {
+          "lvl": 38,
+          "m": "Geocontrol"
+        },
+        {
+          "lvl": 41,
+          "m": "Camelo"
+        },
+        {
+          "lvl": 44,
+          "m": "Anticura"
+        },
+        {
+          "lvl": 47,
+          "m": "Venganza"
+        },
+        {
+          "lvl": 50,
+          "m": "Maquinación"
+        },
+        {
+          "lvl": 55,
+          "m": "Isofuerza"
+        }
+      ],
+      "firstMoves": [
+        "Alud",
+        "Shuriken de Agua",
+        "Golpe Rastrero",
+        "A Defender"
+      ],
+      "spriteKey": "MOTHIM"
     },
     {
       "nickname": "PepinoDeMar",
@@ -3172,6 +3298,17 @@
     {
       "route": "",
       "where": "",
+      "species": "Mothim",
+      "nickname": "Putilla",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 35,
+      "mon": "Mothim"
+    },
+    {
+      "route": "",
+      "where": "",
       "species": "Pyukumuku",
       "nickname": "PepinoDeMar",
       "shiny": false,
@@ -3370,6 +3507,7 @@
       185,
       186,
       238,
+      271,
       301,
       323,
       334,
@@ -3412,6 +3550,7 @@
       "Máscara Horno",
       "Maxiseta",
       "Menta Alegre",
+      "Menta Alocada",
       "Menta Cauta",
       "Menta Pícara",
       "Menta Serena",
@@ -3422,9 +3561,11 @@
       "Mochi Aguante",
       "Mochi Ímpetu",
       "Mochi Intelecto",
+      "Monedero",
       "MT03",
       "MT05",
       "MT07",
+      "MT100",
       "MT101",
       "MT102",
       "MT104",
@@ -3727,6 +3868,12 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "RASHMINT",
+        "name": "Menta Alocada",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "DUSKBALL",
         "name": "Ocaso Ball",
         "qty": 2,
@@ -3931,6 +4078,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM100",
+        "name": "MT100",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM101",
         "name": "MT101",
         "qty": 1,
@@ -4089,6 +4242,12 @@
       {
         "id": "BICYCLE",
         "name": "Bici",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "COINCASE",
+        "name": "Monedero",
         "qty": 1,
         "pocket": "Objetos clave"
       }
