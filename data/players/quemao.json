@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 4,
   "champion": false,
-  "notes": "Importado del save · 7h 42m jugadas · 41,270₽ · vidas en el juego: 16",
+  "notes": "Importado del save · 8h 0m jugadas · 45,770₽ · vidas en el juego: 16",
   "team": [
     {
       "nickname": "YYY891",
@@ -32,9 +32,9 @@
         29
       ],
       "ev": [
-        11,
-        21,
-        32,
+        13,
+        24,
+        33,
         22,
         24,
         20
@@ -173,9 +173,9 @@
         24
       ],
       "ev": [
-        3,
-        11,
+        5,
         14,
+        15,
         6,
         5,
         8
@@ -307,9 +307,9 @@
         1
       ],
       "ev": [
-        6,
-        13,
-        18,
+        8,
+        16,
+        19,
         10,
         7,
         6
@@ -436,9 +436,9 @@
         29
       ],
       "ev": [
-        3,
-        13,
-        15,
+        5,
+        16,
+        16,
         8,
         5,
         8
@@ -547,9 +547,9 @@
         18
       ],
       "ev": [
-        11,
-        21,
-        33,
+        13,
+        24,
+        34,
         23,
         20,
         20
@@ -671,9 +671,9 @@
         26
       ],
       "ev": [
-        3,
-        9,
-        9,
+        5,
+        12,
+        10,
         6,
         4,
         5
@@ -2304,7 +2304,8 @@
   "progress": {
     "gyms": {
       "gym1": true,
-      "gym2": true
+      "gym2": true,
+      "gym3": true
     },
     "bosses": {},
     "npcs": {},
@@ -2348,6 +2349,7 @@
       183,
       184,
       185,
+      186,
       323,
       333,
       334,
@@ -2409,14 +2411,17 @@
       "MT59",
       "MT66",
       "MT67",
+      "MT73",
       "MT78",
       "MT85",
       "MT86",
       "MT89",
       "MT94",
       "MT97",
+      "Muda Concha",
       "Nivel Ball",
       "Ornitofósil",
+      "Piedra Día",
       "Pila",
       "Poké Ball",
       "Poké Montura",
@@ -2427,6 +2432,7 @@
       "Revivir Máximo",
       "Roca Calor",
       "Roca Helada",
+      "Scapsula",
       "Semilla Hierba",
       "Servicio Raro",
       "Tabla Acero",
@@ -2593,6 +2599,18 @@
         "pocket": "Objetos"
       },
       {
+        "id": "SHINYSTONE",
+        "name": "Piedra Día",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "SHEDSHELL",
+        "name": "Muda Concha",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "REVIVE",
         "name": "Revivir",
         "qty": 1,
@@ -2655,6 +2673,12 @@
       {
         "id": "LEMONADE",
         "name": "Limonada",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "SCapsula",
+        "name": "Scapsula",
         "qty": 1,
         "pocket": "Medicinas"
       },
@@ -2751,6 +2775,12 @@
       {
         "id": "TM67",
         "name": "MT67",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM73",
+        "name": "MT73",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
