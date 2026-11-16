@@ -4,181 +4,8 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 2h 34m jugadas · 37,510₽ · vidas en el juego: 18",
+  "notes": "Importado del save · 2h 42m jugadas · 37,510₽ · vidas en el juego: 18",
   "team": [
-    {
-      "nickname": "Clefairy",
-      "species": "Clefairy",
-      "level": 23,
-      "types": [
-        "Hada"
-      ],
-      "ability": "Teracaparazón",
-      "nature": "Ingenua",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Ojitos Tiernos",
-        "Rueda Fuego",
-        "Furia Natural",
-        "Onda Vacío"
-      ],
-      "iv": [
-        21,
-        0,
-        31,
-        15,
-        5,
-        0
-      ],
-      "ev": [
-        1,
-        2,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Herbogénesis",
-        "Teracaparazón"
-      ],
-      "abilHidden": [
-        "Presión"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Poder Reserva"
-        },
-        {
-          "lvl": 1,
-          "m": "Paz Mental"
-        },
-        {
-          "lvl": 1,
-          "m": "Niebla Aromática"
-        },
-        {
-          "lvl": 1,
-          "m": "Cura Floral"
-        },
-        {
-          "lvl": 1,
-          "m": "Condena Silvana"
-        },
-        {
-          "lvl": 1,
-          "m": "Truco Defensa"
-        },
-        {
-          "lvl": 1,
-          "m": "Cerrojo Feérico"
-        },
-        {
-          "lvl": 1,
-          "m": "Daño Secreto"
-        },
-        {
-          "lvl": 1,
-          "m": "Bola Voltio"
-        },
-        {
-          "lvl": 4,
-          "m": "Maldición"
-        },
-        {
-          "lvl": 8,
-          "m": "Geocontrol"
-        },
-        {
-          "lvl": 8,
-          "m": "Polución"
-        },
-        {
-          "lvl": 10,
-          "m": "Abrecaminos"
-        },
-        {
-          "lvl": 12,
-          "m": "Encanto"
-        },
-        {
-          "lvl": 13,
-          "m": "Ojitos Tiernos"
-        },
-        {
-          "lvl": 16,
-          "m": "Cambio de Marcha"
-        },
-        {
-          "lvl": 19,
-          "m": "Furia Natural"
-        },
-        {
-          "lvl": 20,
-          "m": "Onda Vacío"
-        },
-        {
-          "lvl": 22,
-          "m": "Rueda Fuego"
-        },
-        {
-          "lvl": 24,
-          "m": "Sonámbulo"
-        },
-        {
-          "lvl": 28,
-          "m": "Relevo"
-        },
-        {
-          "lvl": 32,
-          "m": "Bostezo"
-        },
-        {
-          "lvl": 32,
-          "m": "Anulación"
-        },
-        {
-          "lvl": 36,
-          "m": "Voto Fuego"
-        },
-        {
-          "lvl": 37,
-          "m": "Viento Feérico"
-        },
-        {
-          "lvl": 40,
-          "m": "Láser Veleidoso"
-        },
-        {
-          "lvl": 40,
-          "m": "Feerichoque"
-        },
-        {
-          "lvl": 44,
-          "m": "Viento Afín"
-        },
-        {
-          "lvl": 46,
-          "m": "A Bocajarro"
-        },
-        {
-          "lvl": 48,
-          "m": "Simún de Arena"
-        }
-      ],
-      "tmMoves": [
-        "Defensa Férrea"
-      ],
-      "firstMoves": [
-        "Ojitos Tiernos",
-        "Cambio de Marcha",
-        "Furia Natural",
-        "Onda Vacío"
-      ],
-      "spriteKey": "CLEFAIRY"
-    },
     {
       "nickname": "Kalewis",
       "species": "Gastly",
@@ -210,8 +37,8 @@
         16,
         16,
         13,
-        7,
-        30
+        8,
+        32
       ],
       "abilPool": [
         "Torrente"
@@ -291,6 +118,131 @@
       "spriteKey": "GASTLY"
     },
     {
+      "nickname": "Sin Pelin",
+      "species": "Eevee",
+      "level": 23,
+      "types": [
+        "Normal"
+      ],
+      "ability": "Voz Fluida",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Paga Extra",
+        "Falso Tortazo",
+        "Plegaria Vital",
+        "Foco"
+      ],
+      "iv": [
+        15,
+        9,
+        7,
+        21,
+        25,
+        27
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Elec. Estática",
+        "Voz Fluida"
+      ],
+      "abilHidden": [
+        "Simple"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Reducción"
+        },
+        {
+          "lvl": 1,
+          "m": "Maquinación"
+        },
+        {
+          "lvl": 1,
+          "m": "Copión"
+        },
+        {
+          "lvl": 1,
+          "m": "Truco"
+        },
+        {
+          "lvl": 1,
+          "m": "Paga Extra"
+        },
+        {
+          "lvl": 5,
+          "m": "Falso Tortazo"
+        },
+        {
+          "lvl": 10,
+          "m": "Plegaria Vital"
+        },
+        {
+          "lvl": 15,
+          "m": "Foco"
+        },
+        {
+          "lvl": 20,
+          "m": "Trapicheo"
+        },
+        {
+          "lvl": 25,
+          "m": "Arrumaco"
+        },
+        {
+          "lvl": 30,
+          "m": "Celebración"
+        },
+        {
+          "lvl": 35,
+          "m": "Brinco"
+        },
+        {
+          "lvl": 40,
+          "m": "Pikapicado"
+        },
+        {
+          "lvl": 41,
+          "m": "Fuerza Lunar"
+        },
+        {
+          "lvl": 45,
+          "m": "Giro Bola"
+        },
+        {
+          "lvl": 45,
+          "m": "Señuelo"
+        },
+        {
+          "lvl": 50,
+          "m": "Bombardeo"
+        },
+        {
+          "lvl": 55,
+          "m": "Transformación"
+        }
+      ],
+      "tmMoves": [
+        "Destructor"
+      ],
+      "firstMoves": [
+        "Paga Extra",
+        "Falso Tortazo",
+        "Plegaria Vital",
+        "Foco"
+      ],
+      "spriteKey": "EEVEE"
+    },
+    {
       "nickname": "Tetorras",
       "species": "Hippopotas",
       "level": 23,
@@ -320,8 +272,8 @@
         16,
         15,
         13,
-        6,
-        30
+        7,
+        32
       ],
       "abilPool": [
         "Olor Persistente"
@@ -432,8 +384,8 @@
         14,
         14,
         12,
-        6,
-        28
+        7,
+        30
       ],
       "abilPool": [
         "Coraza Ira"
@@ -545,8 +497,8 @@
         9,
         11,
         8,
-        2,
-        17
+        3,
+        19
       ],
       "abilPool": [
         "Amor Filial"
@@ -707,8 +659,8 @@
         8,
         7,
         8,
-        0,
-        9
+        1,
+        11
       ],
       "abilPool": [
         "Cálculo Final"
@@ -1463,6 +1415,179 @@
         "Patada Baja"
       ],
       "spriteKey": "MAKUHITA"
+    },
+    {
+      "nickname": "Clefairy",
+      "species": "Clefairy",
+      "level": 23,
+      "types": [
+        "Hada"
+      ],
+      "ability": "Teracaparazón",
+      "nature": "Ingenua",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Ojitos Tiernos",
+        "Rueda Fuego",
+        "Furia Natural",
+        "Onda Vacío"
+      ],
+      "iv": [
+        21,
+        0,
+        31,
+        15,
+        5,
+        0
+      ],
+      "ev": [
+        1,
+        2,
+        0,
+        0,
+        1,
+        2
+      ],
+      "abilPool": [
+        "Herbogénesis",
+        "Teracaparazón"
+      ],
+      "abilHidden": [
+        "Presión"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Poder Reserva"
+        },
+        {
+          "lvl": 1,
+          "m": "Paz Mental"
+        },
+        {
+          "lvl": 1,
+          "m": "Niebla Aromática"
+        },
+        {
+          "lvl": 1,
+          "m": "Cura Floral"
+        },
+        {
+          "lvl": 1,
+          "m": "Condena Silvana"
+        },
+        {
+          "lvl": 1,
+          "m": "Truco Defensa"
+        },
+        {
+          "lvl": 1,
+          "m": "Cerrojo Feérico"
+        },
+        {
+          "lvl": 1,
+          "m": "Daño Secreto"
+        },
+        {
+          "lvl": 1,
+          "m": "Bola Voltio"
+        },
+        {
+          "lvl": 4,
+          "m": "Maldición"
+        },
+        {
+          "lvl": 8,
+          "m": "Geocontrol"
+        },
+        {
+          "lvl": 8,
+          "m": "Polución"
+        },
+        {
+          "lvl": 10,
+          "m": "Abrecaminos"
+        },
+        {
+          "lvl": 12,
+          "m": "Encanto"
+        },
+        {
+          "lvl": 13,
+          "m": "Ojitos Tiernos"
+        },
+        {
+          "lvl": 16,
+          "m": "Cambio de Marcha"
+        },
+        {
+          "lvl": 19,
+          "m": "Furia Natural"
+        },
+        {
+          "lvl": 20,
+          "m": "Onda Vacío"
+        },
+        {
+          "lvl": 22,
+          "m": "Rueda Fuego"
+        },
+        {
+          "lvl": 24,
+          "m": "Sonámbulo"
+        },
+        {
+          "lvl": 28,
+          "m": "Relevo"
+        },
+        {
+          "lvl": 32,
+          "m": "Bostezo"
+        },
+        {
+          "lvl": 32,
+          "m": "Anulación"
+        },
+        {
+          "lvl": 36,
+          "m": "Voto Fuego"
+        },
+        {
+          "lvl": 37,
+          "m": "Viento Feérico"
+        },
+        {
+          "lvl": 40,
+          "m": "Láser Veleidoso"
+        },
+        {
+          "lvl": 40,
+          "m": "Feerichoque"
+        },
+        {
+          "lvl": 44,
+          "m": "Viento Afín"
+        },
+        {
+          "lvl": 46,
+          "m": "A Bocajarro"
+        },
+        {
+          "lvl": 48,
+          "m": "Simún de Arena"
+        }
+      ],
+      "tmMoves": [
+        "Defensa Férrea"
+      ],
+      "firstMoves": [
+        "Ojitos Tiernos",
+        "Cambio de Marcha",
+        "Furia Natural",
+        "Onda Vacío"
+      ],
+      "spriteKey": "CLEFAIRY"
     }
   ],
   "graveyard": [
@@ -1731,17 +1856,6 @@
     {
       "route": "",
       "where": "",
-      "species": "Clefairy",
-      "nickname": "",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 21,
-      "mon": "Clefairy"
-    },
-    {
-      "route": "",
-      "where": "",
       "species": "Gastly",
       "nickname": "Kalewis",
       "shiny": false,
@@ -1749,6 +1863,17 @@
       "category": "estatico_regalo",
       "level": 3,
       "mon": "Gastly"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Eevee",
+      "nickname": "Sin Pelin",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 17,
+      "mon": "Eevee"
     },
     {
       "route": "",
@@ -1881,6 +2006,17 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Duskull"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Clefairy",
+      "nickname": "",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 21,
+      "mon": "Clefairy"
     }
   ],
   "progress": {
@@ -1944,8 +2080,10 @@
       "MT39",
       "MT40",
       "MT43",
+      "MT47",
       "MT51",
       "MT65",
+      "MT85",
       "MT86",
       "Piedra Fuego",
       "Piedra Pómez",
@@ -2062,7 +2200,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 916,
+        "qty": 910,
         "pocket": "Medicinas"
       },
       {
@@ -2104,7 +2242,7 @@
       {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 5,
+        "qty": 3,
         "pocket": "Poké Balls"
       },
       {
@@ -2144,6 +2282,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM47",
+        "name": "MT47",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM51",
         "name": "MT51",
         "qty": 1,
@@ -2152,6 +2296,12 @@
       {
         "id": "TM65",
         "name": "MT65",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM85",
+        "name": "MT85",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
