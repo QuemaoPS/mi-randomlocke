@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 4,
   "champion": false,
-  "notes": "Importado del save · 8h 0m jugadas · 45,770₽ · vidas en el juego: 16",
+  "notes": "Importado del save · 8h 50m jugadas · 45,770₽ · vidas en el juego: 16",
   "team": [
     {
       "nickname": "YYY891",
       "species": "Sandslash",
-      "level": 30,
+      "level": 39,
       "types": [
         "Tierra"
       ],
@@ -20,7 +20,7 @@
       "moves": [
         "Recogearena",
         "Estrujón",
-        "Bruma Explosiva",
+        "Tierra Viva",
         "Danza Aleteo"
       ],
       "iv": [
@@ -150,7 +150,7 @@
     {
       "nickname": "TOTITO",
       "species": "Feraligatr",
-      "level": 30,
+      "level": 39,
       "types": [
         "Agua"
       ],
@@ -161,7 +161,7 @@
       "moves": [
         "Llave Corsé",
         "Triple Inmersión",
-        "Cuchillada",
+        "Shuriken de Agua",
         "Veneno X"
       ],
       "iv": [
@@ -282,13 +282,13 @@
     },
     {
       "nickname": "HECTOR",
-      "species": "Scraggy",
-      "level": 30,
+      "species": "Scrafty",
+      "level": 39,
       "types": [
         "Siniestro",
         "Lucha"
       ],
-      "ability": "Ojo Mental",
+      "ability": "",
       "nature": "Firme",
       "item": "",
       "shiny": false,
@@ -315,92 +315,89 @@
         6
       ],
       "abilPool": [
-        "Ojo Mental",
-        "Aura Feérica"
+        "Inicio Lento",
+        "Gas Reactivo"
       ],
       "abilHidden": [
-        "Acometida"
+        "Transportarrocas"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Ovocuración"
+          "m": "Malicioso"
         },
         {
           "lvl": 1,
-          "m": "Detección"
+          "m": "Obstrucción"
         },
         {
-          "lvl": 4,
-          "m": "Persecución"
+          "lvl": 1,
+          "m": "Desarrollo"
         },
         {
-          "lvl": 8,
-          "m": "Abatidoras"
+          "lvl": 1,
+          "m": "Hoja Mágica"
         },
         {
-          "lvl": 9,
-          "m": "Kinético"
-        },
-        {
-          "lvl": 12,
-          "m": "Absorbefuerza"
-        },
-        {
-          "lvl": 16,
-          "m": "Resarcimiento"
-        },
-        {
-          "lvl": 20,
-          "m": "Último Lugar"
-        },
-        {
-          "lvl": 20,
-          "m": "Triple Patada"
-        },
-        {
-          "lvl": 24,
-          "m": "Plegaria Vital"
-        },
-        {
-          "lvl": 27,
-          "m": "Giro Vil"
-        },
-        {
-          "lvl": 28,
-          "m": "Puño Bala"
-        },
-        {
-          "lvl": 32,
-          "m": "Limpieza General"
-        },
-        {
-          "lvl": 36,
+          "lvl": 1,
           "m": "Vendetta"
         },
         {
-          "lvl": 40,
-          "m": "Triturar"
+          "lvl": 12,
+          "m": "Bofetón Lodo"
         },
         {
-          "lvl": 44,
-          "m": "Psíquico"
+          "lvl": 16,
+          "m": "Picotazo"
         },
         {
-          "lvl": 45,
-          "m": "Tajo Metralla"
+          "lvl": 20,
+          "m": "Impresionar"
+        },
+        {
+          "lvl": 20,
+          "m": "Rabia"
+        },
+        {
+          "lvl": 24,
+          "m": "Última Palabra"
+        },
+        {
+          "lvl": 27,
+          "m": "Persecución"
+        },
+        {
+          "lvl": 28,
+          "m": "Divide Dolor"
+        },
+        {
+          "lvl": 32,
+          "m": "Puntapié"
+        },
+        {
+          "lvl": 36,
+          "m": "Día de Pago"
+        },
+        {
+          "lvl": 42,
+          "m": "Ladrón"
         },
         {
           "lvl": 48,
-          "m": "Distorsión"
+          "m": "Taladradora"
         },
         {
-          "lvl": 52,
-          "m": "Cuerpo Pesado"
+          "lvl": 51,
+          "m": "Danza Triunfal"
+        },
+        {
+          "lvl": 54,
+          "m": "Fuerza Bruta"
+        },
+        {
+          "lvl": 60,
+          "m": "Reflejo"
         }
-      ],
-      "tmMoves": [
-        "Calamidad"
       ],
       "firstMoves": [
         "Canon",
@@ -408,12 +405,12 @@
         "Absorbefuerza",
         "Resarcimiento"
       ],
-      "spriteKey": "SCRAGGY"
+      "spriteKey": "SCRAFTY"
     },
     {
       "nickname": "HDP",
       "species": "Nidorina",
-      "level": 30,
+      "level": 39,
       "types": [
         "Veneno"
       ],
@@ -425,7 +422,7 @@
         "Gas Venenoso",
         "Acua Jet",
         "Cambiavelocidad",
-        "Último Lugar"
+        "Bomba Fango"
       ],
       "iv": [
         13,
@@ -522,13 +519,13 @@
     },
     {
       "nickname": "VINICIUS",
-      "species": "Monferno",
-      "level": 30,
+      "species": "Infernape",
+      "level": 39,
       "types": [
         "Fuego",
         "Lucha"
       ],
-      "ability": "Ímpetu Arena",
+      "ability": "",
       "nature": "Alocada",
       "item": "",
       "shiny": false,
@@ -555,99 +552,111 @@
         20
       ],
       "abilPool": [
-        "Ímpetu Arena"
+        "Herbívoro"
       ],
       "abilHidden": [
-        "Relincho Negro"
+        "Pies Rápidos"
       ],
       "learnset": [
         {
           "lvl": -1,
-          "m": "Cerrojo Feérico"
+          "m": "Sacrificio"
+        },
+        {
+          "lvl": -1,
+          "m": "Ultrapuño"
+        },
+        {
+          "lvl": -1,
+          "m": "Campo Psíquico"
         },
         {
           "lvl": 1,
-          "m": "Defensa Férrea"
+          "m": "Presente"
         },
         {
           "lvl": 1,
-          "m": "Sombra Vil"
+          "m": "Sísmico"
         },
         {
           "lvl": 1,
-          "m": "Profecía"
+          "m": "Polvo Ira"
         },
         {
           "lvl": 1,
-          "m": "Zona Extraña"
+          "m": "Aire Afilado"
         },
         {
           "lvl": 1,
-          "m": "Rastreo"
+          "m": "Cola Dragón"
         },
         {
           "lvl": 1,
-          "m": "Sustituto"
+          "m": "Plegaria Lunar"
         },
         {
-          "lvl": 9,
-          "m": "Triple Patada"
+          "lvl": 1,
+          "m": "Corpulencia"
         },
         {
           "lvl": 12,
-          "m": "Golpe Roca"
+          "m": "Bastión Final"
         },
         {
           "lvl": 16,
-          "m": "Absorbefuerza"
+          "m": "Deseo Cura"
         },
         {
           "lvl": 19,
-          "m": "Colmillo Rayo"
+          "m": "Colmillo Ígneo"
         },
         {
           "lvl": 26,
-          "m": "Telatrampa"
+          "m": "Extracto Picante"
         },
         {
           "lvl": 29,
-          "m": "Picotazo"
+          "m": "Conjuro"
         },
         {
-          "lvl": 36,
-          "m": "Luz Lunar"
+          "lvl": 29,
+          "m": "Onda Vacío"
         },
         {
-          "lvl": 39,
-          "m": "Torbellino"
+          "lvl": 29,
+          "m": "Onda Voltio"
         },
         {
-          "lvl": 46,
-          "m": "Puño Incremento"
+          "lvl": 42,
+          "m": "Día de Pago"
         },
         {
-          "lvl": 49,
-          "m": "Rizo Algodón"
+          "lvl": 47,
+          "m": "Espeaura"
         },
         {
-          "lvl": 56,
+          "lvl": 52,
           "m": "Plancha Corporal"
+        },
+        {
+          "lvl": 58,
+          "m": "Patada Ígnea"
+        },
+        {
+          "lvl": 65,
+          "m": "Bola Sombra"
         }
-      ],
-      "tmMoves": [
-        "Calamidad",
-        "Cuerno Certero"
       ],
       "firstMoves": [
         "Semilladora",
         "Fría Acogida"
       ],
-      "spriteKey": "MONFERNO"
+      "spriteKey": "INFERNAPE"
     },
     {
       "nickname": "ROQUITA",
       "species": "Graveler (Alola)",
-      "level": 30,
+      "level": 39,
       "types": [
         "Roca",
         "Eléctrico"
@@ -660,7 +669,7 @@
         "Electrificación",
         "Rayo Carga",
         "Tumba Rocas",
-        "Triple Inmersión"
+        "Pedrada"
       ],
       "iv": [
         3,
@@ -2138,13 +2147,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Scraggy",
+      "species": "Scrafty",
       "nickname": "HECTOR",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
       "level": 17,
-      "mon": "Scraggy"
+      "mon": "Scrafty"
     },
     {
       "route": "",
@@ -2160,13 +2169,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Monferno",
+      "species": "Infernape",
       "nickname": "VINICIUS",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
       "level": 2,
-      "mon": "Monferno"
+      "mon": "Infernape"
     },
     {
       "route": "",
@@ -2625,7 +2634,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 742,
+        "qty": 688,
         "pocket": "Medicinas"
       },
       {
