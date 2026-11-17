@@ -4,140 +4,138 @@
   "lives": 30,
   "livesUsed": 6,
   "champion": false,
-  "notes": "Importado del save · 10h 17m jugadas · 68,300₽ · vidas en el juego: 14",
+  "notes": "Importado del save · 11h 25m jugadas · 71,500₽ · vidas en el juego: 14",
   "team": [
     {
-      "nickname": "NIGGA",
-      "species": "Dugtrio (Alola)",
-      "level": 23,
+      "nickname": "JOPUTA",
+      "species": "Hypno",
+      "level": 39,
       "types": [
-        "Tierra",
-        "Acero"
+        "Psíquico"
       ],
-      "ability": "Carga Cuark",
-      "nature": "Agitada",
+      "ability": "Puño Invisible",
+      "nature": "Firme",
       "item": "",
       "shiny": false,
       "moves": [
-        "Fijar Blanco",
-        "Llama Protectora",
-        "Hueso Palo",
-        "Cambio de Banda"
+        "Voltiocambio",
+        "Calamidad",
+        "Plegaria Lunar",
+        "Pistola Agua"
       ],
       "iv": [
-        9,
-        22,
-        8,
-        7,
-        16,
-        4
+        11,
+        12,
+        5,
+        11,
+        21,
+        16
       ],
       "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        4,
+        9,
+        12,
+        11,
+        16,
+        10
       ],
       "abilPool": [
-        "Carga Cuark",
-        "Geofagia"
+        "Ímpetu Ardiente",
+        "Puño Invisible"
       ],
       "abilHidden": [
-        "Guardia Metálica"
+        "Mar del Albor"
       ],
       "learnset": [
         {
-          "lvl": 0,
-          "m": "Tenaza"
+          "lvl": 1,
+          "m": "Encanto"
         },
         {
           "lvl": 1,
-          "m": "Ojos Llorosos"
+          "m": "Barrera"
         },
         {
           "lvl": 1,
-          "m": "Esquirla Helada"
+          "m": "Psicocambio"
         },
         {
           "lvl": 1,
-          "m": "Disparo Lodo"
+          "m": "Pantalla de Luz"
         },
         {
           "lvl": 1,
-          "m": "Presente"
+          "m": "Truco Fuerza"
         },
         {
           "lvl": 1,
-          "m": "Abrecaminos"
+          "m": "Psicocorte"
         },
         {
-          "lvl": 1,
-          "m": "Prensa Metálica"
+          "lvl": 13,
+          "m": "Acua Jet"
         },
         {
-          "lvl": 4,
-          "m": "Puño Cometa"
-        },
-        {
-          "lvl": 7,
-          "m": "Piñón Auxiliar"
-        },
-        {
-          "lvl": 10,
-          "m": "Fijar Blanco"
-        },
-        {
-          "lvl": 14,
-          "m": "Llama Protectora"
-        },
-        {
-          "lvl": 18,
-          "m": "Hueso Palo"
-        },
-        {
-          "lvl": 22,
-          "m": "Cambio de Banda"
-        },
-        {
-          "lvl": 25,
+          "lvl": 17,
           "m": "Antiaéreo"
         },
         {
-          "lvl": 30,
-          "m": "Follaje"
+          "lvl": 21,
+          "m": "Isofuerza"
         },
         {
-          "lvl": 35,
-          "m": "Ladrón"
+          "lvl": 21,
+          "m": "Danza Lunar"
         },
         {
-          "lvl": 41,
-          "m": "Chispa"
+          "lvl": 25,
+          "m": "Manos Juntas"
+        },
+        {
+          "lvl": 29,
+          "m": "Plegaria Lunar"
+        },
+        {
+          "lvl": 32,
+          "m": "Atrapabicho"
+        },
+        {
+          "lvl": 37,
+          "m": "Doble Bofetón"
+        },
+        {
+          "lvl": 37,
+          "m": "Psicocarga"
+        },
+        {
+          "lvl": 42,
+          "m": "Afilagarras"
         },
         {
           "lvl": 47,
-          "m": "Psicocolmillo"
+          "m": "Cambio de Banda"
         },
         {
-          "lvl": 53,
-          "m": "Simún de Arena"
+          "lvl": 51,
+          "m": "Escalofrío"
+        },
+        {
+          "lvl": 56,
+          "m": "Espacio Raro"
         }
       ],
       "firstMoves": [
-        "Fijar Blanco",
-        "Llama Protectora",
-        "Hueso Palo",
-        "Cambio de Banda"
+        "Voltiocambio",
+        "Cerrojo Feérico",
+        "Golpe Calor",
+        "A Defender"
       ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10106.png",
-      "spriteKey": "DUGTRIO_1"
+      "spriteKey": "HYPNO"
     },
     {
       "nickname": "TABON",
       "species": "Lilligant",
-      "level": 29,
+      "level": 39,
       "types": [
         "Planta"
       ],
@@ -148,7 +146,7 @@
       "moves": [
         "Furia Natural",
         "Tenaza",
-        "Polvo Ira",
+        "Masa Cósmica",
         "Viento Feérico"
       ],
       "iv": [
@@ -161,11 +159,11 @@
       ],
       "ev": [
         0,
+        2,
         0,
         0,
         0,
-        0,
-        0
+        2
       ],
       "abilPool": [
         "General Supremo",
@@ -294,127 +292,6 @@
       "dup": true
     },
     {
-      "nickname": "HDP",
-      "species": "Nidorina",
-      "level": 39,
-      "types": [
-        "Veneno"
-      ],
-      "ability": "Allanamiento",
-      "nature": "Serena",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Gas Venenoso",
-        "Acua Jet",
-        "Cambiavelocidad",
-        "Bomba Fango"
-      ],
-      "iv": [
-        13,
-        24,
-        17,
-        21,
-        29,
-        29
-      ],
-      "ev": [
-        12,
-        33,
-        28,
-        17,
-        6,
-        18
-      ],
-      "abilPool": [
-        "Allanamiento",
-        "Disemillar"
-      ],
-      "abilHidden": [
-        "Iluminación"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Acupresión"
-        },
-        {
-          "lvl": 1,
-          "m": "Ronquido"
-        },
-        {
-          "lvl": 1,
-          "m": "Gas Venenoso"
-        },
-        {
-          "lvl": 1,
-          "m": "Acua Jet"
-        },
-        {
-          "lvl": 15,
-          "m": "Cambiaalmas"
-        },
-        {
-          "lvl": 16,
-          "m": "Último Lugar"
-        },
-        {
-          "lvl": 22,
-          "m": "Pirotecnia"
-        },
-        {
-          "lvl": 29,
-          "m": "Cambiavelocidad"
-        },
-        {
-          "lvl": 36,
-          "m": "Bomba Fango"
-        },
-        {
-          "lvl": 43,
-          "m": "Torbellino"
-        },
-        {
-          "lvl": 50,
-          "m": "Gas Corrosivo"
-        },
-        {
-          "lvl": 50,
-          "m": "Búnker"
-        },
-        {
-          "lvl": 57,
-          "m": "Corpulencia"
-        },
-        {
-          "lvl": 64,
-          "m": "Garra Nociva"
-        },
-        {
-          "lvl": 71,
-          "m": "Anulación"
-        }
-      ],
-      "tmMoves": [
-        "Chispa",
-        "Clonatipo",
-        "Cuerno Certero",
-        "Psicocambio",
-        "Reversión",
-        "Rueda Fuego",
-        "Tajo Metralla",
-        "Vasta Guardia",
-        "Veneno X"
-      ],
-      "firstMoves": [
-        "Gas Venenoso",
-        "Acua Jet",
-        "Cambiaalmas",
-        "Último Lugar"
-      ],
-      "spriteKey": "NIDORINA"
-    },
-    {
       "nickname": "TOTITO",
       "species": "Feraligatr",
       "level": 39,
@@ -441,11 +318,11 @@
       ],
       "ev": [
         12,
-        31,
+        33,
         27,
         15,
         6,
-        18
+        20
       ],
       "abilPool": [
         "Voz Fluida"
@@ -586,11 +463,11 @@
       ],
       "ev": [
         20,
-        41,
+        43,
         46,
         32,
         21,
-        30
+        32
       ],
       "abilPool": [
         "Herbívoro"
@@ -729,11 +606,11 @@
       ],
       "ev": [
         15,
-        33,
+        35,
         31,
         19,
         8,
-        16
+        18
       ],
       "abilPool": [
         "Inicio Lento",
@@ -837,6 +714,127 @@
         "Resarcimiento"
       ],
       "spriteKey": "SCRAFTY"
+    },
+    {
+      "nickname": "HDP",
+      "species": "Nidorina",
+      "level": 39,
+      "types": [
+        "Veneno"
+      ],
+      "ability": "Allanamiento",
+      "nature": "Serena",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Gas Venenoso",
+        "Acua Jet",
+        "Cambiavelocidad",
+        "Bomba Fango"
+      ],
+      "iv": [
+        13,
+        24,
+        17,
+        21,
+        29,
+        29
+      ],
+      "ev": [
+        12,
+        35,
+        28,
+        17,
+        6,
+        20
+      ],
+      "abilPool": [
+        "Allanamiento",
+        "Disemillar"
+      ],
+      "abilHidden": [
+        "Iluminación"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Acupresión"
+        },
+        {
+          "lvl": 1,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 1,
+          "m": "Gas Venenoso"
+        },
+        {
+          "lvl": 1,
+          "m": "Acua Jet"
+        },
+        {
+          "lvl": 15,
+          "m": "Cambiaalmas"
+        },
+        {
+          "lvl": 16,
+          "m": "Último Lugar"
+        },
+        {
+          "lvl": 22,
+          "m": "Pirotecnia"
+        },
+        {
+          "lvl": 29,
+          "m": "Cambiavelocidad"
+        },
+        {
+          "lvl": 36,
+          "m": "Bomba Fango"
+        },
+        {
+          "lvl": 43,
+          "m": "Torbellino"
+        },
+        {
+          "lvl": 50,
+          "m": "Gas Corrosivo"
+        },
+        {
+          "lvl": 50,
+          "m": "Búnker"
+        },
+        {
+          "lvl": 57,
+          "m": "Corpulencia"
+        },
+        {
+          "lvl": 64,
+          "m": "Garra Nociva"
+        },
+        {
+          "lvl": 71,
+          "m": "Anulación"
+        }
+      ],
+      "tmMoves": [
+        "Chispa",
+        "Clonatipo",
+        "Cuerno Certero",
+        "Psicocambio",
+        "Reversión",
+        "Rueda Fuego",
+        "Tajo Metralla",
+        "Vasta Guardia",
+        "Veneno X"
+      ],
+      "firstMoves": [
+        "Gas Venenoso",
+        "Acua Jet",
+        "Cambiaalmas",
+        "Último Lugar"
+      ],
+      "spriteKey": "NIDORINA"
     }
   ],
   "box": [
@@ -948,122 +946,114 @@
       "spriteKey": "PUMPKABOO_1"
     },
     {
-      "nickname": "JOPUTA",
-      "species": "Drowzee",
-      "level": 23,
+      "nickname": "8BELIAL",
+      "species": "Terapagos",
+      "level": 39,
       "types": [
-        "Psíquico"
+        "Normal"
       ],
-      "ability": "Inicio Lento",
-      "nature": "Firme",
+      "ability": "Enjambre",
+      "nature": "Miedosa",
       "item": "",
       "shiny": false,
       "moves": [
-        "Voltiocambio",
-        "Calamidad",
-        "Golpe Calor",
-        "Poder Reserva"
+        "Copión",
+        "Foco",
+        "Salmuera",
+        "Malicioso"
       ],
       "iv": [
-        11,
-        12,
-        5,
-        11,
+        18,
         21,
-        16
+        30,
+        27,
+        21,
+        19
       ],
       "ev": [
-        4,
+        7,
+        15,
         9,
-        12,
-        11,
-        16,
-        10
+        9,
+        1,
+        9
       ],
       "abilPool": [
-        "Piel Milagro",
-        "Inicio Lento"
+        "Enjambre"
       ],
-      "abilHidden": [
-        "Rezagado"
-      ],
+      "abilHidden": [],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Voltiocambio"
+          "m": "Mundo Gélido"
         },
         {
           "lvl": 1,
-          "m": "Cerrojo Feérico"
+          "m": "Copión"
         },
         {
-          "lvl": 5,
-          "m": "Golpe Calor"
+          "lvl": 1,
+          "m": "Foco"
         },
         {
-          "lvl": 9,
-          "m": "A Defender"
+          "lvl": 10,
+          "m": "Salmuera"
         },
         {
-          "lvl": 13,
-          "m": "Rizo Algodón"
+          "lvl": 20,
+          "m": "Celebración"
         },
         {
-          "lvl": 17,
-          "m": "Calamidad"
+          "lvl": 30,
+          "m": "Malicioso"
         },
         {
-          "lvl": 21,
-          "m": "Poder Reserva"
+          "lvl": 40,
+          "m": "Eco Voz"
         },
         {
-          "lvl": 21,
-          "m": "Bucle Arena"
+          "lvl": 50,
+          "m": "Estruendo"
         },
         {
-          "lvl": 25,
-          "m": "Truco Fuerza"
+          "lvl": 60,
+          "m": "Danza Espada"
         },
         {
-          "lvl": 29,
-          "m": "Polvo Mágico"
+          "lvl": 70,
+          "m": "Desarrollo"
         },
         {
-          "lvl": 29,
-          "m": "Plegaria Lunar"
+          "lvl": 80,
+          "m": "Explosion"
         },
         {
-          "lvl": 33,
-          "m": "Triple Flecha"
-        },
-        {
-          "lvl": 37,
-          "m": "Asalto Espadón"
-        },
-        {
-          "lvl": 37,
-          "m": "Pistola Agua"
-        },
-        {
-          "lvl": 41,
-          "m": "Látigo Cepa"
-        },
-        {
-          "lvl": 45,
-          "m": "Ciclón Primavera"
-        },
-        {
-          "lvl": 49,
-          "m": "Megapuño"
+          "lvl": 90,
+          "m": "Psíquico"
         }
       ],
-      "firstMoves": [
-        "Voltiocambio",
-        "Cerrojo Feérico",
-        "Golpe Calor",
-        "A Defender"
+      "tmMoves": [
+        "Aguijón Letal",
+        "Autotomía",
+        "Caída Libre",
+        "Clonatipo",
+        "Doble Filo",
+        "Golpe Cabeza",
+        "Magnitud",
+        "Pantalla de Luz",
+        "Psicocambio",
+        "Rugido",
+        "Tinieblas",
+        "Vasta Guardia",
+        "Yo Primero"
       ],
-      "spriteKey": "DROWZEE"
+      "firstMoves": [
+        "Copión",
+        "Foco",
+        "Salmuera",
+        "Celebración"
+      ],
+      "spriteKey": "TERAPAGOS"
     },
     {
       "nickname": "DANIPRADOS",
@@ -1441,113 +1431,132 @@
       "spriteKey": "DEERLING_2"
     },
     {
-      "nickname": "8BELIAL",
-      "species": "Terapagos",
+      "nickname": "NIGGA",
+      "species": "Dugtrio (Alola)",
       "level": 39,
       "types": [
-        "Normal"
+        "Tierra",
+        "Acero"
       ],
-      "ability": "Enjambre",
-      "nature": "Miedosa",
+      "ability": "Carga Cuark",
+      "nature": "Agitada",
       "item": "",
       "shiny": false,
       "moves": [
-        "Copión",
-        "Foco",
-        "Salmuera",
-        "Malicioso"
+        "Follaje",
+        "Ladrón",
+        "Hueso Palo",
+        "Antiaéreo"
       ],
       "iv": [
-        18,
-        21,
-        30,
-        27,
-        21,
-        19
+        9,
+        22,
+        8,
+        7,
+        16,
+        4
       ],
       "ev": [
-        7,
-        15,
-        9,
-        9,
-        1,
-        9
+        0,
+        2,
+        0,
+        0,
+        0,
+        2
       ],
       "abilPool": [
-        "Enjambre"
+        "Carga Cuark",
+        "Geofagia"
       ],
-      "abilHidden": [],
+      "abilHidden": [
+        "Guardia Metálica"
+      ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Mundo Gélido"
+          "lvl": 0,
+          "m": "Tenaza"
         },
         {
           "lvl": 1,
-          "m": "Copión"
+          "m": "Ojos Llorosos"
         },
         {
           "lvl": 1,
-          "m": "Foco"
+          "m": "Esquirla Helada"
+        },
+        {
+          "lvl": 1,
+          "m": "Disparo Lodo"
+        },
+        {
+          "lvl": 1,
+          "m": "Presente"
+        },
+        {
+          "lvl": 1,
+          "m": "Abrecaminos"
+        },
+        {
+          "lvl": 1,
+          "m": "Prensa Metálica"
+        },
+        {
+          "lvl": 4,
+          "m": "Puño Cometa"
+        },
+        {
+          "lvl": 7,
+          "m": "Piñón Auxiliar"
         },
         {
           "lvl": 10,
-          "m": "Salmuera"
+          "m": "Fijar Blanco"
         },
         {
-          "lvl": 20,
-          "m": "Celebración"
+          "lvl": 14,
+          "m": "Llama Protectora"
+        },
+        {
+          "lvl": 18,
+          "m": "Hueso Palo"
+        },
+        {
+          "lvl": 22,
+          "m": "Cambio de Banda"
+        },
+        {
+          "lvl": 25,
+          "m": "Antiaéreo"
         },
         {
           "lvl": 30,
-          "m": "Malicioso"
+          "m": "Follaje"
         },
         {
-          "lvl": 40,
-          "m": "Eco Voz"
+          "lvl": 35,
+          "m": "Ladrón"
         },
         {
-          "lvl": 50,
-          "m": "Estruendo"
+          "lvl": 41,
+          "m": "Chispa"
         },
         {
-          "lvl": 60,
-          "m": "Danza Espada"
+          "lvl": 47,
+          "m": "Psicocolmillo"
         },
         {
-          "lvl": 70,
-          "m": "Desarrollo"
-        },
-        {
-          "lvl": 80,
-          "m": "Explosion"
-        },
-        {
-          "lvl": 90,
-          "m": "Psíquico"
+          "lvl": 53,
+          "m": "Simún de Arena"
         }
       ],
-      "tmMoves": [
-        "Aguijón Letal",
-        "Autotomía",
-        "Caída Libre",
-        "Clonatipo",
-        "Golpe Cabeza",
-        "Magnitud",
-        "Pantalla de Luz",
-        "Psicocambio",
-        "Rugido",
-        "Tinieblas",
-        "Vasta Guardia",
-        "Yo Primero"
-      ],
       "firstMoves": [
-        "Copión",
-        "Foco",
-        "Salmuera",
-        "Celebración"
+        "Fijar Blanco",
+        "Llama Protectora",
+        "Hueso Palo",
+        "Cambio de Banda"
       ],
-      "spriteKey": "TERAPAGOS"
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10106.png",
+      "spriteKey": "DUGTRIO_1"
     },
     {
       "nickname": "RETRASAO",
@@ -2714,13 +2723,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Dugtrio",
-      "nickname": "NIGGA",
+      "species": "Hypno",
+      "nickname": "JOPUTA",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 23,
-      "mon": "Dugtrio"
+      "level": 12,
+      "mon": "Hypno"
     },
     {
       "route": "",
@@ -2732,17 +2741,6 @@
       "category": "estatico_regalo",
       "level": 29,
       "mon": "Lilligant"
-    },
-    {
-      "route": "",
-      "where": "",
-      "species": "Nidorina",
-      "nickname": "HDP",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 19,
-      "mon": "Nidorina"
     },
     {
       "route": "",
@@ -2780,6 +2778,17 @@
     {
       "route": "",
       "where": "",
+      "species": "Nidorina",
+      "nickname": "HDP",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 19,
+      "mon": "Nidorina"
+    },
+    {
+      "route": "",
+      "where": "",
       "species": "Pumpkaboo",
       "nickname": "MARICON",
       "shiny": false,
@@ -2791,13 +2800,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Drowzee",
-      "nickname": "JOPUTA",
+      "species": "Terapagos",
+      "nickname": "8BELIAL",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 12,
-      "mon": "Drowzee"
+      "level": 25,
+      "mon": "Terapagos"
     },
     {
       "route": "",
@@ -2835,13 +2844,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Terapagos",
-      "nickname": "8BELIAL",
+      "species": "Dugtrio",
+      "nickname": "NIGGA",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 25,
-      "mon": "Terapagos"
+      "level": 23,
+      "mon": "Dugtrio"
     },
     {
       "route": "",
@@ -2981,6 +2990,7 @@
       89,
       91,
       92,
+      94,
       110,
       112,
       113,
@@ -3010,6 +3020,7 @@
       "Ataque X 6",
       "Baya Arabol",
       "Baya Dillo",
+      "Baya Drasi",
       "Baya Higog",
       "Baya Meluce",
       "Baya Safre",
@@ -3019,6 +3030,7 @@
       "Cebo Ball",
       "Chaleco Asalto",
       "Cola Skitty",
+      "Corazón Dulce",
       "Crítico X",
       "Cubresuelos",
       "Cuerda Huida",
@@ -3039,6 +3051,7 @@
       "Incienso Roca",
       "Lente Recia",
       "Limonada",
+      "Lupa",
       "Lustresfera",
       "Manuscrito Sombras",
       "Menta Alegre",
@@ -3054,6 +3067,7 @@
       "MT112",
       "MT12",
       "MT14",
+      "MT21",
       "MT29",
       "MT31",
       "MT37",
@@ -3085,6 +3099,7 @@
       "Poké Montura",
       "Polvo Curación",
       "Protección X",
+      "Puño Suerte",
       "Reglamento",
       "Restaurar Todo",
       "Revivir",
@@ -3096,8 +3111,10 @@
       "Semilla Milagro",
       "Servicio Raro",
       "Tabla Acero",
+      "Tabla Fuerte",
       "Tabla Neutra",
       "Tabla Terror",
+      "Tabla Trueno",
       "Ticket Barco",
       "Velocidad X 6",
       "Vial"
@@ -3184,7 +3201,7 @@
       {
         "id": "HEATROCK",
         "name": "Roca Calor",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos"
       },
       {
@@ -3314,6 +3331,30 @@
         "pocket": "Objetos"
       },
       {
+        "id": "ZAPPLATE",
+        "name": "Tabla Trueno",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "FISTPLATE",
+        "name": "Tabla Fuerte",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "LUCKYPUNCH",
+        "name": "Puño Suerte",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "WIDELENS",
+        "name": "Lupa",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "REVIVE",
         "name": "Revivir",
         "qty": 1,
@@ -3328,7 +3369,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 999,
+        "qty": 983,
         "pocket": "Medicinas"
       },
       {
@@ -3394,7 +3435,13 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 265,
+        "qty": 540,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "SWEETHEART",
+        "name": "Corazón Dulce",
+        "qty": 1,
         "pocket": "Medicinas"
       },
       {
@@ -3424,6 +3471,12 @@
       {
         "id": "TM14",
         "name": "MT14",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM21",
+        "name": "MT21",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -3592,6 +3645,12 @@
       {
         "id": "HONDEWBERRY",
         "name": "Baya Meluce",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "KASIBBERRY",
+        "name": "Baya Drasi",
         "qty": 1,
         "pocket": "Bayas"
       },
