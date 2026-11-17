@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 11,
   "champion": false,
-  "notes": "Importado del save · 17h 43m jugadas · 156,320₽ · vidas en el juego: 9",
+  "notes": "Importado del save · 17h 55m jugadas · 162,620₽ · vidas en el juego: 9",
   "team": [
     {
       "nickname": "Sami Deluxe",
@@ -34,11 +34,11 @@
       ],
       "ev": [
         35,
-        59,
+        63,
         42,
-        26,
+        28,
         29,
-        32
+        34
       ],
       "abilPool": [
         "Chorro Arena",
@@ -211,11 +211,11 @@
       ],
       "ev": [
         39,
-        62,
+        66,
         43,
-        27,
+        29,
         32,
-        32
+        34
       ],
       "abilPool": [
         "Efecto Espora",
@@ -332,11 +332,11 @@
       ],
       "ev": [
         15,
-        20,
+        24,
         15,
-        9,
+        11,
         15,
-        10
+        12
       ],
       "abilPool": [
         "Velo arena",
@@ -446,7 +446,7 @@
       "spriteKey": "CONKELDURR"
     },
     {
-      "nickname": "Arcanine",
+      "nickname": "Roomtrash6",
       "species": "Arcanine",
       "level": 49,
       "types": [
@@ -472,11 +472,11 @@
       ],
       "ev": [
         9,
-        15,
+        19,
         6,
-        7,
+        9,
         10,
-        8
+        10
       ],
       "abilPool": [
         "Espejo Mágico",
@@ -614,11 +614,11 @@
       ],
       "ev": [
         21,
-        40,
+        44,
         34,
-        15,
+        17,
         22,
-        18
+        20
       ],
       "abilPool": [
         "Fuerza Cerebral",
@@ -737,142 +737,167 @@
       "spriteKey": "DRIFBLIM"
     },
     {
-      "nickname": "Subnormal",
-      "species": "Araquanid",
-      "level": 30,
+      "nickname": "Hector",
+      "species": "Venomoth",
+      "level": 49,
       "types": [
-        "Agua",
-        "Bicho"
+        "Bicho",
+        "Veneno"
       ],
-      "ability": "Voz Fluida",
-      "nature": "Cauta",
+      "ability": "Unidad Ecuestre",
+      "nature": "Pícara",
       "item": "",
       "shiny": false,
       "moves": [
-        "Mundo Gélido",
-        "Palma Rauda",
-        "Magnitud",
-        "Clavo Cañón"
+        "Corte Furia",
+        "Clavo Cañón",
+        "Salazón",
+        "Carga Tóxica"
       ],
       "iv": [
-        20,
-        9,
-        18,
-        31,
-        22,
-        22
+        23,
+        26,
+        24,
+        17,
+        16,
+        26
       ],
       "ev": [
-        0,
-        3,
-        1,
-        1,
-        0,
-        3
+        53,
+        84,
+        61,
+        38,
+        41,
+        50
       ],
       "abilPool": [
-        "Voz Fluida"
+        "Unísono",
+        "Unidad Ecuestre"
       ],
       "abilHidden": [
-        "Poder Solar"
+        "Tumbos"
       ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Viraje"
+          "lvl": -1,
+          "m": "Enrosque"
+        },
+        {
+          "lvl": 0,
+          "m": "Brinco"
         },
         {
           "lvl": 1,
-          "m": "Reflejo"
+          "m": "Polvo Ira"
         },
         {
           "lvl": 1,
-          "m": "Danza Aleteo"
+          "m": "Pikaturbo"
         },
         {
           "lvl": 1,
-          "m": "Ojitos Tiernos"
+          "m": "Polvo Explosivo"
         },
         {
           "lvl": 1,
-          "m": "Octopresa"
+          "m": "Fertilizante"
         },
         {
-          "lvl": 8,
-          "m": "Refuerzo"
+          "lvl": 1,
+          "m": "Búnker"
         },
         {
-          "lvl": 12,
-          "m": "Acupresión"
+          "lvl": 1,
+          "m": "Telatrampa"
         },
         {
-          "lvl": 16,
-          "m": "Magnitud"
+          "lvl": 1,
+          "m": "Decoración"
         },
         {
-          "lvl": 20,
-          "m": "Afilar"
+          "lvl": 1,
+          "m": "Giro Mortífero"
         },
         {
-          "lvl": 26,
-          "m": "Disparo Demora"
+          "lvl": 11,
+          "m": "Luminicola"
         },
         {
-          "lvl": 30,
-          "m": "Palma Rauda"
+          "lvl": 13,
+          "m": "Carga Tóxica"
         },
         {
-          "lvl": 32,
-          "m": "Antojo"
+          "lvl": 17,
+          "m": "Viento Plata"
         },
         {
-          "lvl": 33,
-          "m": "Voto Agua"
+          "lvl": 23,
+          "m": "Tóxico"
         },
         {
-          "lvl": 35,
-          "m": "Energibola"
+          "lvl": 25,
+          "m": "Aullido"
         },
         {
-          "lvl": 38,
-          "m": "Relámpago Súbito"
+          "lvl": 25,
+          "m": "Gas Venenoso"
         },
         {
-          "lvl": 44,
-          "m": "Red Viscosa"
+          "lvl": 29,
+          "m": "Voltiocambio"
+        },
+        {
+          "lvl": 37,
+          "m": "Concha Filo"
+        },
+        {
+          "lvl": 37,
+          "m": "Ácido"
+        },
+        {
+          "lvl": 41,
+          "m": "Golpe Rastrero"
+        },
+        {
+          "lvl": 47,
+          "m": "Neblina"
         },
         {
           "lvl": 50,
-          "m": "Golpe Aéreo"
+          "m": "Doble Ataque"
         },
         {
-          "lvl": 56,
-          "m": "Halloween"
+          "lvl": 55,
+          "m": "Rodillo de Púas"
         },
         {
-          "lvl": 62,
-          "m": "Megacuerno"
+          "lvl": 63,
+          "m": "Tijera X"
         }
       ],
       "tmMoves": [
         "A Defender",
+        "Alto Voltaje",
         "Aullido",
-        "Canto",
-        "Celebración",
+        "Barrera",
         "Clavo Cañón",
-        "Corte",
-        "Levitón",
+        "Defensa Férrea",
+        "Desarme",
+        "Doble Ataque",
+        "Escudo Real",
         "Meditación",
-        "Tormenta Arena",
-        "Trampa Rocas"
+        "Represalia",
+        "Trampa Rocas",
+        "Trapicheo",
+        "Última Palabra"
       ],
       "firstMoves": [
-        "Mundo Gélido",
-        "Sustituto",
-        "Calamidad",
-        "Acua Aro"
+        "Granizo",
+        "Yo Primero",
+        "Venganza",
+        "Ácido"
       ],
-      "spriteKey": "ARAQUANID"
+      "spriteKey": "VENOMOTH"
     }
   ],
   "box": [
@@ -1494,167 +1519,142 @@
       "spriteKey": "DRILBUR"
     },
     {
-      "nickname": "Hector",
-      "species": "Venomoth",
-      "level": 49,
+      "nickname": "Subnormal",
+      "species": "Araquanid",
+      "level": 30,
       "types": [
-        "Bicho",
-        "Veneno"
+        "Agua",
+        "Bicho"
       ],
-      "ability": "Unidad Ecuestre",
-      "nature": "Pícara",
+      "ability": "Voz Fluida",
+      "nature": "Cauta",
       "item": "",
       "shiny": false,
       "moves": [
-        "Corte Furia",
-        "Clavo Cañón",
-        "Salazón",
-        "Carga Tóxica"
+        "Mundo Gélido",
+        "Palma Rauda",
+        "Magnitud",
+        "Clavo Cañón"
       ],
       "iv": [
-        23,
-        26,
-        24,
-        17,
-        16,
-        26
+        20,
+        9,
+        18,
+        31,
+        22,
+        22
       ],
       "ev": [
-        53,
-        80,
-        61,
-        36,
-        41,
-        48
+        0,
+        3,
+        1,
+        1,
+        0,
+        3
       ],
       "abilPool": [
-        "Unísono",
-        "Unidad Ecuestre"
+        "Voz Fluida"
       ],
       "abilHidden": [
-        "Tumbos"
+        "Poder Solar"
       ],
       "learnset": [
         {
-          "lvl": -1,
-          "m": "Enrosque"
-        },
-        {
-          "lvl": 0,
-          "m": "Brinco"
+          "lvl": 1,
+          "m": "Viraje"
         },
         {
           "lvl": 1,
-          "m": "Polvo Ira"
+          "m": "Reflejo"
         },
         {
           "lvl": 1,
-          "m": "Pikaturbo"
+          "m": "Danza Aleteo"
         },
         {
           "lvl": 1,
-          "m": "Polvo Explosivo"
+          "m": "Ojitos Tiernos"
         },
         {
           "lvl": 1,
-          "m": "Fertilizante"
+          "m": "Octopresa"
         },
         {
-          "lvl": 1,
-          "m": "Búnker"
+          "lvl": 8,
+          "m": "Refuerzo"
         },
         {
-          "lvl": 1,
-          "m": "Telatrampa"
+          "lvl": 12,
+          "m": "Acupresión"
         },
         {
-          "lvl": 1,
-          "m": "Decoración"
+          "lvl": 16,
+          "m": "Magnitud"
         },
         {
-          "lvl": 1,
-          "m": "Giro Mortífero"
+          "lvl": 20,
+          "m": "Afilar"
         },
         {
-          "lvl": 11,
-          "m": "Luminicola"
+          "lvl": 26,
+          "m": "Disparo Demora"
         },
         {
-          "lvl": 13,
-          "m": "Carga Tóxica"
+          "lvl": 30,
+          "m": "Palma Rauda"
         },
         {
-          "lvl": 17,
-          "m": "Viento Plata"
+          "lvl": 32,
+          "m": "Antojo"
         },
         {
-          "lvl": 23,
-          "m": "Tóxico"
+          "lvl": 33,
+          "m": "Voto Agua"
         },
         {
-          "lvl": 25,
-          "m": "Aullido"
+          "lvl": 35,
+          "m": "Energibola"
         },
         {
-          "lvl": 25,
-          "m": "Gas Venenoso"
+          "lvl": 38,
+          "m": "Relámpago Súbito"
         },
         {
-          "lvl": 29,
-          "m": "Voltiocambio"
-        },
-        {
-          "lvl": 37,
-          "m": "Concha Filo"
-        },
-        {
-          "lvl": 37,
-          "m": "Ácido"
-        },
-        {
-          "lvl": 41,
-          "m": "Golpe Rastrero"
-        },
-        {
-          "lvl": 47,
-          "m": "Neblina"
+          "lvl": 44,
+          "m": "Red Viscosa"
         },
         {
           "lvl": 50,
-          "m": "Doble Ataque"
+          "m": "Golpe Aéreo"
         },
         {
-          "lvl": 55,
-          "m": "Rodillo de Púas"
+          "lvl": 56,
+          "m": "Halloween"
         },
         {
-          "lvl": 63,
-          "m": "Tijera X"
+          "lvl": 62,
+          "m": "Megacuerno"
         }
       ],
       "tmMoves": [
         "A Defender",
-        "Alto Voltaje",
         "Aullido",
-        "Barrera",
+        "Canto",
+        "Celebración",
         "Clavo Cañón",
-        "Defensa Férrea",
-        "Desarme",
-        "Doble Ataque",
-        "Escudo Real",
+        "Corte",
+        "Levitón",
         "Meditación",
-        "Represalia",
-        "Trampa Rocas",
-        "Trapicheo",
-        "Última Palabra"
+        "Tormenta Arena",
+        "Trampa Rocas"
       ],
       "firstMoves": [
-        "Granizo",
-        "Yo Primero",
-        "Venganza",
-        "Ácido"
+        "Mundo Gélido",
+        "Sustituto",
+        "Calamidad",
+        "Acua Aro"
       ],
-      "spriteKey": "VENOMOTH"
+      "spriteKey": "ARAQUANID"
     },
     {
       "nickname": "Alex",
@@ -2756,6 +2756,148 @@
         "Llave Corsé"
       ],
       "spriteKey": "TORTERRA"
+    },
+    {
+      "nickname": "Pitoa",
+      "species": "Pyroar",
+      "level": 41,
+      "types": [
+        "Fuego",
+        "Normal"
+      ],
+      "ability": "Nado Rápido",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Arenas Ardientes",
+        "Envidia ardiente",
+        "Láser Prisma",
+        "Fulgor Semilla"
+      ],
+      "iv": [
+        15,
+        14,
+        20,
+        18,
+        24,
+        12
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Alas Vendaval",
+        "Nado Rápido"
+      ],
+      "abilHidden": [
+        "Poder Arena"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Purificación"
+        },
+        {
+          "lvl": 1,
+          "m": "Otra Vez"
+        },
+        {
+          "lvl": 1,
+          "m": "Doble Golpe"
+        },
+        {
+          "lvl": 1,
+          "m": "Fuego Fatuo"
+        },
+        {
+          "lvl": 1,
+          "m": "Absorber"
+        },
+        {
+          "lvl": 11,
+          "m": "Colmillo Rayo"
+        },
+        {
+          "lvl": 15,
+          "m": "Esfuerzo"
+        },
+        {
+          "lvl": 15,
+          "m": "Supersónico"
+        },
+        {
+          "lvl": 20,
+          "m": "Relevo"
+        },
+        {
+          "lvl": 20,
+          "m": "Estrujón"
+        },
+        {
+          "lvl": 23,
+          "m": "Camuflaje"
+        },
+        {
+          "lvl": 28,
+          "m": "Arenas Ardientes"
+        },
+        {
+          "lvl": 32,
+          "m": "Envidia ardiente"
+        },
+        {
+          "lvl": 33,
+          "m": "Láser Prisma"
+        },
+        {
+          "lvl": 38,
+          "m": "Fulgor Semilla"
+        },
+        {
+          "lvl": 42,
+          "m": "Cañón Batidor"
+        },
+        {
+          "lvl": 48,
+          "m": "Meteoros"
+        },
+        {
+          "lvl": 48,
+          "m": "Llama Protectora"
+        },
+        {
+          "lvl": 51,
+          "m": "Absorbefuerza"
+        },
+        {
+          "lvl": 51,
+          "m": "Pico Taladro"
+        },
+        {
+          "lvl": 57,
+          "m": "Tierra Viva"
+        },
+        {
+          "lvl": 57,
+          "m": "Llamarada"
+        }
+      ],
+      "tmMoves": [
+        "Pirueta Helada"
+      ],
+      "firstMoves": [
+        "Arenas Ardientes",
+        "Envidia ardiente",
+        "Láser Prisma",
+        "Fulgor Semilla"
+      ],
+      "spriteKey": "PYROAR"
     }
   ],
   "graveyard": [
@@ -4219,7 +4361,7 @@
       "route": "",
       "where": "",
       "species": "Arcanine",
-      "nickname": "",
+      "nickname": "Roomtrash6",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
@@ -4240,13 +4382,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Araquanid",
-      "nickname": "Subnormal",
+      "species": "Venomoth",
+      "nickname": "Hector",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 14,
-      "mon": "Araquanid"
+      "level": 6,
+      "mon": "Venomoth"
     },
     {
       "route": "",
@@ -4317,13 +4459,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Venomoth",
-      "nickname": "Hector",
+      "species": "Araquanid",
+      "nickname": "Subnormal",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 6,
-      "mon": "Venomoth"
+      "level": 14,
+      "mon": "Araquanid"
     },
     {
       "route": "",
@@ -4434,6 +4576,17 @@
       "category": "estatico_regalo",
       "level": 40,
       "mon": "Torterra"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Pyroar",
+      "nickname": "Pitoa",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 41,
+      "mon": "Pyroar"
     },
     {
       "route": "",
@@ -4624,6 +4777,7 @@
       "Banda Atadura",
       "Baya Algama",
       "Baya Anjiro",
+      "Baya Atania",
       "Baya Chiri",
       "Baya Dillo",
       "Baya Higog",
@@ -4638,6 +4792,7 @@
       "Carbón",
       "Cascabel Alivio",
       "Cebo Ball",
+      "Chesnaughtite",
       "Cola Plúmbea",
       "Corazón Dulce",
       "Cordón Unión",
@@ -4667,10 +4822,12 @@
       "Malla Ball",
       "Manuscrito Sombras",
       "Master Ball",
+      "Mega-Aro",
       "Menta Agitada",
       "Menta Mansa",
       "Menta Modesta",
       "Menta Serena",
+      "Menta Seria",
       "Metrónomo",
       "Miniseta",
       "MO Corte",
@@ -4730,6 +4887,7 @@
       "Piedra Espíritu",
       "Piedra Eterna",
       "Piedra Solar",
+      "Pluma Músculo",
       "Poción",
       "Poké Flauta",
       "Poké Montura",
@@ -4748,9 +4906,11 @@
       "Randomizador de Habilidad",
       "Reglamento",
       "Restaurar Todo",
+      "Rillaboomite",
       "Roca Lluvia",
       "Saquito Fragante",
       "Scapsula",
+      "Sceptilita",
       "Seguro Fallo",
       "Semilla Electro",
       "Servicio Raro",
@@ -4762,6 +4922,7 @@
       "Tabla Terrax",
       "Tabla Tóxica",
       "Ticket Barco",
+      "Venusauritex",
       "Vial",
       "Visor Silph"
     ],
@@ -5105,7 +5266,7 @@
       {
         "id": "HEALPOWDER",
         "name": "Polvo Curación",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Medicinas"
       },
       {
@@ -5151,6 +5312,18 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "MUSCLEFEATHER",
+        "name": "Pluma Músculo",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "SERIOUSMINT",
+        "name": "Menta Seria",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "GREATBALL",
         "name": "Super Ball",
         "qty": 16,
@@ -5189,7 +5362,7 @@
       {
         "id": "ULTRABALL",
         "name": "Ultra Ball",
-        "qty": 7,
+        "qty": 6,
         "pocket": "Poké Balls"
       },
       {
@@ -5499,6 +5672,12 @@
         "pocket": "Bayas"
       },
       {
+        "id": "CHESTOBERRY",
+        "name": "Baya Atania",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
         "id": "SITRUSBERRY",
         "name": "Baya Zidra",
         "qty": 1,
@@ -5537,7 +5716,7 @@
       {
         "id": "HABANBERRY",
         "name": "Baya Anjiro",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Bayas"
       },
       {
@@ -5567,6 +5746,30 @@
       {
         "id": "REDORB",
         "name": "Prisma Rojo",
+        "qty": 1,
+        "pocket": "Piedras Mega"
+      },
+      {
+        "id": "VENUSAURITEX",
+        "name": "Venusauritex",
+        "qty": 1,
+        "pocket": "Piedras Mega"
+      },
+      {
+        "id": "SCEPTILITE",
+        "name": "Sceptilita",
+        "qty": 1,
+        "pocket": "Piedras Mega"
+      },
+      {
+        "id": "CHESNAUGHTITE",
+        "name": "Chesnaughtite",
+        "qty": 1,
+        "pocket": "Piedras Mega"
+      },
+      {
+        "id": "RILLABOOMITE",
+        "name": "Rillaboomite",
         "qty": 1,
         "pocket": "Piedras Mega"
       },
@@ -5675,6 +5878,12 @@
       {
         "id": "COINCASE",
         "name": "Monedero",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "MEGARING",
+        "name": "Mega-Aro",
         "qty": 1,
         "pocket": "Objetos clave"
       }
