@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 6,
   "champion": false,
-  "notes": "Importado del save · 11h 47m jugadas · 71,500₽ · vidas en el juego: 14",
+  "notes": "Importado del save · 11h 51m jugadas · 71,500₽ · vidas en el juego: 14",
   "team": [
     {
       "nickname": "8BELIAL",
@@ -897,29 +897,28 @@
       "spriteKey": "PUMPKABOO_1"
     },
     {
-      "nickname": "NILSKILLS_13",
-      "species": "Pupitar",
-      "level": 39,
+      "nickname": "TRIO",
+      "species": "Wugtrio",
+      "level": 34,
       "types": [
-        "Roca",
-        "Tierra"
+        "Agua"
       ],
-      "ability": "Polvo Escudo",
-      "nature": "Alocada",
+      "ability": "Sequía",
+      "nature": "Plácida",
       "item": "",
       "shiny": false,
       "moves": [
-        "Hachazo Pétreo",
-        "Paliza",
-        "Bomba Imán",
-        "Represión Metal"
+        "Hueso Palo",
+        "Empapar",
+        "Tajo Acuático",
+        "Alud"
       ],
       "iv": [
-        28,
-        30,
-        27,
-        31,
+        4,
         25,
+        14,
+        13,
+        20,
         14
       ],
       "ev": [
@@ -931,94 +930,73 @@
         0
       ],
       "abilPool": [
-        "Polvo Escudo"
+        "Funda",
+        "Sequía"
       ],
-      "abilHidden": [],
+      "abilHidden": [
+        "Elec. Estática"
+      ],
       "learnset": [
         {
-          "lvl": -1,
-          "m": "Asalto Barrera"
+          "lvl": 1,
+          "m": "Polvo Mágico"
         },
         {
           "lvl": 1,
-          "m": "Fertilizante"
+          "m": "Danza Pluma"
         },
         {
           "lvl": 1,
-          "m": "Poder Reserva"
+          "m": "Lanzarrocas"
         },
         {
           "lvl": 1,
-          "m": "Malicioso"
-        },
-        {
-          "lvl": 1,
-          "m": "Atiborramiento"
-        },
-        {
-          "lvl": 9,
-          "m": "Escupir"
+          "m": "Acupresión"
         },
         {
           "lvl": 12,
-          "m": "Danza Aleteo"
+          "m": "Truco Defensa"
         },
         {
-          "lvl": 14,
-          "m": "Defensa Férrea"
+          "lvl": 16,
+          "m": "Hueso Palo"
         },
         {
-          "lvl": 15,
-          "m": "Alquitranazo"
-        },
-        {
-          "lvl": 18,
-          "m": "Llave Corsé"
-        },
-        {
-          "lvl": 21,
-          "m": "Recuperación"
+          "lvl": 20,
+          "m": "Empapar"
         },
         {
           "lvl": 24,
-          "m": "Hachazo Pétreo"
+          "m": "Tajo Acuático"
         },
         {
-          "lvl": 24,
-          "m": "Paliza"
+          "lvl": 30,
+          "m": "Alud"
         },
         {
-          "lvl": 27,
-          "m": "Bomba Imán"
-        },
-        {
-          "lvl": 33,
-          "m": "Represión Metal"
-        },
-        {
-          "lvl": 37,
-          "m": "Acoso"
+          "lvl": 36,
+          "m": "Doble Ataque"
         },
         {
           "lvl": 42,
-          "m": "Surf"
+          "m": "Envite Acuático"
         },
         {
-          "lvl": 47,
-          "m": "Aguzar"
+          "lvl": 48,
+          "m": "Palma Rauda"
         },
         {
-          "lvl": 52,
-          "m": "Fijar Blanco"
+          "lvl": 54,
+          "m": "Golpe Calor"
         }
       ],
       "firstMoves": [
-        "Hachazo Pétreo",
-        "Paliza",
-        "Bomba Imán",
-        "Represión Metal"
+        "Hueso Palo",
+        "Empapar",
+        "Tajo Acuático",
+        "Alud"
       ],
-      "spriteKey": "PUPITAR"
+      "spriteKey": "WUGTRIO"
     },
     {
       "nickname": "DANIPRADOS",
@@ -1622,143 +1600,6 @@
       "spriteKey": "NINCADA"
     },
     {
-      "nickname": "FERRY",
-      "species": "Typhlosion",
-      "level": 39,
-      "types": [
-        "Fuego"
-      ],
-      "ability": "Adaptable",
-      "nature": "Miedosa",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Contraataque",
-        "Atadura",
-        "Psicocolmillo",
-        "Paz Mental"
-      ],
-      "iv": [
-        9,
-        15,
-        4,
-        6,
-        23,
-        14
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Adaptable"
-      ],
-      "abilHidden": [
-        "Recogida"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Terratemblor"
-        },
-        {
-          "lvl": 1,
-          "m": "Giro Rápido"
-        },
-        {
-          "lvl": 1,
-          "m": "Cola Dragón"
-        },
-        {
-          "lvl": 1,
-          "m": "Doble Bofetón"
-        },
-        {
-          "lvl": 1,
-          "m": "Cambio de Cancha"
-        },
-        {
-          "lvl": 1,
-          "m": "Silbato"
-        },
-        {
-          "lvl": 13,
-          "m": "Amnesia"
-        },
-        {
-          "lvl": 20,
-          "m": "Palmeo"
-        },
-        {
-          "lvl": 24,
-          "m": "Esporagodón"
-        },
-        {
-          "lvl": 31,
-          "m": "Cuchillada"
-        },
-        {
-          "lvl": 31,
-          "m": "Conjuro"
-        },
-        {
-          "lvl": 35,
-          "m": "Pulso de Campo"
-        },
-        {
-          "lvl": 43,
-          "m": "Atracción"
-        },
-        {
-          "lvl": 45,
-          "m": "Llave Vital"
-        },
-        {
-          "lvl": 48,
-          "m": "Plegaria Lunar"
-        },
-        {
-          "lvl": 56,
-          "m": "Pikapicado"
-        },
-        {
-          "lvl": 61,
-          "m": "Deslome"
-        },
-        {
-          "lvl": 61,
-          "m": "Imitación"
-        },
-        {
-          "lvl": 69,
-          "m": "Protección"
-        },
-        {
-          "lvl": 69,
-          "m": "Tormento"
-        },
-        {
-          "lvl": 74,
-          "m": "Decalcomanía"
-        },
-        {
-          "lvl": 74,
-          "m": "Bombardeo"
-        }
-      ],
-      "firstMoves": [
-        "Contraataque",
-        "Atadura",
-        "Meteorobola",
-        "Paz Mental"
-      ],
-      "spriteKey": "TYPHLOSION"
-    },
-    {
       "nickname": "TUSMUERTOS",
       "species": "Stunfisk",
       "level": 28,
@@ -2049,28 +1890,28 @@
       "dup": true
     },
     {
-      "nickname": "TRIO",
-      "species": "Wugtrio",
-      "level": 34,
+      "nickname": "FERRY",
+      "species": "Typhlosion",
+      "level": 39,
       "types": [
-        "Agua"
+        "Fuego"
       ],
-      "ability": "Sequía",
-      "nature": "Plácida",
+      "ability": "Adaptable",
+      "nature": "Miedosa",
       "item": "",
       "shiny": false,
       "moves": [
-        "Hueso Palo",
-        "Empapar",
-        "Tajo Acuático",
-        "Alud"
+        "Contraataque",
+        "Atadura",
+        "Psicocolmillo",
+        "Paz Mental"
       ],
       "iv": [
+        9,
+        15,
         4,
-        25,
-        14,
-        13,
-        20,
+        6,
+        23,
         14
       ],
       "ev": [
@@ -2082,73 +1923,232 @@
         0
       ],
       "abilPool": [
-        "Funda",
-        "Sequía"
+        "Adaptable"
       ],
       "abilHidden": [
-        "Elec. Estática"
+        "Recogida"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Polvo Mágico"
+          "m": "Terratemblor"
         },
         {
           "lvl": 1,
-          "m": "Danza Pluma"
+          "m": "Giro Rápido"
         },
         {
           "lvl": 1,
-          "m": "Lanzarrocas"
+          "m": "Cola Dragón"
         },
         {
           "lvl": 1,
-          "m": "Acupresión"
+          "m": "Doble Bofetón"
         },
         {
-          "lvl": 12,
-          "m": "Truco Defensa"
+          "lvl": 1,
+          "m": "Cambio de Cancha"
         },
         {
-          "lvl": 16,
-          "m": "Hueso Palo"
+          "lvl": 1,
+          "m": "Silbato"
+        },
+        {
+          "lvl": 13,
+          "m": "Amnesia"
         },
         {
           "lvl": 20,
-          "m": "Empapar"
+          "m": "Palmeo"
         },
         {
           "lvl": 24,
-          "m": "Tajo Acuático"
+          "m": "Esporagodón"
         },
         {
-          "lvl": 30,
-          "m": "Alud"
+          "lvl": 31,
+          "m": "Cuchillada"
         },
         {
-          "lvl": 36,
-          "m": "Doble Ataque"
+          "lvl": 31,
+          "m": "Conjuro"
         },
         {
-          "lvl": 42,
-          "m": "Envite Acuático"
+          "lvl": 35,
+          "m": "Pulso de Campo"
+        },
+        {
+          "lvl": 43,
+          "m": "Atracción"
+        },
+        {
+          "lvl": 45,
+          "m": "Llave Vital"
         },
         {
           "lvl": 48,
-          "m": "Palma Rauda"
+          "m": "Plegaria Lunar"
         },
         {
-          "lvl": 54,
-          "m": "Golpe Calor"
+          "lvl": 56,
+          "m": "Pikapicado"
+        },
+        {
+          "lvl": 61,
+          "m": "Deslome"
+        },
+        {
+          "lvl": 61,
+          "m": "Imitación"
+        },
+        {
+          "lvl": 69,
+          "m": "Protección"
+        },
+        {
+          "lvl": 69,
+          "m": "Tormento"
+        },
+        {
+          "lvl": 74,
+          "m": "Decalcomanía"
+        },
+        {
+          "lvl": 74,
+          "m": "Bombardeo"
         }
       ],
       "firstMoves": [
-        "Hueso Palo",
-        "Empapar",
-        "Tajo Acuático",
-        "Alud"
+        "Contraataque",
+        "Atadura",
+        "Meteorobola",
+        "Paz Mental"
       ],
-      "spriteKey": "WUGTRIO"
+      "spriteKey": "TYPHLOSION"
+    },
+    {
+      "nickname": "NILSKILLS_13",
+      "species": "Pupitar",
+      "level": 39,
+      "types": [
+        "Roca",
+        "Tierra"
+      ],
+      "ability": "Polvo Escudo",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Hachazo Pétreo",
+        "Paliza",
+        "Bomba Imán",
+        "Represión Metal"
+      ],
+      "iv": [
+        28,
+        30,
+        27,
+        31,
+        25,
+        14
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Polvo Escudo"
+      ],
+      "abilHidden": [],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Asalto Barrera"
+        },
+        {
+          "lvl": 1,
+          "m": "Fertilizante"
+        },
+        {
+          "lvl": 1,
+          "m": "Poder Reserva"
+        },
+        {
+          "lvl": 1,
+          "m": "Malicioso"
+        },
+        {
+          "lvl": 1,
+          "m": "Atiborramiento"
+        },
+        {
+          "lvl": 9,
+          "m": "Escupir"
+        },
+        {
+          "lvl": 12,
+          "m": "Danza Aleteo"
+        },
+        {
+          "lvl": 14,
+          "m": "Defensa Férrea"
+        },
+        {
+          "lvl": 15,
+          "m": "Alquitranazo"
+        },
+        {
+          "lvl": 18,
+          "m": "Llave Corsé"
+        },
+        {
+          "lvl": 21,
+          "m": "Recuperación"
+        },
+        {
+          "lvl": 24,
+          "m": "Hachazo Pétreo"
+        },
+        {
+          "lvl": 24,
+          "m": "Paliza"
+        },
+        {
+          "lvl": 27,
+          "m": "Bomba Imán"
+        },
+        {
+          "lvl": 33,
+          "m": "Represión Metal"
+        },
+        {
+          "lvl": 37,
+          "m": "Acoso"
+        },
+        {
+          "lvl": 42,
+          "m": "Surf"
+        },
+        {
+          "lvl": 47,
+          "m": "Aguzar"
+        },
+        {
+          "lvl": 52,
+          "m": "Fijar Blanco"
+        }
+      ],
+      "firstMoves": [
+        "Hachazo Pétreo",
+        "Paliza",
+        "Bomba Imán",
+        "Represión Metal"
+      ],
+      "spriteKey": "PUPITAR"
     },
     {
       "nickname": "LOCURA",
@@ -3143,13 +3143,13 @@
     {
       "route": "",
       "where": "",
-      "species": "Pupitar",
-      "nickname": "NILSKILLS_13",
+      "species": "Wugtrio",
+      "nickname": "TRIO",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 35,
-      "mon": "Pupitar"
+      "level": 34,
+      "mon": "Wugtrio"
     },
     {
       "route": "",
@@ -3209,17 +3209,6 @@
     {
       "route": "",
       "where": "",
-      "species": "Typhlosion",
-      "nickname": "FERRY",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 29,
-      "mon": "Typhlosion"
-    },
-    {
-      "route": "",
-      "where": "",
       "species": "Stunfisk",
       "nickname": "TUSMUERTOS",
       "shiny": false,
@@ -3242,13 +3231,24 @@
     {
       "route": "",
       "where": "",
-      "species": "Wugtrio",
-      "nickname": "TRIO",
+      "species": "Typhlosion",
+      "nickname": "FERRY",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
-      "level": 34,
-      "mon": "Wugtrio"
+      "level": 29,
+      "mon": "Typhlosion"
+    },
+    {
+      "route": "",
+      "where": "",
+      "species": "Pupitar",
+      "nickname": "NILSKILLS_13",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 35,
+      "mon": "Pupitar"
     },
     {
       "route": "",
@@ -3392,6 +3392,7 @@
       364
     ],
     "foundItems": [
+      "Agua Fresca",
       "Amuleto Oval",
       "At. Especial X",
       "Ataque X 6",
@@ -3829,6 +3830,12 @@
       {
         "id": "REVIVALHERB",
         "name": "Hierba Revivir",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "FRESHWATER",
+        "name": "Agua Fresca",
         "qty": 1,
         "pocket": "Medicinas"
       },
