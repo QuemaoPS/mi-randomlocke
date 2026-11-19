@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 6,
   "champion": false,
-  "notes": "Importado del save · 12h 4m jugadas · 71,500₽ · vidas en el juego: 14",
+  "notes": "Importado del save · 12h 48m jugadas · 82,840₽ · vidas en el juego: 14",
   "team": [
     {
       "nickname": "8BELIAL",
@@ -18,10 +18,10 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Copión",
-        "Foco",
+        "Yo Primero",
+        "Golpe Cabeza",
         "Salmuera",
-        "Malicioso"
+        "Aguijón Letal"
       ],
       "iv": [
         18,
@@ -33,10 +33,10 @@
       ],
       "ev": [
         7,
+        19,
+        13,
         15,
-        9,
-        11,
-        1,
+        2,
         13
       ],
       "abilPool": [
@@ -146,10 +146,10 @@
       ],
       "ev": [
         0,
-        0,
-        0,
-        0,
-        0,
+        4,
+        4,
+        4,
+        1,
         2
       ],
       "abilPool": [
@@ -281,10 +281,10 @@
       ],
       "ev": [
         20,
-        45,
-        46,
-        34,
-        21,
+        49,
+        50,
+        38,
+        22,
         36
       ],
       "abilPool": [
@@ -387,6 +387,7 @@
         "Aguijón Letal",
         "Clonatipo",
         "Doble Filo",
+        "Patada Baja",
         "Puño Dinámico",
         "Rugido",
         "Veneno X"
@@ -425,10 +426,10 @@
       ],
       "ev": [
         15,
-        37,
-        31,
-        21,
-        8,
+        41,
+        35,
+        25,
+        9,
         22
       ],
       "abilPool": [
@@ -524,6 +525,7 @@
         "Embargo",
         "Golpe Cabeza",
         "Magnitud",
+        "Patada Baja",
         "Puño Dinámico",
         "Tajo Metralla",
         "Trampa Rocas",
@@ -564,10 +566,10 @@
       ],
       "ev": [
         12,
-        37,
-        28,
-        19,
-        6,
+        41,
+        32,
+        23,
+        7,
         24
       ],
       "abilPool": [
@@ -675,7 +677,7 @@
         "Voltiocambio",
         "Calamidad",
         "Plegaria Lunar",
-        "Pistola Agua"
+        "Tinieblas"
       ],
       "iv": [
         11,
@@ -687,10 +689,10 @@
       ],
       "ev": [
         4,
-        11,
-        12,
-        13,
+        15,
         16,
+        17,
+        17,
         14
       ],
       "abilPool": [
@@ -3577,6 +3579,7 @@
       92,
       94,
       95,
+      96,
       110,
       112,
       113,
@@ -3593,6 +3596,7 @@
       184,
       185,
       186,
+      271,
       301,
       323,
       333,
@@ -3678,6 +3682,7 @@
       "MT73",
       "MT74",
       "MT78",
+      "MT84",
       "MT85",
       "MT86",
       "MT89",
@@ -3686,6 +3691,7 @@
       "Muda Concha",
       "Nivel Ball",
       "Ornitofósil",
+      "Pico Afilado",
       "Piedra Día",
       "Piedra Oval",
       "Pila",
@@ -3712,6 +3718,7 @@
       "Tabla Terror",
       "Tabla Trueno",
       "Ticket Barco",
+      "Turno Ball",
       "Velocidad X 6",
       "Vial"
     ],
@@ -3839,7 +3846,7 @@
       {
         "id": "POISONBARB",
         "name": "Flecha Venenosa",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos"
       },
       {
@@ -3959,6 +3966,12 @@
       {
         "id": "AIRBALLOON",
         "name": "Globo Helio",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "SHARPBEAK",
+        "name": "Pico Afilado",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -4085,6 +4098,12 @@
       {
         "id": "HEALBALL",
         "name": "Sana Ball",
+        "qty": 1,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "TIMERBALL",
+        "name": "Turno Ball",
         "qty": 1,
         "pocket": "Poké Balls"
       },
@@ -4227,6 +4246,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM84",
+        "name": "MT84",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM85",
         "name": "MT85",
         "qty": 1,
@@ -4361,7 +4386,7 @@
       {
         "id": "DIREHIT",
         "name": "Crítico X",
-        "qty": 2,
+        "qty": 3,
         "pocket": "Objetos de combate"
       },
       {
