@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 6,
   "champion": false,
-  "notes": "Importado del save · 12h 48m jugadas · 82,840₽ · vidas en el juego: 14",
+  "notes": "Importado del save · 13h 4m jugadas · 95,940₽ · vidas en el juego: 14",
   "team": [
     {
       "nickname": "8BELIAL",
@@ -32,12 +32,12 @@
         19
       ],
       "ev": [
-        7,
-        19,
-        13,
-        15,
-        2,
-        13
+        9,
+        22,
+        16,
+        17,
+        5,
+        15
       ],
       "abilPool": [
         "Enjambre"
@@ -145,12 +145,12 @@
         14
       ],
       "ev": [
-        0,
+        2,
+        7,
+        7,
+        6,
         4,
-        4,
-        4,
-        1,
-        2
+        4
       ],
       "abilPool": [
         "Nado Rápido"
@@ -280,12 +280,12 @@
         18
       ],
       "ev": [
-        20,
-        49,
-        50,
-        38,
         22,
-        36
+        52,
+        53,
+        40,
+        25,
+        38
       ],
       "abilPool": [
         "Herbívoro"
@@ -425,12 +425,12 @@
         1
       ],
       "ev": [
-        15,
-        41,
-        35,
-        25,
-        9,
-        22
+        17,
+        44,
+        38,
+        27,
+        12,
+        24
       ],
       "abilPool": [
         "Inicio Lento",
@@ -565,12 +565,12 @@
         29
       ],
       "ev": [
-        12,
-        41,
-        32,
-        23,
-        7,
-        24
+        14,
+        44,
+        35,
+        25,
+        10,
+        26
       ],
       "abilPool": [
         "Allanamiento",
@@ -688,12 +688,12 @@
         16
       ],
       "ev": [
-        4,
-        15,
-        16,
-        17,
-        17,
-        14
+        6,
+        18,
+        19,
+        19,
+        20,
+        16
       ],
       "abilPool": [
         "Ímpetu Ardiente",
@@ -3577,6 +3577,7 @@
       89,
       91,
       92,
+      93,
       94,
       95,
       96,
@@ -3605,6 +3606,7 @@
       364
     ],
     "foundItems": [
+      "Acopio Ball",
       "Agua Fresca",
       "Amuleto Oval",
       "At. Especial X",
@@ -3618,11 +3620,13 @@
       "Baya Safre",
       "Bola Férrea",
       "Botas Gruesas",
+      "Brazal",
       "Brazal Firme",
       "Cebo Ball",
       "Chaleco Asalto",
       "Cola Skitty",
       "Corazón Dulce",
+      "Cordón Unión",
       "Crítico X",
       "Cubresuelos",
       "Cuerda Huida",
@@ -3637,11 +3641,13 @@
       "Fósil Hélix",
       "Gafa Protectora",
       "Gafas Especiales",
+      "Gema Fantasma",
       "Gema Hada",
       "Gema Hielo",
       "Globo Helio",
       "Gran Lustresfera",
       "Hierba Revivir",
+      "Hierro",
       "Incienso Roca",
       "Lente Recia",
       "Limonada",
@@ -3664,6 +3670,7 @@
       "MT14",
       "MT21",
       "MT29",
+      "MT30",
       "MT31",
       "MT37",
       "MT39",
@@ -3673,12 +3680,14 @@
       "MT46",
       "MT47",
       "MT51",
+      "MT52",
       "MT54",
       "MT59",
       "MT60",
       "MT66",
       "MT67",
       "MT70",
+      "MT71",
       "MT73",
       "MT74",
       "MT78",
@@ -3691,6 +3700,7 @@
       "Muda Concha",
       "Nivel Ball",
       "Ornitofósil",
+      "Perla Grande",
       "Pico Afilado",
       "Piedra Día",
       "Piedra Oval",
@@ -3976,6 +3986,30 @@
         "pocket": "Objetos"
       },
       {
+        "id": "RELICBAND",
+        "name": "Brazal",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "BIGPEARL",
+        "name": "Perla Grande",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "LINKINGCORD",
+        "name": "Cordón Unión",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "GHOSTGEM",
+        "name": "Gema Fantasma",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "REVIVE",
         "name": "Revivir",
         "qty": 1,
@@ -4078,6 +4112,12 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "IRON",
+        "name": "Hierro",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "PREMIERBALL",
         "name": "Honor Ball",
         "qty": 12,
@@ -4092,7 +4132,7 @@
       {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 36,
+        "qty": 35,
         "pocket": "Poké Balls"
       },
       {
@@ -4104,6 +4144,12 @@
       {
         "id": "TIMERBALL",
         "name": "Turno Ball",
+        "qty": 1,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "REPEATBALL",
+        "name": "Acopio Ball",
         "qty": 1,
         "pocket": "Poké Balls"
       },
@@ -4134,6 +4180,12 @@
       {
         "id": "TM29",
         "name": "MT29",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM30",
+        "name": "MT30",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -4192,6 +4244,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM52",
+        "name": "MT52",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM54",
         "name": "MT54",
         "qty": 1,
@@ -4224,6 +4282,12 @@
       {
         "id": "TM70",
         "name": "MT70",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM71",
+        "name": "MT71",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -4314,7 +4378,7 @@
       {
         "id": "KELPSYBERRY",
         "name": "Baya Algama",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Bayas"
       },
       {
@@ -4396,8 +4460,8 @@
         "pocket": "Objetos clave"
       },
       {
-        "id": "VIAL",
-        "name": "Vial",
+        "id": "EMPTYVIAL",
+        "name": "Emptyvial",
         "qty": 1,
         "pocket": "Objetos clave"
       },
